@@ -121,32 +121,29 @@
         <section class="section section-lg bg-gray-100">
             <div class="container">
                 <h2 class="font-weight-sbold text-center wow fadeIn" data-wow-delay=".2s">Feedback from our customers</h2>
-                <div class="owl-carousel owl-carousel-custom-2 wow fadeIn" data-items="1" data-sm-items="1" data-md-items="1" data-lg-items="1" data-xl-items="1" data-xxl-items="1" data-margin="0" data-nav="true" data-dots="true" data-autoplay="7000" style="margin-top: 46px;" data-wow-delay=".4s" data-animation-in="fadeIn">
-                    <div class="item">
-                        <div class="item-block-img"><img class="img-radius-1" src="assets/images/feedback-image-01-80x80.jpg" alt="img"  />
-                        </div>
-                        <div class="item-block-text">
-                            <h4 class="font-weight-light text-gray-770 text-center box-2">The service was excellent. My project has been completed in time and on the highest level.</h4>
-                            <h5 class="font-weight-sbold ls-1 text-center">John Peters</h5>
-                            <div class="small-text font-weight-light text-center">Customer</div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="item-block-img"><img class="img-radius-1" src="assets/images/feedback-image-02-80x80.jpg" alt="img"  />
-                        </div>
-                        <div class="item-block-text">
-                            <h4 class="font-weight-light text-gray-770 text-center box-2">Thank you, guys! I’m very satisfied with your work. I’m going to return to you with my next idea.</h4>
-                            <h5 class="font-weight-sbold ls-1 text-center">Ann Williams</h5>
-                            <div class="small-text font-weight-light text-center">Customer</div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="../../../public/assets/images/owl-carousel-image-1-270x320.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="item">
-                        <div class="item-block-img"><img class="img-radius-1" src="assets/images/feedback-image-03-80x80.jpg" alt="img"  />
+                    <div class="col-md-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="../../../public/assets/images/owl-carousel-image-1-270x320.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
                         </div>
-                        <div class="item-block-text">
-                            <h4 class="font-weight-light text-gray-770 text-center box-2">Kangor team is awesome! Their creative ideas were perfectly implemented. I’m very pleased!</h4>
-                            <h5 class="font-weight-sbold ls-1 text-center">Frank Lampard</h5>
-                            <div class="small-text font-weight-light text-center">Customer</div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="../../../public/assets/images/owl-carousel-image-1-270x320.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
                         </div>
                     </div>
                 </div>

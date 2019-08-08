@@ -79,10 +79,7 @@
                                     </li>
                                     <li class="rd-nav-item"><router-link class="rd-nav-link" to="/about">About</router-link>
                                         <ul class="rd-menu rd-navbar-dropdown">
-                                            <li class="rd-dropdown-item"><router-link class="rd-dropdown-link" to="/about">Development Process</router-link></li>
-                                            <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="careers.html">Careers</a></li>
-                                            <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="careers.html">TW Technologies Referral Program</a></li>
-                                            <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="careers.html">Partnerships</a></li>
+                                            <li class="rd-dropdown-item"><router-link class="rd-dropdown-link" to="/about">Careers</router-link></li>
                                         </ul>
                                     </li>
                                     <li class="rd-nav-item"><a class="rd-nav-link" href="services.html">Services</a>
@@ -149,7 +146,7 @@
                 </div>
             </div>
             <div class="footer-classic-bottom">
-                <p class="rights"><span>&copy;&nbsp; </span><span class="copyright-year"></span><span>&nbsp;</span><span>Kangor</span><span>.&nbsp;</span><span>All Rights Reserved.</span></p>
+                <p class="rights"><span>&copy;&nbsp; </span><span class="copyright-year"></span><span>&nbsp;</span><span>Trans Online Web</span><span>.&nbsp;</span><span>All Rights Reserved.</span></p>
                 <p class="rights-2"><a href="privacy-policy.html">Privacy Policy</a></p>
             </div>
         </div>
@@ -185,7 +182,6 @@
 <script src="{{ asset('assets/js/Cookie.js') }}" defer></script>
 <script src="{{ asset('assets/js/Countdown.js') }}" defer></script>
 <script src="{{ asset('assets/js/Counter.js') }}" defer></script>
-<script src="{{ asset('assets/js/jQuery.js') }}" defer></script>
 
 {{--<a href="#" id="ui-to-top" class="ui-to-top fa fa-angle-up active"></a>--}}
 </body>

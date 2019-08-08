@@ -2025,9 +2025,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "about"
 });
@@ -38819,145 +38816,79 @@ var staticRenderFns = [
           [_vm._v("Feedback from our customers")]
         ),
         _vm._v(" "),
-        _c(
-          "div",
-          {
-            staticClass: "owl-carousel owl-carousel-custom-2 wow fadeIn",
-            staticStyle: { "margin-top": "46px" },
-            attrs: {
-              "data-items": "1",
-              "data-sm-items": "1",
-              "data-md-items": "1",
-              "data-lg-items": "1",
-              "data-xl-items": "1",
-              "data-xxl-items": "1",
-              "data-margin": "0",
-              "data-nav": "true",
-              "data-dots": "true",
-              "data-autoplay": "7000",
-              "data-wow-delay": ".4s",
-              "data-animation-in": "fadeIn"
-            }
-          },
-          [
-            _c("div", { staticClass: "item" }, [
-              _c("div", { staticClass: "item-block-img" }, [
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-md-4" }, [
+            _c(
+              "div",
+              { staticClass: "card", staticStyle: { width: "18rem" } },
+              [
                 _c("img", {
-                  staticClass: "img-radius-1",
+                  staticClass: "card-img-top",
                   attrs: {
-                    src: "assets/images/feedback-image-01-80x80.jpg",
-                    alt: "img"
+                    src: __webpack_require__(/*! ../../../public/assets/images/owl-carousel-image-1-270x320.jpg */ "./public/assets/images/owl-carousel-image-1-270x320.jpg"),
+                    alt: "..."
                   }
-                })
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "item-block-text" }, [
-                _c(
-                  "h4",
-                  {
-                    staticClass:
-                      "font-weight-light text-gray-770 text-center box-2"
-                  },
-                  [
+                }),
+                _vm._v(" "),
+                _c("div", { staticClass: "card-body" }, [
+                  _c("p", { staticClass: "card-text" }, [
                     _vm._v(
-                      "The service was excellent. My project has been completed in time and on the highest level."
+                      "Some quick example text to build on the card title and make up the bulk of the card's content."
                     )
-                  ]
-                ),
-                _vm._v(" "),
-                _c(
-                  "h5",
-                  { staticClass: "font-weight-sbold ls-1 text-center" },
-                  [_vm._v("John Peters")]
-                ),
-                _vm._v(" "),
-                _c(
-                  "div",
-                  { staticClass: "small-text font-weight-light text-center" },
-                  [_vm._v("Customer")]
-                )
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "item" }, [
-              _c("div", { staticClass: "item-block-img" }, [
+                  ])
+                ])
+              ]
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-md-4" }, [
+            _c(
+              "div",
+              { staticClass: "card", staticStyle: { width: "18rem" } },
+              [
                 _c("img", {
-                  staticClass: "img-radius-1",
+                  staticClass: "card-img-top",
                   attrs: {
-                    src: "assets/images/feedback-image-02-80x80.jpg",
-                    alt: "img"
+                    src: __webpack_require__(/*! ../../../public/assets/images/owl-carousel-image-1-270x320.jpg */ "./public/assets/images/owl-carousel-image-1-270x320.jpg"),
+                    alt: "..."
                   }
-                })
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "item-block-text" }, [
-                _c(
-                  "h4",
-                  {
-                    staticClass:
-                      "font-weight-light text-gray-770 text-center box-2"
-                  },
-                  [
+                }),
+                _vm._v(" "),
+                _c("div", { staticClass: "card-body" }, [
+                  _c("p", { staticClass: "card-text" }, [
                     _vm._v(
-                      "Thank you, guys! I’m very satisfied with your work. I’m going to return to you with my next idea."
+                      "Some quick example text to build on the card title and make up the bulk of the card's content."
                     )
-                  ]
-                ),
-                _vm._v(" "),
-                _c(
-                  "h5",
-                  { staticClass: "font-weight-sbold ls-1 text-center" },
-                  [_vm._v("Ann Williams")]
-                ),
-                _vm._v(" "),
-                _c(
-                  "div",
-                  { staticClass: "small-text font-weight-light text-center" },
-                  [_vm._v("Customer")]
-                )
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "item" }, [
-              _c("div", { staticClass: "item-block-img" }, [
+                  ])
+                ])
+              ]
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-md-4" }, [
+            _c(
+              "div",
+              { staticClass: "card", staticStyle: { width: "18rem" } },
+              [
                 _c("img", {
-                  staticClass: "img-radius-1",
+                  staticClass: "card-img-top",
                   attrs: {
-                    src: "assets/images/feedback-image-03-80x80.jpg",
-                    alt: "img"
+                    src: __webpack_require__(/*! ../../../public/assets/images/owl-carousel-image-1-270x320.jpg */ "./public/assets/images/owl-carousel-image-1-270x320.jpg"),
+                    alt: "..."
                   }
-                })
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "item-block-text" }, [
-                _c(
-                  "h4",
-                  {
-                    staticClass:
-                      "font-weight-light text-gray-770 text-center box-2"
-                  },
-                  [
+                }),
+                _vm._v(" "),
+                _c("div", { staticClass: "card-body" }, [
+                  _c("p", { staticClass: "card-text" }, [
                     _vm._v(
-                      "Kangor team is awesome! Their creative ideas were perfectly implemented. I’m very pleased!"
+                      "Some quick example text to build on the card title and make up the bulk of the card's content."
                     )
-                  ]
-                ),
-                _vm._v(" "),
-                _c(
-                  "h5",
-                  { staticClass: "font-weight-sbold ls-1 text-center" },
-                  [_vm._v("Frank Lampard")]
-                ),
-                _vm._v(" "),
-                _c(
-                  "div",
-                  { staticClass: "small-text font-weight-light text-center" },
-                  [_vm._v("Customer")]
-                )
-              ])
-            ])
-          ]
-        )
+                  ])
+                ])
+              ]
+            )
+          ])
+        ])
       ])
     ])
   }
@@ -55004,6 +54935,17 @@ module.exports = "/images/main-section-img-1-519x912.png?4c49d8f6eae51627690b9c7
 
 /***/ }),
 
+/***/ "./public/assets/images/owl-carousel-image-1-270x320.jpg":
+/*!***************************************************************!*\
+  !*** ./public/assets/images/owl-carousel-image-1-270x320.jpg ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/owl-carousel-image-1-270x320.jpg?15e8473e81901fc4cd4f846137bda551";
+
+/***/ }),
+
 /***/ "./resources/js/app.js":
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
@@ -55361,8 +55303,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/kryme/Documents/newtrans/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /home/kryme/Documents/newtrans/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\Kollynce\Desktop\TransWeb\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\Kollynce\Desktop\TransWeb\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
