@@ -15,11 +15,20 @@ Vue.use(VueRouter);
 
 let routes = [
     { path: '/', component: require('./components/home.vue').default },
-    { path: '/about', component: require('./components/about.vue').default }
+    { path: '/about', component: require('./components/about.vue').default },
+    { path: '/company', component: require('./components/company.vue').default },
+    { path: '/careers', component: require('./components/careers.vue').default },
+    { path: '/team', component: require('./components/team.vue').default },
+    { path: '/services', component: require('./components/services.vue').default }
 ]
 const router = new VueRouter({
     //mode: 'history',
-    routes // short for `routes: routes`
+    history: true,
+    base: '/',
+    routes,
+    scrollBehavior() {
+        document.getElementById('app').scrollIntoView();
+    }
 });
 
 /**

@@ -69,7 +69,7 @@
                             <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                             <!--RD Navbar Brand-->
                             <div class="rd-navbar-brand">
-                                <!--Brand--><a class="brand" href="index-2.html"><img class="brand-logo-dark" src="assets/images/fulllogo.png" alt="img"  /><img class="brand-logo-light img-responsive" src="assets/images/logo-inverse-160x40.png" alt="img"  /></a>
+                                <!--Brand--><a class="brand" href="/"><img class="brand-logo-dark" src="assets/images/fulllogo.png" alt="img"  /><img class="brand-logo-light img-responsive" src="assets/images/logo-inverse-160x40.png" alt="img"  /></a>
                             </div>
                         </div>
                         <div class="rd-navbar-main-element">
@@ -78,11 +78,15 @@
                                     <li class="rd-nav-item active"><router-link class="rd-nav-link" to="/">Home</router-link>
                                     </li>
                                     <li class="rd-nav-item"><router-link class="rd-nav-link" to="/about">About</router-link>
+                                        
                                         <ul class="rd-menu rd-navbar-dropdown">
-                                            <li class="rd-dropdown-item"><router-link class="rd-dropdown-link" to="/about">Careers</router-link></li>
+                                            <li class="rd-dropdown-item"><router-link class="rd-dropdown-link" to="/company">Company Profile</router-link></li>
+                                            <li class="rd-dropdown-item"><router-link class="rd-dropdown-link" to="/team">Our Team</router-link></li>
+                                            <li class="rd-dropdown-item"><router-link class="rd-dropdown-link" to="/careers">Careers</router-link></li>
+                                            <li class="rd-dropdown-item"><router-link class="rd-dropdown-link" to="/about">TW Technologies Referral Program</router-link></li>
                                         </ul>
                                     </li>
-                                    <li class="rd-nav-item"><a class="rd-nav-link" href="services.html">Services</a>
+                                    <li class="rd-nav-item"><router-link class="rd-nav-link" to="/services">Services</router-link>
                                         <ul class="rd-menu rd-navbar-dropdown">
                                             <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="single-service.html">Single Service</a></li>
                                         </ul>

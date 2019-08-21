@@ -1,6 +1,6 @@
 <template>
     <div>
-        <section class="section main-section bg-image try">
+        <section class="section main-section bg-image" style="background-image: url(assets/images/main-section-bg-1440x800.jpg)">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 offset-top-150 wow fadeIn" data-wow-delay=".3s">
@@ -53,7 +53,7 @@
         <section class="section section-lg section-lg-2 bg-gray-200 bg-overlay-100">
             <div class="circle-bg">
                 <div class="container">
-                    <h2 class="font-weight-sbold text-center wow fadeIn" data-wow-delay=".3s">Some service that we provide</h2>
+                    <h2 class="font-weight-sbold text-center wow fadeIn" data-wow-delay=".3s">Some services that we provide</h2>
                     <h6 class="font-weight-light text-center box-1 text-gray-670 wow fadeIn" data-wow-delay=".4s">We provide various <span class="font-weight-bold">services </span> to help our clients handle different issues.</h6>
                     <div class="box-services bg-default wow fadeInUp" data-wow-delay=".2s">
                         <div class="row row-50">
