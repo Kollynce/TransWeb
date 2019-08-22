@@ -78,7 +78,7 @@
                                     <li class="rd-nav-item active"><router-link class="rd-nav-link" to="/">Home</router-link>
                                     </li>
                                     <li class="rd-nav-item"><router-link class="rd-nav-link" to="/about">About</router-link>
-                                        
+
                                         <ul class="rd-menu rd-navbar-dropdown">
                                             <li class="rd-dropdown-item"><router-link class="rd-dropdown-link" to="/company">Company Profile</router-link></li>
                                             <li class="rd-dropdown-item"><router-link class="rd-dropdown-link" to="/team">Our Team</router-link></li>
@@ -88,12 +88,11 @@
                                     </li>
                                     <li class="rd-nav-item"><router-link class="rd-nav-link" to="/services">Services</router-link>
                                         <ul class="rd-menu rd-navbar-dropdown">
-                                            <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="single-service.html">Single Service</a></li>
+                                            <li class="rd-dropdown-item"><router-link class="rd-dropdown-link" to="/portfolio">Portfolio</router-link></li>
                                         </ul>
                                     </li>
-                                    <li class="rd-nav-item"><a class="rd-nav-link" href="blog.html">Blog</a></li>
-                                    <li class="rd-nav-item"><a class="rd-nav-link" href="contacts.html">Contacts</a>
-                                    </li>
+                                    <li class="rd-nav-item"><router-link class="rd-nav-link" to="/blog">Blog</router-link></li>
+                                    <li class="rd-nav-item"><router-link class="rd-nav-link" to="/contact">Contacts</router-link></li>
                                 </ul>
                             </div>
                             <!--RD Navbar Search-->
@@ -120,16 +119,16 @@
         <div class="container">
             <div class="row row-40">
                 <div class="col-sm-6 col-lg-3 text-center text-sm-left wow fadeInUp" data-wow-delay=".04s"><a href="#"><img src="assets/images/fulllogosmall.png" alt="img" /></a>
-                    <p class="font-weight-light text-gray-620 lh-1 box-3 offset-top-30"> <span class="font-weight-bold text-third">Kangor</span> is a  company specializing in providing financial, marketing and analytical services. We are a command of professionals, who like what they do.</p>
+                    <p class="font-weight-light text-gray-620 lh-1 box-3 offset-top-30"> <span class="font-weight-bold text-third">Transonline Web</span> is a  company specializing in providing financial, marketing and analytical services. We are a command of professionals, who like what they do.</p>
                 </div>
                 <div class="col-sm-6 col-lg-3 block-lg-4 text-center text-sm-left wow fadeInUp" data-wow-delay=".04s">
                     <h6 class="font-weight-regular text-third">Quick links</h6>
                     <ul class="offset-top-25">
                         <li><router-link class="font-weight-light text-gray-620 lh-2" to="/">Home</router-link></li>
                         <li><router-link class="font-weight-light text-gray-620 lh-2" to="/about">About</router-link></li>
-                        <li><a class="font-weight-light text-gray-620 lh-2" href="services.html">Services</a></li>
-                        <li><a class="font-weight-light text-gray-620 lh-2" href="blog.html">Team</a></li>
-                        <li><a class="font-weight-light text-gray-620 lh-2" href="contacts.html">Contacts</a></li>
+                        <li><router-link class="font-weight-light text-gray-620 lh-2" to="/services">Services</router-link></li>
+                        <li><router-link class="font-weight-light text-gray-620 lh-2" to="/blog">Blog</router-link></li>
+                        <li><router-link class="font-weight-light text-gray-620 lh-2" to="/contact">Contacts</router-link></li>
                     </ul>
                 </div>
                 <div class="col-sm-6 col-lg-3 text-center text-sm-left wow fadeInUp" data-wow-delay=".04s">

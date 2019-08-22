@@ -19,7 +19,9 @@ let routes = [
     { path: '/company', component: require('./components/company.vue').default },
     { path: '/careers', component: require('./components/careers.vue').default },
     { path: '/team', component: require('./components/team.vue').default },
-    { path: '/services', component: require('./components/services.vue').default }
+    { path: '/services', component: require('./components/services.vue').default },
+    { path: '/software', component: require('./components/software.vue').default },
+    { path: '/contact', component: require('./components/contact.vue').default }
 ]
 const router = new VueRouter({
     //mode: 'history',
