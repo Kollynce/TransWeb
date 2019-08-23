@@ -12,7 +12,7 @@
         <section class="section section-md bg-default">
             <div class="container">
                 <div class="row row-50">
-                    <div class="col-lg-8"><img src="assets/images/single-service-img-01-770x500.jpg" alt="img" width="770" height="500">
+                    <div class="col-lg-8"><img src="/images/blur.jpg" alt="img" width="770" height="500">
                         <h2 class="font-weight-sbold wow fadeIn offset-top-40" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">Software Development</h2>
                         <h4 class="font-weight-light text-gray-650 lh-3"> An ius meliore dignissim, ius dicit praesent constituto ad, id dicam singulis complect itur nam. Et mel doming everti. No brute fuisset eos, definiebas — concludaturque in est, congue torquatos deseruisse ex per. In solum essent sapientem vim, vix ferri tantas euismod cu, adhuc ceteros consulatu.</h4>
                         <h4 class="font-weight-light text-gray-650 lh-3"> Ius probo intellegebat id. Vix euismod appetere mandamus no, ne decore utamur bonorum est. Qui at stet <span class="font-weight-medium">60%</span> epicuri suscipit. Brute euripidis cotidieque vis id, assum – noster instructior nec ad. Cu melius corpora consulatu eum. Mea no integre salutandi. Mea ne augue appetere nominati — accumsan.</h4>
@@ -22,15 +22,7 @@
                             <li>› Melius corpora consulatu</li>
                             <li>› Torquatos deseruisse</li>
                         </ul>
-                        <h3 class="font-weight-sbold offset-top-40">Affordable SEO Solutions</h3>
-                        <h4 class="font-weight-light text-gray-650 lh-3">No brute fuisset eos, definiebas — concludaturque in est, congue torquatos deseruisse ex per. In solum essent sapientem vim, vix ferri tantas euismod cu, adhuc ceteros consulatu. Ius probo intellegebat id. Vix euismod appetere mandamus no, ne decore utamur 201 bonorum est. Qui at stet 60% epicuri suscipit.</h4>
-                        <h4 class="font-weight-light text-gray-650 lh-3">Brute euripidis cotidieque vis id, assum — noster instructior nec ad. Cu melius corpora consulatu eum. Mea no integre salutandi. Mea ne augue appetere nominati, accumsan facilisi nam. Sed vero graeci facilis, graece semper suscipiantur ex his, vix noster.</h4>
-                        <div class="row row-30 offset-top-0 offset-top-40">
-                            <div class="col-sm-6 text-center"><img src="assets/images/single-service-img-02-370x450.jpg" alt="img" width="370" height="450">
-                            </div>
-                            <div class="col-sm-6 text-center"><img src="assets/images/single-service-img-03-370x450.jpg" alt="img" width="370" height="450">
-                            </div>
-                        </div>
+                        
                     </div>
                     <div class="col-lg-4"><a class="box-lola-wrapper" href="#">
                         <div class="box-lola">

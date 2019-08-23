@@ -15,6 +15,17 @@
     <link rel="stylesheet" href="{{ asset('assets/css/fl-bigmug.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/materialdesignicons.css') }}">
     <title>Trans Online Web</title>
+
+    <style>
+        .btn-to-top {
+          width: 60px;
+          height: 60px;
+          padding: 10px 16px;
+          border-radius: 50%;
+          font-size: 22px;
+          line-height: 22px;
+        }
+    </style>
 </head>
 <body>
 <div class="preloader">
@@ -83,7 +94,7 @@
                                             <li class="rd-dropdown-item"><router-link class="rd-dropdown-link" to="/company">Company Profile</router-link></li>
                                             <li class="rd-dropdown-item"><router-link class="rd-dropdown-link" to="/team">Our Team</router-link></li>
                                             <li class="rd-dropdown-item"><router-link class="rd-dropdown-link" to="/careers">Careers</router-link></li>
-                                            <li class="rd-dropdown-item"><router-link class="rd-dropdown-link" to="/about">TW Technologies Referral Program</router-link></li>
+                                            <li class="rd-dropdown-item"><router-link class="rd-dropdown-link" to="/referral">TW Technologies Referral Program</router-link></li>
                                         </ul>
                                     </li>
                                     <li class="rd-nav-item"><router-link class="rd-nav-link" to="/services">Services</router-link>
@@ -113,8 +124,13 @@
             </nav>
         </div>
     </header>
-    <router-view></router-view>
-    {{--        @yield("content")--}}
+    <div>
+        <router-view></router-view>
+        <back-to-top bottom="50px" right="50px">
+      <button type="button" class="btn btn-primary btn-to-top"><i class="fa fa-chevron-up"></i></button>
+    </back-to-top>
+    </div>
+    
     <footer class="section footer-classic">
         <div class="container">
             <div class="row row-40">

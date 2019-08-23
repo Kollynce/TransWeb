@@ -8,8 +8,10 @@ require('./bootstrap');
 
 window.Vue = require('vue');
 
-import VueRouter from 'vue-router'
+import BackToTop from 'vue-backtotop'
+Vue.use(BackToTop);
 
+import VueRouter from 'vue-router'
 Vue.use(VueRouter);
 
 
@@ -21,7 +23,9 @@ let routes = [
     { path: '/team', component: require('./components/team.vue').default },
     { path: '/services', component: require('./components/services.vue').default },
     { path: '/software', component: require('./components/software.vue').default },
-    { path: '/contact', component: require('./components/contact.vue').default }
+    { path: '/contact', component: require('./components/contact.vue').default },
+    { path: '/portfolio', component: require('./components/portfolio.vue').default },
+    { path: '/referral', component: require('./components/referral.vue').default }
 ]
 const router = new VueRouter({
     //mode: 'history',
