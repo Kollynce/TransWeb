@@ -14,6 +14,11 @@ Vue.use(BackToTop);
 import VueRouter from 'vue-router'
 Vue.use(VueRouter);
 
+import { Form, HasError, AlertError } from 'vform'
+window.Form = Form;
+Vue.component(HasError.name, HasError)
+Vue.component(AlertError.name, AlertError)
+
 
 let routes = [
     { path: '/', component: require('./components/home.vue').default },

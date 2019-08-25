@@ -17,18 +17,22 @@
                         <h2 class="font-weight-sbold wow fadeIn" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">Get in touch</h2>
                         <h6 class="font-weight-light wow fadeIn" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">Please feel free to contact us using form below.</h6>
                         <!--RD Mailform-->
-                        <form class="rd-form rd-mailform rd-mailform-custom offset-top-0 offset-top-36" data-form-output="form-output-global" data-form-type="contact" novalidate="novalidate">
+                        <form class="rd-form rd-mailform rd-mailform-custom offset-top-0 offset-top-36" data-form-output="form-output-global" data-form-type="contact" novalidate="novalidate" @submit.prevent="mail" @keydown="form.onKeydown($event)">
                             <div class="form-wrap form-wrap-2">
-                                <input class="form-input" id="contact-name" type="text" name="name" data-constraints="@Required">
-                                <label class="form-label rd-input-label" for="contact-name">Your name</label>
+                                <input v-model="form.name" class="form-input form-control" :class="{ 'is-invalid': form.errors.has('name') }" placeholder="Your name" type="text" name="name">
+                                <has-error :form="form" field="name"></has-error>
                             </div>
                             <div class="form-wrap form-wrap-2">
-                                <input class="form-input" id="contact-2-phone" type="text" name="phone" data-constraints="@Numeric">
-                                <label class="form-label rd-input-label" for="contact-2-phone">Your phone</label>
+                                <input v-model="form.email" class="form-input form-control" :class="{ 'is-invalid': form.errors.has('email') }" placeholder="Your email" type="email" name="email">
+                                <has-error :form="form" field="email"></has-error>
                             </div>
                             <div class="form-wrap form-wrap-2">
-                                <label class="form-label rd-input-label" for="contact-message">Your message</label>
-                                <textarea class="form-input" id="contact-message" name="message" data-constraints="@Required"></textarea>
+                                <input v-model="form.phone"  class="form-input form-control" :class="{ 'is-invalid': form.errors.has('phone') }" placeholder="Your Phone" type="text" name="phone">
+                                <has-error :form="form" field="phone"></has-error>
+                            </div>
+                            <div class="form-wrap form-wrap-2">
+                                <textarea v-model="form.message" class="form-input form-control" :class="{ 'is-invalid': form.errors.has('message') }" placeholder="Your message" name="message"></textarea>
+                                <has-error :form="form" field="message"></has-error>
                             </div>
                             <button class="button button-block button-primary" type="submit">Send Message</button>
                         </form>
@@ -70,6 +74,22 @@
 
 <script>
     export default {
+        data() {
+            return {
+                form: new Form({
+                    name: '',
+                    email: '',
+                    phone: '',
+                    message: '',
+                })
+            }
+        },
+        methods: {
+            mail(){
+                //console.log('submited');
+                this.form.post('api/contact');
+            }
+        },
         mounted() {
             console.log('Component mounted.')
         }
