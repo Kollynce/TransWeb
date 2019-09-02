@@ -6,10 +6,10 @@
                     <div class="col-lg-6 offset-top-150 wow fadeIn" data-wow-delay=".3s">
                         <h1 class="font-weight-sbold text-capitalize text-center text-lg-left">Your journey to digital transformation starts <br class="d-none d-lg-block"><span class="text-capitalize text-primary">here</span></h1>
                         <h6 class="font-weight-light text-center text-lg-left">Our professional team members try to do their best to provide you with<br class="d-none d-lg-block"> <span class="text-primary font-weight-bold">high-quality</span> consultations concerning any question about our services.</h6>
-                        <div class="group-btn text-center text-lg-left"><a class="button button-primary button-lg" href="#">get in touch</a><a class="button button-icon button-icon-right button-lg" href="#"><span>Request a call</span><span class="round">
+                        <div class="group-btn text-center text-lg-left"><router-link class="button button-primary button-lg" to="contact">get in touch</router-link><router-link class="button button-icon button-icon-right button-lg" to="contact"><span>Request a call</span><span class="round">
                 <svg width="12" height="12" viewBox="0 0 12 12" fill="">
                   <path d="M11.9943 9.47032C12.0197 9.66526 11.9603 9.83475 11.8164 9.9788L10.1269 11.6567C10.0506 11.7414 9.95114 11.8135 9.82834 11.8728C9.70554 11.9321 9.58488 11.9703 9.46635 11.9872C9.45788 11.9872 9.43242 11.9894 9.39005 11.9936C9.34777 11.9978 9.29272 12 9.22497 12C9.06401 12 8.80357 11.9725 8.44363 11.9174C8.0837 11.8622 7.64333 11.7266 7.12253 11.5106C6.6016 11.2945 6.0109 10.9703 5.35034 10.5381C4.68977 10.106 3.98682 9.51272 3.24155 8.75846C2.64871 8.17371 2.15751 7.61439 1.76793 7.08052C1.37836 6.5466 1.065 6.05296 0.82787 5.59957C0.590716 5.14618 0.412866 4.73516 0.294299 4.36652C0.175733 3.99787 0.0952767 3.68008 0.0529315 3.41313C0.0105863 3.14618 -0.00635178 2.93644 0.00211726 2.78389C0.0105863 2.63135 0.0148208 2.54661 0.0148208 2.52966C0.0317589 2.41101 0.0698696 2.29025 0.129153 2.16737C0.188436 2.04449 0.260423 1.94491 0.345113 1.86864L2.03469 0.177966C2.15325 0.0593219 2.28876 0 2.4412 0C2.5513 0 2.64869 0.0317796 2.73338 0.0953388C2.81807 0.158898 2.89006 0.237288 2.94934 0.330508L4.30862 2.91101C4.38485 3.0466 4.40602 3.19491 4.37214 3.35593C4.33827 3.51694 4.26628 3.65254 4.15618 3.76271L3.53371 4.38559C3.51677 4.40253 3.50195 4.43008 3.48924 4.46821C3.47654 4.50635 3.47019 4.53813 3.47019 4.56355C3.50407 4.74152 3.58029 4.94491 3.69885 5.17372C3.80048 5.37711 3.95716 5.62499 4.16889 5.91736C4.38061 6.20974 4.68126 6.54658 5.07084 6.92793C5.45194 7.3178 5.79071 7.62073 6.08712 7.83687C6.38348 8.05289 6.63128 8.21185 6.8303 8.31355C7.02933 8.41524 7.18177 8.47668 7.28761 8.4978L7.44636 8.5296C7.4633 8.5296 7.49089 8.52323 7.52896 8.51054C7.56707 8.4978 7.59459 8.483 7.61155 8.46603L8.33563 7.72874C8.48816 7.59317 8.66593 7.52537 8.8692 7.52537C9.01322 7.52537 9.12749 7.55077 9.21218 7.60164H9.22486L11.6766 9.05079C11.8545 9.16104 11.9604 9.30083 11.9943 9.47032Z"></path>
-                </svg></span></a></div>
+                </svg></span></router-link></div>
                     </div>
                     <div class="col-lg-6 wow fadeInRight" data-wow-delay=".5s">
                         <div class="main-section-img text-center"><img src="../../../public/assets/images/main-section-img-1-519x912.png" alt="img">
@@ -60,52 +60,52 @@
                             <div class="col-sm-6 col-lg-4">
                                 <article class="box-icon-classic">
                                     <div class="unit-left">
-                                        <a class="box-icon-classic-svg" href="single-service.html">
+                                        <router-link class="box-icon-classic-svg" to="software">
                                             <div id="svg-size" >
                                                 <img src="assets/images/software.svg" alt="">
                                             </div>
-                                        </a>
+                                        </router-link>
                                     </div>
                                     <div class="unit-body">
-                                        <h5 class="box-icon-classic-title"><a href="single-service.html">Software Development</a></h5>
-                                        <p class="box-icon-classic-text">Search engine optimization (SEO) is the process of helping your customers connect with your business online.</p><a class="button button-icon button-icon-right text-primary button-lg" href="single-service.html"><span>Learn More</span><span class="arrow">
+                                        <h5 class="box-icon-classic-title"><router-link to="software">Software Development</router-link></h5>
+                                        <p class="box-icon-classic-text">Search engine optimization (SEO) is the process of helping your customers connect with your business online.</p><router-link class="button button-icon button-icon-right text-primary button-lg" to="software"><span>Learn More</span><span class="arrow">
                       <svg width="11" height="7" viewBox="0 0 11 7" fill="none"  >
                         <path d="M7.29111 0.146484C7.48168 -0.048828 7.79084 -0.048828 7.98142 0.146484L10.8571 3.09173C10.9196 3.15582 10.9617 3.23296 10.9832 3.31457C11.0026 3.38842 11.0052 3.466 10.991 3.54082C10.9736 3.63671 10.9295 3.72845 10.8571 3.8026L7.98142 6.85356C7.79084 7.04881 7.48168 7.04881 7.29111 6.85356C7.10042 6.65825 7.10042 6.34172 7.29111 6.14641L9.42663 3.85357H0.488175C0.218583 3.85357 1.7879e-06 3.62969 1.7879e-06 3.35357C1.7879e-06 3.07745 0.218583 2.85357 0.488175 2.85357H9.24368L7.29111 0.853575C7.10042 0.658324 7.10042 0.341735 7.29111 0.146484Z" fill="#3B6D93"></path>
-                      </svg></span></a>
+                      </svg></span></router-link>
                                     </div>
                                 </article>
                             </div>
                             <div class="col-sm-6 col-lg-4">
                                 <article class="box-icon-classic">
-                                    <div class="unit-left"><a class="box-icon-classic-svg" href="single-service.html">
+                                    <div class="unit-left"><router-link class="box-icon-classic-svg" to="software">
                                         <div id="svg-size" >
                                             <img src="assets/images/computer.svg" alt="">
                                         </div>
-                                    </a>
+                                    </router-link>
                                     </div>
                                     <div class="unit-body">
-                                        <h5 class="box-icon-classic-title"><a href="single-service.html">Web Development</a></h5>
-                                        <p class="box-icon-classic-text">Our Email Marketing solutions will help you engage subscribers, nurture leads, and send beautiful, responsive emails.</p><a class="button button-icon button-icon-right text-primary button-lg" href="single-service.html"><span>Learn More</span><span class="arrow">
+                                        <h5 class="box-icon-classic-title"><router-link to="software">Web Development</router-link></h5>
+                                        <p class="box-icon-classic-text">Our Email Marketing solutions will help you engage subscribers, nurture leads, and send beautiful, responsive emails.</p><router-link class="button button-icon button-icon-right text-primary button-lg" to="software"><span>Learn More</span><span class="arrow">
                       <svg width="11" height="7" viewBox="0 0 11 7" fill="none"  >
                         <path d="M7.29111 0.146484C7.48168 -0.048828 7.79084 -0.048828 7.98142 0.146484L10.8571 3.09173C10.9196 3.15582 10.9617 3.23296 10.9832 3.31457C11.0026 3.38842 11.0052 3.466 10.991 3.54082C10.9736 3.63671 10.9295 3.72845 10.8571 3.8026L7.98142 6.85356C7.79084 7.04881 7.48168 7.04881 7.29111 6.85356C7.10042 6.65825 7.10042 6.34172 7.29111 6.14641L9.42663 3.85357H0.488175C0.218583 3.85357 1.7879e-06 3.62969 1.7879e-06 3.35357C1.7879e-06 3.07745 0.218583 2.85357 0.488175 2.85357H9.24368L7.29111 0.853575C7.10042 0.658324 7.10042 0.341735 7.29111 0.146484Z" fill="#3B6D93"></path>
-                      </svg></span></a>
+                      </svg></span></router-link>
                                     </div>
                                 </article>
                             </div>
                             <div class="col-sm-6 col-lg-4">
                                 <article class="box-icon-classic">
-                                    <div class="unit-left"><a class="box-icon-classic-svg" href="single-service.html">
+                                    <div class="unit-left"><router-link class="box-icon-classic-svg" to="software">
                                         <div id="svg-size" >
                                             <img src="assets/images/computer-graphic.svg" alt="">
                                         </div>
-                                    </a>
+                                    </router-link>
                                     </div>
                                     <div class="unit-body">
-                                        <h5 class="box-icon-classic-title"><a href="single-service.html">Wed Design</a></h5>
-                                        <p class="box-icon-classic-text">Take advantage of online advertising to improve your internet marketing efforts with our AdWords campaigns.</p><a class="button button-icon button-icon-right text-primary button-lg" href="single-service.html"><span>Learn More</span><span class="arrow">
+                                        <h5 class="box-icon-classic-title"><router-link to="software">Wed Design</router-link></h5>
+                                        <p class="box-icon-classic-text">Take advantage of online advertising to improve your internet marketing efforts with our AdWords campaigns.</p><router-link class="button button-icon button-icon-right text-primary button-lg" to="software"><span>Learn More</span><span class="arrow">
                       <svg width="11" height="7" viewBox="0 0 11 7" fill="none"  >
                         <path d="M7.29111 0.146484C7.48168 -0.048828 7.79084 -0.048828 7.98142 0.146484L10.8571 3.09173C10.9196 3.15582 10.9617 3.23296 10.9832 3.31457C11.0026 3.38842 11.0052 3.466 10.991 3.54082C10.9736 3.63671 10.9295 3.72845 10.8571 3.8026L7.98142 6.85356C7.79084 7.04881 7.48168 7.04881 7.29111 6.85356C7.10042 6.65825 7.10042 6.34172 7.29111 6.14641L9.42663 3.85357H0.488175C0.218583 3.85357 1.7879e-06 3.62969 1.7879e-06 3.35357C1.7879e-06 3.07745 0.218583 2.85357 0.488175 2.85357H9.24368L7.29111 0.853575C7.10042 0.658324 7.10042 0.341735 7.29111 0.146484Z" fill="#3B6D93"></path>
-                      </svg></span></a>
+                      </svg></span></router-link>
                                     </div>
                                 </article>
                             </div>

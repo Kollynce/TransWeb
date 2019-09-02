@@ -106,18 +106,6 @@
                                     <li class="rd-nav-item"><router-link class="rd-nav-link" to="/contact">Contacts</router-link></li>
                                 </ul>
                             </div>
-                            <!--RD Navbar Search-->
-                            <div class="rd-navbar-search rd-navbar-search-2">
-                                <button class="rd-navbar-search-toggle rd-navbar-fixed-element-3" data-rd-navbar-toggle=".rd-navbar-search"><span></span></button>
-                                <form class="rd-search" action="http://ledthanhdat.vn/kangor/search-results.html" data-search-live="rd-search-results-live" method="GET">
-                                    <div class="form-wrap">
-                                        <label class="form-label" for="rd-navbar-search-form-input">You were looking...</label>
-                                        <input class="rd-navbar-search-form-input form-input" id="rd-navbar-search-form-input" type="text" name="s" autocomplete="off">
-                                        <div class="rd-search-results-live" id="rd-search-results-live"></div>
-                                        <button class="rd-search-form-submit fl-bigmug-line-search74" type="submit"></button>
-                                    </div>
-                                </form>
-                            </div>
                         </div>
                     </div>
                 </div>
