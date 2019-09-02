@@ -8,6 +8,18 @@ require('./bootstrap');
 
 window.Vue = require('vue');
 
+//sweetalert
+import Swal from 'sweetalert2';
+window.Swal = Swal;
+const toast = Swal.mixin({
+    toast: true,
+    position: 'top-end',
+    showConfirmButton: false,
+    timer: 3000
+});
+window.toast = toast;
+window.Fire =  new Vue();
+
 import BackToTop from 'vue-backtotop'
 Vue.use(BackToTop);
 
@@ -20,6 +32,8 @@ Vue.component(HasError.name, HasError)
 Vue.component(AlertError.name, AlertError)
 
 
+
+
 let routes = [
     { path: '/', component: require('./components/home.vue').default },
     { path: '/about', component: require('./components/about.vue').default },
@@ -30,7 +44,8 @@ let routes = [
     { path: '/software', component: require('./components/software.vue').default },
     { path: '/contact', component: require('./components/contact.vue').default },
     { path: '/portfolio', component: require('./components/portfolio.vue').default },
-    { path: '/referral', component: require('./components/referral.vue').default }
+    { path: '/referral', component: require('./components/referral.vue').default },
+    { path: '/blog', component: require('./components/blog.vue').default }
 ]
 const router = new VueRouter({
     //mode: 'history',

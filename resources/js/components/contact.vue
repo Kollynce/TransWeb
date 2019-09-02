@@ -87,7 +87,20 @@
         methods: {
             mail(){
                 //console.log('submited');
-                this.form.post('api/contact');
+                this.form.post('api/contact')
+                .then(()=>{
+                    Swal.fire({
+                      position: 'center',
+                      type: 'success',
+                      title: 'Message sent successfully',
+                      showConfirmButton: false,
+                      timer: 1500
+                    })
+                    this.form.reset();
+                })
+                .catch(()=>{
+                        
+                });
             }
         },
         mounted() {
