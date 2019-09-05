@@ -671,7 +671,7 @@ html [class*=section-].section-bottom-0 {
 }
 @media (min-width: 1200px) {
 	.grid-demo-underlined [class*=col] {
-		padding-top: 45px;
+		padding-top: 20px;
 		padding-bottom: 45px
 	}
 }

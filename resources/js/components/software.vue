@@ -70,7 +70,7 @@
                                 </div>
                                 <div class="box-tina-block-text">
                                     <h6 class="font-weight-light text-gray-680">Phone</h6>
-                                    <h4><a href="tel:#">+254729631002</a></h4>
+                                    <h4><a href="tel:#">+254748621900</a></h4>
                                 </div>
                             </div>
                         </div>

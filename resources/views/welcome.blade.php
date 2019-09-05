@@ -91,6 +91,7 @@
                                     <li class="rd-nav-item"><router-link class="rd-nav-link" to="/about">About</router-link>
 
                                         <ul class="rd-menu rd-navbar-dropdown">
+                                            <li class="rd-dropdown-item"><router-link class="rd-dropdown-link" to="/about">About Us</router-link></li>
                                             <li class="rd-dropdown-item"><router-link class="rd-dropdown-link" to="/company">Company Profile</router-link></li>
                                             <li class="rd-dropdown-item"><router-link class="rd-dropdown-link" to="/team">Our Team</router-link></li>
                                             <li class="rd-dropdown-item"><router-link class="rd-dropdown-link" to="/careers">Careers</router-link></li>
@@ -99,7 +100,8 @@
                                     </li>
                                     <li class="rd-nav-item"><router-link class="rd-nav-link" to="/services">Services</router-link>
                                         <ul class="rd-menu rd-navbar-dropdown">
-                                            <li class="rd-dropdown-item"><router-link class="rd-dropdown-link" to="/portfolio">Portfolio</router-link></li>
+                                            <li class="rd-dropdown-item"><router-link class="rd-dropdown-link" to="/services">Our Services</router-link></li>
+                                            <li class="rd-dropdown-item"><router-link class="rd-dropdown-link" to="/portfolio">Our Work</router-link></li>
                                         </ul>
                                     </li>
                                     <li class="rd-nav-item"><router-link class="rd-nav-link" to="/blog">Blog</router-link></li>
@@ -138,18 +140,17 @@
                 <div class="col-sm-6 col-lg-3 text-center text-sm-left wow fadeInUp" data-wow-delay=".04s">
                     <h6 class="font-weight-regular text-third">Our Services</h6>
                     <ul class="offset-top-25">
-                        <li><a class="font-weight-light text-gray-620 lh-2" href="single-service.html">Search engine optimization</a></li>
-                        <li><a class="font-weight-light text-gray-620 lh-2" href="single-service.html">Email marketing services</a></li>
-                        <li><a class="font-weight-light text-gray-620 lh-2" href="single-service.html">Profitable AdWords campaigns</a></li>
-                        <li><a class="font-weight-light text-gray-620 lh-2" href="single-service.html">Pay per click advertising</a></li>
+                        <li><router-link class="font-weight-light text-gray-620 lh-2" to="/services">Software Development</router-link></li>
+                        <li><router-link class="font-weight-light text-gray-620 lh-2" to="/services">Web Development</router-link></li>
+                        <li><router-link class="font-weight-light text-gray-620 lh-2" to="/services">Web Design</router-link></li>
+                        <li><router-link class="font-weight-light text-gray-620 lh-2" to="/services">Internet Of Things</router-link></li>
+                        <li><router-link class="font-weight-light text-gray-620 lh-2" to="/services">Virtual reality</router-link></li>
                     </ul>
                 </div>
                 <div class="col-sm-6 col-lg-3 text-center text-sm-left wow fadeInUp" data-wow-delay=".04s">
                     <h6 class="font-weight-regular text-third">Latest news</h6>
-                    <div class="small-text-2 font-weight-light text-gray-620 offset-top-30">July 24, 2019</div>
-                    <h6><a class="font-weight-regular text-gray-650" href="blog-post.html">Achieving Success as a Business Owner</a></h6>
-                    <div class="small-text-2 font-weight-light text-gray-620 offset-top-15">July 23, 2019</div>
-                    <h6><a class="font-weight-regular text-gray-650" href="blog-post.html">Top 12 Ideas for Your Business</a></h6>
+                    
+                    <h6><router-link class="font-weight-regular text-gray-650" to="blog">Check Our blog for the latest in the world of tech</router-link></h6>
                 </div>
             </div>
             <div class="footer-classic-bottom">

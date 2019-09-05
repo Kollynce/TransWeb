@@ -46,9 +46,9 @@
                     <div class="col-lg-6 block-lg-3 text-center text-lg-left">
                         <h2 class="font-weight-sbold wow fadeIn" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">Contact Information</h2>
                         <h5 class="font-weight-sbold ls-1">Address</h5>
-                        <h6 class="font-weight-light text-gray-650">357 Travis Ave Staten Island, NY 10314, USA</h6>
+                        <h6 class="font-weight-light text-gray-650">Nairobi,Kenya 45499-00100</h6>
                         <h5 class="font-weight-sbold ls-1 offset-top-36">Phones</h5>
-                        <h6 class="font-weight-light text-gray-650">Mobile:&nbsp;<a href="tel:#">+254729631002</a></h6>
+                        <h6 class="font-weight-light text-gray-650">Mobile:&nbsp;<a href="tel:#">+254748621900</a></h6>
                         <h5 class="font-weight-sbold ls-1 offset-top-36">E-mail</h5>
                         <h6 class="font-weight-light text-gray-650"><a href="#"><span class="__cf_email__">email: &nbsp;transonlineweb@gmail.com</span></a></h6>
                         <ul class="list-inline list-custom-2 offset-top-40">
