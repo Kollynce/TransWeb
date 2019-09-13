@@ -26,7 +26,7 @@
                           </div>
                           <div class="unit-body">
                               <h5 class="box-icon-classic-title"><router-link to="software">Software Development</router-link></h5>
-                              <p class="box-icon-classic-text">Search engine optimization (SEO) is the process of helping your customers connect with your business online.</p><router-link class="button button-icon button-icon-right text-primary button-lg" to="software"><span>Learn More</span><span class="arrow">
+                              <p class="box-icon-classic-text">As a software development company we develop are unique applications, addressing the specific business needs of our clients. We have developed a reputation for providing high quality, cost-effective custom applications for several ranges of businesses.</p><router-link class="button button-icon button-icon-right text-primary button-lg" to="software"><span>Learn More</span><span class="arrow">
                                 <svg width="11" height="7" viewBox="0 0 11 7" fill="none"  >
                                   <path d="M7.29111 0.146484C7.48168 -0.048828 7.79084 -0.048828 7.98142 0.146484L10.8571 3.09173C10.9196 3.15582 10.9617 3.23296 10.9832 3.31457C11.0026 3.38842 11.0052 3.466 10.991 3.54082C10.9736 3.63671 10.9295 3.72845 10.8571 3.8026L7.98142 6.85356C7.79084 7.04881 7.48168 7.04881 7.29111 6.85356C7.10042 6.65825 7.10042 6.34172 7.29111 6.14641L9.42663 3.85357H0.488175C0.218583 3.85357 1.7879e-06 3.62969 1.7879e-06 3.35357C1.7879e-06 3.07745 0.218583 2.85357 0.488175 2.85357H9.24368L7.29111 0.853575C7.10042 0.658324 7.10042 0.341735 7.29111 0.146484Z" fill="#3B6D93"></path>
                                 </svg>
@@ -36,15 +36,15 @@
                     </div>
                     <div class="col-sm-6 col-lg-4">
                         <article class="box-icon-classic">
-                            <div class="unit-left"><router-link class="box-icon-classic-svg" to="software">
+                            <div class="unit-left"><router-link class="box-icon-classic-svg" to="Web-Design">
                                 <div id="svg-size" >
                                     <img src="assets/images/computer.svg" alt="">
                                 </div>
                             </router-link>
                             </div>
                             <div class="unit-body">
-                                <h5 class="box-icon-classic-title"><router-link to="software">Web Development</router-link></h5>
-                                <p class="box-icon-classic-text">Our Email Marketing solutions will help you engage subscribers, nurture leads, and send beautiful, responsive emails.</p><router-link class="button button-icon button-icon-right text-primary button-lg" to="software"><span>Learn More</span><span class="arrow">
+                                <h5 class="box-icon-classic-title"><router-link to="Web-Design">Web Design & Development</router-link></h5>
+                                <p class="box-icon-classic-text">We offer customer oriented web design and development services following the latest trends and technologies in the industry. We have achieved a reputation in serving diverse industries by working on intricate and elaborate website portals which are dynamic and operative.</p><router-link class="button button-icon button-icon-right text-primary button-lg" to="Web-Design"><span>Learn More</span><span class="arrow">
                                   <svg width="11" height="7" viewBox="0 0 11 7" fill="none"  >
                                     <path d="M7.29111 0.146484C7.48168 -0.048828 7.79084 -0.048828 7.98142 0.146484L10.8571 3.09173C10.9196 3.15582 10.9617 3.23296 10.9832 3.31457C11.0026 3.38842 11.0052 3.466 10.991 3.54082C10.9736 3.63671 10.9295 3.72845 10.8571 3.8026L7.98142 6.85356C7.79084 7.04881 7.48168 7.04881 7.29111 6.85356C7.10042 6.65825 7.10042 6.34172 7.29111 6.14641L9.42663 3.85357H0.488175C0.218583 3.85357 1.7879e-06 3.62969 1.7879e-06 3.35357C1.7879e-06 3.07745 0.218583 2.85357 0.488175 2.85357H9.24368L7.29111 0.853575C7.10042 0.658324 7.10042 0.341735 7.29111 0.146484Z" fill="#3B6D93"></path>
                                   </svg></span></router-link>
@@ -53,15 +53,15 @@
                     </div>
                     <div class="col-sm-6 col-lg-4">
                         <article class="box-icon-classic">
-                            <div class="unit-left"><router-link class="box-icon-classic-svg" to="software">
+                            <div class="unit-left"><router-link class="box-icon-classic-svg" to="Mobile-App-Development">
                                 <div id="svg-size" >
                                     <img src="assets/images/computer-graphic.svg" alt="">
                                 </div>
                             </router-link>
                             </div>
                             <div class="unit-body">
-                                <h5 class="box-icon-classic-title"><router-link to="software">Wed Design</router-link></h5>
-                                <p class="box-icon-classic-text">Take advantage of online advertising to improve your internet marketing efforts with our AdWords campaigns.</p><router-link class="button button-icon button-icon-right text-primary button-lg" to="software"><span>Learn More</span><span class="arrow">
+                                <h5 class="box-icon-classic-title"><router-link to="Mobile-App-Development">Mobile Application Development</router-link></h5>
+                                <p class="box-icon-classic-text">Numbers of smart phone users have greatly increased in the recent past and thus the need of a mobile app for business growth. Transonline Web delivers custom mobile application development solutions that are secure, scaleable and runs on any platform</p><router-link class="button button-icon button-icon-right text-primary button-lg" to="Mobile-App-Development"><span>Learn More</span><span class="arrow">
                                   <svg width="11" height="7" viewBox="0 0 11 7" fill="none"  >
                                     <path d="M7.29111 0.146484C7.48168 -0.048828 7.79084 -0.048828 7.98142 0.146484L10.8571 3.09173C10.9196 3.15582 10.9617 3.23296 10.9832 3.31457C11.0026 3.38842 11.0052 3.466 10.991 3.54082C10.9736 3.63671 10.9295 3.72845 10.8571 3.8026L7.98142 6.85356C7.79084 7.04881 7.48168 7.04881 7.29111 6.85356C7.10042 6.65825 7.10042 6.34172 7.29111 6.14641L9.42663 3.85357H0.488175C0.218583 3.85357 1.7879e-06 3.62969 1.7879e-06 3.35357C1.7879e-06 3.07745 0.218583 2.85357 0.488175 2.85357H9.24368L7.29111 0.853575C7.10042 0.658324 7.10042 0.341735 7.29111 0.146484Z" fill="#3B6D93"></path>
                                   </svg></span></router-link>
@@ -70,15 +70,15 @@
                     </div>
                     <div class="col-sm-6 col-lg-4">
                         <article class="box-icon-classic">
-                            <div class="unit-left"><router-link class="box-icon-classic-svg" to="software">
+                            <div class="unit-left"><router-link class="box-icon-classic-svg" to="Web-Portals">
                                 <div id="svg-size" >
                                     <img src="assets/images/web.svg" alt="">
                                 </div>
                             </router-link>
                             </div>
                             <div class="unit-body">
-                                <h5 class="box-icon-classic-title"><router-link to="software">Web Portals</router-link></h5>
-                                <p class="box-icon-classic-text">Take advantage of online advertising to improve your internet marketing efforts with our AdWords campaigns.</p><router-link class="button button-icon button-icon-right text-primary button-lg" to="software"><span>Learn More</span><span class="arrow">
+                                <h5 class="box-icon-classic-title"><router-link to="Web-Portals">Web Portals</router-link></h5>
+                                <p class="box-icon-classic-text">We design media-rich, mobile-friendly web portal solutions that help clients transform their business to the next level. <br> We ensure user satisfaction in B2B and B2C web portals. <br> Great experience in UI design, web portal development, and testing has been building up competencies to become the right partner for your web portal project.</p><router-link class="button button-icon button-icon-right text-primary button-lg" to="Web-Portals"><span>Learn More</span><span class="arrow">
                                   <svg width="11" height="7" viewBox="0 0 11 7" fill="none"  >
                                     <path d="M7.29111 0.146484C7.48168 -0.048828 7.79084 -0.048828 7.98142 0.146484L10.8571 3.09173C10.9196 3.15582 10.9617 3.23296 10.9832 3.31457C11.0026 3.38842 11.0052 3.466 10.991 3.54082C10.9736 3.63671 10.9295 3.72845 10.8571 3.8026L7.98142 6.85356C7.79084 7.04881 7.48168 7.04881 7.29111 6.85356C7.10042 6.65825 7.10042 6.34172 7.29111 6.14641L9.42663 3.85357H0.488175C0.218583 3.85357 1.7879e-06 3.62969 1.7879e-06 3.35357C1.7879e-06 3.07745 0.218583 2.85357 0.488175 2.85357H9.24368L7.29111 0.853575C7.10042 0.658324 7.10042 0.341735 7.29111 0.146484Z" fill="#3B6D93"></path>
                                   </svg></span></router-link>
@@ -87,15 +87,15 @@
                     </div>
                     <div class="col-sm-6 col-lg-4">
                         <article class="box-icon-classic">
-                            <div class="unit-left"><router-link class="box-icon-classic-svg" to="software">
+                            <div class="unit-left"><router-link class="box-icon-classic-svg" to="Internet-of-Things">
                                 <div id="svg-size" >
                                     <img src="assets/images/iot.svg" alt="">
                                 </div>
                             </router-link>
                             </div>
                             <div class="unit-body">
-                                <h5 class="box-icon-classic-title"><router-link to="software">Internet of Things</router-link></h5>
-                                <p class="box-icon-classic-text">Take advantage of online advertising to improve your internet marketing efforts with our AdWords campaigns.</p><router-link class="button button-icon button-icon-right text-primary button-lg" to="software"><span>Learn More</span><span class="arrow">
+                                <h5 class="box-icon-classic-title"><router-link to="Internet-of-Things">Internet of Things</router-link></h5>
+                                <p class="box-icon-classic-text">Transonline Web offers strong technical expertise, ingenuity and innovative approaches to solving your business problems. Our deep understanding of all aspects of the development process enable us to work on IoT projects of any complexity. <br> We deliver flexible strategies, blended with high-security in order to manage new & diverse IoT devices.</p><router-link class="button button-icon button-icon-right text-primary button-lg" to="Internet-of-Things"><span>Learn More</span><span class="arrow">
                                   <svg width="11" height="7" viewBox="0 0 11 7" fill="none"  >
                                     <path d="M7.29111 0.146484C7.48168 -0.048828 7.79084 -0.048828 7.98142 0.146484L10.8571 3.09173C10.9196 3.15582 10.9617 3.23296 10.9832 3.31457C11.0026 3.38842 11.0052 3.466 10.991 3.54082C10.9736 3.63671 10.9295 3.72845 10.8571 3.8026L7.98142 6.85356C7.79084 7.04881 7.48168 7.04881 7.29111 6.85356C7.10042 6.65825 7.10042 6.34172 7.29111 6.14641L9.42663 3.85357H0.488175C0.218583 3.85357 1.7879e-06 3.62969 1.7879e-06 3.35357C1.7879e-06 3.07745 0.218583 2.85357 0.488175 2.85357H9.24368L7.29111 0.853575C7.10042 0.658324 7.10042 0.341735 7.29111 0.146484Z" fill="#3B6D93"></path>
                                   </svg></span></router-link>
@@ -104,15 +104,15 @@
                     </div>
                     <div class="col-sm-6 col-lg-4">
                         <article class="box-icon-classic">
-                            <div class="unit-left"><router-link class="box-icon-classic-svg" to="software">
+                            <div class="unit-left"><router-link class="box-icon-classic-svg" to="Web-App-Development">
                                 <div id="svg-size" >
                                     <img src="assets/images/eye.svg" alt="">
                                 </div>
                             </router-link>
                             </div>
                             <div class="unit-body">
-                                <h5 class="box-icon-classic-title"><router-link to="software">Virtual Raelity</router-link></h5>
-                                <p class="box-icon-classic-text">Take advantage of online advertising to improve your internet marketing efforts with our AdWords campaigns.</p><router-link class="button button-icon button-icon-right text-primary button-lg" to="software"><span>Learn More</span><span class="arrow">
+                                <h5 class="box-icon-classic-title"><router-link to="Web-App-Development">Web Application Development</router-link></h5>
+                                <p class="box-icon-classic-text">A ‘Web Application Development’ is a business system or application delivered over the Web. Web applications utilise the interactive nature of websites to provide customised and interactive technologies; they deliver a more sophisticated & interactive experience than normal websites. We have been developing Web-based applications for many years and has the skills required to successfully deliver your online system.</p><router-link class="button button-icon button-icon-right text-primary button-lg" to="Web-App-Development"><span>Learn More</span><span class="arrow">
                                   <svg width="11" height="7" viewBox="0 0 11 7" fill="none"  >
                                     <path d="M7.29111 0.146484C7.48168 -0.048828 7.79084 -0.048828 7.98142 0.146484L10.8571 3.09173C10.9196 3.15582 10.9617 3.23296 10.9832 3.31457C11.0026 3.38842 11.0052 3.466 10.991 3.54082C10.9736 3.63671 10.9295 3.72845 10.8571 3.8026L7.98142 6.85356C7.79084 7.04881 7.48168 7.04881 7.29111 6.85356C7.10042 6.65825 7.10042 6.34172 7.29111 6.14641L9.42663 3.85357H0.488175C0.218583 3.85357 1.7879e-06 3.62969 1.7879e-06 3.35357C1.7879e-06 3.07745 0.218583 2.85357 0.488175 2.85357H9.24368L7.29111 0.853575C7.10042 0.658324 7.10042 0.341735 7.29111 0.146484Z" fill="#3B6D93"></path>
                                   </svg></span></router-link>
@@ -121,15 +121,15 @@
                     </div>
                     <div class="col-sm-6 col-lg-4">
                         <article class="box-icon-classic">
-                            <div class="unit-left"><router-link class="box-icon-classic-svg" to="software">
+                            <div class="unit-left"><router-link class="box-icon-classic-svg" to="Artificial-Intelligence">
                                 <div id="svg-size" >
                                     <img src="assets/images/ai.svg" alt="">
                                 </div>
                             </router-link>
                             </div>
                             <div class="unit-body">
-                                <h5 class="box-icon-classic-title"><router-link to="software">Artificial Inteligence</router-link></h5>
-                                <p class="box-icon-classic-text">Take advantage of online advertising to improve your internet marketing efforts with our AdWords campaigns.</p><router-link class="button button-icon button-icon-right text-primary button-lg" to="software"><span>Learn More</span><span class="arrow">
+                                <h5 class="box-icon-classic-title"><router-link to="Artificial-Intelligence">Artificial Inteligence</router-link></h5>
+                                <p class="box-icon-classic-text">Use of AI solutions accelerates your company’s digital transformation. When applied properly an AI system can reduce operational cost, improve efficiency and much more. Transonline Web builds custom solutions that provide operational and financial benefits. We use custom machine learning models and other AI-based software solutions to automate the operations across all departments: sales, finance, marketing, human resources, customer service, production, or any other.</p><router-link class="button button-icon button-icon-right text-primary button-lg" to="Artificial-Intelligence"><span>Learn More</span><span class="arrow">
                                   <svg width="11" height="7" viewBox="0 0 11 7" fill="none"  >
                                     <path d="M7.29111 0.146484C7.48168 -0.048828 7.79084 -0.048828 7.98142 0.146484L10.8571 3.09173C10.9196 3.15582 10.9617 3.23296 10.9832 3.31457C11.0026 3.38842 11.0052 3.466 10.991 3.54082C10.9736 3.63671 10.9295 3.72845 10.8571 3.8026L7.98142 6.85356C7.79084 7.04881 7.48168 7.04881 7.29111 6.85356C7.10042 6.65825 7.10042 6.34172 7.29111 6.14641L9.42663 3.85357H0.488175C0.218583 3.85357 1.7879e-06 3.62969 1.7879e-06 3.35357C1.7879e-06 3.07745 0.218583 2.85357 0.488175 2.85357H9.24368L7.29111 0.853575C7.10042 0.658324 7.10042 0.341735 7.29111 0.146484Z" fill="#3B6D93"></path>
                                   </svg></span></router-link>
@@ -138,15 +138,16 @@
                     </div>
                     <div class="col-sm-6 col-lg-4">
                         <article class="box-icon-classic">
-                            <div class="unit-left"><router-link class="box-icon-classic-svg" to="software">
+                            <div class="unit-left"><router-link class="box-icon-classic-svg" to="Big-Data">
                                 <div id="svg-size" >
                                     <img src="assets/images/database.svg" alt="">
                                 </div>
                             </router-link>
                             </div>
                             <div class="unit-body">
-                                <h5 class="box-icon-classic-title"><router-link to="software">Big Data</router-link></h5>
-                                <p class="box-icon-classic-text">Take advantage of online advertising to improve your internet marketing efforts with our AdWords campaigns.</p><router-link class="button button-icon button-icon-right text-primary button-lg" to="software"><span>Learn More</span><span class="arrow">
+                                <h5 class="box-icon-classic-title"><router-link to="Big-Data">Big Data</router-link></h5>
+                                <p class="box-icon-classic-text">At Transonline Web we provide means to analyze data sets and draw conclusions about them which help organizations make informed business decisions. big data analytics offers various business benefits, including: More effective marketing, Better customer service, Improved operational efficiency & Competitive advantages over rivals.
+                                We offer a comprehensive data analytics services to convert our customers’ historical and real-time, traditional and big data into actionable insights.</p><router-link class="button button-icon button-icon-right text-primary button-lg" to="Big-Data"><span>Learn More</span><span class="arrow">
                                   <svg width="11" height="7" viewBox="0 0 11 7" fill="none"  >
                                     <path d="M7.29111 0.146484C7.48168 -0.048828 7.79084 -0.048828 7.98142 0.146484L10.8571 3.09173C10.9196 3.15582 10.9617 3.23296 10.9832 3.31457C11.0026 3.38842 11.0052 3.466 10.991 3.54082C10.9736 3.63671 10.9295 3.72845 10.8571 3.8026L7.98142 6.85356C7.79084 7.04881 7.48168 7.04881 7.29111 6.85356C7.10042 6.65825 7.10042 6.34172 7.29111 6.14641L9.42663 3.85357H0.488175C0.218583 3.85357 1.7879e-06 3.62969 1.7879e-06 3.35357C1.7879e-06 3.07745 0.218583 2.85357 0.488175 2.85357H9.24368L7.29111 0.853575C7.10042 0.658324 7.10042 0.341735 7.29111 0.146484Z" fill="#3B6D93"></path>
                                   </svg></span></router-link>
@@ -155,15 +156,17 @@
                     </div>
                     <div class="col-sm-6 col-lg-4">
                         <article class="box-icon-classic">
-                            <div class="unit-left"><router-link class="box-icon-classic-svg" to="software">
+                            <div class="unit-left"><router-link class="box-icon-classic-svg" to="Search-Engine-Optimization">
                                 <div id="svg-size" >
                                     <img src="assets/images/solution.svg" alt="">
                                 </div>
                             </router-link>
                             </div>
                             <div class="unit-body">
-                                <h5 class="box-icon-classic-title"><router-link to="software">Programming Solutions</router-link></h5>
-                                <p class="box-icon-classic-text">Take advantage of online advertising to improve your internet marketing efforts with our AdWords campaigns.</p><router-link class="button button-icon button-icon-right text-primary button-lg" to="software"><span>Learn More</span><span class="arrow">
+                                <h5 class="box-icon-classic-title"><router-link to="Search-Engine-Optimization">Search Engine Optimization</router-link></h5>
+                                <p class="box-icon-classic-text">You want to get higher ranking, quality traffic and measurable results?
+                                Search engine optimization is crucial to the success of the company.
+                                For most websites, traffic that comes from search engines (i.e. ‘natural’ traffic) accounts for a large portion of their total traffic. At Transonline Web we understand how search engines work which is the first step of the process of improving a site’s search rankings. We always strive to remain updated with all SEO strategies so that your website is always ranked well with search engines. </p><router-link class="button button-icon button-icon-right text-primary button-lg" to="Search-Engine-Optimization"><span>Learn More</span><span class="arrow">
                                   <svg width="11" height="7" viewBox="0 0 11 7" fill="none"  >
                                     <path d="M7.29111 0.146484C7.48168 -0.048828 7.79084 -0.048828 7.98142 0.146484L10.8571 3.09173C10.9196 3.15582 10.9617 3.23296 10.9832 3.31457C11.0026 3.38842 11.0052 3.466 10.991 3.54082C10.9736 3.63671 10.9295 3.72845 10.8571 3.8026L7.98142 6.85356C7.79084 7.04881 7.48168 7.04881 7.29111 6.85356C7.10042 6.65825 7.10042 6.34172 7.29111 6.14641L9.42663 3.85357H0.488175C0.218583 3.85357 1.7879e-06 3.62969 1.7879e-06 3.35357C1.7879e-06 3.07745 0.218583 2.85357 0.488175 2.85357H9.24368L7.29111 0.853575C7.10042 0.658324 7.10042 0.341735 7.29111 0.146484Z" fill="#3B6D93"></path>
                                   </svg></span></router-link>

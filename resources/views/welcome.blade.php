@@ -7,6 +7,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Your Journey To Digital Transformation starts here; reach to us for Software development, Web Design & Development, Internet of things and Virtual Reality">
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/logo.png') }}"/>
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
@@ -125,7 +126,7 @@
         <div class="container">
             <div class="row row-40">
                 <div class="col-sm-6 col-lg-3 text-center text-sm-left wow fadeInUp" data-wow-delay=".04s"><a href="#"><img src="assets/images/fulllogosmall.png" alt="img" /></a>
-                    <p class="font-weight-light text-gray-620 lh-1 box-3 offset-top-30"> <span class="font-weight-bold text-third">Transonline Web</span> is a  company specializing in providing financial, marketing and analytical services. We are a command of professionals, who like what they do.</p>
+                    <p class="font-weight-light text-gray-620 lh-1 box-3 offset-top-20"> <span class="font-weight-bold text-third">Transonline Web </span> is a  company specializing in providing software development, web design & development, graphic design, and a wide range of customized software services. We are a command of professionals, who like what we do.</p>
                 </div>
                 <div class="col-sm-6 col-lg-3 block-lg-4 text-center text-sm-left wow fadeInUp" data-wow-delay=".04s">
                     <h6 class="font-weight-regular text-third">Quick links</h6>

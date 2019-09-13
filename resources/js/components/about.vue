@@ -15,7 +15,7 @@
                 <div class="row row-40">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay=".02s" style="visibility: visible; animation-delay: 0.02s; animation-name: fadeInUp;">
                     <h2 class="font-weight-sbold text-center text-lg-left">Challenges are our passion</h2>
-                    <h4 class="font-weight-light text-gray-650 text-center text-lg-left">Sit amet nulla facilisi morbi tempus. Augue mauris augue neque gravida in fermentum et sollicitudin ac. Tempus urna et pharetra pharetra massa. Tellus in metus vulputate eu scelerisque felis. Lectus vestibulum mattis ullamcorper velit sed.</h4>
+                    <h4 class="font-weight-light text-gray-650 text-center text-lg-left">Transonline Web is a global software development company, we specialize in development of innovative and creative products and services. We offer customized software development, web design and development, Search engine optimization services, e-commerce solutions and payment integrations.<br class="d-none d-lg-block"> Our philosophy is to assure the highest quality product, timely delivery of solutions, total client satisfaction and the best price in the industry.</h4>
                     <ul class="list-custom-2 text-center text-lg-left offset-top-40-lg">
                         <li><span>
                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -42,7 +42,7 @@
                                 </div>
                                 <div class="collapse" id="accordion1-card-body-nmtfrlvb" aria-labelledby="accordion1-card-head-noywdvpk" data-parent="#accordion1" role="tabpanel">
                                     <div class="card-body">
-                                        <p class="font-weight-light text-gray-770">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices tincidunt arcu non sodales neque sodales ut.</p>
+                                        <p class="font-weight-light text-gray-770">To be a global software company that provides competitive software solutions that transform lives. </p>
                                     </div>
                                 </div>
                             </article>
@@ -54,7 +54,7 @@
                                 </div>
                                 <div class="collapse show" id="accordion1-card-body-yvlfufio" aria-labelledby="accordion1-card-head-kxnqwbvf" data-parent="#accordion1" role="tabpanel">
                                     <div class="card-body">
-                                        <p class="font-weight-light text-gray-770">Amet venenatis urna cursus eget nunc scelerisque viverra mauris in. Iaculis nunc sed augue lacus viverra vitae congue. Risus feugiat in ante metus dictum. Etiam non quam lacus suspendisse faucibus.</p>
+                                        <p class="font-weight-light text-gray-770">Our main objective is to deliver all our projects in time, providing highly innovative, reliable and maintainable solutions to our customers.</p>
                                     </div>
                                 </div>
                             </article>

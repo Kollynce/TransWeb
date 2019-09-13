@@ -24,8 +24,8 @@
                                     <li><a class="text-gray-270" href="#"><span class="icon mdi mdi-instagram icon-xs"></span></a></li>
                                 </ul>
                             </div>
-                            <h5 class="font-weight-sbold ls-1 text-center offset-top-15"> Peter Sanchez</h5>
-                            <div class="small-text font-weight-light text-center">Founder, CEO</div>
+                            <h5 class="font-weight-sbold ls-1 text-center offset-top-15">Rewel Adedi</h5>
+                            <div class="small-text font-weight-light text-center">CEO</div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-xl-3 box-team">
@@ -39,8 +39,8 @@
                                     <li><a class="text-gray-270" href="#"><span class="icon mdi mdi-instagram icon-xs"></span></a></li>
                                 </ul>
                             </div>
-                            <h5 class="font-weight-sbold ls-1 text-center offset-top-15">Adam Robinson</h5>
-                            <div class="small-text font-weight-light text-center">Finance Manager</div>
+                            <h5 class="font-weight-sbold ls-1 text-center offset-top-15">Josiah Bwonda</h5>
+                            <div class="small-text font-weight-light text-center">General Manager</div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 box-team">
@@ -54,8 +54,8 @@
                                     <li><a class="text-gray-270" href="#"><span class="icon mdi mdi-instagram icon-xs"></span></a></li>
                                 </ul>
                             </div>
-                            <h5 class="font-weight-sbold ls-1 text-center offset-top-15">Gregory White</h5>
-                            <div class="small-text font-weight-light text-center">Senior Consultant</div>
+                            <h5 class="font-weight-sbold ls-1 text-center offset-top-15">Morris Mwendwa</h5>
+                            <div class="small-text font-weight-light text-center">Head of Marketing</div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 box-team">
@@ -69,8 +69,8 @@
                                     <li><a class="text-gray-270" href="#"><span class="icon mdi mdi-instagram icon-xs"></span></a></li>
                                 </ul>
                             </div>
-                            <h5 class="font-weight-sbold ls-1 text-center offset-top-15">Bruce Lewis</h5>
-                            <div class="small-text font-weight-light text-center">Head of Marketing</div>
+                            <h5 class="font-weight-sbold ls-1 text-center offset-top-15">Viena Kaseke</h5>
+                            <div class="small-text font-weight-light text-center">Director</div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-xl-3 box-team">

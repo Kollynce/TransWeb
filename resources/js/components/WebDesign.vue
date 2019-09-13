@@ -5,7 +5,7 @@
                 <ul class="breadcrumbs-custom-path">
                     <li><a href="home">Home</a></li>
                     <li><a href="services">Services</a></li>
-                    <li class="active">Software Development</li>
+                    <li class="active">Web Design & Development</li>
                 </ul>
             </div>
         </section>
@@ -13,7 +13,7 @@
             <div class="container">
                 <div class="row row-50">
                     <div class="col-lg-8"><img src="/images/blur.jpg" alt="img" width="770" height="500">
-                        <h2 class="font-weight-sbold wow fadeIn offset-top-40" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">Software Development</h2>
+                        <h2 class="font-weight-sbold wow fadeIn offset-top-40" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">Web Design & Development</h2>
                         <h4 class="font-weight-light text-gray-650 lh-3"> An ius meliore dignissim, ius dicit praesent constituto ad, id dicam singulis complect itur nam. Et mel doming everti. No brute fuisset eos, definiebas — concludaturque in est, congue torquatos deseruisse ex per. In solum essent sapientem vim, vix ferri tantas euismod cu, adhuc ceteros consulatu.</h4>
                         <h4 class="font-weight-light text-gray-650 lh-3"> Ius probo intellegebat id. Vix euismod appetere mandamus no, ne decore utamur bonorum est. Qui at stet <span class="font-weight-medium">60%</span> epicuri suscipit. Brute euripidis cotidieque vis id, assum – noster instructior nec ad. Cu melius corpora consulatu eum. Mea no integre salutandi. Mea ne augue appetere nominati — accumsan.</h4>
                         <ul class="list-custom-3 heading-4 font-weight-light text-gray-650 lh-3">
@@ -29,10 +29,10 @@
                             <div class="small-text font-weight-sbold ls-1 lh-4"> Software Development</div>
                         </div></a><a class="box-lola-wrapper" href="#">
                         <div class="box-lola">
-                            <div class="small-text font-weight-sbold ls-1 lh-4"> Web Design & Development</div>
+                            <div class="small-text font-weight-sbold ls-1 lh-4">Web Design & Development</div>
                         </div></a><a class="box-lola-wrapper" href="#">
                         <div class="box-lola">
-                            <div class="small-text font-weight-sbold ls-1 lh-4">Mobile App Development</div>
+                            <div class="small-text font-weight-sbold ls-1 lh-4"> Mobile App Development</div>
                         </div></a><a class="box-lola-wrapper" href="#">
                         <div class="box-lola">
                             <div class="small-text font-weight-sbold ls-1 lh-4"> Web Portals</div>

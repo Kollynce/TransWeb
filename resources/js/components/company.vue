@@ -104,7 +104,7 @@
             <div class="row row-40">
                 <div class="col-xl-6 text-center text-xl-left offset-top-10 wow fadeInLeft" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
                     <h2 class="font-weight-sbold">Quick, Smart &amp; Great <br class="d-none d-xl-block"> Solutions</h2>
-                    <h4 class="font-weight-light">Kangor is a company specializing in providing financial,<br class="d-none d-lg-block"> marketing and analytical services.</h4>
+                    <h4 class="font-weight-light">Transonline Web provides brands with innovative ICT solutions that makes business easier, less risky, and more effective.<br class="d-none d-lg-block"> marketing and analytical services.</h4>
                     <ul class="list-custom-2 text-center text-xl-left offset-top-40-lg">
                         <li><span>
                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
