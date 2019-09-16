@@ -7,7 +7,8 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Your Journey To Digital Transformation starts here; reach to us for Software development, Web Design & Development, Internet of things and Virtual Reality">
+    <meta name="copyright" content="Transonline Web Technologies">
+    <meta name="description" content="Your leading parner in software and web applications development in Kenya and Africa at large.">
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/logo.png') }}"/>
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
@@ -15,7 +16,7 @@
     <link rel="stylesheet" href="{{ asset('assets/css/font-awesome.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/fl-bigmug.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/materialdesignicons.css') }}">
-    <title>Trans Online Web</title>
+    <title>Trans Online Web | Your digital transformation starts here</title>
 
     <style>
         .btn-to-top {
@@ -48,12 +49,12 @@
                         <ul class="list-inline list-inline-md">
                             <li>
                                 <div class="unit unit-spacing-xs align-items-center">
-                                    <div class="unit-body heading-5"><a class="text-third divider-right-1" href="#">+254729631002</a></div>
+                                    <div class="unit-body heading-5"><a class="text-third divider-right-1" href="#">+254748621900</a></div>
                                 </div>
                             </li>
                             <li>
                                 <div class="unit unit-spacing-xs align-items-center">
-                                    <div class="unit-body small-text"><a class="text-gray-600" href="#"><span class="__cf_email__" data-cfemail="4632232b362a273223062b2928353223346825292b">transonlineweb@gmail.com</span></a></div>
+                                    <div class="unit-body small-text"><a class="text-gray-600" href="#"><span class="__cf_email__" data-cfemail="4632232b362a273223062b2928353223346825292b">info@twtechnologies.africa</span></a></div>
                                 </div>
                             </li>
                         </ul>

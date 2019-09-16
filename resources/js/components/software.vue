@@ -14,13 +14,13 @@
                 <div class="row row-50">
                     <div class="col-lg-8"><img src="/images/blur.jpg" alt="img" width="770" height="500">
                         <h2 class="font-weight-sbold wow fadeIn offset-top-40" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">Software Development</h2>
-                        <h4 class="font-weight-light text-gray-650 lh-3"> An ius meliore dignissim, ius dicit praesent constituto ad, id dicam singulis complect itur nam. Et mel doming everti. No brute fuisset eos, definiebas — concludaturque in est, congue torquatos deseruisse ex per. In solum essent sapientem vim, vix ferri tantas euismod cu, adhuc ceteros consulatu.</h4>
-                        <h4 class="font-weight-light text-gray-650 lh-3"> Ius probo intellegebat id. Vix euismod appetere mandamus no, ne decore utamur bonorum est. Qui at stet <span class="font-weight-medium">60%</span> epicuri suscipit. Brute euripidis cotidieque vis id, assum – noster instructior nec ad. Cu melius corpora consulatu eum. Mea no integre salutandi. Mea ne augue appetere nominati — accumsan.</h4>
+                        <h4 class="font-weight-light text-gray-650 lh-3"> Over the years in designing and developing software products, we’ve helped businesses upgrade to the next level. We have successfully built, and enhanced applications to innovatively solve business challenges. These solutions were often accompanied by the industry’s new tools, practices, and emerging technologies. At Transonline Web we help our clients exceed the expectations of executives and investors, ensuring the best outcome for current and future developments.</h4>
+                        <h4 class="font-weight-light text-gray-650 lh-3"> Transonline Web prides itself as one of the best software development company in Kenya and Africa at large. Your business needs a reliable enterprise software solution and you can leverage on  expertise in enterprise software development, API integration and  legacy systems to support your operations.</h4>
+                        <h4 class="font-weight-light text-gray-650 lh-3">Our software developers have the knowledge, niche skills, and experience to build you a solid software solution.</h4>
                         <ul class="list-custom-3 heading-4 font-weight-light text-gray-650 lh-3">
-                            <li>› Brute fuisset eos definiebas</li>
-                            <li>› Euismod appetere</li>
-                            <li>› Melius corpora consulatu</li>
-                            <li>› Torquatos deseruisse</li>
+                            <li>› Software consulting</li>
+                            <li>› Custom software development</li>
+                            <li>› Software development outsourcing</li>
                         </ul>
                         
                     </div>

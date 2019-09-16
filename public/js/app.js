@@ -1950,10 +1950,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -2815,6 +2811,106 @@ __webpack_require__.r(__webpack_exports__);
   name: "home",
   data: function data() {
     return {};
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/mobileApp.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/mobileApp.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  mounted: function mounted() {
+    console.log('Component mounted.');
   }
 });
 
@@ -43781,36 +43877,17 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("h4", { staticClass: "font-weight-light text-gray-650 lh-3" }, [
         _vm._v(
-          " An ius meliore dignissim, ius dicit praesent constituto ad, id dicam singulis complect itur nam. Et mel doming everti. No brute fuisset eos, definiebas — concludaturque in est, congue torquatos deseruisse ex per. In solum essent sapientem vim, vix ferri tantas euismod cu, adhuc ceteros consulatu."
+          " In the digital landscape of today’s business world, every company needs a website. It is not enough to only have a website you need  to capitalize on opportunity and captivate real, live, human readers, an optimized, functional interactive website.\n                    We are always focused on designing and developing top-performing websites that convert visitors into leads. "
         )
       ]),
       _vm._v(" "),
       _c("h4", { staticClass: "font-weight-light text-gray-650 lh-3" }, [
         _vm._v(
-          " Ius probo intellegebat id. Vix euismod appetere mandamus no, ne decore utamur bonorum est. Qui at stet "
-        ),
-        _c("span", { staticClass: "font-weight-medium" }, [_vm._v("60%")]),
-        _vm._v(
-          " epicuri suscipit. Brute euripidis cotidieque vis id, assum – noster instructior nec ad. Cu melius corpora consulatu eum. Mea no integre salutandi. Mea ne augue appetere nominati — accumsan."
+          " Our website developers provide expert web design and development services to our clients. We offer a variety of  services, from collaborative design process, built-in SEO best practices, responsive web design, CMS to building custom E-Commerce. "
         )
       ]),
       _vm._v(" "),
-      _c(
-        "ul",
-        {
-          staticClass:
-            "list-custom-3 heading-4 font-weight-light text-gray-650 lh-3"
-        },
-        [
-          _c("li", [_vm._v("› Brute fuisset eos definiebas")]),
-          _vm._v(" "),
-          _c("li", [_vm._v("› Euismod appetere")]),
-          _vm._v(" "),
-          _c("li", [_vm._v("› Melius corpora consulatu")]),
-          _vm._v(" "),
-          _c("li", [_vm._v("› Torquatos deseruisse")])
-        ]
-      )
+      _c("h4", [_vm._v("Contact us today to get started!")])
     ])
   },
   function() {
@@ -45871,9 +45948,11 @@ var staticRenderFns = [
         attrs: { "data-wow-delay": ".2s" }
       },
       [
-        _vm._v("We stand for fair play and unique"),
+        _vm._v(
+          "We provide affordable but quality software solutions in various "
+        ),
         _c("br", { staticClass: "d-none d-lg-block" }),
-        _vm._v(" ideas!")
+        _vm._v(" business sectors!")
       ]
     )
   },
@@ -46545,7 +46624,7 @@ var staticRenderFns = [
         ]),
         _vm._v(" "),
         _c("h6", { staticClass: "font-weight-light text-gray-650" }, [
-          _vm._v("Nairobi,Kenya 45499-00100")
+          _vm._v("Nairobi,Kenya 46499-00100")
         ]),
         _vm._v(" "),
         _c("h5", { staticClass: "font-weight-sbold ls-1 offset-top-36" }, [
@@ -46564,7 +46643,7 @@ var staticRenderFns = [
         _c("h6", { staticClass: "font-weight-light text-gray-650" }, [
           _c("a", { attrs: { href: "#" } }, [
             _c("span", { staticClass: "__cf_email__" }, [
-              _vm._v("email:  transonlineweb@gmail.com")
+              _vm._v("email:  info@twtechnologies.africa")
             ])
           ])
         ]),
@@ -46782,7 +46861,7 @@ var render = function() {
                           _vm._v(" "),
                           _c("p", { staticClass: "box-icon-classic-text" }, [
                             _vm._v(
-                              "As a software development company we develop are unique applications, addressing the specific business needs of our clients. We have developed a reputation for providing high quality, cost-effective custom applications for several ranges of businesses."
+                              "As a software development company we develop unique applications, addressing the specific business needs of our clients. We have developed a reputation for providing high quality, cost-effective custom applications for several ranges of businesses."
                             )
                           ]),
                           _c(
@@ -47602,6 +47681,297 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/mobileApp.vue?vue&type=template&id=5f992e38&":
+/*!************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/mobileApp.vue?vue&type=template&id=5f992e38& ***!
+  \************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", [
+    _vm._m(0),
+    _vm._v(" "),
+    _c("section", { staticClass: "section section-md bg-default" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "row row-50" }, [
+          _vm._m(1),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-lg-4" }, [
+            _vm._m(2),
+            _vm._m(3),
+            _vm._m(4),
+            _vm._m(5),
+            _vm._m(6),
+            _vm._v(" "),
+            _vm._m(7),
+            _vm._v(" "),
+            _vm._m(8),
+            _vm._v(" "),
+            _vm._m(9),
+            _vm._v(" "),
+            _vm._m(10),
+            _vm._v(" "),
+            _c("div", { staticClass: "box-tina" }, [
+              _c(
+                "div",
+                { staticClass: "small-text text-third font-weight-sbold lh-4" },
+                [_vm._v("Still have questions?")]
+              ),
+              _vm._v(" "),
+              _c("div", { staticClass: "box-tina-block" }, [
+                _c("div", { staticClass: "box-tina-block-icon" }, [
+                  _c(
+                    "svg",
+                    {
+                      attrs: {
+                        width: "36",
+                        height: "37",
+                        viewBox: "0 0 36 37",
+                        fill: "none",
+                        xmlns: "http://www.w3.org/2000/svg"
+                      }
+                    },
+                    [
+                      _c("path", {
+                        attrs: {
+                          d:
+                            "M30.3053 22.0558C29.5195 21.2186 28.5717 20.7711 27.5673 20.7711C26.5709 20.7711 25.615 21.2103 24.7969 22.0475L22.2371 24.6584C22.0265 24.5423 21.8158 24.4346 21.6133 24.3268C21.3217 24.1776 21.0463 24.0367 20.8114 23.8875C18.4136 22.3293 16.2345 20.2986 14.1446 17.6711C13.132 16.3616 12.4516 15.2592 11.9574 14.1402C12.6217 13.5186 13.2373 12.8721 13.8368 12.2504C14.0636 12.0184 14.2904 11.778 14.5172 11.5459C16.2183 9.80533 16.2183 7.55085 14.5172 5.81026L12.3057 3.54749C12.0546 3.29055 11.7954 3.02531 11.5524 2.76008C11.0663 2.24619 10.556 1.71573 10.0295 1.21841C9.24372 0.422715 8.30405 0 7.31577 0C6.3275 0 5.37163 0.422715 4.56157 1.21841C4.55347 1.2267 4.55347 1.2267 4.54537 1.23499L1.79116 4.07796C0.754286 5.13889 0.162942 6.4319 0.0333328 7.93212C-0.161082 10.3524 0.53557 12.6069 1.07021 14.0822C2.38251 17.7043 4.34285 21.0612 7.26717 24.6584C10.8152 28.9933 15.0842 32.4164 19.9608 34.8284C21.8239 35.7319 24.3108 36.8011 27.0893 36.9834C27.2595 36.9917 27.4377 37 27.5997 37C29.4709 37 31.0424 36.312 32.2737 34.9444C32.2818 34.9279 32.298 34.9196 32.3061 34.903C32.7274 34.3808 33.2134 33.9084 33.7237 33.4028C34.0721 33.0629 34.4285 32.7065 34.7768 32.3336C35.5788 31.4798 36 30.4852 36 29.4657C36 28.4379 35.5707 27.4516 34.7525 26.6228L30.3053 22.0558ZM33.2053 30.7836C33.1972 30.7836 33.1972 30.7919 33.2053 30.7836C32.8894 31.1317 32.5653 31.4467 32.217 31.7948C31.6905 32.3087 31.1558 32.8474 30.6536 33.4525C29.8354 34.3477 28.8715 34.7704 27.6078 34.7704C27.4863 34.7704 27.3567 34.7704 27.2351 34.7621C24.8293 34.6046 22.5935 33.6431 20.9167 32.8226C16.3317 30.5515 12.3057 27.3273 8.96019 23.241C6.19789 19.8345 4.35095 16.6848 3.12776 13.3031C2.37441 11.2392 2.09899 9.63127 2.22049 8.11447C2.3015 7.14471 2.66603 6.34073 3.33838 5.65278L6.10068 2.82639C6.49761 2.44512 6.91884 2.2379 7.33197 2.2379C7.84231 2.2379 8.25544 2.55287 8.51466 2.8181C8.52276 2.82639 8.53086 2.83468 8.53896 2.84297C9.0331 3.31541 9.50293 3.80444 9.99707 4.32661C10.2482 4.59185 10.5074 4.85708 10.7666 5.1306L12.9781 7.39337C13.8368 8.27195 13.8368 9.08423 12.9781 9.96281C12.7432 10.2032 12.5164 10.4435 12.2814 10.6756C11.601 11.3884 10.9529 12.0515 10.2482 12.698C10.232 12.7146 10.2158 12.7229 10.2077 12.7395C9.51104 13.4523 9.64065 14.1485 9.78646 14.621C9.79456 14.6458 9.80266 14.6707 9.81076 14.6956C10.3859 16.1212 11.196 17.4639 12.4273 19.0636L12.4354 19.0719C14.6711 21.89 17.0284 24.0865 19.6287 25.769C19.9608 25.9845 20.301 26.1586 20.6251 26.3244C20.9167 26.4736 21.1921 26.6145 21.427 26.7637C21.4594 26.7802 21.4918 26.8051 21.5242 26.8217C21.7996 26.9626 22.0589 27.0289 22.3262 27.0289C22.9985 27.0289 23.4198 26.5979 23.5575 26.457L26.3279 23.6223C26.6033 23.3405 27.0407 23.0007 27.5511 23.0007C28.0533 23.0007 28.4664 23.3239 28.7176 23.6057C28.7257 23.614 28.7257 23.614 28.7338 23.6223L33.1972 28.1893C34.0316 29.0347 34.0316 29.905 33.2053 30.7836Z",
+                          fill: "#4173F2"
+                        }
+                      })
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _vm._m(11)
+              ])
+            ])
+          ])
+        ])
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { staticClass: "breadcrumbs-custom" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("ul", { staticClass: "breadcrumbs-custom-path" }, [
+          _c("li", [_c("a", { attrs: { href: "home" } }, [_vm._v("Home")])]),
+          _vm._v(" "),
+          _c("li", [
+            _c("a", { attrs: { href: "services" } }, [_vm._v("Services")])
+          ]),
+          _vm._v(" "),
+          _c("li", { staticClass: "active" }, [
+            _vm._v("Web Design & Development")
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-lg-8" }, [
+      _c("img", {
+        attrs: {
+          src: "/images/blur.jpg",
+          alt: "img",
+          width: "770",
+          height: "500"
+        }
+      }),
+      _vm._v(" "),
+      _c(
+        "h2",
+        {
+          staticClass: "font-weight-sbold wow fadeIn offset-top-40",
+          staticStyle: {
+            visibility: "visible",
+            "animation-delay": "0.2s",
+            "animation-name": "fadeIn"
+          },
+          attrs: { "data-wow-delay": ".2s" }
+        },
+        [_vm._v("Mobile App Development")]
+      ),
+      _vm._v(" "),
+      _c("h4", { staticClass: "font-weight-light text-gray-650 lh-3" }, [
+        _vm._v(
+          " An ius meliore dignissim, ius dicit praesent constituto ad, id dicam singulis complect itur nam. Et mel doming everti. No brute fuisset eos, definiebas — concludaturque in est, congue torquatos deseruisse ex per. In solum essent sapientem vim, vix ferri tantas euismod cu, adhuc ceteros consulatu."
+        )
+      ]),
+      _vm._v(" "),
+      _c("h4", { staticClass: "font-weight-light text-gray-650 lh-3" }, [
+        _vm._v(
+          " Ius probo intellegebat id. Vix euismod appetere mandamus no, ne decore utamur bonorum est. Qui at stet "
+        ),
+        _c("span", { staticClass: "font-weight-medium" }, [_vm._v("60%")]),
+        _vm._v(
+          " epicuri suscipit. Brute euripidis cotidieque vis id, assum – noster instructior nec ad. Cu melius corpora consulatu eum. Mea no integre salutandi. Mea ne augue appetere nominati — accumsan."
+        )
+      ]),
+      _vm._v(" "),
+      _c(
+        "ul",
+        {
+          staticClass:
+            "list-custom-3 heading-4 font-weight-light text-gray-650 lh-3"
+        },
+        [
+          _c("li", [_vm._v("› Brute fuisset eos definiebas")]),
+          _vm._v(" "),
+          _c("li", [_vm._v("› Euismod appetere")]),
+          _vm._v(" "),
+          _c("li", [_vm._v("› Melius corpora consulatu")]),
+          _vm._v(" "),
+          _c("li", [_vm._v("› Torquatos deseruisse")])
+        ]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
+      _c("div", { staticClass: "box-lola" }, [
+        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
+          _vm._v(" Software Development")
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
+      _c("div", { staticClass: "box-lola" }, [
+        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
+          _vm._v("Web Design & Development")
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
+      _c("div", { staticClass: "box-lola" }, [
+        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
+          _vm._v(" Mobile App Development")
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
+      _c("div", { staticClass: "box-lola" }, [
+        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
+          _vm._v(" Web Portals")
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
+      _c("div", { staticClass: "box-lola" }, [
+        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
+          _vm._v(" Internet of Things")
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
+      _c("div", { staticClass: "box-lola" }, [
+        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
+          _vm._v(" Web Apps Development")
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
+      _c("div", { staticClass: "box-lola" }, [
+        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
+          _vm._v(" Artificial Inteligence")
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
+      _c("div", { staticClass: "box-lola" }, [
+        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
+          _vm._v(" Big Data")
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
+      _c("div", { staticClass: "box-lola" }, [
+        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
+          _vm._v(" Search Engine Optimization")
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "box-tina-block-text" }, [
+      _c("h6", { staticClass: "font-weight-light text-gray-680" }, [
+        _vm._v("Phone")
+      ]),
+      _vm._v(" "),
+      _c("h4", [
+        _c("a", { attrs: { href: "tel:#" } }, [_vm._v("+254748621900")])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/portfolio.vue?vue&type=template&id=55e6c8e6&":
 /*!************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/portfolio.vue?vue&type=template&id=55e6c8e6& ***!
@@ -48256,7 +48626,7 @@ var render = function() {
                       _c(
                         "router-link",
                         { attrs: { to: "Mobile-App-Development" } },
-                        [_vm._v("Mobile Web Development")]
+                        [_vm._v("Mobile Application Development")]
                       )
                     ],
                     1
@@ -49129,17 +49499,19 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("h4", { staticClass: "font-weight-light text-gray-650 lh-3" }, [
         _vm._v(
-          " An ius meliore dignissim, ius dicit praesent constituto ad, id dicam singulis complect itur nam. Et mel doming everti. No brute fuisset eos, definiebas — concludaturque in est, congue torquatos deseruisse ex per. In solum essent sapientem vim, vix ferri tantas euismod cu, adhuc ceteros consulatu."
+          " Over the years in designing and developing software products, we’ve helped businesses upgrade to the next level. We have successfully built, and enhanced applications to innovatively solve business challenges. These solutions were often accompanied by the industry’s new tools, practices, and emerging technologies. At Transonline Web we help our clients exceed the expectations of executives and investors, ensuring the best outcome for current and future developments."
         )
       ]),
       _vm._v(" "),
       _c("h4", { staticClass: "font-weight-light text-gray-650 lh-3" }, [
         _vm._v(
-          " Ius probo intellegebat id. Vix euismod appetere mandamus no, ne decore utamur bonorum est. Qui at stet "
-        ),
-        _c("span", { staticClass: "font-weight-medium" }, [_vm._v("60%")]),
+          " Transonline Web prides itself as one of the best software development company in Kenya and Africa at large. Your business needs a reliable enterprise software solution and you can leverage on  expertise in enterprise software development, API integration and  legacy systems to support your operations."
+        )
+      ]),
+      _vm._v(" "),
+      _c("h4", { staticClass: "font-weight-light text-gray-650 lh-3" }, [
         _vm._v(
-          " epicuri suscipit. Brute euripidis cotidieque vis id, assum – noster instructior nec ad. Cu melius corpora consulatu eum. Mea no integre salutandi. Mea ne augue appetere nominati — accumsan."
+          "Our software developers have the knowledge, niche skills, and experience to build you a solid software solution."
         )
       ]),
       _vm._v(" "),
@@ -49150,13 +49522,11 @@ var staticRenderFns = [
             "list-custom-3 heading-4 font-weight-light text-gray-650 lh-3"
         },
         [
-          _c("li", [_vm._v("› Brute fuisset eos definiebas")]),
+          _c("li", [_vm._v("› Software consulting")]),
           _vm._v(" "),
-          _c("li", [_vm._v("› Euismod appetere")]),
+          _c("li", [_vm._v("› Custom software development")]),
           _vm._v(" "),
-          _c("li", [_vm._v("› Melius corpora consulatu")]),
-          _vm._v(" "),
-          _c("li", [_vm._v("› Torquatos deseruisse")])
+          _c("li", [_vm._v("› Software development outsourcing")])
         ]
       )
     ])
@@ -65044,12 +65414,14 @@ module.exports = "/images/owl-carousel-image-1-270x320.jpg?15e8473e81901fc4cd4f8
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var vue_backtotop__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-backtotop */ "./node_modules/vue-backtotop/src/main.js");
-/* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-router */ "./node_modules/vue-router/dist/vue-router.esm.js");
-/* harmony import */ var vform__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! vform */ "./node_modules/vform/dist/vform.common.js");
-/* harmony import */ var vform__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(vform__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var vue_backtotop__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-backtotop */ "./node_modules/vue-backtotop/src/main.js");
+/* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! vue-router */ "./node_modules/vue-router/dist/vue-router.esm.js");
+/* harmony import */ var vform__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! vform */ "./node_modules/vform/dist/vform.common.js");
+/* harmony import */ var vform__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(vform__WEBPACK_IMPORTED_MODULE_4__);
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
@@ -65057,72 +65429,252 @@ __webpack_require__.r(__webpack_exports__);
  */
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
-window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js"); //sweetalert
+window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
+ //sweetalert
 
 
-window.Swal = sweetalert2__WEBPACK_IMPORTED_MODULE_0___default.a;
-var toast = sweetalert2__WEBPACK_IMPORTED_MODULE_0___default.a.mixin({
+window.Swal = sweetalert2__WEBPACK_IMPORTED_MODULE_1___default.a;
+var toast = sweetalert2__WEBPACK_IMPORTED_MODULE_1___default.a.mixin({
   toast: true,
   position: 'top-end',
   showConfirmButton: false,
   timer: 3000
 });
 window.toast = toast;
-window.Fire = new Vue();
+window.Fire = new vue__WEBPACK_IMPORTED_MODULE_0___default.a();
 
-Vue.use(vue_backtotop__WEBPACK_IMPORTED_MODULE_1__["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_backtotop__WEBPACK_IMPORTED_MODULE_2__["default"]);
 
-Vue.use(vue_router__WEBPACK_IMPORTED_MODULE_2__["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODULE_3__["default"]);
 
-window.Form = vform__WEBPACK_IMPORTED_MODULE_3__["Form"];
-Vue.component(vform__WEBPACK_IMPORTED_MODULE_3__["HasError"].name, vform__WEBPACK_IMPORTED_MODULE_3__["HasError"]);
-Vue.component(vform__WEBPACK_IMPORTED_MODULE_3__["AlertError"].name, vform__WEBPACK_IMPORTED_MODULE_3__["AlertError"]);
-var routes = [{
-  path: '/',
-  component: __webpack_require__(/*! ./components/home.vue */ "./resources/js/components/home.vue")["default"]
-}, {
-  path: '/about',
-  component: __webpack_require__(/*! ./components/about.vue */ "./resources/js/components/about.vue")["default"]
-}, {
-  path: '/company',
-  component: __webpack_require__(/*! ./components/company.vue */ "./resources/js/components/company.vue")["default"]
-}, {
-  path: '/careers',
-  component: __webpack_require__(/*! ./components/careers.vue */ "./resources/js/components/careers.vue")["default"]
-}, {
-  path: '/team',
-  component: __webpack_require__(/*! ./components/team.vue */ "./resources/js/components/team.vue")["default"]
-}, {
-  path: '/services',
-  component: __webpack_require__(/*! ./components/services.vue */ "./resources/js/components/services.vue")["default"]
-}, {
-  path: '/software',
-  component: __webpack_require__(/*! ./components/software.vue */ "./resources/js/components/software.vue")["default"]
-}, {
-  path: '/Web-Design',
-  component: __webpack_require__(/*! ./components/WebDesign.vue */ "./resources/js/components/WebDesign.vue")["default"]
-}, {
-  path: '/contact',
-  component: __webpack_require__(/*! ./components/contact.vue */ "./resources/js/components/contact.vue")["default"]
-}, {
-  path: '/portfolio',
-  component: __webpack_require__(/*! ./components/portfolio.vue */ "./resources/js/components/portfolio.vue")["default"]
-}, {
-  path: '/referral',
-  component: __webpack_require__(/*! ./components/referral.vue */ "./resources/js/components/referral.vue")["default"]
-}, {
-  path: '/blog',
-  component: __webpack_require__(/*! ./components/blog.vue */ "./resources/js/components/blog.vue")["default"]
-}];
-var router = new vue_router__WEBPACK_IMPORTED_MODULE_2__["default"]({
-  //mode: 'history',
-  history: true,
-  base: '/',
-  routes: routes,
-  scrollBehavior: function scrollBehavior() {
-    document.getElementById('app').scrollIntoView();
-  }
+window.Form = vform__WEBPACK_IMPORTED_MODULE_4__["Form"];
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component(vform__WEBPACK_IMPORTED_MODULE_4__["HasError"].name, vform__WEBPACK_IMPORTED_MODULE_4__["HasError"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component(vform__WEBPACK_IMPORTED_MODULE_4__["AlertError"].name, vform__WEBPACK_IMPORTED_MODULE_4__["AlertError"]); // let routes = [
+//     { path: '/', component: require('./components/home.vue').default },
+//     { path: '/about', component: require('./components/about.vue').default },
+//     { path: '/company', component: require('./components/company.vue').default },
+//     { path: '/careers', component: require('./components/careers.vue').default },
+//     { path: '/team', component: require('./components/team.vue').default },
+//     { path: '/services', component: require('./components/services.vue').default },
+//     { path: '/software', component: require('./components/software.vue').default },
+//     { path: '/Web-Design', component: require('./components/WebDesign.vue').default },
+//     { path: '/Mobile-App-Development', component: require('./components/mobileApp.vue').default },
+//     { path: '/contact', component: require('./components/contact.vue').default },
+//     { path: '/portfolio', component: require('./components/portfolio.vue').default },
+//     { path: '/referral', component: require('./components/referral.vue').default },
+//     { path: '/blog', component: require('./components/blog.vue').default }
+// ]
+
+var router = new vue_router__WEBPACK_IMPORTED_MODULE_3__["default"]({
+  routes: [{
+    path: '/',
+    component: __webpack_require__(/*! ./components/home.vue */ "./resources/js/components/home.vue")["default"],
+    meta: {
+      title: 'Home Page | Transonline Web',
+      metaTags: [{
+        name: 'description',
+        content: 'The home page.'
+      }, {
+        property: 'og:description',
+        content: 'The home page.'
+      }]
+    }
+  }, {
+    path: '/about',
+    component: __webpack_require__(/*! ./components/about.vue */ "./resources/js/components/about.vue")["default"],
+    meta: {
+      title: 'About Us | Transonline Web',
+      metaTags: [{
+        name: 'description',
+        content: 'About page.'
+      }, {
+        property: 'og:description',
+        content: 'About page.'
+      }]
+    }
+  }, {
+    path: '/services',
+    component: __webpack_require__(/*! ./components/services.vue */ "./resources/js/components/services.vue")["default"],
+    meta: {
+      title: 'Our Services | Transonline Web',
+      metaTags: [{
+        name: 'description',
+        content: 'Services page.'
+      }, {
+        property: 'og:description',
+        content: 'Services page.'
+      }]
+    }
+  }, {
+    path: '/company',
+    component: __webpack_require__(/*! ./components/company.vue */ "./resources/js/components/company.vue")["default"],
+    meta: {
+      title: 'Company | Transonline Web',
+      metaTags: [{
+        name: 'description',
+        content: 'About Company page.'
+      }, {
+        property: 'og:description',
+        content: 'About Company page.'
+      }]
+    }
+  }, {
+    path: '/careers',
+    component: __webpack_require__(/*! ./components/careers.vue */ "./resources/js/components/careers.vue")["default"],
+    meta: {
+      title: 'Careers | Transonline Web',
+      metaTags: [{
+        name: 'description',
+        content: 'Careers page.'
+      }, {
+        property: 'og:description',
+        content: 'Careers page.'
+      }]
+    }
+  }, {
+    path: '/team',
+    component: __webpack_require__(/*! ./components/team.vue */ "./resources/js/components/team.vue")["default"],
+    meta: {
+      title: 'Our Team | Transonline Web',
+      metaTags: [{
+        name: 'description',
+        content: 'Our Team page.'
+      }, {
+        property: 'og:description',
+        content: 'AOur Team page.'
+      }]
+    }
+  }, {
+    path: '/software',
+    component: __webpack_require__(/*! ./components/software.vue */ "./resources/js/components/software.vue")["default"],
+    meta: {
+      title: 'Software Development | Transonline Web',
+      metaTags: [{
+        name: 'description',
+        content: 'Software development page.'
+      }, {
+        property: 'og:description',
+        content: 'Software development page.'
+      }]
+    }
+  }, {
+    path: '/portfolio',
+    component: __webpack_require__(/*! ./components/portfolio.vue */ "./resources/js/components/portfolio.vue")["default"],
+    meta: {
+      title: 'Our Portfolio | Transonline Web',
+      metaTags: [{
+        name: 'description',
+        content: 'Our portfolio page.'
+      }, {
+        property: 'og:description',
+        content: 'Our portfolio page.'
+      }]
+    }
+  }, {
+    path: '/contact',
+    component: __webpack_require__(/*! ./components/contact.vue */ "./resources/js/components/contact.vue")["default"],
+    meta: {
+      title: 'Contact Us | Transonline Web',
+      metaTags: [{
+        name: 'description',
+        content: 'Contact us page.'
+      }, {
+        property: 'og:description',
+        content: 'Contact us page.'
+      }]
+    }
+  }, {
+    path: '/referral',
+    component: __webpack_require__(/*! ./components/referral.vue */ "./resources/js/components/referral.vue")["default"],
+    meta: {
+      title: 'Referral | Transonline Web',
+      metaTags: [{
+        name: 'description',
+        content: 'Referral page.'
+      }, {
+        property: 'og:description',
+        content: 'Referral page.'
+      }]
+    }
+  }, {
+    path: '/blog',
+    component: __webpack_require__(/*! ./components/blog.vue */ "./resources/js/components/blog.vue")["default"],
+    meta: {
+      title: 'Blog | Transonline Web',
+      metaTags: [{
+        name: 'description',
+        content: 'News page.'
+      }, {
+        property: 'og:description',
+        content: 'News page.'
+      }]
+    }
+  }, {
+    path: '/Web-Design',
+    component: __webpack_require__(/*! ./components/WebDesign.vue */ "./resources/js/components/WebDesign.vue")["default"],
+    meta: {
+      title: 'Website Design and Development | Transonline Web',
+      metaTags: [{
+        name: 'description',
+        content: 'Website design.'
+      }, {
+        property: 'og:description',
+        content: 'Website design.'
+      }]
+    }
+  }, {
+    path: '/Mobile-App-Development',
+    component: __webpack_require__(/*! ./components/mobileApp.vue */ "./resources/js/components/mobileApp.vue")["default"],
+    meta: {
+      title: 'Mobile Application Development | Transonline Web',
+      metaTags: [{
+        name: 'description',
+        content: 'Mobile Application Development'
+      }, {
+        property: 'og:description',
+        content: 'Mobile Application Development.'
+      }]
+    }
+  }]
 });
+router.beforeEach(function (to, from, next) {
+  document.title = to.meta.title;
+  var nearestWithTitle = to.matched.slice().reverse().find(function (r) {
+    return r.meta && r.meta.title;
+  });
+  var nearestWithMeta = to.matched.slice().reverse().find(function (r) {
+    return r.meta && r.meta.metaTags;
+  });
+  var previousNearestWithMeta = from.matched.slice().reverse().find(function (r) {
+    return r.meta && r.meta.metaTags;
+  });
+  if (nearestWithTitle) document.title = nearestWithTitle.meta.title;
+  Array.from(document.querySelectorAll('[data-vue-router-controlled]')).map(function (el) {
+    return el.parentNode.removeChild(el);
+  });
+  if (!nearestWithMeta) return next();
+  nearestWithMeta.meta.metaTags.map(function (tagDef) {
+    var tag = document.createElement('meta');
+    Object.keys(tagDef).forEach(function (key) {
+      tag.setAttribute(key, tagDef[key]);
+    });
+    tag.setAttribute('data-vue-router-controlled', '');
+    console.log(tag);
+    return tag;
+  }).forEach(function (tag) {
+    return document.head.appendChild(tag);
+  });
+  next();
+}); // const router = new VueRouter({
+//     //mode: 'history',
+//     history: true,
+//     base: '/',
+//     routes,
+//     scrollBehavior() {
+//         document.getElementById('app').scrollIntoView();
+//     }
+// });
+
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
@@ -65133,17 +65685,21 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_2__["default"]({
 // const files = require.context('./', true, /\.vue$/i);
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
 
-Vue.component('example-component', __webpack_require__(/*! ./components/ExampleComponent.vue */ "./resources/js/components/ExampleComponent.vue")["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('example-component', __webpack_require__(/*! ./components/ExampleComponent.vue */ "./resources/js/components/ExampleComponent.vue")["default"]);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
+// const app = new Vue({
+//     el: '#app',
+//     router
+// });
 
-var app = new Vue({
-  el: '#app',
-  router: router
-});
+new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
+  router: router,
+  template: ''
+}).$mount('#app');
 
 /***/ }),
 
@@ -65770,6 +66326,75 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_home_vue_vue_type_template_id_fa6affac_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_home_vue_vue_type_template_id_fa6affac_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/mobileApp.vue":
+/*!***********************************************!*\
+  !*** ./resources/js/components/mobileApp.vue ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _mobileApp_vue_vue_type_template_id_5f992e38___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./mobileApp.vue?vue&type=template&id=5f992e38& */ "./resources/js/components/mobileApp.vue?vue&type=template&id=5f992e38&");
+/* harmony import */ var _mobileApp_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./mobileApp.vue?vue&type=script&lang=js& */ "./resources/js/components/mobileApp.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _mobileApp_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _mobileApp_vue_vue_type_template_id_5f992e38___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _mobileApp_vue_vue_type_template_id_5f992e38___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/mobileApp.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/mobileApp.vue?vue&type=script&lang=js&":
+/*!************************************************************************!*\
+  !*** ./resources/js/components/mobileApp.vue?vue&type=script&lang=js& ***!
+  \************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_mobileApp_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./mobileApp.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/mobileApp.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_mobileApp_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/mobileApp.vue?vue&type=template&id=5f992e38&":
+/*!******************************************************************************!*\
+  !*** ./resources/js/components/mobileApp.vue?vue&type=template&id=5f992e38& ***!
+  \******************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_mobileApp_vue_vue_type_template_id_5f992e38___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./mobileApp.vue?vue&type=template&id=5f992e38& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/mobileApp.vue?vue&type=template&id=5f992e38&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_mobileApp_vue_vue_type_template_id_5f992e38___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_mobileApp_vue_vue_type_template_id_5f992e38___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

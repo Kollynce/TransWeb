@@ -14,7 +14,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-7 offset-top-100 text-center text-lg-left">
-                    <h2 class="font-weight-sbold wow fadeIn" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">We stand for fair play and unique<br class="d-none d-lg-block"> ideas!</h2>
+                    <h2 class="font-weight-sbold wow fadeIn" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">We provide affordable but quality software solutions in various <br class="d-none d-lg-block"> business sectors!</h2>
                     <h6 class="font-weight-light offset-top-15 wow fadeIn" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">During our work we developed our approach to providing <span class="font-weight-bold text-primary">products and services</span>,<br class="d-none d-lg-block"> and the strategy of working with our clients.</h6>
                     <div class="group-btn text-center text-lg-left wow fadeIn" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;"><a class="button button-primary button-lg" href="#">get in touch</a><a class="button button-icon button-icon-right button-lg" href="#"><span>Request a call</span><span class="round">
                     <svg width="12" height="12" viewBox="0 0 12 12" fill="">
