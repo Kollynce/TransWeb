@@ -5,7 +5,7 @@
                 <ul class="breadcrumbs-custom-path">
                     <li><a href="home">Home</a></li>
                     <li><a href="services">Services</a></li>
-                    <li class="active">Mobile Application Development</li>
+                    <li class="active">Web App Development</li>
                 </ul>
             </div>
         </section>
@@ -13,17 +13,11 @@
             <div class="container">
                 <div class="row row-50">
                     <div class="col-lg-8"><img src="/images/blur.jpg" alt="img" width="770" height="500">
-                        <h2 class="font-weight-sbold wow fadeIn offset-top-40" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">Mobile App Development</h2>
-                        <h4 class="font-weight-light text-gray-650 lh-3"> A mobile application, commonly referred as mobile app is basically a software application that has been specifically developed to run on mobile devices, such as smart phones and tablets.
-                        Transonline Web has extensive skills, knowledge and expertise in creating the best feature rich, performance driven and digitally trans-formative mobile applications.</h4>
-                        <h4 class="font-weight-light text-gray-650 lh-3"> We consult, deliver & support mobile solutions that meet and exceed our clients expectations in Kenya and abroad. We consider customer satisfaction as our top priority and delivering the best solutions at most effective manner the primary lookout.</h4>
-                        <h4 class="font-weight-light text-gray-650 lh-3">Our goal is to develop mobile app for clients that will reach larger section of customers, function efficiently and finally lower the business running cost. </h4>
-                        <h4>Choose us for the very best mobile application services that assures cost-effectiveness, on time delivery, innovation and smooth implementation.</h4>
-                        <ul class="list-custom-3 heading-4 font-weight-light text-gray-650 lh-3">
-                            <li>› Android Platform</li>
-                            <li>› iOS Platform</li>
-                            <li>› Windows Platform</li>
-                        </ul>
+                        <h2 class="font-weight-sbold wow fadeIn offset-top-40" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">Web Application Development</h2>
+                        <h4 class="font-weight-light text-gray-650 lh-3"> Web Applications are dynamic web sites combined with server side programming which provide functionalities such as interacting with users, connecting to back-end databases, and generating results to browsers. </h4>
+                        <h4 class="font-weight-light text-gray-650 lh-3"> Our programmers are very aware of how important the web applications’ performance is for your business’ success. Sites are often built to accommodate all of the major search engines allowing an efficient and effective crawling of web pages that are optimized for specific search keywords.</h4>
+                        <h4 class="font-weight-light text-gray-650 lh-3"> Our high technology expertise and business process competency allow us to deliver a variety of solutions – from E-Commerce, Content Management Systems (CMS), Social Networking Applications, Software as a Services (SaaS) applications, Web-based Database Applications, Enterprise Portal Development, E-Learning Systems, and Customer Relationship Management (CRM).</h4>
+                        <h4>We develop web applications are not only well-designed, but also business ready</h4>
                         
                     </div>
                     <div class="col-lg-4"><a class="box-lola-wrapper" href="#">
@@ -31,10 +25,10 @@
                             <div class="small-text font-weight-sbold ls-1 lh-4"> Software Development</div>
                         </div></a><a class="box-lola-wrapper" href="#">
                         <div class="box-lola">
-                            <div class="small-text font-weight-sbold ls-1 lh-4">Web Design & Development</div>
+                            <div class="small-text font-weight-sbold ls-1 lh-4"> Web Design & Development</div>
                         </div></a><a class="box-lola-wrapper" href="#">
                         <div class="box-lola">
-                            <div class="small-text font-weight-sbold ls-1 lh-4"> Mobile App Development</div>
+                            <div class="small-text font-weight-sbold ls-1 lh-4">Mobile App Development</div>
                         </div></a><a class="box-lola-wrapper" href="#">
                         <div class="box-lola">
                             <div class="small-text font-weight-sbold ls-1 lh-4"> Web Portals</div>

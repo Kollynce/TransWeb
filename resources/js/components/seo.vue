@@ -5,7 +5,7 @@
                 <ul class="breadcrumbs-custom-path">
                     <li><a href="home">Home</a></li>
                     <li><a href="services">Services</a></li>
-                    <li class="active">Mobile Application Development</li>
+                    <li class="active">Search Engine Optimization</li>
                 </ul>
             </div>
         </section>
@@ -13,16 +13,17 @@
             <div class="container">
                 <div class="row row-50">
                     <div class="col-lg-8"><img src="/images/blur.jpg" alt="img" width="770" height="500">
-                        <h2 class="font-weight-sbold wow fadeIn offset-top-40" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">Mobile App Development</h2>
-                        <h4 class="font-weight-light text-gray-650 lh-3"> A mobile application, commonly referred as mobile app is basically a software application that has been specifically developed to run on mobile devices, such as smart phones and tablets.
-                        Transonline Web has extensive skills, knowledge and expertise in creating the best feature rich, performance driven and digitally trans-formative mobile applications.</h4>
-                        <h4 class="font-weight-light text-gray-650 lh-3"> We consult, deliver & support mobile solutions that meet and exceed our clients expectations in Kenya and abroad. We consider customer satisfaction as our top priority and delivering the best solutions at most effective manner the primary lookout.</h4>
-                        <h4 class="font-weight-light text-gray-650 lh-3">Our goal is to develop mobile app for clients that will reach larger section of customers, function efficiently and finally lower the business running cost. </h4>
-                        <h4>Choose us for the very best mobile application services that assures cost-effectiveness, on time delivery, innovation and smooth implementation.</h4>
+                        <h2 class="font-weight-sbold wow fadeIn offset-top-40" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">Search Engine Optimization</h2>
+                        <h4 class="font-weight-light text-gray-650 lh-3">Search engine optimization is an essential part of website & web development and web marketing. An SEO friendly website will automatically rank higher in search results obtained from popular search engines such as Google, Yahoo and Bing. This, in turn, will have a great influence on the traffic of that website. It is vital to make your website SEO friendly in order to enhance your internet visibility, brand image and traffic.</h4>
+                        <h4 class="font-weight-light text-gray-650 lh-3"> At Transonline Web we can develop high-ranking websites from scratch and can also turn an already existing website into an SEO friendly website.
+                        Search Engine Optimization (SEO) is a dynamic field and our team of experts has designed a strategic process to give your business a powerful push and improve your rankings.</h4>
+                        <h4>We make your SEO friendly by doing:-</h4>
                         <ul class="list-custom-3 heading-4 font-weight-light text-gray-650 lh-3">
-                            <li>› Android Platform</li>
-                            <li>› iOS Platform</li>
-                            <li>› Windows Platform</li>
+                            <li>› Initial Analysis</li>
+                            <li>› Strategy</li>
+                            <li>› On-Page Optimization</li>
+                            <li>› Off-Page Optimization</li>
+                            <li>› Reporting</li>
                         </ul>
                         
                     </div>
@@ -31,10 +32,10 @@
                             <div class="small-text font-weight-sbold ls-1 lh-4"> Software Development</div>
                         </div></a><a class="box-lola-wrapper" href="#">
                         <div class="box-lola">
-                            <div class="small-text font-weight-sbold ls-1 lh-4">Web Design & Development</div>
+                            <div class="small-text font-weight-sbold ls-1 lh-4"> Web Design & Development</div>
                         </div></a><a class="box-lola-wrapper" href="#">
                         <div class="box-lola">
-                            <div class="small-text font-weight-sbold ls-1 lh-4"> Mobile App Development</div>
+                            <div class="small-text font-weight-sbold ls-1 lh-4">Mobile App Development</div>
                         </div></a><a class="box-lola-wrapper" href="#">
                         <div class="box-lola">
                             <div class="small-text font-weight-sbold ls-1 lh-4"> Web Portals</div>

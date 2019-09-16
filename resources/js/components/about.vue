@@ -37,7 +37,7 @@
                             <!--Bootstrap card-->
                             <article class="card card-custom card-corporate card-corporate-2">
                                 <div class="card-header" role="tab">
-                                    <div class="card-title"><a class="collapsed" id="accordion1-card-head-noywdvpk" data-toggle="collapse" data-parent="#accordion1" href="#accordion1-card-body-nmtfrlvb" aria-controls="accordion1-card-body-nmtfrlvb" aria-expanded="false" role="button">Our mission
+                                    <div class="card-title"><a class="collapsed" id="accordion1-card-head-noywdvpk" data-toggle="collapse" data-parent="#accordion1" href="#accordion1-card-body-nmtfrlvb" aria-controls="accordion1-card-body-nmtfrlvb" aria-expanded="false" role="button">Our Mission
                                         <div class="card-arrow"></div></a></div>
                                 </div>
                                 <div class="collapse" id="accordion1-card-body-nmtfrlvb" aria-labelledby="accordion1-card-head-noywdvpk" data-parent="#accordion1" role="tabpanel">
@@ -49,7 +49,7 @@
                             <!--Bootstrap card-->
                             <article class="card card-custom card-corporate card-corporate-2">
                                 <div class="card-header" role="tab">
-                                    <div class="card-title"><a id="accordion1-card-head-kxnqwbvf" data-toggle="collapse" data-parent="#accordion1" href="#accordion1-card-body-yvlfufio" aria-controls="accordion1-card-body-yvlfufio" aria-expanded="true" role="button">Our objectives
+                                    <div class="card-title"><a id="accordion1-card-head-kxnqwbvf" data-toggle="collapse" data-parent="#accordion1" href="#accordion1-card-body-yvlfufio" aria-controls="accordion1-card-body-yvlfufio" aria-expanded="true" role="button">Our Objectives
                                         <div class="card-arrow"></div></a></div>
                                 </div>
                                 <div class="collapse show" id="accordion1-card-body-yvlfufio" aria-labelledby="accordion1-card-head-kxnqwbvf" data-parent="#accordion1" role="tabpanel">
@@ -61,12 +61,12 @@
                             <!--Bootstrap card-->
                             <article class="card card-custom card-corporate card-corporate-2">
                                 <div class="card-header" role="tab">
-                                    <div class="card-title"><a class="collapsed" id="accordion1-card-head-erdsrrog" data-toggle="collapse" data-parent="#accordion1" href="#accordion1-card-body-tkebygqn" aria-controls="accordion1-card-body-tkebygqn" aria-expanded="false" role="button">Our people
+                                    <div class="card-title"><a class="collapsed" id="accordion1-card-head-erdsrrog" data-toggle="collapse" data-parent="#accordion1" href="#accordion1-card-body-tkebygqn" aria-controls="accordion1-card-body-tkebygqn" aria-expanded="false" role="button">Our Vision
                                         <div class="card-arrow"></div></a></div>
                                 </div>
                                 <div class="collapse" id="accordion1-card-body-tkebygqn" aria-labelledby="accordion1-card-head-erdsrrog" data-parent="#accordion1" role="tabpanel">
                                     <div class="card-body">
-                                        <p class="font-weight-light text-gray-770">Ornare suspendisse sed nisi lacus sed viverra tellus in. Aliquam sem et tortor consequat id porta nibh venenatis cras. Orci ac auctor augue mauris augue neque gravida in.</p>
+                                        <p class="font-weight-light text-gray-770">To provide affordable but quality software solutions in various business sectors and to apply artificial intelligence, big data, robotics, and virtual reality in guaranteeing software transformation.</p>
                                     </div>
                                 </div>
                             </article>

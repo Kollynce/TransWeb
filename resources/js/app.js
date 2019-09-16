@@ -275,6 +275,108 @@ routes: [
       ]
     }
   },
+  {
+    path: '/Web-Portals',
+    component: require('./components/WebPortals.vue').default,
+    meta: {
+      title: 'Web Portals | Transonline Web',
+      metaTags: [
+        {
+          name: 'description',
+          content: 'Web Portals'
+        },
+        {
+          property: 'og:description',
+          content: 'Web Portals.'
+        }
+      ]
+    }
+  },
+  {
+    path: '/Internet-Of-Things',
+    component: require('./components/InternetOfThings.vue').default,
+    meta: {
+      title: 'Internet Of Things | Transonline Web',
+      metaTags: [
+        {
+          name: 'description',
+          content: 'Internet Of Things'
+        },
+        {
+          property: 'og:description',
+          content: 'Internet Of Things.'
+        }
+      ]
+    }
+  },
+  {
+    path: '/Web-App-Development',
+    component: require('./components/WebApp.vue').default,
+    meta: {
+      title: 'Web Application Development | Transonline Web',
+      metaTags: [
+        {
+          name: 'description',
+          content: 'Web Application Development'
+        },
+        {
+          property: 'og:description',
+          content: 'Web Application Development.'
+        }
+      ]
+    }
+  },
+  {
+    path: '/Artificial-Intelligence',
+    component: require('./components/ArtificialIntelligence.vue').default,
+    meta: {
+      title: 'Artificial Intelligence | Transonline Web',
+      metaTags: [
+        {
+          name: 'description',
+          content: 'Artificial Intelligence'
+        },
+        {
+          property: 'og:description',
+          content: 'Artificial Intelligence.'
+        }
+      ]
+    }
+  },
+  {
+    path: '/Big-Data',
+    component: require('./components/BigData.vue').default,
+    meta: {
+      title: 'Big Data | Transonline Web',
+      metaTags: [
+        {
+          name: 'description',
+          content: 'Big Data'
+        },
+        {
+          property: 'og:description',
+          content: 'Big Data.'
+        }
+      ]
+    }
+  },
+  {
+    path: '/Search-Engine-Optimization',
+    component: require('./components/seo.vue').default,
+    meta: {
+      title: 'Search Engine Optimization | Transonline Web',
+      metaTags: [
+        {
+          name: 'description',
+          content: 'Search Engine Optimization'
+        },
+        {
+          property: 'og:description',
+          content: 'Search Engine Optimization.'
+        }
+      ]
+    }
+  },
 ]
 })
 

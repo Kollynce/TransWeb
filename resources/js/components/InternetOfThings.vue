@@ -5,7 +5,7 @@
                 <ul class="breadcrumbs-custom-path">
                     <li><a href="home">Home</a></li>
                     <li><a href="services">Services</a></li>
-                    <li class="active">Mobile Application Development</li>
+                    <li class="active">Internet Of Things</li>
                 </ul>
             </div>
         </section>
@@ -13,17 +13,15 @@
             <div class="container">
                 <div class="row row-50">
                     <div class="col-lg-8"><img src="/images/blur.jpg" alt="img" width="770" height="500">
-                        <h2 class="font-weight-sbold wow fadeIn offset-top-40" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">Mobile App Development</h2>
-                        <h4 class="font-weight-light text-gray-650 lh-3"> A mobile application, commonly referred as mobile app is basically a software application that has been specifically developed to run on mobile devices, such as smart phones and tablets.
-                        Transonline Web has extensive skills, knowledge and expertise in creating the best feature rich, performance driven and digitally trans-formative mobile applications.</h4>
-                        <h4 class="font-weight-light text-gray-650 lh-3"> We consult, deliver & support mobile solutions that meet and exceed our clients expectations in Kenya and abroad. We consider customer satisfaction as our top priority and delivering the best solutions at most effective manner the primary lookout.</h4>
-                        <h4 class="font-weight-light text-gray-650 lh-3">Our goal is to develop mobile app for clients that will reach larger section of customers, function efficiently and finally lower the business running cost. </h4>
-                        <h4>Choose us for the very best mobile application services that assures cost-effectiveness, on time delivery, innovation and smooth implementation.</h4>
-                        <ul class="list-custom-3 heading-4 font-weight-light text-gray-650 lh-3">
-                            <li>› Android Platform</li>
-                            <li>› iOS Platform</li>
-                            <li>› Windows Platform</li>
-                        </ul>
+                        <h2 class="font-weight-sbold wow fadeIn offset-top-40" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">Internet Of Things</h2>
+                        <h4 class="font-weight-light text-gray-650 lh-3"> From smart buildings to smart cities, IoT is transforming industries at a rapid pace. Organizations seek to enter new markets, create disruptive business models, develop new products or drive differentiated customer experiences with IoT. IoT is making the world smarter and better than than ever.</h4>
+                        <h4 class="font-weight-light text-gray-650 lh-3"> Transonline Web Internet of Things service enables organizations to transform business needs into competitive space by delivering innovative IoT powered solutions. From integrating the right sensors and deriving inspired insights to choosing the best-fit platform, we provide comprehensive IoT services to our clients. </h4>
+                        <!-- <ul class="list-custom-3 heading-4 font-weight-light text-gray-650 lh-3">
+                            <li>› Brute fuisset eos definiebas</li>
+                            <li>› Euismod appetere</li>
+                            <li>› Melius corpora consulatu</li>
+                            <li>› Torquatos deseruisse</li>
+                        </ul> -->
                         
                     </div>
                     <div class="col-lg-4"><a class="box-lola-wrapper" href="#">
@@ -31,10 +29,10 @@
                             <div class="small-text font-weight-sbold ls-1 lh-4"> Software Development</div>
                         </div></a><a class="box-lola-wrapper" href="#">
                         <div class="box-lola">
-                            <div class="small-text font-weight-sbold ls-1 lh-4">Web Design & Development</div>
+                            <div class="small-text font-weight-sbold ls-1 lh-4"> Web Design & Development</div>
                         </div></a><a class="box-lola-wrapper" href="#">
                         <div class="box-lola">
-                            <div class="small-text font-weight-sbold ls-1 lh-4"> Mobile App Development</div>
+                            <div class="small-text font-weight-sbold ls-1 lh-4">Mobile App Development</div>
                         </div></a><a class="box-lola-wrapper" href="#">
                         <div class="box-lola">
                             <div class="small-text font-weight-sbold ls-1 lh-4"> Web Portals</div>

@@ -5,7 +5,7 @@
                 <ul class="breadcrumbs-custom-path">
                     <li><a href="home">Home</a></li>
                     <li><a href="services">Services</a></li>
-                    <li class="active">Mobile Application Development</li>
+                    <li class="active">Big Data</li>
                 </ul>
             </div>
         </section>
@@ -13,16 +13,14 @@
             <div class="container">
                 <div class="row row-50">
                     <div class="col-lg-8"><img src="/images/blur.jpg" alt="img" width="770" height="500">
-                        <h2 class="font-weight-sbold wow fadeIn offset-top-40" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">Mobile App Development</h2>
-                        <h4 class="font-weight-light text-gray-650 lh-3"> A mobile application, commonly referred as mobile app is basically a software application that has been specifically developed to run on mobile devices, such as smart phones and tablets.
-                        Transonline Web has extensive skills, knowledge and expertise in creating the best feature rich, performance driven and digitally trans-formative mobile applications.</h4>
-                        <h4 class="font-weight-light text-gray-650 lh-3"> We consult, deliver & support mobile solutions that meet and exceed our clients expectations in Kenya and abroad. We consider customer satisfaction as our top priority and delivering the best solutions at most effective manner the primary lookout.</h4>
-                        <h4 class="font-weight-light text-gray-650 lh-3">Our goal is to develop mobile app for clients that will reach larger section of customers, function efficiently and finally lower the business running cost. </h4>
-                        <h4>Choose us for the very best mobile application services that assures cost-effectiveness, on time delivery, innovation and smooth implementation.</h4>
+                        <h2 class="font-weight-sbold wow fadeIn offset-top-40" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">Big Data</h2>
+                        <h4 class="font-weight-light text-gray-650 lh-3"> An ius meliore dignissim, ius dicit praesent constituto ad, id dicam singulis complect itur nam. Et mel doming everti. No brute fuisset eos, definiebas — concludaturque in est, congue torquatos deseruisse ex per. In solum essent sapientem vim, vix ferri tantas euismod cu, adhuc ceteros consulatu.</h4>
+                        <h4 class="font-weight-light text-gray-650 lh-3"> Ius probo intellegebat id. Vix euismod appetere mandamus no, ne decore utamur bonorum est. Qui at stet <span class="font-weight-medium">60%</span> epicuri suscipit. Brute euripidis cotidieque vis id, assum – noster instructior nec ad. Cu melius corpora consulatu eum. Mea no integre salutandi. Mea ne augue appetere nominati — accumsan.</h4>
                         <ul class="list-custom-3 heading-4 font-weight-light text-gray-650 lh-3">
-                            <li>› Android Platform</li>
-                            <li>› iOS Platform</li>
-                            <li>› Windows Platform</li>
+                            <li>› Brute fuisset eos definiebas</li>
+                            <li>› Euismod appetere</li>
+                            <li>› Melius corpora consulatu</li>
+                            <li>› Torquatos deseruisse</li>
                         </ul>
                         
                     </div>
@@ -31,10 +29,10 @@
                             <div class="small-text font-weight-sbold ls-1 lh-4"> Software Development</div>
                         </div></a><a class="box-lola-wrapper" href="#">
                         <div class="box-lola">
-                            <div class="small-text font-weight-sbold ls-1 lh-4">Web Design & Development</div>
+                            <div class="small-text font-weight-sbold ls-1 lh-4"> Web Design & Development</div>
                         </div></a><a class="box-lola-wrapper" href="#">
                         <div class="box-lola">
-                            <div class="small-text font-weight-sbold ls-1 lh-4"> Mobile App Development</div>
+                            <div class="small-text font-weight-sbold ls-1 lh-4">Mobile App Development</div>
                         </div></a><a class="box-lola-wrapper" href="#">
                         <div class="box-lola">
                             <div class="small-text font-weight-sbold ls-1 lh-4"> Web Portals</div>
