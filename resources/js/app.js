@@ -53,6 +53,9 @@ Vue.component(AlertError.name, AlertError)
 
 
 const router = new VueRouter({
+  scrollBehavior() {
+        document.getElementById('app').scrollIntoView();
+    },
 routes: [
   {
     path: '/',
