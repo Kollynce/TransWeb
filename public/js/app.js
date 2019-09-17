@@ -53204,14 +53204,12 @@ var staticRenderFns = [
                   staticClass:
                     "font-weight-sbold ls-1 text-center offset-top-15"
                 },
-                [_vm._v("Joe Nelson")]
+                [_vm._v("Shem Nduati")]
               ),
               _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "small-text font-weight-light text-center" },
-                [_vm._v("Head of Support")]
-              )
+              _c("div", {
+                staticClass: "small-text font-weight-light text-center"
+              })
             ])
           ]),
           _vm._v(" "),
@@ -53274,14 +53272,12 @@ var staticRenderFns = [
                   staticClass:
                     "font-weight-sbold ls-1 text-center offset-top-15"
                 },
-                [_vm._v("Maria Price")]
+                [_vm._v("Derrick Ochieng")]
               ),
               _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "small-text font-weight-light text-center" },
-                [_vm._v("Business Consultant")]
-              )
+              _c("div", {
+                staticClass: "small-text font-weight-light text-center"
+              })
             ])
           ]),
           _vm._v(" "),
@@ -53344,14 +53340,12 @@ var staticRenderFns = [
                   staticClass:
                     "font-weight-sbold ls-1 text-center offset-top-15"
                 },
-                [_vm._v("Gerald Scott")]
+                [_vm._v("Collins Odeny")]
               ),
               _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "small-text font-weight-light text-center" },
-                [_vm._v("Strategist")]
-              )
+              _c("div", {
+                staticClass: "small-text font-weight-light text-center"
+              })
             ])
           ]),
           _vm._v(" "),
@@ -53414,14 +53408,12 @@ var staticRenderFns = [
                   staticClass:
                     "font-weight-sbold ls-1 text-center offset-top-15"
                 },
-                [_vm._v("Evelyn Brooks")]
+                [_vm._v("Jeremiah Adiwuor")]
               ),
               _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "small-text font-weight-light text-center" },
-                [_vm._v("Office Manager")]
-              )
+              _c("div", {
+                staticClass: "small-text font-weight-light text-center"
+              })
             ])
           ]),
           _vm._v(" "),
@@ -53484,14 +53476,12 @@ var staticRenderFns = [
                   staticClass:
                     "font-weight-sbold ls-1 text-center offset-top-15"
                 },
-                [_vm._v("John Peterson")]
+                [_vm._v("Samson Rutto")]
               ),
               _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "small-text font-weight-light text-center" },
-                [_vm._v("HR Manager")]
-              )
+              _c("div", {
+                staticClass: "small-text font-weight-light text-center"
+              })
             ])
           ])
         ])
