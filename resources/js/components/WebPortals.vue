@@ -14,52 +14,89 @@
                 <div class="row row-50">
                     <div class="col-lg-8"><img src="/images/blur.jpg" alt="img" width="770" height="500">
                         <h2 class="font-weight-sbold wow fadeIn offset-top-40" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">Web Portals</h2>
-                        <h4 class="font-weight-light text-gray-650 lh-3"> An ius meliore dignissim, ius dicit praesent constituto ad, id dicam singulis complect itur nam. Et mel doming everti. No brute fuisset eos, definiebas — concludaturque in est, congue torquatos deseruisse ex per. In solum essent sapientem vim, vix ferri tantas euismod cu, adhuc ceteros consulatu.</h4>
-                        <h4 class="font-weight-light text-gray-650 lh-3"> Ius probo intellegebat id. Vix euismod appetere mandamus no, ne decore utamur bonorum est. Qui at stet <span class="font-weight-medium">60%</span> epicuri suscipit. Brute euripidis cotidieque vis id, assum – noster instructior nec ad. Cu melius corpora consulatu eum. Mea no integre salutandi. Mea ne augue appetere nominati — accumsan.</h4>
+                        <h4 class="font-weight-light text-gray-650 lh-3"> A web portal is a specially designed webpage that brings information together from diverse sources in a uniform way.</h4>
+                        <h4 class="pl-3"> > B2B </h4>
+                        <h4 class="font-weight-light text-gray-650 lh-3"> B2B is a business activity based on internet which wraps the entire business dealings from business marketing to final deals.  </h4>
+                        <h4 class="pl-3"> > B2C</h4>
+                        <h4 class="font-weight-light text-gray-650 lh-3"> We design B2C portal for either selling consumer goods or providing services.</h4>
+                        <h4>  Our Web portals services provides:</h4>
                         <ul class="list-custom-3 heading-4 font-weight-light text-gray-650 lh-3">
-                            <li>› Brute fuisset eos definiebas</li>
-                            <li>› Euismod appetere</li>
-                            <li>› Melius corpora consulatu</li>
-                            <li>› Torquatos deseruisse</li>
+                            <li>› Reliable and secure access to portal services and content.</li>
+                            <li>› Scalability to support growing data flows and number of users</li>
+                            <li>› Reporting and statistics visualization</li>
+                            <li>› Quick and finely tuned processes and user-oriented functionality</li>
+                            <li>› Support</li>
                         </ul>
                         
                     </div>
-                    <div class="col-lg-4"><a class="box-lola-wrapper" href="#">
-                        <div class="box-lola">
-                            <div class="small-text font-weight-sbold ls-1 lh-4"> Software Development</div>
-                        </div></a><a class="box-lola-wrapper" href="#">
-                        <div class="box-lola">
-                            <div class="small-text font-weight-sbold ls-1 lh-4"> Web Design & Development</div>
-                        </div></a><a class="box-lola-wrapper" href="#">
-                        <div class="box-lola">
-                            <div class="small-text font-weight-sbold ls-1 lh-4">Mobile App Development</div>
-                        </div></a><a class="box-lola-wrapper" href="#">
-                        <div class="box-lola">
-                            <div class="small-text font-weight-sbold ls-1 lh-4"> Web Portals</div>
-                        </div></a><a class="box-lola-wrapper" href="#">
-                        <div class="box-lola">
-                            <div class="small-text font-weight-sbold ls-1 lh-4"> Internet of Things</div>
-                        </div></a>
-                        <a class="box-lola-wrapper" href="#">
-                            <div class="box-lola">
-                                <div class="small-text font-weight-sbold ls-1 lh-4"> Web Apps Development</div>
-                            </div>
-                        </a>
-                        <a class="box-lola-wrapper" href="#">
-                            <div class="box-lola">
-                                <div class="small-text font-weight-sbold ls-1 lh-4"> Artificial Inteligence</div>
-                            </div>
-                        </a>
-                        <a class="box-lola-wrapper" href="#">
-                            <div class="box-lola">
-                                <div class="small-text font-weight-sbold ls-1 lh-4"> Big Data</div>
-                            </div>
-                        </a>
-                        <a class="box-lola-wrapper" href="#">
-                            <div class="box-lola">
-                                <div class="small-text font-weight-sbold ls-1 lh-4"> Search Engine Optimization</div>
-                            </div>
-                        </a>
+                    <div class="col-lg-4">
+                        <div class="box-lola-wrapper">
+                            <router-link to="software">
+                                <div class="box-lola">
+                                    <div class="small-text font-weight-sbold ls-1 lh-4"> Software Development
+                                    </div>
+                                </div>
+                            </router-link>
+                        </div>
+                        <div class="box-lola-wrapper">
+                            <router-link to="Web-Design">
+                                <div class="box-lola">
+                                    <div class="small-text font-weight-sbold ls-1 lh-4 box-lola-wrapper">Web Design & Development 
+                                    </div>
+                                </div>
+                            </router-link>
+                        </div>
+                        <div class="box-lola-wrapper">
+                            <router-link to="Mobile-App-Development">
+                                <div class="box-lola">
+                                    <div class="small-text font-weight-sbold ls-1 lh-4">Mobile App Development
+                                    </div>
+                                </div>
+                            </router-link>
+                        </div>
+                        <div class="box-lola-wrapper">
+                            <router-link to="Web-Portals">
+                                <div class="box-lola">
+                                    <div class="small-text font-weight-sbold ls-1 lh-4"> Web Portals
+                                    </div>
+                                </div>
+                            </router-link>
+                        </div>
+                        <div class="box-lola-wrapper">
+                            <router-link to="Internet-Of-Things">
+                                <div class="box-lola">
+                                    <div class="small-text font-weight-sbold ls-1 lh-4"> Internet of Things</div>
+                                </div>
+                            </router-link>
+                        </div>
+                        <div class="box-lola-wrapper">
+                            <router-link to="Web-App-Development">
+                                <div class="box-lola">
+                                    <div class="small-text font-weight-sbold ls-1 lh-4"> Web Apps Development</div>
+                                </div>
+                            </router-link>
+                        </div>
+                        <div class="box-lola-wrapper">
+                            <router-link to="Artificial-Intelligence">
+                                <div class="box-lola">
+                                    <div class="small-text font-weight-sbold ls-1 lh-4"> Artificial Inteligence</div>
+                                </div>
+                            </router-link>
+                        </div>
+                        <div class="box-lola-wrapper">
+                            <router-link to="Big-Data">
+                                <div class="box-lola">
+                                    <div class="small-text font-weight-sbold ls-1 lh-4"> Big Data</div>
+                                </div>
+                            </router-link>
+                        </div>
+                        <div class="box-lola-wrapper">
+                            <router-link to="Search-Engine-Optimization">
+                                <div class="box-lola">
+                                    <div class="small-text font-weight-sbold ls-1 lh-4"> Search Engine Optimization</div>
+                                </div>
+                            </router-link>
+                        </div>
                         <div class="box-tina">
                             <div class="small-text text-third font-weight-sbold lh-4">Still have questions?</div>
                             <div class="box-tina-block">

@@ -53,16 +53,13 @@
                         <h6 class="font-weight-light text-gray-650"><a href="#"><span class="__cf_email__">email: &nbsp;info@twtechnologies.africa</span></a></h6>
                         <ul class="list-inline list-custom-2 offset-top-40">
                             <li>
-                                <div class="align-items-center"><a class="text-gray-300" href="#"><span class="icon mdi mdi-facebook icon-sm"></span></a></div>
+                                <div class="align-items-center"><a class="text-gray-300" href="#"><span class="icon mdi mdi-facebook"></span></a></div>
                             </li>
                             <li>
-                                <div class="align-items-center"><a class="text-gray-300" href="#"><span class="icon mdi mdi-instagram icon-xs"></span></a></div>
+                                <div class="align-items-center"><a class="text-gray-300" href="#"><span class="icon mdi mdi-instagram"></span></a></div>
                             </li>
                             <li>
-                                <div class="align-items-center"><a class="text-gray-300" href="#"><span class="icon mdi mdi-youtube-play icon-sm"></span></a></div>
-                            </li>
-                            <li>
-                                <div class="align-items-center"><a class="text-gray-300" href="#"><span class="icon mdi mdi-twitter icon-sm"></span></a></div>
+                                <div class="align-items-center"><a class="text-gray-300" href="#"><span class="icon mdi mdi-twitter-box"></span></a></div>
                             </li>
                         </ul>
                     </div>

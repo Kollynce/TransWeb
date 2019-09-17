@@ -1921,6 +1921,45 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -1938,6 +1977,40 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -2154,6 +2227,38 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -2171,6 +2276,39 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -2346,6 +2484,38 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -2363,6 +2533,43 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -3055,9 +3262,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -3406,6 +3610,38 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -3525,6 +3761,38 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -3869,6 +4137,38 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -40037,7 +40337,7 @@ module.exports = function (css) {
 /***/ (function(module, exports, __webpack_require__) {
 
 /*!
-* sweetalert2 v8.16.3
+* sweetalert2 v8.17.1
 * Released under the MIT License.
 */
 (function (global, factory) {
@@ -41255,6 +41555,10 @@ var render = function render(instance, params) {
   renderContent(instance, params);
   renderActions(instance, params);
   renderFooter(instance, params);
+
+  if (typeof params.onRender === 'function') {
+    params.onRender(getPopup());
+  }
 };
 
 /*
@@ -41566,9 +41870,10 @@ var defaultParams = {
   currentProgressStep: null,
   progressStepsDistance: null,
   onBeforeOpen: null,
-  onAfterClose: null,
   onOpen: null,
+  onRender: null,
   onClose: null,
+  onAfterClose: null,
   scrollbarPadding: true
 };
 var updatableParams = ['title', 'titleText', 'text', 'html', 'type', 'customClass', 'showConfirmButton', 'showCancelButton', 'confirmButtonText', 'confirmButtonAriaLabel', 'confirmButtonColor', 'confirmButtonClass', 'cancelButtonText', 'cancelButtonAriaLabel', 'cancelButtonColor', 'cancelButtonClass', 'buttonsStyling', 'reverseButtons', 'imageUrl', 'imageWidth', 'imageHeigth', 'imageAlt', 'imageClass', 'progressSteps', 'currentProgressStep'];
@@ -42001,12 +42306,12 @@ function disableButtons() {
 } // @deprecated
 
 function enableConfirmButton() {
-  warnAboutDepreation('Swal.disableConfirmButton()', "Swal.getConfirmButton().removeAttribute('disabled')");
+  warnAboutDepreation('Swal.enableConfirmButton()', "Swal.getConfirmButton().removeAttribute('disabled')");
   setButtonsDisabled(this, ['confirmButton'], false);
 } // @deprecated
 
 function disableConfirmButton() {
-  warnAboutDepreation('Swal.enableConfirmButton()', "Swal.getConfirmButton().setAttribute('disabled', '')");
+  warnAboutDepreation('Swal.disableConfirmButton()', "Swal.getConfirmButton().setAttribute('disabled', '')");
   setButtonsDisabled(this, ['confirmButton'], true);
 }
 function enableInput() {
@@ -42923,7 +43228,7 @@ Object.keys(instanceMethods).forEach(function (key) {
   };
 });
 SweetAlert.DismissReason = DismissReason;
-SweetAlert.version = '8.16.3';
+SweetAlert.version = '8.17.1';
 
 var Swal = SweetAlert;
 Swal["default"] = Swal;
@@ -44320,19 +44625,185 @@ var render = function() {
           _vm._m(1),
           _vm._v(" "),
           _c("div", { staticClass: "col-lg-4" }, [
-            _vm._m(2),
-            _vm._m(3),
-            _vm._m(4),
-            _vm._m(5),
-            _vm._m(6),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "software" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [
+                        _vm._v(
+                          " Software Development\n                                "
+                        )
+                      ]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
             _vm._v(" "),
-            _vm._m(7),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Web-Design" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "small-text font-weight-sbold ls-1 lh-4 box-lola-wrapper"
+                      },
+                      [
+                        _vm._v(
+                          "Web Design & Development \n                                "
+                        )
+                      ]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
             _vm._v(" "),
-            _vm._m(8),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Mobile-App-Development" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [
+                        _vm._v(
+                          "Mobile App Development\n                                "
+                        )
+                      ]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
             _vm._v(" "),
-            _vm._m(9),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Web-Portals" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [_vm._v(" Web Portals\n                                ")]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
             _vm._v(" "),
-            _vm._m(10),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Internet-Of-Things" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [_vm._v(" Internet of Things")]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Web-App-Development" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [_vm._v(" Web Apps Development")]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c(
+                  "router-link",
+                  { attrs: { to: "Artificial-Intelligence" } },
+                  [
+                    _c("div", { staticClass: "box-lola" }, [
+                      _c(
+                        "div",
+                        {
+                          staticClass: "small-text font-weight-sbold ls-1 lh-4"
+                        },
+                        [_vm._v(" Artificial Inteligence")]
+                      )
+                    ])
+                  ]
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Big-Data" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [_vm._v(" Big Data")]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c(
+                  "router-link",
+                  { attrs: { to: "Search-Engine-Optimization" } },
+                  [
+                    _c("div", { staticClass: "box-lola" }, [
+                      _c(
+                        "div",
+                        {
+                          staticClass: "small-text font-weight-sbold ls-1 lh-4"
+                        },
+                        [_vm._v(" Search Engine Optimization")]
+                      )
+                    ])
+                  ]
+                )
+              ],
+              1
+            ),
             _vm._v(" "),
             _c("div", { staticClass: "box-tina" }, [
               _c(
@@ -44366,7 +44837,7 @@ var render = function() {
                   )
                 ]),
                 _vm._v(" "),
-                _vm._m(11)
+                _vm._m(2)
               ])
             ])
           ])
@@ -44426,142 +44897,45 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("h4", { staticClass: "font-weight-light text-gray-650 lh-3" }, [
         _vm._v(
-          " An ius meliore dignissim, ius dicit praesent constituto ad, id dicam singulis complect itur nam. Et mel doming everti. No brute fuisset eos, definiebas — concludaturque in est, congue torquatos deseruisse ex per. In solum essent sapientem vim, vix ferri tantas euismod cu, adhuc ceteros consulatu."
+          " As the potential of AI grows every day, so does corporate pressure to use it. But in the rush to implement AI-powered solutions without a larger vision and strategy in place, initiatives often remain siloed with limited potential."
         )
+      ]),
+      _vm._v(" "),
+      _c("h3", [
+        _vm._v("At Transonline Web we offer the following services:-")
+      ]),
+      _vm._v(" "),
+      _c("h4", { staticClass: "pl-3" }, [_vm._v(" > AI Consultancy service")]),
+      _vm._v(" "),
+      _c("h4", { staticClass: "font-weight-light text-gray-650 lh-3" }, [
+        _vm._v(
+          " We adopt latest technologies, which enables our team to transform your business. Get expert assistance and consulting services and effortlessly meet your business targets.  "
+        )
+      ]),
+      _vm._v(" "),
+      _c("h4", { staticClass: "pl-3" }, [
+        _vm._v(" > Digital Strategy and Transformation")
       ]),
       _vm._v(" "),
       _c("h4", { staticClass: "font-weight-light text-gray-650 lh-3" }, [
         _vm._v(
-          " Ius probo intellegebat id. Vix euismod appetere mandamus no, ne decore utamur bonorum est. Qui at stet "
-        ),
-        _c("span", { staticClass: "font-weight-medium" }, [_vm._v("60%")]),
-        _vm._v(
-          " epicuri suscipit. Brute euripidis cotidieque vis id, assum – noster instructior nec ad. Cu melius corpora consulatu eum. Mea no integre salutandi. Mea ne augue appetere nominati — accumsan."
+          " We help businesses transform and evolve quickly to seize the opportunities and help mitigate the risks that digital transformation creates. "
         )
       ]),
       _vm._v(" "),
-      _c(
-        "ul",
-        {
-          staticClass:
-            "list-custom-3 heading-4 font-weight-light text-gray-650 lh-3"
-        },
-        [
-          _c("li", [_vm._v("› Brute fuisset eos definiebas")]),
-          _vm._v(" "),
-          _c("li", [_vm._v("› Euismod appetere")]),
-          _vm._v(" "),
-          _c("li", [_vm._v("› Melius corpora consulatu")]),
-          _vm._v(" "),
-          _c("li", [_vm._v("› Torquatos deseruisse")])
-        ]
-      )
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Software Development")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Web Design & Development")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v("Mobile App Development")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Web Portals")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Internet of Things")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Web Apps Development")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Artificial Inteligence")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Big Data")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Search Engine Optimization")
+      _c("h4", { staticClass: "pl-3" }, [
+        _vm._v(" > AI Model Development and Maintenance")
+      ]),
+      _vm._v(" "),
+      _c("h4", { staticClass: "font-weight-light text-gray-650 lh-3" }, [
+        _vm._v(
+          "Our team of hardworking experts use innovative strategies and solutions, which help them deliver AI applications with greater agility, reduced costs, and build in security. To help our client’s business and application stay at top, we offer the 24/7 support & maintenance services."
+        )
+      ]),
+      _vm._v(" "),
+      _c("h4", [
+        _c("blockquote", [
+          _c("i", [_vm._v(' "Turn your AI applications dream into reality" ')])
         ])
       ])
     ])
@@ -44611,19 +44985,185 @@ var render = function() {
           _vm._m(1),
           _vm._v(" "),
           _c("div", { staticClass: "col-lg-4" }, [
-            _vm._m(2),
-            _vm._m(3),
-            _vm._m(4),
-            _vm._m(5),
-            _vm._m(6),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "software" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [
+                        _vm._v(
+                          " Software Development\n                                "
+                        )
+                      ]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
             _vm._v(" "),
-            _vm._m(7),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Web-Design" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "small-text font-weight-sbold ls-1 lh-4 box-lola-wrapper"
+                      },
+                      [
+                        _vm._v(
+                          "Web Design & Development \n                                "
+                        )
+                      ]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
             _vm._v(" "),
-            _vm._m(8),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Mobile-App-Development" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [
+                        _vm._v(
+                          "Mobile App Development\n                                "
+                        )
+                      ]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
             _vm._v(" "),
-            _vm._m(9),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Web-Portals" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [_vm._v(" Web Portals\n                                ")]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
             _vm._v(" "),
-            _vm._m(10),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Internet-Of-Things" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [_vm._v(" Internet of Things")]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Web-App-Development" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [_vm._v(" Web Apps Development")]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c(
+                  "router-link",
+                  { attrs: { to: "Artificial-Intelligence" } },
+                  [
+                    _c("div", { staticClass: "box-lola" }, [
+                      _c(
+                        "div",
+                        {
+                          staticClass: "small-text font-weight-sbold ls-1 lh-4"
+                        },
+                        [_vm._v(" Artificial Inteligence")]
+                      )
+                    ])
+                  ]
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Big-Data" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [_vm._v(" Big Data")]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c(
+                  "router-link",
+                  { attrs: { to: "Search-Engine-Optimization" } },
+                  [
+                    _c("div", { staticClass: "box-lola" }, [
+                      _c(
+                        "div",
+                        {
+                          staticClass: "small-text font-weight-sbold ls-1 lh-4"
+                        },
+                        [_vm._v(" Search Engine Optimization")]
+                      )
+                    ])
+                  ]
+                )
+              ],
+              1
+            ),
             _vm._v(" "),
             _c("div", { staticClass: "box-tina" }, [
               _c(
@@ -44657,7 +45197,7 @@ var render = function() {
                   )
                 ]),
                 _vm._v(" "),
-                _vm._m(11)
+                _vm._m(2)
               ])
             ])
           ])
@@ -44715,17 +45255,19 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("h4", { staticClass: "font-weight-light text-gray-650 lh-3" }, [
         _vm._v(
-          " An ius meliore dignissim, ius dicit praesent constituto ad, id dicam singulis complect itur nam. Et mel doming everti. No brute fuisset eos, definiebas — concludaturque in est, congue torquatos deseruisse ex per. In solum essent sapientem vim, vix ferri tantas euismod cu, adhuc ceteros consulatu."
+          " Data is crucial for organizations. How businesses perceive it plays a key role. The smartest strategy is to look beyond traditional practices and keep developing new models that would have the ability to personalize customer offerings & experiences."
         )
       ]),
       _vm._v(" "),
       _c("h4", { staticClass: "font-weight-light text-gray-650 lh-3" }, [
         _vm._v(
-          " Ius probo intellegebat id. Vix euismod appetere mandamus no, ne decore utamur bonorum est. Qui at stet "
-        ),
-        _c("span", { staticClass: "font-weight-medium" }, [_vm._v("60%")]),
+          " Harnessing the power of big data is the new key that will enable some companies to become leaders in their competitive space. Converting big data into informative insides have opened new doors of possibility for both big and small businesses."
+        )
+      ]),
+      _vm._v(" "),
+      _c("h4", { staticClass: "font-weight-light text-gray-650 lh-3" }, [
         _vm._v(
-          " epicuri suscipit. Brute euripidis cotidieque vis id, assum – noster instructior nec ad. Cu melius corpora consulatu eum. Mea no integre salutandi. Mea ne augue appetere nominati — accumsan."
+          "We are able to provide big data services with customisable solutions for every organization.\n                    We leverage powerful open source tools and also develop custom big data applications to deliver values across the entire enterprise. Our team is skilled enough to support you through the entire development cycle of the Big Data solution that you are looking for. Whatever your need or goal, our aim remains the same to provide you end-to-end processes to help you achieve your long-term Business  Intelligence and Analytics goals."
         )
       ]),
       _vm._v(" "),
@@ -44736,123 +45278,15 @@ var staticRenderFns = [
             "list-custom-3 heading-4 font-weight-light text-gray-650 lh-3"
         },
         [
-          _c("li", [_vm._v("› Brute fuisset eos definiebas")]),
+          _c("li", [_vm._v("› Big Data Consulting ")]),
           _vm._v(" "),
-          _c("li", [_vm._v("› Euismod appetere")]),
+          _c("li", [_vm._v("› Data Exploration & Analytics")]),
           _vm._v(" "),
-          _c("li", [_vm._v("› Melius corpora consulatu")]),
+          _c("li", [_vm._v("› Cross platform cluster management")]),
           _vm._v(" "),
-          _c("li", [_vm._v("› Torquatos deseruisse")])
+          _c("li", [_vm._v("› Application Development & Integration")])
         ]
       )
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Software Development")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Web Design & Development")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v("Mobile App Development")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Web Portals")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Internet of Things")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Web Apps Development")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Artificial Inteligence")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Big Data")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Search Engine Optimization")
-        ])
-      ])
     ])
   },
   function() {
@@ -44947,19 +45381,185 @@ var render = function() {
           _vm._m(1),
           _vm._v(" "),
           _c("div", { staticClass: "col-lg-4" }, [
-            _vm._m(2),
-            _vm._m(3),
-            _vm._m(4),
-            _vm._m(5),
-            _vm._m(6),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "software" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [
+                        _vm._v(
+                          " Software Development\n                                "
+                        )
+                      ]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
             _vm._v(" "),
-            _vm._m(7),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Web-Design" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "small-text font-weight-sbold ls-1 lh-4 box-lola-wrapper"
+                      },
+                      [
+                        _vm._v(
+                          "Web Design & Development \n                                "
+                        )
+                      ]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
             _vm._v(" "),
-            _vm._m(8),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Mobile-App-Development" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [
+                        _vm._v(
+                          "Mobile App Development\n                                "
+                        )
+                      ]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
             _vm._v(" "),
-            _vm._m(9),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Web-Portals" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [_vm._v(" Web Portals\n                                ")]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
             _vm._v(" "),
-            _vm._m(10),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Internet-Of-Things" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [_vm._v(" Internet of Things")]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Web-App-Development" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [_vm._v(" Web Apps Development")]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c(
+                  "router-link",
+                  { attrs: { to: "Artificial-Intelligence" } },
+                  [
+                    _c("div", { staticClass: "box-lola" }, [
+                      _c(
+                        "div",
+                        {
+                          staticClass: "small-text font-weight-sbold ls-1 lh-4"
+                        },
+                        [_vm._v(" Artificial Inteligence")]
+                      )
+                    ])
+                  ]
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Big-Data" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [_vm._v(" Big Data")]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c(
+                  "router-link",
+                  { attrs: { to: "Search-Engine-Optimization" } },
+                  [
+                    _c("div", { staticClass: "box-lola" }, [
+                      _c(
+                        "div",
+                        {
+                          staticClass: "small-text font-weight-sbold ls-1 lh-4"
+                        },
+                        [_vm._v(" Search Engine Optimization")]
+                      )
+                    ])
+                  ]
+                )
+              ],
+              1
+            ),
             _vm._v(" "),
             _c("div", { staticClass: "box-tina" }, [
               _c(
@@ -44993,7 +45593,7 @@ var render = function() {
                   )
                 ]),
                 _vm._v(" "),
-                _vm._m(11)
+                _vm._m(2)
               ])
             ])
           ])
@@ -45066,114 +45666,6 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Software Development")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Web Design & Development")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v("Mobile App Development")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Web Portals")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Internet of Things")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Web Apps Development")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Artificial Inteligence")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Big Data")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Search Engine Optimization")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
     return _c("div", { staticClass: "box-tina-block-text" }, [
       _c("h6", { staticClass: "font-weight-light text-gray-680" }, [
         _vm._v("Phone")
@@ -45215,19 +45707,185 @@ var render = function() {
           _vm._m(1),
           _vm._v(" "),
           _c("div", { staticClass: "col-lg-4" }, [
-            _vm._m(2),
-            _vm._m(3),
-            _vm._m(4),
-            _vm._m(5),
-            _vm._m(6),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "software" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [
+                        _vm._v(
+                          " Software Development\n                                "
+                        )
+                      ]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
             _vm._v(" "),
-            _vm._m(7),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Web-Design" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "small-text font-weight-sbold ls-1 lh-4 box-lola-wrapper"
+                      },
+                      [
+                        _vm._v(
+                          "Web Design & Development \n                                "
+                        )
+                      ]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
             _vm._v(" "),
-            _vm._m(8),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Mobile-App-Development" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [
+                        _vm._v(
+                          "Mobile App Development\n                                "
+                        )
+                      ]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
             _vm._v(" "),
-            _vm._m(9),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Web-Portals" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [_vm._v(" Web Portals\n                                ")]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
             _vm._v(" "),
-            _vm._m(10),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Internet-Of-Things" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [_vm._v(" Internet of Things")]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Web-App-Development" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [_vm._v(" Web Apps Development")]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c(
+                  "router-link",
+                  { attrs: { to: "Artificial-Intelligence" } },
+                  [
+                    _c("div", { staticClass: "box-lola" }, [
+                      _c(
+                        "div",
+                        {
+                          staticClass: "small-text font-weight-sbold ls-1 lh-4"
+                        },
+                        [_vm._v(" Artificial Inteligence")]
+                      )
+                    ])
+                  ]
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Big-Data" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [_vm._v(" Big Data")]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c(
+                  "router-link",
+                  { attrs: { to: "Search-Engine-Optimization" } },
+                  [
+                    _c("div", { staticClass: "box-lola" }, [
+                      _c(
+                        "div",
+                        {
+                          staticClass: "small-text font-weight-sbold ls-1 lh-4"
+                        },
+                        [_vm._v(" Search Engine Optimization")]
+                      )
+                    ])
+                  ]
+                )
+              ],
+              1
+            ),
             _vm._v(" "),
             _c("div", { staticClass: "box-tina" }, [
               _c(
@@ -45261,7 +45919,7 @@ var render = function() {
                   )
                 ]),
                 _vm._v(" "),
-                _vm._m(11)
+                _vm._m(2)
               ])
             ])
           ])
@@ -45346,114 +46004,6 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Software Development")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Web Design & Development")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v("Mobile App Development")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Web Portals")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Internet of Things")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Web Apps Development")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Artificial Inteligence")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Big Data")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Search Engine Optimization")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
     return _c("div", { staticClass: "box-tina-block-text" }, [
       _c("h6", { staticClass: "font-weight-light text-gray-680" }, [
         _vm._v("Phone")
@@ -45495,19 +46045,185 @@ var render = function() {
           _vm._m(1),
           _vm._v(" "),
           _c("div", { staticClass: "col-lg-4" }, [
-            _vm._m(2),
-            _vm._m(3),
-            _vm._m(4),
-            _vm._m(5),
-            _vm._m(6),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "software" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [
+                        _vm._v(
+                          " Software Development\n                                "
+                        )
+                      ]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
             _vm._v(" "),
-            _vm._m(7),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Web-Design" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "small-text font-weight-sbold ls-1 lh-4 box-lola-wrapper"
+                      },
+                      [
+                        _vm._v(
+                          "Web Design & Development \n                                "
+                        )
+                      ]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
             _vm._v(" "),
-            _vm._m(8),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Mobile-App-Development" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [
+                        _vm._v(
+                          "Mobile App Development\n                                "
+                        )
+                      ]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
             _vm._v(" "),
-            _vm._m(9),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Web-Portals" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [_vm._v(" Web Portals\n                                ")]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
             _vm._v(" "),
-            _vm._m(10),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Internet-Of-Things" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [_vm._v(" Internet of Things")]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Web-App-Development" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [_vm._v(" Web Apps Development")]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c(
+                  "router-link",
+                  { attrs: { to: "Artificial-Intelligence" } },
+                  [
+                    _c("div", { staticClass: "box-lola" }, [
+                      _c(
+                        "div",
+                        {
+                          staticClass: "small-text font-weight-sbold ls-1 lh-4"
+                        },
+                        [_vm._v(" Artificial Inteligence")]
+                      )
+                    ])
+                  ]
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Big-Data" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [_vm._v(" Big Data")]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c(
+                  "router-link",
+                  { attrs: { to: "Search-Engine-Optimization" } },
+                  [
+                    _c("div", { staticClass: "box-lola" }, [
+                      _c(
+                        "div",
+                        {
+                          staticClass: "small-text font-weight-sbold ls-1 lh-4"
+                        },
+                        [_vm._v(" Search Engine Optimization")]
+                      )
+                    ])
+                  ]
+                )
+              ],
+              1
+            ),
             _vm._v(" "),
             _c("div", { staticClass: "box-tina" }, [
               _c(
@@ -45541,7 +46257,7 @@ var render = function() {
                   )
                 ]),
                 _vm._v(" "),
-                _vm._m(11)
+                _vm._m(2)
               ])
             ])
           ])
@@ -45618,114 +46334,6 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Software Development")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v("Web Design & Development")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Mobile App Development")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Web Portals")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Internet of Things")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Web Apps Development")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Artificial Inteligence")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Big Data")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Search Engine Optimization")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
     return _c("div", { staticClass: "box-tina-block-text" }, [
       _c("h6", { staticClass: "font-weight-light text-gray-680" }, [
         _vm._v("Phone")
@@ -45767,19 +46375,185 @@ var render = function() {
           _vm._m(1),
           _vm._v(" "),
           _c("div", { staticClass: "col-lg-4" }, [
-            _vm._m(2),
-            _vm._m(3),
-            _vm._m(4),
-            _vm._m(5),
-            _vm._m(6),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "software" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [
+                        _vm._v(
+                          " Software Development\n                                "
+                        )
+                      ]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
             _vm._v(" "),
-            _vm._m(7),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Web-Design" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "small-text font-weight-sbold ls-1 lh-4 box-lola-wrapper"
+                      },
+                      [
+                        _vm._v(
+                          "Web Design & Development \n                                "
+                        )
+                      ]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
             _vm._v(" "),
-            _vm._m(8),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Mobile-App-Development" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [
+                        _vm._v(
+                          "Mobile App Development\n                                "
+                        )
+                      ]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
             _vm._v(" "),
-            _vm._m(9),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Web-Portals" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [_vm._v(" Web Portals\n                                ")]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
             _vm._v(" "),
-            _vm._m(10),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Internet-Of-Things" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [_vm._v(" Internet of Things")]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Web-App-Development" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [_vm._v(" Web Apps Development")]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c(
+                  "router-link",
+                  { attrs: { to: "Artificial-Intelligence" } },
+                  [
+                    _c("div", { staticClass: "box-lola" }, [
+                      _c(
+                        "div",
+                        {
+                          staticClass: "small-text font-weight-sbold ls-1 lh-4"
+                        },
+                        [_vm._v(" Artificial Inteligence")]
+                      )
+                    ])
+                  ]
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Big-Data" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [_vm._v(" Big Data")]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c(
+                  "router-link",
+                  { attrs: { to: "Search-Engine-Optimization" } },
+                  [
+                    _c("div", { staticClass: "box-lola" }, [
+                      _c(
+                        "div",
+                        {
+                          staticClass: "small-text font-weight-sbold ls-1 lh-4"
+                        },
+                        [_vm._v(" Search Engine Optimization")]
+                      )
+                    ])
+                  ]
+                )
+              ],
+              1
+            ),
             _vm._v(" "),
             _c("div", { staticClass: "box-tina" }, [
               _c(
@@ -45813,7 +46587,7 @@ var render = function() {
                   )
                 ]),
                 _vm._v(" "),
-                _vm._m(11)
+                _vm._m(2)
               ])
             ])
           ])
@@ -45871,19 +46645,27 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("h4", { staticClass: "font-weight-light text-gray-650 lh-3" }, [
         _vm._v(
-          " An ius meliore dignissim, ius dicit praesent constituto ad, id dicam singulis complect itur nam. Et mel doming everti. No brute fuisset eos, definiebas — concludaturque in est, congue torquatos deseruisse ex per. In solum essent sapientem vim, vix ferri tantas euismod cu, adhuc ceteros consulatu."
+          " A web portal is a specially designed webpage that brings information together from diverse sources in a uniform way."
         )
       ]),
       _vm._v(" "),
+      _c("h4", { staticClass: "pl-3" }, [_vm._v(" > B2B ")]),
+      _vm._v(" "),
       _c("h4", { staticClass: "font-weight-light text-gray-650 lh-3" }, [
         _vm._v(
-          " Ius probo intellegebat id. Vix euismod appetere mandamus no, ne decore utamur bonorum est. Qui at stet "
-        ),
-        _c("span", { staticClass: "font-weight-medium" }, [_vm._v("60%")]),
-        _vm._v(
-          " epicuri suscipit. Brute euripidis cotidieque vis id, assum – noster instructior nec ad. Cu melius corpora consulatu eum. Mea no integre salutandi. Mea ne augue appetere nominati — accumsan."
+          " B2B is a business activity based on internet which wraps the entire business dealings from business marketing to final deals.  "
         )
       ]),
+      _vm._v(" "),
+      _c("h4", { staticClass: "pl-3" }, [_vm._v(" > B2C")]),
+      _vm._v(" "),
+      _c("h4", { staticClass: "font-weight-light text-gray-650 lh-3" }, [
+        _vm._v(
+          " We design B2C portal for either selling consumer goods or providing services."
+        )
+      ]),
+      _vm._v(" "),
+      _c("h4", [_vm._v("  Our Web portals services provides:")]),
       _vm._v(" "),
       _c(
         "ul",
@@ -45892,123 +46674,29 @@ var staticRenderFns = [
             "list-custom-3 heading-4 font-weight-light text-gray-650 lh-3"
         },
         [
-          _c("li", [_vm._v("› Brute fuisset eos definiebas")]),
+          _c("li", [
+            _vm._v(
+              "› Reliable and secure access to portal services and content."
+            )
+          ]),
           _vm._v(" "),
-          _c("li", [_vm._v("› Euismod appetere")]),
+          _c("li", [
+            _vm._v(
+              "› Scalability to support growing data flows and number of users"
+            )
+          ]),
           _vm._v(" "),
-          _c("li", [_vm._v("› Melius corpora consulatu")]),
+          _c("li", [_vm._v("› Reporting and statistics visualization")]),
           _vm._v(" "),
-          _c("li", [_vm._v("› Torquatos deseruisse")])
+          _c("li", [
+            _vm._v(
+              "› Quick and finely tuned processes and user-oriented functionality"
+            )
+          ]),
+          _vm._v(" "),
+          _c("li", [_vm._v("› Support")])
         ]
       )
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Software Development")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Web Design & Development")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v("Mobile App Development")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Web Portals")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Internet of Things")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Web Apps Development")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Artificial Inteligence")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Big Data")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Search Engine Optimization")
-        ])
-      ])
     ])
   },
   function() {
@@ -48665,7 +49353,7 @@ var staticRenderFns = [
           _c("li", [
             _c("div", { staticClass: "align-items-center" }, [
               _c("a", { staticClass: "text-gray-300", attrs: { href: "#" } }, [
-                _c("span", { staticClass: "icon mdi mdi-facebook icon-sm" })
+                _c("span", { staticClass: "icon mdi mdi-facebook" })
               ])
             ])
           ]),
@@ -48673,7 +49361,7 @@ var staticRenderFns = [
           _c("li", [
             _c("div", { staticClass: "align-items-center" }, [
               _c("a", { staticClass: "text-gray-300", attrs: { href: "#" } }, [
-                _c("span", { staticClass: "icon mdi mdi-instagram icon-xs" })
+                _c("span", { staticClass: "icon mdi mdi-instagram" })
               ])
             ])
           ]),
@@ -48681,15 +49369,7 @@ var staticRenderFns = [
           _c("li", [
             _c("div", { staticClass: "align-items-center" }, [
               _c("a", { staticClass: "text-gray-300", attrs: { href: "#" } }, [
-                _c("span", { staticClass: "icon mdi mdi-youtube-play icon-sm" })
-              ])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("li", [
-            _c("div", { staticClass: "align-items-center" }, [
-              _c("a", { staticClass: "text-gray-300", attrs: { href: "#" } }, [
-                _c("span", { staticClass: "icon mdi mdi-twitter icon-sm" })
+                _c("span", { staticClass: "icon mdi mdi-twitter-box" })
               ])
             ])
           ])
@@ -49718,19 +50398,185 @@ var render = function() {
           _vm._m(1),
           _vm._v(" "),
           _c("div", { staticClass: "col-lg-4" }, [
-            _vm._m(2),
-            _vm._m(3),
-            _vm._m(4),
-            _vm._m(5),
-            _vm._m(6),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "software" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [
+                        _vm._v(
+                          " Software Development\n                                "
+                        )
+                      ]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
             _vm._v(" "),
-            _vm._m(7),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Web-Design" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "small-text font-weight-sbold ls-1 lh-4 box-lola-wrapper"
+                      },
+                      [
+                        _vm._v(
+                          "Web Design & Development \n                                "
+                        )
+                      ]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
             _vm._v(" "),
-            _vm._m(8),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Mobile-App-Development" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [
+                        _vm._v(
+                          "Mobile App Development\n                                "
+                        )
+                      ]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
             _vm._v(" "),
-            _vm._m(9),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Web-Portals" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [_vm._v(" Web Portals\n                                ")]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
             _vm._v(" "),
-            _vm._m(10),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Internet-Of-Things" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [_vm._v(" Internet of Things")]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Web-App-Development" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [_vm._v(" Web Apps Development")]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c(
+                  "router-link",
+                  { attrs: { to: "Artificial-Intelligence" } },
+                  [
+                    _c("div", { staticClass: "box-lola" }, [
+                      _c(
+                        "div",
+                        {
+                          staticClass: "small-text font-weight-sbold ls-1 lh-4"
+                        },
+                        [_vm._v(" Artificial Inteligence")]
+                      )
+                    ])
+                  ]
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Big-Data" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [_vm._v(" Big Data")]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c(
+                  "router-link",
+                  { attrs: { to: "Search-Engine-Optimization" } },
+                  [
+                    _c("div", { staticClass: "box-lola" }, [
+                      _c(
+                        "div",
+                        {
+                          staticClass: "small-text font-weight-sbold ls-1 lh-4"
+                        },
+                        [_vm._v(" Search Engine Optimization")]
+                      )
+                    ])
+                  ]
+                )
+              ],
+              1
+            ),
             _vm._v(" "),
             _c("div", { staticClass: "box-tina" }, [
               _c(
@@ -49764,7 +50610,7 @@ var render = function() {
                   )
                 ]),
                 _vm._v(" "),
-                _vm._m(11)
+                _vm._m(2)
               ])
             ])
           ])
@@ -49860,114 +50706,6 @@ var staticRenderFns = [
           _c("li", [_vm._v("› Windows Platform")])
         ]
       )
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Software Development")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v("Web Design & Development")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Mobile App Development")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Web Portals")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Internet of Things")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Web Apps Development")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Artificial Inteligence")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Big Data")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Search Engine Optimization")
-        ])
-      ])
     ])
   },
   function() {
@@ -50421,19 +51159,185 @@ var render = function() {
           _vm._m(1),
           _vm._v(" "),
           _c("div", { staticClass: "col-lg-4" }, [
-            _vm._m(2),
-            _vm._m(3),
-            _vm._m(4),
-            _vm._m(5),
-            _vm._m(6),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "software" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [
+                        _vm._v(
+                          " Software Development\n                                "
+                        )
+                      ]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
             _vm._v(" "),
-            _vm._m(7),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Web-Design" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "small-text font-weight-sbold ls-1 lh-4 box-lola-wrapper"
+                      },
+                      [
+                        _vm._v(
+                          "Web Design & Development \n                                "
+                        )
+                      ]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
             _vm._v(" "),
-            _vm._m(8),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Mobile-App-Development" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [
+                        _vm._v(
+                          "Mobile App Development\n                                "
+                        )
+                      ]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
             _vm._v(" "),
-            _vm._m(9),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Web-Portals" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [_vm._v(" Web Portals\n                                ")]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
             _vm._v(" "),
-            _vm._m(10),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Internet-Of-Things" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [_vm._v(" Internet of Things")]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Web-App-Development" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [_vm._v(" Web Apps Development")]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c(
+                  "router-link",
+                  { attrs: { to: "Artificial-Intelligence" } },
+                  [
+                    _c("div", { staticClass: "box-lola" }, [
+                      _c(
+                        "div",
+                        {
+                          staticClass: "small-text font-weight-sbold ls-1 lh-4"
+                        },
+                        [_vm._v(" Artificial Inteligence")]
+                      )
+                    ])
+                  ]
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Big-Data" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [_vm._v(" Big Data")]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c(
+                  "router-link",
+                  { attrs: { to: "Search-Engine-Optimization" } },
+                  [
+                    _c("div", { staticClass: "box-lola" }, [
+                      _c(
+                        "div",
+                        {
+                          staticClass: "small-text font-weight-sbold ls-1 lh-4"
+                        },
+                        [_vm._v(" Search Engine Optimization")]
+                      )
+                    ])
+                  ]
+                )
+              ],
+              1
+            ),
             _vm._v(" "),
             _c("div", { staticClass: "box-tina" }, [
               _c(
@@ -50467,7 +51371,7 @@ var render = function() {
                   )
                 ]),
                 _vm._v(" "),
-                _vm._m(11)
+                _vm._m(2)
               ])
             ])
           ])
@@ -50557,114 +51461,6 @@ var staticRenderFns = [
           _c("li", [_vm._v("› Reporting")])
         ]
       )
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Software Development")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Web Design & Development")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v("Mobile App Development")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Web Portals")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Internet of Things")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Web Apps Development")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Artificial Inteligence")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Big Data")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Search Engine Optimization")
-        ])
-      ])
     ])
   },
   function() {
@@ -51705,19 +52501,185 @@ var render = function() {
           _vm._m(1),
           _vm._v(" "),
           _c("div", { staticClass: "col-lg-4" }, [
-            _vm._m(2),
-            _vm._m(3),
-            _vm._m(4),
-            _vm._m(5),
-            _vm._m(6),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "software" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [
+                        _vm._v(
+                          " Software Development\n                                "
+                        )
+                      ]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
             _vm._v(" "),
-            _vm._m(7),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Web-Design" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "small-text font-weight-sbold ls-1 lh-4 box-lola-wrapper"
+                      },
+                      [
+                        _vm._v(
+                          "Web Design & Development \n                                "
+                        )
+                      ]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
             _vm._v(" "),
-            _vm._m(8),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Mobile-App-Development" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [
+                        _vm._v(
+                          "Mobile App Development\n                                "
+                        )
+                      ]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
             _vm._v(" "),
-            _vm._m(9),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Web-Portals" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [_vm._v(" Web Portals\n                                ")]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
             _vm._v(" "),
-            _vm._m(10),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Internet-Of-Things" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [_vm._v(" Internet of Things")]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Web-App-Development" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [_vm._v(" Web Apps Development")]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c(
+                  "router-link",
+                  { attrs: { to: "Artificial-Intelligence" } },
+                  [
+                    _c("div", { staticClass: "box-lola" }, [
+                      _c(
+                        "div",
+                        {
+                          staticClass: "small-text font-weight-sbold ls-1 lh-4"
+                        },
+                        [_vm._v(" Artificial Inteligence")]
+                      )
+                    ])
+                  ]
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c("router-link", { attrs: { to: "Big-Data" } }, [
+                  _c("div", { staticClass: "box-lola" }, [
+                    _c(
+                      "div",
+                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
+                      [_vm._v(" Big Data")]
+                    )
+                  ])
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "box-lola-wrapper" },
+              [
+                _c(
+                  "router-link",
+                  { attrs: { to: "Search-Engine-Optimization" } },
+                  [
+                    _c("div", { staticClass: "box-lola" }, [
+                      _c(
+                        "div",
+                        {
+                          staticClass: "small-text font-weight-sbold ls-1 lh-4"
+                        },
+                        [_vm._v(" Search Engine Optimization")]
+                      )
+                    ])
+                  ]
+                )
+              ],
+              1
+            ),
             _vm._v(" "),
             _c("div", { staticClass: "box-tina" }, [
               _c(
@@ -51751,7 +52713,7 @@ var render = function() {
                   )
                 ]),
                 _vm._v(" "),
-                _vm._m(11)
+                _vm._m(2)
               ])
             ])
           ])
@@ -51839,114 +52801,6 @@ var staticRenderFns = [
           _c("li", [_vm._v("› Software development outsourcing")])
         ]
       )
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Software Development")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Web Design & Development")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v("Mobile App Development")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Web Portals")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Internet of Things")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Web Apps Development")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Artificial Inteligence")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Big Data")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "box-lola-wrapper", attrs: { href: "#" } }, [
-      _c("div", { staticClass: "box-lola" }, [
-        _c("div", { staticClass: "small-text font-weight-sbold ls-1 lh-4" }, [
-          _vm._v(" Search Engine Optimization")
-        ])
-      ])
     ])
   },
   function() {
@@ -52768,7 +53622,7 @@ function normalizeComponent (
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /*!
-  * vue-router v3.1.1
+  * vue-router v3.1.3
   * (c) 2019 Evan You
   * @license MIT
   */
@@ -52909,7 +53763,7 @@ var View = {
 
     return h(component, data, children)
   }
-}
+};
 
 function resolveProps (route, config) {
   switch (typeof config) {
@@ -53038,7 +53892,7 @@ function createRoute (
   redirectedFrom,
   router
 ) {
-  var stringifyQuery$$1 = router && router.options.stringifyQuery;
+  var stringifyQuery = router && router.options.stringifyQuery;
 
   var query = location.query || {};
   try {
@@ -53052,11 +53906,11 @@ function createRoute (
     hash: location.hash || '',
     query: query,
     params: location.params || {},
-    fullPath: getFullPath(location, stringifyQuery$$1),
+    fullPath: getFullPath(location, stringifyQuery),
     matched: record ? formatMatch(record) : []
   };
   if (redirectedFrom) {
-    route.redirectedFrom = getFullPath(redirectedFrom, stringifyQuery$$1);
+    route.redirectedFrom = getFullPath(redirectedFrom, stringifyQuery);
   }
   return Object.freeze(route)
 }
@@ -53830,9 +54684,9 @@ var Link = {
     var handler = function (e) {
       if (guardEvent(e)) {
         if (this$1.replace) {
-          router.replace(location, null, noop);
+          router.replace(location, noop);
         } else {
-          router.push(location, null, noop);
+          router.push(location, noop);
         }
       }
     };
@@ -53883,7 +54737,24 @@ var Link = {
         // in case the <a> is a static node
         a.isStatic = false;
         var aData = (a.data = extend({}, a.data));
-        aData.on = on;
+        aData.on = aData.on || {};
+        // transform existing events in both objects into arrays so we can push later
+        for (var event in aData.on) {
+          var handler$1 = aData.on[event];
+          if (event in on) {
+            aData.on[event] = Array.isArray(handler$1) ? handler$1 : [handler$1];
+          }
+        }
+        // append new listeners for router-link
+        for (var event$1 in on) {
+          if (event$1 in aData.on) {
+            // on[event] is always a function
+            aData.on[event$1].push(on[event$1]);
+          } else {
+            aData.on[event$1] = handler;
+          }
+        }
+
         var aAttrs = (a.data.attrs = extend({}, a.data.attrs));
         aAttrs.href = href;
       } else {
@@ -53894,7 +54765,7 @@ var Link = {
 
     return h(this.tag, data, this.$slots.default)
   }
-}
+};
 
 function guardEvent (e) {
   // don't redirect with control keys
@@ -54009,6 +54880,18 @@ function createRouteMap (
       pathList.push(pathList.splice(i, 1)[0]);
       l--;
       i--;
+    }
+  }
+
+  if (true) {
+    // warn if routes do not include leading slashes
+    var found = pathList
+    // check for missing leading slash
+      .filter(function (path) { return path && path.charAt(0) !== '*' && path.charAt(0) !== '/'; });
+
+    if (found.length > 0) {
+      var pathNames = found.map(function (path) { return ("- " + path); }).join('\n');
+      warn(false, ("Non-nested routes must include a leading slash character. Fix the following routes: \n" + pathNames));
     }
   }
 
@@ -54367,6 +55250,28 @@ function resolveRecordPath (path, record) {
 
 /*  */
 
+// use User Timing api (if present) for more accurate key precision
+var Time =
+  inBrowser && window.performance && window.performance.now
+    ? window.performance
+    : Date;
+
+function genStateKey () {
+  return Time.now().toFixed(3)
+}
+
+var _key = genStateKey();
+
+function getStateKey () {
+  return _key
+}
+
+function setStateKey (key) {
+  return (_key = key)
+}
+
+/*  */
+
 var positionStore = Object.create(null);
 
 function setupScroll () {
@@ -54516,39 +55421,22 @@ function scrollToPosition (shouldScroll, position) {
 
 /*  */
 
-var supportsPushState = inBrowser && (function () {
-  var ua = window.navigator.userAgent;
+var supportsPushState =
+  inBrowser &&
+  (function () {
+    var ua = window.navigator.userAgent;
 
-  if (
-    (ua.indexOf('Android 2.') !== -1 || ua.indexOf('Android 4.0') !== -1) &&
-    ua.indexOf('Mobile Safari') !== -1 &&
-    ua.indexOf('Chrome') === -1 &&
-    ua.indexOf('Windows Phone') === -1
-  ) {
-    return false
-  }
+    if (
+      (ua.indexOf('Android 2.') !== -1 || ua.indexOf('Android 4.0') !== -1) &&
+      ua.indexOf('Mobile Safari') !== -1 &&
+      ua.indexOf('Chrome') === -1 &&
+      ua.indexOf('Windows Phone') === -1
+    ) {
+      return false
+    }
 
-  return window.history && 'pushState' in window.history
-})();
-
-// use User Timing api (if present) for more accurate key precision
-var Time = inBrowser && window.performance && window.performance.now
-  ? window.performance
-  : Date;
-
-var _key = genKey();
-
-function genKey () {
-  return Time.now().toFixed(3)
-}
-
-function getStateKey () {
-  return _key
-}
-
-function setStateKey (key) {
-  _key = key;
-}
+    return window.history && 'pushState' in window.history
+  })();
 
 function pushState (url, replace) {
   saveScrollPosition();
@@ -54557,10 +55445,9 @@ function pushState (url, replace) {
   var history = window.history;
   try {
     if (replace) {
-      history.replaceState({ key: _key }, '', url);
+      history.replaceState({ key: getStateKey() }, '', url);
     } else {
-      _key = genKey();
-      history.pushState({ key: _key }, '', url);
+      history.pushState({ key: setStateKey(genStateKey()) }, '', url);
     }
   } catch (e) {
     window.location[replace ? 'replace' : 'assign'](url);
@@ -54700,9 +55587,20 @@ function once (fn) {
 }
 
 var NavigationDuplicated = /*@__PURE__*/(function (Error) {
-  function NavigationDuplicated () {
-    Error.call(this, 'Navigating to current location is not allowed');
+  function NavigationDuplicated (normalizedLocation) {
+    Error.call(this);
     this.name = this._name = 'NavigationDuplicated';
+    // passing the message to super() doesn't seem to work in the transpiled version
+    this.message = "Navigating to current location (\"" + (normalizedLocation.fullPath) + "\") is not allowed";
+    // add a stack property so services like Sentry can correctly display it
+    Object.defineProperty(this, 'stack', {
+      value: new Error().stack,
+      writable: true,
+      configurable: true
+    });
+    // we could also have used
+    // Error.captureStackTrace(this, this.constructor)
+    // but it only exists on node and chrome
   }
 
   if ( Error ) NavigationDuplicated.__proto__ = Error;
@@ -55042,11 +55940,11 @@ function poll (
 
 /*  */
 
-var HTML5History = /*@__PURE__*/(function (History$$1) {
+var HTML5History = /*@__PURE__*/(function (History) {
   function HTML5History (router, base) {
     var this$1 = this;
 
-    History$$1.call(this, router, base);
+    History.call(this, router, base);
 
     var expectScroll = router.options.scrollBehavior;
     var supportsScroll = supportsPushState && expectScroll;
@@ -55074,8 +55972,8 @@ var HTML5History = /*@__PURE__*/(function (History$$1) {
     });
   }
 
-  if ( History$$1 ) HTML5History.__proto__ = History$$1;
-  HTML5History.prototype = Object.create( History$$1 && History$$1.prototype );
+  if ( History ) HTML5History.__proto__ = History;
+  HTML5History.prototype = Object.create( History && History.prototype );
   HTML5History.prototype.constructor = HTML5History;
 
   HTML5History.prototype.go = function go (n) {
@@ -55130,9 +56028,9 @@ function getLocation (base) {
 
 /*  */
 
-var HashHistory = /*@__PURE__*/(function (History$$1) {
+var HashHistory = /*@__PURE__*/(function (History) {
   function HashHistory (router, base, fallback) {
-    History$$1.call(this, router, base);
+    History.call(this, router, base);
     // check history fallback deeplinking
     if (fallback && checkFallback(this.base)) {
       return
@@ -55140,8 +56038,8 @@ var HashHistory = /*@__PURE__*/(function (History$$1) {
     ensureSlash();
   }
 
-  if ( History$$1 ) HashHistory.__proto__ = History$$1;
-  HashHistory.prototype = Object.create( History$$1 && History$$1.prototype );
+  if ( History ) HashHistory.__proto__ = History;
+  HashHistory.prototype = Object.create( History && History.prototype );
   HashHistory.prototype.constructor = HashHistory;
 
   // this is delayed until the app mounts
@@ -55272,14 +56170,9 @@ function getHash () {
 
 function getUrl (path) {
   var href = window.location.href;
-  var hashPos = href.indexOf('#');
-  var base = hashPos > -1 ? href.slice(0, hashPos) : href;
-
-  var searchPos = base.indexOf('?');
-  var query = searchPos > -1 ? base.slice(searchPos) : '';
-  base = query ? base.slice(0, searchPos) : base;
-
-  return (base + "#" + (path + query))
+  var i = href.indexOf('#');
+  var base = i >= 0 ? href.slice(0, i) : href;
+  return (base + "#" + path)
 }
 
 function pushHash (path) {
@@ -55300,15 +56193,15 @@ function replaceHash (path) {
 
 /*  */
 
-var AbstractHistory = /*@__PURE__*/(function (History$$1) {
+var AbstractHistory = /*@__PURE__*/(function (History) {
   function AbstractHistory (router, base) {
-    History$$1.call(this, router, base);
+    History.call(this, router, base);
     this.stack = [];
     this.index = -1;
   }
 
-  if ( History$$1 ) AbstractHistory.__proto__ = History$$1;
-  AbstractHistory.prototype = Object.create( History$$1 && History$$1.prototype );
+  if ( History ) AbstractHistory.__proto__ = History;
+  AbstractHistory.prototype = Object.create( History && History.prototype );
   AbstractHistory.prototype.constructor = AbstractHistory;
 
   AbstractHistory.prototype.push = function push (location, onComplete, onAbort) {
@@ -55603,7 +56496,7 @@ function createHref (base, fullPath, mode) {
 }
 
 VueRouter.install = install;
-VueRouter.version = '3.1.1';
+VueRouter.version = '3.1.3';
 
 if (inBrowser && window.Vue) {
   window.Vue.use(VueRouter);
@@ -69529,8 +70422,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/kryme/Documents/TransWeb/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /home/kryme/Documents/TransWeb/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /home/engnr/Desktop/TransWeb/TransWebsite/TransWeb/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /home/engnr/Desktop/TransWeb/TransWebsite/TransWeb/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
