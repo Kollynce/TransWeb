@@ -1,6 +1,15 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148605654-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-148605654-1');
+    </script>
     <meta charset="UTF-8">
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -101,7 +110,7 @@
                                     <li class="rd-nav-item"><router-link class="rd-nav-link" to="/services">Services</router-link>
                                         <ul class="rd-menu rd-navbar-dropdown">
                                             <li class="rd-dropdown-item"><router-link class="rd-dropdown-link" to="/services">Our Services</router-link></li>
-                                            <li class="rd-dropdown-item"><router-link class="rd-dropdown-link" to="/portfolio">Our Work</router-link></li>
+                                            <li class="rd-dropdown-item"><router-link class="rd-dropdown-link" to="/portfolio">Portfolio</router-link></li>
                                         </ul>
                                     </li>
                                     <li class="rd-nav-item"><router-link class="rd-nav-link" to="/blog">Blog</router-link></li>

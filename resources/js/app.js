@@ -53,6 +53,9 @@ Vue.component(AlertError.name, AlertError)
 
 
 const router = new VueRouter({
+  // mode: 'history',
+  history: true,
+  base: '/',
   scrollBehavior() {
         document.getElementById('app').scrollIntoView();
     },
@@ -380,6 +383,57 @@ routes: [
       ]
     }
   },
+  {
+    path: '/portfolio/baza',
+    component: require('./components/portfolio/baza.vue').default,
+    meta: {
+      title: 'Portfolio | Transonline Web',
+      metaTags: [
+        {
+          name: 'description',
+          content: 'Baza - Bursary Application System'
+        },
+        {
+          property: 'og:description',
+          content: 'Baza - Bursary Application System.'
+        }
+      ]
+    }
+  },
+  {
+    path: '/portfolio/research-expert',
+    component: require('./components/portfolio/ResearchExpert.vue').default,
+    meta: {
+      title: 'Portfolio | Transonline Web',
+      metaTags: [
+        {
+          name: 'description',
+          content: 'Reserch Expert '
+        },
+        {
+          property: 'og:description',
+          content: 'Research Expert.'
+        }
+      ]
+    }
+  },
+  {
+    path: '/portfolio/keja-digital',
+    component: require('./components/portfolio/KejaDigital.vue').default,
+    meta: {
+      title: 'Portfolio | Transonline Web',
+      metaTags: [
+        {
+          name: 'description',
+          content: 'Keja Digital '
+        },
+        {
+          property: 'og:description',
+          content: 'Keja Digital.'
+        }
+      ]
+    }
+  },
 ]
 })
 
@@ -439,7 +493,7 @@ router.beforeEach((to, from, next) => {
 // const files = require.context('./', true, /\.vue$/i);
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
 
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+// Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
