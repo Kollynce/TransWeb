@@ -6,15 +6,17 @@
 		<div class="row">
 			<div class="col-sm-6 col-lg-6 text-center text-sm-left wow fadeInRight">
 				<img src="assets/images/research.png" alt="img" class="w-100">
+				<div class="description p-3">
+					<h5>Client: Tw Technologies</h5>
+					<h5>Category: Web based system.</h5>
+					<h5>Description: Online Writing Application.</h5>
+				</div>
             </div>
             <div class="col-sm-6 col-lg-6 text-center text-sm-left wow fadeInRight">
-            	<h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</h5>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            	<h5>My Research Expert</h5>
+				<p><strong> My Research Expert</strong> is an academic writing platform that provide help to clients looking for academic assistance. It is a user-friendly designed site that provides swift services. It provides a simple and quick procedure.</p>
+				<p>My Research Expert enables the client to create a profile, submit his/her order, make payments, recieve & review the order and rate the writer.</p>
+				<p>The application also incorporates a live chat that enables the clients chat with writer/support staff on any questions or concerns that the client has.</p>
 				<a class="button button-primary button-lg" href="#">Visit Site</a>
             </div>
 		</div>
