@@ -26,7 +26,7 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="box-lola-wrapper">
-                            <router-link to="software">
+                            <router-link to="/software">
                                 <div class="box-lola">
                                     <div class="small-text font-weight-sbold ls-1 lh-4"> Software Development
                                     </div>
@@ -34,7 +34,7 @@
                             </router-link>
                         </div>
                         <div class="box-lola-wrapper">
-                            <router-link to="Web-Design">
+                            <router-link to="/Web-Design">
                                 <div class="box-lola">
                                     <div class="small-text font-weight-sbold ls-1 lh-4 box-lola-wrapper">Web Design & Development 
                                     </div>
@@ -42,7 +42,7 @@
                             </router-link>
                         </div>
                         <div class="box-lola-wrapper">
-                            <router-link to="Mobile-App-Development">
+                            <router-link to="/Mobile-App-Development">
                                 <div class="box-lola">
                                     <div class="small-text font-weight-sbold ls-1 lh-4">Mobile App Development
                                     </div>
@@ -50,7 +50,7 @@
                             </router-link>
                         </div>
                         <div class="box-lola-wrapper">
-                            <router-link to="Web-Portals">
+                            <router-link to="/Web-Portals">
                                 <div class="box-lola">
                                     <div class="small-text font-weight-sbold ls-1 lh-4"> Web Portals
                                     </div>
@@ -58,35 +58,35 @@
                             </router-link>
                         </div>
                         <div class="box-lola-wrapper">
-                            <router-link to="Internet-Of-Things">
+                            <router-link to="/Internet-Of-Things">
                                 <div class="box-lola">
                                     <div class="small-text font-weight-sbold ls-1 lh-4"> Internet of Things</div>
                                 </div>
                             </router-link>
                         </div>
                         <div class="box-lola-wrapper">
-                            <router-link to="Web-App-Development">
+                            <router-link to="/Web-App-Development">
                                 <div class="box-lola">
                                     <div class="small-text font-weight-sbold ls-1 lh-4"> Web Apps Development</div>
                                 </div>
                             </router-link>
                         </div>
                         <div class="box-lola-wrapper">
-                            <router-link to="Artificial-Intelligence">
+                            <router-link to="/Artificial-Intelligence">
                                 <div class="box-lola">
                                     <div class="small-text font-weight-sbold ls-1 lh-4"> Artificial Inteligence</div>
                                 </div>
                             </router-link>
                         </div>
                         <div class="box-lola-wrapper">
-                            <router-link to="Big-Data">
+                            <router-link to="/Big-Data">
                                 <div class="box-lola">
                                     <div class="small-text font-weight-sbold ls-1 lh-4"> Big Data</div>
                                 </div>
                             </router-link>
                         </div>
                         <div class="box-lola-wrapper">
-                            <router-link to="Search-Engine-Optimization">
+                            <router-link to="/Search-Engine-Optimization">
                                 <div class="box-lola">
                                     <div class="small-text font-weight-sbold ls-1 lh-4"> Search Engine Optimization</div>
                                 </div>

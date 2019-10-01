@@ -248,6 +248,23 @@ routes: [
     }
   },
   {
+    path: '/blogpost',
+    component: require('./components/blogpost.vue').default,
+    meta: {
+      title: 'Blog Post | Transonline Web',
+      metaTags: [
+        {
+          name: 'description',
+          content: 'News page.'
+        },
+        {
+          property: 'og:description',
+          content: 'News page.'
+        }
+      ]
+    }
+  },
+  {
     path: '/Web-Design',
     component: require('./components/WebDesign.vue').default,
     meta: {
