@@ -53,6 +53,9 @@ Vue.component(AlertError.name, AlertError)
 
 
 const router = new VueRouter({
+  // mode: 'history',
+  history: false,
+  base: '/',
   scrollBehavior() {
         document.getElementById('app').scrollIntoView();
     },
@@ -380,6 +383,58 @@ routes: [
       ]
     }
   },
+  {
+    path: '/portfolio/baza',
+    component: require('./components/portfolio/baza.vue').default,
+    meta: {
+      title: 'Portfolio | Transonline Web',
+      metaTags: [
+        {
+          name: 'description',
+          content: 'Baza - Bursary Application System'
+        },
+        {
+          property: 'og:description',
+          content: 'Baza - Bursary Application System.'
+        }
+      ]
+    }
+  },
+  {
+    path: '/portfolio/research-expert',
+    component: require('./components/portfolio/ResearchExpert.vue').default,
+    meta: {
+      title: 'Portfolio | Transonline Web',
+      metaTags: [
+        {
+          name: 'description',
+          content: 'Reserch Expert '
+        },
+        {
+          property: 'og:description',
+          content: 'Research Expert.'
+        }
+      ]
+    }
+  },
+  {
+    path: '/portfolio/keja-digital',
+    component: require('./components/portfolio/KejaDigital.vue').default,
+    meta: {
+      title: 'Portfolio | Transonline Web',
+      metaTags: [
+        {
+          name: 'description',
+          content: 'Keja Digital '
+        },
+        {
+          property: 'og:description',
+          content: 'Keja Digital.'
+        }
+      ]
+    }
+  },
+  { path: '*', redirect: '/' }, 
 ]
 })
 
@@ -454,7 +509,7 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 
 new Vue({
   router,
-  template: ''
+  // template: ''
 })
 .$mount('#app');
 

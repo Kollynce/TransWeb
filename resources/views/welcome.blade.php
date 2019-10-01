@@ -1,6 +1,15 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148605654-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-148605654-1');
+    </script>
     <meta charset="UTF-8">
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -8,6 +17,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="copyright" content="Transonline Web Technologies">
+    <meta name="keywords" content="Web Application Development, Software Development, Website Design and Development">
     <meta name="description" content="Your leading parner in software and web applications development in Kenya and Africa at large.">
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/logo.png') }}"/>
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i">
@@ -16,7 +26,7 @@
     <link rel="stylesheet" href="{{ asset('assets/css/font-awesome.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/fl-bigmug.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/materialdesignicons.css') }}">
-    <title>Trans Online Web | Your digital transformation starts here</title>
+    <title>Trans Online Web Technologies | Your digital transformation starts here</title>
 
     <style>
         .btn-to-top {
@@ -27,6 +37,7 @@
           font-size: 22px;
           line-height: 22px;
         }
+       
     </style>
 </head>
 <body>
@@ -60,16 +71,13 @@
                         </ul>
                         <ul class="list-inline list-custom">
                             <li>
-                                <div class="align-items-center"><a class="text-gray-300" href="#"><span class="icon mdi mdi-facebook icon-sm"></span></a></div>
+                                <div class="align-items-center"><a class="text-gray-300" href="#"><span class="icon mdi mdi-facebook"></span></a></div>
                             </li>
                             <li>
-                                <div class="align-items-center"><a class="text-gray-300" href="#"><span class="icon mdi mdi-instagram icon-xs"></span></a></div>
+                                <div class="align-items-center"><a class="text-gray-300" href="#"><span class="icon mdi mdi-instagram"></span></a></div>
                             </li>
                             <li>
-                                <div class="align-items-center"><a class="text-gray-300" href="#"><span class="icon mdi mdi-youtube-play icon-sm"></span></a></div>
-                            </li>
-                            <li>
-                                <div class="align-items-center"><a class="text-gray-300" href="#"><span class="icon mdi mdi-twitter icon-sm"></span></a></div>
+                                <div class="align-items-center"><a class="text-gray-300" href="#"><span class="icon mdi mdi-twitter-box"></span></a></div>
                             </li>
                         </ul>
                     </div>
@@ -103,7 +111,7 @@
                                     <li class="rd-nav-item"><router-link class="rd-nav-link" to="/services">Services</router-link>
                                         <ul class="rd-menu rd-navbar-dropdown">
                                             <li class="rd-dropdown-item"><router-link class="rd-dropdown-link" to="/services">Our Services</router-link></li>
-                                            <li class="rd-dropdown-item"><router-link class="rd-dropdown-link" to="/portfolio">Our Work</router-link></li>
+                                            <li class="rd-dropdown-item"><router-link class="rd-dropdown-link" to="/portfolio">Portfolio</router-link></li>
                                         </ul>
                                     </li>
                                     <li class="rd-nav-item"><router-link class="rd-nav-link" to="/blog">Blog</router-link></li>

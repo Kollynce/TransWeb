@@ -84,8 +84,8 @@
                                     <li><a class="text-gray-270" href="#"><span class="icon mdi mdi-instagram icon-xs"></span></a></li>
                                 </ul>
                             </div>
-                            <h5 class="font-weight-sbold ls-1 text-center offset-top-15">Joe Nelson</h5>
-                            <div class="small-text font-weight-light text-center">Head of Support</div>
+                            <h5 class="font-weight-sbold ls-1 text-center offset-top-15">Shem Nduati</h5>
+                            <div class="small-text font-weight-light text-center"></div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 box-team">
@@ -99,8 +99,8 @@
                                     <li><a class="text-gray-270" href="#"><span class="icon mdi mdi-instagram icon-xs"></span></a></li>
                                 </ul>
                             </div>
-                            <h5 class="font-weight-sbold ls-1 text-center offset-top-15">Maria Price</h5>
-                            <div class="small-text font-weight-light text-center">Business Consultant</div>
+                            <h5 class="font-weight-sbold ls-1 text-center offset-top-15">Derrick Ochieng</h5>
+                            <div class="small-text font-weight-light text-center"></div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 box-team">
@@ -114,8 +114,8 @@
                                     <li><a class="text-gray-270" href="#"><span class="icon mdi mdi-instagram icon-xs"></span></a></li>
                                 </ul>
                             </div>
-                            <h5 class="font-weight-sbold ls-1 text-center offset-top-15">Gerald Scott</h5>
-                            <div class="small-text font-weight-light text-center">Strategist</div>
+                            <h5 class="font-weight-sbold ls-1 text-center offset-top-15">Collins Odeny</h5>
+                            <div class="small-text font-weight-light text-center"></div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-xl-3 box-team">
@@ -129,8 +129,8 @@
                                     <li><a class="text-gray-270" href="#"><span class="icon mdi mdi-instagram icon-xs"></span></a></li>
                                 </ul>
                             </div>
-                            <h5 class="font-weight-sbold ls-1 text-center offset-top-15">Evelyn Brooks</h5>
-                            <div class="small-text font-weight-light text-center">Office Manager</div>
+                            <h5 class="font-weight-sbold ls-1 text-center offset-top-15">Jeremiah Adiwuor</h5>
+                            <div class="small-text font-weight-light text-center"></div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 box-team">
@@ -144,8 +144,8 @@
                                     <li><a class="text-gray-270" href="#"><span class="icon mdi mdi-instagram icon-xs"></span></a></li>
                                 </ul>
                             </div>
-                            <h5 class="font-weight-sbold ls-1 text-center offset-top-15">John Peterson</h5>
-                            <div class="small-text font-weight-light text-center">HR Manager</div>
+                            <h5 class="font-weight-sbold ls-1 text-center offset-top-15">Samson Rutto</h5>
+                            <div class="small-text font-weight-light text-center"></div>
                         </div>
                     </div>
                 </div>

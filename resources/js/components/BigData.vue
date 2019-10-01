@@ -14,52 +14,86 @@
                 <div class="row row-50">
                     <div class="col-lg-8"><img src="/images/blur.jpg" alt="img" width="770" height="500">
                         <h2 class="font-weight-sbold wow fadeIn offset-top-40" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">Big Data</h2>
-                        <h4 class="font-weight-light text-gray-650 lh-3"> An ius meliore dignissim, ius dicit praesent constituto ad, id dicam singulis complect itur nam. Et mel doming everti. No brute fuisset eos, definiebas — concludaturque in est, congue torquatos deseruisse ex per. In solum essent sapientem vim, vix ferri tantas euismod cu, adhuc ceteros consulatu.</h4>
-                        <h4 class="font-weight-light text-gray-650 lh-3"> Ius probo intellegebat id. Vix euismod appetere mandamus no, ne decore utamur bonorum est. Qui at stet <span class="font-weight-medium">60%</span> epicuri suscipit. Brute euripidis cotidieque vis id, assum – noster instructior nec ad. Cu melius corpora consulatu eum. Mea no integre salutandi. Mea ne augue appetere nominati — accumsan.</h4>
+                        <h4 class="font-weight-light text-gray-650 lh-3"> Data is crucial for organizations. How businesses perceive it plays a key role. The smartest strategy is to look beyond traditional practices and keep developing new models that would have the ability to personalize customer offerings & experiences.</h4>
+                        <h4 class="font-weight-light text-gray-650 lh-3"> Harnessing the power of big data is the new key that will enable some companies to become leaders in their competitive space. Converting big data into informative insides have opened new doors of possibility for both big and small businesses.</h4>
+                        <h4 class="font-weight-light text-gray-650 lh-3">We are able to provide big data services with customisable solutions for every organization.
+                        We leverage powerful open source tools and also develop custom big data applications to deliver values across the entire enterprise. Our team is skilled enough to support you through the entire development cycle of the Big Data solution that you are looking for. Whatever your need or goal, our aim remains the same to provide you end-to-end processes to help you achieve your long-term Business  Intelligence and Analytics goals.</h4>
                         <ul class="list-custom-3 heading-4 font-weight-light text-gray-650 lh-3">
-                            <li>› Brute fuisset eos definiebas</li>
-                            <li>› Euismod appetere</li>
-                            <li>› Melius corpora consulatu</li>
-                            <li>› Torquatos deseruisse</li>
+                            <li>› Big Data Consulting </li>
+                            <li>› Data Exploration & Analytics</li>
+                            <li>› Cross platform cluster management</li>
+                            <li>› Application Development & Integration</li>
                         </ul>
                         
                     </div>
-                    <div class="col-lg-4"><a class="box-lola-wrapper" href="#">
-                        <div class="box-lola">
-                            <div class="small-text font-weight-sbold ls-1 lh-4"> Software Development</div>
-                        </div></a><a class="box-lola-wrapper" href="#">
-                        <div class="box-lola">
-                            <div class="small-text font-weight-sbold ls-1 lh-4"> Web Design & Development</div>
-                        </div></a><a class="box-lola-wrapper" href="#">
-                        <div class="box-lola">
-                            <div class="small-text font-weight-sbold ls-1 lh-4">Mobile App Development</div>
-                        </div></a><a class="box-lola-wrapper" href="#">
-                        <div class="box-lola">
-                            <div class="small-text font-weight-sbold ls-1 lh-4"> Web Portals</div>
-                        </div></a><a class="box-lola-wrapper" href="#">
-                        <div class="box-lola">
-                            <div class="small-text font-weight-sbold ls-1 lh-4"> Internet of Things</div>
-                        </div></a>
-                        <a class="box-lola-wrapper" href="#">
-                            <div class="box-lola">
-                                <div class="small-text font-weight-sbold ls-1 lh-4"> Web Apps Development</div>
-                            </div>
-                        </a>
-                        <a class="box-lola-wrapper" href="#">
-                            <div class="box-lola">
-                                <div class="small-text font-weight-sbold ls-1 lh-4"> Artificial Inteligence</div>
-                            </div>
-                        </a>
-                        <a class="box-lola-wrapper" href="#">
-                            <div class="box-lola">
-                                <div class="small-text font-weight-sbold ls-1 lh-4"> Big Data</div>
-                            </div>
-                        </a>
-                        <a class="box-lola-wrapper" href="#">
-                            <div class="box-lola">
-                                <div class="small-text font-weight-sbold ls-1 lh-4"> Search Engine Optimization</div>
-                            </div>
-                        </a>
+                    <div class="col-lg-4">
+                        <div class="box-lola-wrapper">
+                            <router-link to="software">
+                                <div class="box-lola">
+                                    <div class="small-text font-weight-sbold ls-1 lh-4"> Software Development
+                                    </div>
+                                </div>
+                            </router-link>
+                        </div>
+                        <div class="box-lola-wrapper">
+                            <router-link to="Web-Design">
+                                <div class="box-lola">
+                                    <div class="small-text font-weight-sbold ls-1 lh-4 box-lola-wrapper">Web Design & Development 
+                                    </div>
+                                </div>
+                            </router-link>
+                        </div>
+                        <div class="box-lola-wrapper">
+                            <router-link to="Mobile-App-Development">
+                                <div class="box-lola">
+                                    <div class="small-text font-weight-sbold ls-1 lh-4">Mobile App Development
+                                    </div>
+                                </div>
+                            </router-link>
+                        </div>
+                        <div class="box-lola-wrapper">
+                            <router-link to="Web-Portals">
+                                <div class="box-lola">
+                                    <div class="small-text font-weight-sbold ls-1 lh-4"> Web Portals
+                                    </div>
+                                </div>
+                            </router-link>
+                        </div>
+                        <div class="box-lola-wrapper">
+                            <router-link to="Internet-Of-Things">
+                                <div class="box-lola">
+                                    <div class="small-text font-weight-sbold ls-1 lh-4"> Internet of Things</div>
+                                </div>
+                            </router-link>
+                        </div>
+                        <div class="box-lola-wrapper">
+                            <router-link to="Web-App-Development">
+                                <div class="box-lola">
+                                    <div class="small-text font-weight-sbold ls-1 lh-4"> Web Apps Development</div>
+                                </div>
+                            </router-link>
+                        </div>
+                        <div class="box-lola-wrapper">
+                            <router-link to="Artificial-Intelligence">
+                                <div class="box-lola">
+                                    <div class="small-text font-weight-sbold ls-1 lh-4"> Artificial Inteligence</div>
+                                </div>
+                            </router-link>
+                        </div>
+                        <div class="box-lola-wrapper">
+                            <router-link to="Big-Data">
+                                <div class="box-lola">
+                                    <div class="small-text font-weight-sbold ls-1 lh-4"> Big Data</div>
+                                </div>
+                            </router-link>
+                        </div>
+                        <div class="box-lola-wrapper">
+                            <router-link to="Search-Engine-Optimization">
+                                <div class="box-lola">
+                                    <div class="small-text font-weight-sbold ls-1 lh-4"> Search Engine Optimization</div>
+                                </div>
+                            </router-link>
+                        </div>
                         <div class="box-tina">
                             <div class="small-text text-third font-weight-sbold lh-4">Still have questions?</div>
                             <div class="box-tina-block">
