@@ -53,8 +53,7 @@ Vue.component(AlertError.name, AlertError)
 
 
 const router = new VueRouter({
-  // mode: 'history',
-  history: false,
+  mode: 'history',
   base: '/',
   scrollBehavior() {
         document.getElementById('app').scrollIntoView();
@@ -401,7 +400,7 @@ routes: [
     }
   },
   {
-    path: '/portfolio/baza',
+    path: '/baza',
     component: require('./components/portfolio/baza.vue').default,
     meta: {
       title: 'Portfolio | Transonline Web',
@@ -418,7 +417,7 @@ routes: [
     }
   },
   {
-    path: '/portfolio/research-expert',
+    path: '/research-expert',
     component: require('./components/portfolio/ResearchExpert.vue').default,
     meta: {
       title: 'Portfolio | Transonline Web',
@@ -435,7 +434,7 @@ routes: [
     }
   },
   {
-    path: '/portfolio/keja-digital',
+    path: '/keja-digital',
     component: require('./components/portfolio/KejaDigital.vue').default,
     meta: {
       title: 'Portfolio | Transonline Web',
@@ -480,7 +479,6 @@ router.beforeEach((to, from, next) => {
             });
 
             tag.setAttribute('data-vue-router-controlled', '');
-            console.log (tag);
             return tag;
             
         })

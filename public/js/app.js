@@ -3813,6 +3813,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -3871,6 +3872,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
 //
 //
 //
@@ -49692,25 +49694,57 @@ var staticRenderFns = [
         _c("ul", { staticClass: "list-inline list-custom-2 offset-top-40" }, [
           _c("li", [
             _c("div", { staticClass: "align-items-center" }, [
-              _c("a", { staticClass: "text-gray-300", attrs: { href: "#" } }, [
-                _c("span", { staticClass: "icon mdi mdi-facebook" })
-              ])
+              _c(
+                "a",
+                {
+                  staticClass: "text-gray-300",
+                  attrs: { href: "https://www.facebook.com/TechnologiesTw/" }
+                },
+                [
+                  _c("span", {
+                    staticClass: "icon mdi mdi-facebook",
+                    staticStyle: { "font-size": "22px" }
+                  })
+                ]
+              )
             ])
           ]),
           _vm._v(" "),
           _c("li", [
             _c("div", { staticClass: "align-items-center" }, [
-              _c("a", { staticClass: "text-gray-300", attrs: { href: "#" } }, [
-                _c("span", { staticClass: "icon mdi mdi-instagram" })
-              ])
+              _c(
+                "a",
+                {
+                  staticClass: "text-gray-300",
+                  attrs: {
+                    href: "https://www.instagram.com/transonlineweb.ke/"
+                  }
+                },
+                [
+                  _c("span", {
+                    staticClass: "icon mdi mdi-instagram",
+                    staticStyle: { "font-size": "22px" }
+                  })
+                ]
+              )
             ])
           ]),
           _vm._v(" "),
           _c("li", [
             _c("div", { staticClass: "align-items-center" }, [
-              _c("a", { staticClass: "text-gray-300", attrs: { href: "#" } }, [
-                _c("span", { staticClass: "icon mdi mdi-twitter-box" })
-              ])
+              _c(
+                "a",
+                {
+                  staticClass: "text-gray-300",
+                  attrs: { href: "https://twitter.com/TwTechnologies" }
+                },
+                [
+                  _c("span", {
+                    staticClass: "icon mdi mdi-twitter-box",
+                    staticStyle: { "font-size": "22px" }
+                  })
+                ]
+              )
             ])
           ])
         ])
@@ -51136,10 +51170,7 @@ var render = function() {
             [
               _c(
                 "router-link",
-                {
-                  staticClass: "overlay-img",
-                  attrs: { to: "/portfolio/baza" }
-                },
+                { staticClass: "overlay-img", attrs: { to: "/baza" } },
                 [
                   _c("img", {
                     attrs: {
@@ -51158,10 +51189,7 @@ var render = function() {
                 [
                   _c(
                     "router-link",
-                    {
-                      staticClass: "rd-nav-link",
-                      attrs: { to: "/portfolio/baza" }
-                    },
+                    { staticClass: "rd-nav-link", attrs: { to: "/baza" } },
                     [_vm._v("Baza - Bursary Application System")]
                   )
                 ],
@@ -51188,7 +51216,7 @@ var render = function() {
                 "router-link",
                 {
                   staticClass: "overlay-img",
-                  attrs: { to: "/portfolio/research-expert" }
+                  attrs: { to: "/research-expert" }
                 },
                 [
                   _c("img", {
@@ -51210,7 +51238,7 @@ var render = function() {
                     "router-link",
                     {
                       staticClass: "rd-nav-link",
-                      attrs: { to: "/portfolio/research-expert" }
+                      attrs: { to: "/research-expert" }
                     },
                     [_vm._v("My Research Expert")]
                   )
@@ -51236,10 +51264,7 @@ var render = function() {
             [
               _c(
                 "router-link",
-                {
-                  staticClass: "overlay-img",
-                  attrs: { to: "/portfolio/keja-digital" }
-                },
+                { staticClass: "overlay-img", attrs: { to: "/keja-digital" } },
                 [
                   _c("img", {
                     attrs: {
@@ -51260,7 +51285,7 @@ var render = function() {
                     "router-link",
                     {
                       staticClass: "rd-nav-link",
-                      attrs: { to: "/portfolio/keja-digital" }
+                      attrs: { to: "/keja-digital" }
                     },
                     [_vm._v("Keja Digital")]
                   )
@@ -51473,6 +51498,8 @@ var staticRenderFns = [
               "col-sm-6 col-lg-6 text-center text-sm-left wow fadeInRight"
           },
           [
+            _c("h5", [_vm._v("Keja Digital")]),
+            _vm._v(" "),
             _c("p", [
               _c("strong", [_vm._v(" Keja Digital (KD)")]),
               _vm._v(
@@ -51659,7 +51686,7 @@ var staticRenderFns = [
             }),
             _vm._v(" "),
             _c("div", { staticClass: "description p-3" }, [
-              _c("h5", [_vm._v("Client: Tw Technologies")]),
+              _c("h5", [_vm._v("Client: MeltCom")]),
               _vm._v(" "),
               _c("h5", [_vm._v("Category: Web based system.")]),
               _vm._v(" "),
@@ -51675,6 +51702,8 @@ var staticRenderFns = [
               "col-sm-6 col-lg-6 text-center text-sm-left wow fadeInRight"
           },
           [
+            _c("h5", [_vm._v("Baza")]),
+            _vm._v(" "),
             _c("p", [
               _vm._v(
                 "Baza is a management system for the disbursement of bursaries, it is designed to streamline the whole process from application to awarding of bursaries. The system will ensure efficiency and transparency in the allocation of bursaries and foolproof against scammers."
@@ -53887,9 +53916,11 @@ var staticRenderFns = [
                 [_vm._v("Shem Nduati")]
               ),
               _vm._v(" "),
-              _c("div", {
-                staticClass: "small-text font-weight-light text-center"
-              })
+              _c(
+                "div",
+                { staticClass: "small-text font-weight-light text-center" },
+                [_vm._v("Project Manager")]
+              )
             ])
           ]),
           _vm._v(" "),
@@ -53955,9 +53986,11 @@ var staticRenderFns = [
                 [_vm._v("Derrick Ochieng")]
               ),
               _vm._v(" "),
-              _c("div", {
-                staticClass: "small-text font-weight-light text-center"
-              })
+              _c(
+                "div",
+                { staticClass: "small-text font-weight-light text-center" },
+                [_vm._v("Senior Developer")]
+              )
             ])
           ]),
           _vm._v(" "),
@@ -54023,9 +54056,11 @@ var staticRenderFns = [
                 [_vm._v("Collins Odeny")]
               ),
               _vm._v(" "),
-              _c("div", {
-                staticClass: "small-text font-weight-light text-center"
-              })
+              _c(
+                "div",
+                { staticClass: "small-text font-weight-light text-center" },
+                [_vm._v("Frontend Developer")]
+              )
             ])
           ]),
           _vm._v(" "),
@@ -54091,9 +54126,11 @@ var staticRenderFns = [
                 [_vm._v("Jeremiah Adiwuor")]
               ),
               _vm._v(" "),
-              _c("div", {
-                staticClass: "small-text font-weight-light text-center"
-              })
+              _c(
+                "div",
+                { staticClass: "small-text font-weight-light text-center" },
+                [_vm._v("Backend Developer")]
+              )
             ])
           ]),
           _vm._v(" "),
@@ -54159,9 +54196,11 @@ var staticRenderFns = [
                 [_vm._v("Samson Rutto")]
               ),
               _vm._v(" "),
-              _c("div", {
-                staticClass: "small-text font-weight-light text-center"
-              })
+              _c(
+                "div",
+                { staticClass: "small-text font-weight-light text-center" },
+                [_vm._v("SEO Manager")]
+              )
             ])
           ])
         ])
@@ -69261,8 +69300,7 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.component(vform__WEBPACK_IMPORTED_MOD
 // ]
 
 var router = new vue_router__WEBPACK_IMPORTED_MODULE_3__["default"]({
-  // mode: 'history',
-  history: false,
+  mode: 'history',
   base: '/',
   scrollBehavior: function scrollBehavior() {
     document.getElementById('app').scrollIntoView();
@@ -69528,7 +69566,7 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_3__["default"]({
       }]
     }
   }, {
-    path: '/portfolio/baza',
+    path: '/baza',
     component: __webpack_require__(/*! ./components/portfolio/baza.vue */ "./resources/js/components/portfolio/baza.vue")["default"],
     meta: {
       title: 'Portfolio | Transonline Web',
@@ -69541,7 +69579,7 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_3__["default"]({
       }]
     }
   }, {
-    path: '/portfolio/research-expert',
+    path: '/research-expert',
     component: __webpack_require__(/*! ./components/portfolio/ResearchExpert.vue */ "./resources/js/components/portfolio/ResearchExpert.vue")["default"],
     meta: {
       title: 'Portfolio | Transonline Web',
@@ -69554,7 +69592,7 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_3__["default"]({
       }]
     }
   }, {
-    path: '/portfolio/keja-digital',
+    path: '/keja-digital',
     component: __webpack_require__(/*! ./components/portfolio/KejaDigital.vue */ "./resources/js/components/portfolio/KejaDigital.vue")["default"],
     meta: {
       title: 'Portfolio | Transonline Web',
@@ -69593,7 +69631,6 @@ router.beforeEach(function (to, from, next) {
       tag.setAttribute(key, tagDef[key]);
     });
     tag.setAttribute('data-vue-router-controlled', '');
-    console.log(tag);
     return tag;
   }).forEach(function (tag) {
     return document.head.appendChild(tag);
