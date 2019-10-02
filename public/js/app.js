@@ -3578,6 +3578,22 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "home",
   data: function data() {
@@ -3854,7 +3870,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -3872,6 +3887,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
 //
 //
 //
@@ -50149,10 +50165,12 @@ var render = function() {
       ]
     ),
     _vm._v(" "),
+    _vm._m(6),
+    _vm._v(" "),
     _c("section", { staticClass: "section section-lg bg-gray-100" }, [
       _c("div", { staticClass: "container" }, [
         _c("div", { staticClass: "row row-40" }, [
-          _vm._m(6),
+          _vm._m(7),
           _vm._v(" "),
           _c(
             "div",
@@ -50162,7 +50180,7 @@ var render = function() {
               attrs: { "data-wow-delay": ".2s" }
             },
             [
-              _vm._m(7),
+              _vm._m(8),
               _vm._v(" "),
               _c(
                 "div",
@@ -50471,7 +50489,7 @@ var render = function() {
       ])
     ]),
     _vm._v(" "),
-    _vm._m(8)
+    _vm._m(9)
   ])
 }
 var staticRenderFns = [
@@ -50640,6 +50658,76 @@ var staticRenderFns = [
         _vm._v("We provide various "),
         _c("span", { staticClass: "font-weight-bold" }, [_vm._v("services ")]),
         _vm._v(" to help our clients handle different issues.")
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "section",
+      {
+        staticClass: "section overflow-hidden bg-image",
+        staticStyle: {
+          "background-image": "url(assets/images/bg-image-1-1920x476.jpg)"
+        }
+      },
+      [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c(
+              "div",
+              {
+                staticClass:
+                  "col-lg-12 offset-top-70 text-center text-lg-center"
+              },
+              [
+                _c(
+                  "h2",
+                  {
+                    staticClass: "font-weight-sbold wow fadeIn",
+                    staticStyle: {
+                      visibility: "visible",
+                      "animation-delay": "0.2s",
+                      "animation-name": "fadeIn"
+                    },
+                    attrs: { "data-wow-delay": ".2s" }
+                  },
+                  [
+                    _vm._v("Do You Need Our Services"),
+                    _c("br", { staticClass: "d-none d-lg-block" }),
+                    _vm._v(" Go For It!")
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "group-btn text-center text-lg-center wow fadeIn",
+                    staticStyle: {
+                      visibility: "visible",
+                      "animation-delay": "0.4s",
+                      "animation-name": "fadeIn"
+                    },
+                    attrs: { "data-wow-delay": ".4s" }
+                  },
+                  [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "button button-primary button-lg",
+                        attrs: { href: "#" }
+                      },
+                      [_vm._v("Make an Order Now!")]
+                    )
+                  ]
+                )
+              ]
+            )
+          ])
+        ])
       ]
     )
   },
@@ -51457,16 +51545,25 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "container" }, [
-      _c("div", { staticClass: "row row-50 mt-5 ml-5" }, [
-        _c(
-          "h3",
-          {
-            staticClass: "font-weight-sbold text-left wow fadeIn",
-            attrs: { "data-wow-delay": ".3s" }
-          },
-          [_vm._v("Keja Digital")]
-        )
-      ]),
+      _c(
+        "div",
+        { staticClass: "col-lg-12 offset-top-100 text-center text-lg-center" },
+        [
+          _c(
+            "h2",
+            {
+              staticClass: "font-weight-sbold wow fadeIn",
+              staticStyle: {
+                visibility: "visible",
+                "animation-delay": "0.2s",
+                "animation-name": "fadeIn"
+              },
+              attrs: { "data-wow-delay": ".2s" }
+            },
+            [_vm._v("Keja Digital - Housing System")]
+          )
+        ]
+      ),
       _vm._v(" "),
       _c("div", { staticClass: "row" }, [
         _c(
@@ -51478,15 +51575,30 @@ var staticRenderFns = [
           [
             _c("img", {
               staticClass: "w-100",
-              attrs: { src: "assets/images/keja.jpg", alt: "img" }
+              attrs: { src: "assets/images/baza.png", alt: "img" }
             }),
             _vm._v(" "),
             _c("div", { staticClass: "description p-3" }, [
-              _c("h5", [_vm._v("Client: Tw Technologies")]),
+              _c("h5", [
+                _c("span", { staticClass: "text-primary" }, [
+                  _vm._v("Client:")
+                ]),
+                _vm._v(" Tw Technologies")
+              ]),
               _vm._v(" "),
-              _c("h5", [_vm._v("Category: Web based system.")]),
+              _c("h5", [
+                _c("span", { staticClass: "text-primary" }, [
+                  _vm._v("Category:")
+                ]),
+                _vm._v(" Web based system.")
+              ]),
               _vm._v(" "),
-              _c("h5", [_vm._v("Description: Property Management system.")])
+              _c("h5", [
+                _c("span", { staticClass: "text-primary" }, [
+                  _vm._v("Description:")
+                ]),
+                _vm._v(" Property Management system.")
+              ])
             ])
           ]
         ),
@@ -51498,16 +51610,28 @@ var staticRenderFns = [
               "col-sm-6 col-lg-6 text-center text-sm-left wow fadeInRight"
           },
           [
-            _c("h5", [_vm._v("Keja Digital")]),
+            _c(
+              "h2",
+              {
+                staticClass: "font-weight-sbold wow fadeIn",
+                staticStyle: {
+                  visibility: "visible",
+                  "animation-delay": "0.2s",
+                  "animation-name": "fadeIn"
+                },
+                attrs: { "data-wow-delay": ".2s" }
+              },
+              [_vm._v("Keja Digital")]
+            ),
             _vm._v(" "),
-            _c("p", [
+            _c("h6", { staticClass: "font-weight-light text-gray-650" }, [
               _c("strong", [_vm._v(" Keja Digital (KD)")]),
               _vm._v(
                 " is a property management system, designed to meet the needs of landlord agents and property managers. KD is also designed to assist tenants in searching for a rental property in their desired location. The web-based system offers solution feature such as tenant management, maintenance scheduling, rent payment tracking and notification system for various activities. Additionally, rent collection is automated and tenants can pay rent through different\n\t\t\t\tplatforms."
               )
             ]),
             _vm._v(" "),
-            _c("p", [
+            _c("h6", { staticClass: "font-weight-light text-gray-650" }, [
               _vm._v(
                 "The web-based solution offers tools to capture tenants’ details, sign agreements, create invoice and track rent payments. Property owners have tools that allow them to send bulk emails to their\n\t\t\t\ttenants and also maintain ace alert. The system is also capable of generating a monthly statement for a given property and download it. With KD property owners and agents have better visibility\n\t\t\t\tof their occupied and vacant units."
               )
@@ -51556,16 +51680,25 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "container" }, [
-      _c("div", { staticClass: "row row-50 mt-5 ml-5" }, [
-        _c(
-          "h3",
-          {
-            staticClass: "font-weight-sbold text-left wow fadeIn",
-            attrs: { "data-wow-delay": ".3s" }
-          },
-          [_vm._v("My Research Expert")]
-        )
-      ]),
+      _c(
+        "div",
+        { staticClass: "col-lg-12 offset-top-100 text-center text-lg-center" },
+        [
+          _c(
+            "h2",
+            {
+              staticClass: "font-weight-sbold wow fadeIn",
+              staticStyle: {
+                visibility: "visible",
+                "animation-delay": "0.2s",
+                "animation-name": "fadeIn"
+              },
+              attrs: { "data-wow-delay": ".2s" }
+            },
+            [_vm._v("My Research Expert")]
+          )
+        ]
+      ),
       _vm._v(" "),
       _c("div", { staticClass: "row" }, [
         _c(
@@ -51581,11 +51714,26 @@ var staticRenderFns = [
             }),
             _vm._v(" "),
             _c("div", { staticClass: "description p-3" }, [
-              _c("h5", [_vm._v("Client: Tw Technologies")]),
+              _c("h5", [
+                _c("span", { staticClass: "text-primary" }, [
+                  _vm._v("Client:")
+                ]),
+                _vm._v(" Tw Technologies")
+              ]),
               _vm._v(" "),
-              _c("h5", [_vm._v("Category: Web based system.")]),
+              _c("h5", [
+                _c("span", { staticClass: "text-primary" }, [
+                  _vm._v("Category:")
+                ]),
+                _vm._v(" Web based system.")
+              ]),
               _vm._v(" "),
-              _c("h5", [_vm._v("Description: Online Writing Application.")])
+              _c("h5", [
+                _c("span", { staticClass: "text-primary" }, [
+                  _vm._v("Description:")
+                ]),
+                _vm._v(" Online Writing Application.")
+              ])
             ])
           ]
         ),
@@ -51597,22 +51745,28 @@ var staticRenderFns = [
               "col-sm-6 col-lg-6 text-center text-sm-left wow fadeInRight"
           },
           [
-            _c("h5", [_vm._v("My Research Expert")]),
+            _c(
+              "h2",
+              {
+                staticClass: "font-weight-sbold wow fadeIn",
+                staticStyle: {
+                  visibility: "visible",
+                  "animation-delay": "0.2s",
+                  "animation-name": "fadeIn"
+                },
+                attrs: { "data-wow-delay": ".2s" }
+              },
+              [_vm._v("My Research Expert")]
+            ),
             _vm._v(" "),
-            _c("p", [
+            _c("h6", { staticClass: "font-weight-light text-gray-650" }, [
               _c("strong", [_vm._v(" My Research Expert")]),
               _vm._v(
                 " is an academic writing platform that provide help to clients looking for academic assistance. It is a user-friendly designed site that provides swift services. It provides a simple and quick procedure."
               )
             ]),
             _vm._v(" "),
-            _c("p", [
-              _vm._v(
-                "My Research Expert enables the client to create a profile, submit his/her order, make payments, recieve & review the order and rate the writer."
-              )
-            ]),
-            _vm._v(" "),
-            _c("p", [
+            _c("h6", { staticClass: "font-weight-light text-gray-650" }, [
               _vm._v(
                 "The application also incorporates a live chat that enables the clients chat with writer/support staff on any questions or concerns that the client has."
               )
@@ -51661,16 +51815,25 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "container" }, [
-      _c("div", { staticClass: "row row-50 mt-5 ml-5" }, [
-        _c(
-          "h3",
-          {
-            staticClass: "font-weight-sbold text-left wow fadeIn",
-            attrs: { "data-wow-delay": ".3s" }
-          },
-          [_vm._v("Baza - Bursary Application System")]
-        )
-      ]),
+      _c(
+        "div",
+        { staticClass: "col-lg-12 offset-top-100 text-center text-lg-center" },
+        [
+          _c(
+            "h2",
+            {
+              staticClass: "font-weight-sbold wow fadeIn",
+              staticStyle: {
+                visibility: "visible",
+                "animation-delay": "0.2s",
+                "animation-name": "fadeIn"
+              },
+              attrs: { "data-wow-delay": ".2s" }
+            },
+            [_vm._v("Baza - Bursary Application System")]
+          )
+        ]
+      ),
       _vm._v(" "),
       _c("div", { staticClass: "row" }, [
         _c(
@@ -51686,11 +51849,26 @@ var staticRenderFns = [
             }),
             _vm._v(" "),
             _c("div", { staticClass: "description p-3" }, [
-              _c("h5", [_vm._v("Client: MeltCom")]),
+              _c("h5", [
+                _c("span", { staticClass: "text-primary" }, [
+                  _vm._v("Client:")
+                ]),
+                _vm._v(" MeltCom")
+              ]),
               _vm._v(" "),
-              _c("h5", [_vm._v("Category: Web based system.")]),
+              _c("h5", [
+                _c("span", { staticClass: "text-primary" }, [
+                  _vm._v("Category:")
+                ]),
+                _vm._v(" Web based system.")
+              ]),
               _vm._v(" "),
-              _c("h5", [_vm._v("Description: Bursary Allocation system.")])
+              _c("h5", [
+                _c("span", { staticClass: "text-primary" }, [
+                  _vm._v("Description:")
+                ]),
+                _vm._v(" Bursary Allocation system.")
+              ])
             ])
           ]
         ),
@@ -51702,15 +51880,27 @@ var staticRenderFns = [
               "col-sm-6 col-lg-6 text-center text-sm-left wow fadeInRight"
           },
           [
-            _c("h5", [_vm._v("Baza")]),
+            _c(
+              "h2",
+              {
+                staticClass: "font-weight-sbold wow fadeIn",
+                staticStyle: {
+                  visibility: "visible",
+                  "animation-delay": "0.2s",
+                  "animation-name": "fadeIn"
+                },
+                attrs: { "data-wow-delay": ".2s" }
+              },
+              [_vm._v("Baza")]
+            ),
             _vm._v(" "),
-            _c("p", [
+            _c("h6", { staticClass: "font-weight-light text-gray-650" }, [
               _vm._v(
                 "Baza is a management system for the disbursement of bursaries, it is designed to streamline the whole process from application to awarding of bursaries. The system will ensure efficiency and transparency in the allocation of bursaries and foolproof against scammers."
               )
             ]),
             _vm._v(" "),
-            _c("p", [
+            _c("h6", { staticClass: "font-weight-light text-gray-650" }, [
               _vm._v(
                 "Baza allows applicants to submit their details and supporting documents for scrutiny. Once an application is made, the officials receive it and confirm if the applicant is elegible for the bursary.\n\t\t\t\tApplicants can track the status of their application on the applicant’s page. Those who are awarded bursaries can download the bursary form from the system."
               )
