@@ -85,7 +85,7 @@
                                 </ul>
                             </div>
                             <h5 class="font-weight-sbold ls-1 text-center offset-top-15">Shem Nduati</h5>
-                            <div class="small-text font-weight-light text-center"></div>
+                            <div class="small-text font-weight-light text-center">Project Manager</div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 box-team">
@@ -100,7 +100,7 @@
                                 </ul>
                             </div>
                             <h5 class="font-weight-sbold ls-1 text-center offset-top-15">Derrick Ochieng</h5>
-                            <div class="small-text font-weight-light text-center"></div>
+                            <div class="small-text font-weight-light text-center">Senior Developer</div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 box-team">
@@ -115,7 +115,7 @@
                                 </ul>
                             </div>
                             <h5 class="font-weight-sbold ls-1 text-center offset-top-15">Collins Odeny</h5>
-                            <div class="small-text font-weight-light text-center"></div>
+                            <div class="small-text font-weight-light text-center">Frontend Developer</div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-xl-3 box-team">
@@ -130,7 +130,7 @@
                                 </ul>
                             </div>
                             <h5 class="font-weight-sbold ls-1 text-center offset-top-15">Jeremiah Adiwuor</h5>
-                            <div class="small-text font-weight-light text-center"></div>
+                            <div class="small-text font-weight-light text-center">Backend Developer</div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 box-team">
@@ -145,7 +145,7 @@
                                 </ul>
                             </div>
                             <h5 class="font-weight-sbold ls-1 text-center offset-top-15">Samson Rutto</h5>
-                            <div class="small-text font-weight-light text-center"></div>
+                            <div class="small-text font-weight-light text-center">SEO Manager</div>
                         </div>
                     </div>
                 </div>

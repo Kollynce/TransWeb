@@ -15,11 +15,13 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// Route::get('/{vue_capture?}', function () {
+// Route::get('/{vueroute?}', function () {
 //    return view('welcome');
-// })->where('vue_capture', '^(?!storage).*$'); 
+// })->where('vueroute?', '^([\w\.-]*'); 
 
 
-// Route::get('{path}',function () {
-//    return view('welcome');
-// })->where( 'path', '([A-z\d\-/_.]+)?' );
+Route::get('{path}',function () {
+   return view('welcome');
+})->where( 'path', '([A-z\d\-/_.]+)?' );
+
+// Route::get('/{vueroute?}', 'AppController@index')->where('vueroute', '[\/\w\.-]*');

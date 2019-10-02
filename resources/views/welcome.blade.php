@@ -71,13 +71,13 @@
                         </ul>
                         <ul class="list-inline list-custom">
                             <li>
-                                <div class="align-items-center"><a class="text-gray-300" href="#"><span class="icon mdi mdi-facebook"></span></a></div>
+                                <div class="align-items-center"><a class="text-gray-300" href="https://www.facebook.com/TechnologiesTw/"><span class="icon mdi mdi-facebook" style="font-size: 20px;"></span></a></div>
                             </li>
                             <li>
-                                <div class="align-items-center"><a class="text-gray-300" href="#"><span class="icon mdi mdi-instagram"></span></a></div>
+                                <div class="align-items-center"><a class="text-gray-300" href="https://www.instagram.com/transonlineweb.ke/"><span class="icon mdi mdi-instagram" style="font-size: 20px;"></span></a></div>
                             </li>
                             <li>
-                                <div class="align-items-center"><a class="text-gray-300" href="#"><span class="icon mdi mdi-twitter-box"></span></a></div>
+                                <div class="align-items-center"><a class="text-gray-300" href="https://twitter.com/TwTechnologies"><span class="icon mdi mdi-twitter-box" style="font-size: 20px;"></span></a></div>
                             </li>
                         </ul>
                     </div>

@@ -13,6 +13,7 @@
 				</div>
             </div>
             <div class="col-sm-6 col-lg-6 text-center text-sm-left wow fadeInRight">
+            	<h5>Keja Digital</h5>
             	<p><strong> Keja Digital (KD)</strong> is a property management system, designed to meet the needs of landlord agents and property managers. KD is also designed to assist tenants in searching for a rental property in their desired location. The web-based system offers solution feature such as tenant management, maintenance scheduling, rent payment tracking and notification system for various activities. Additionally, rent collection is automated and tenants can pay rent through different
 				platforms.</p>
 				<p>The web-based solution offers tools to capture tenants’ details, sign agreements, create invoice and track rent payments. Property owners have tools that allow them to send bulk emails to their

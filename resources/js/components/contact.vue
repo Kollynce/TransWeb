@@ -53,13 +53,13 @@
                         <h6 class="font-weight-light text-gray-650"><a href="#"><span class="__cf_email__">email: &nbsp;info@twtechnologies.africa</span></a></h6>
                         <ul class="list-inline list-custom-2 offset-top-40">
                             <li>
-                                <div class="align-items-center"><a class="text-gray-300" href="#"><span class="icon mdi mdi-facebook"></span></a></div>
+                                <div class="align-items-center"><a class="text-gray-300" href="https://www.facebook.com/TechnologiesTw/"><span class="icon mdi mdi-facebook" style="font-size: 22px;"></span></a></div>
                             </li>
                             <li>
-                                <div class="align-items-center"><a class="text-gray-300" href="#"><span class="icon mdi mdi-instagram"></span></a></div>
+                                <div class="align-items-center"><a class="text-gray-300" href="https://www.instagram.com/transonlineweb.ke/"><span class="icon mdi mdi-instagram" style="font-size: 22px;"></span></a></div>
                             </li>
                             <li>
-                                <div class="align-items-center"><a class="text-gray-300" href="#"><span class="icon mdi mdi-twitter-box"></span></a></div>
+                                <div class="align-items-center"><a class="text-gray-300" href="https://twitter.com/TwTechnologies"><span class="icon mdi mdi-twitter-box" style="font-size: 22px;"></span></a></div>
                             </li>
                         </ul>
                     </div>
