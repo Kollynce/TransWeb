@@ -114,7 +114,14 @@
                                             <li class="rd-dropdown-item"><router-link class="rd-dropdown-link" to="/portfolio">Portfolio</router-link></li>
                                         </ul>
                                     </li>
-                                    <li class="rd-nav-item"><router-link class="rd-nav-link" to="/blog">Blog</router-link></li>
+                                    <li class="rd-nav-item"><router-link class="rd-nav-link" to="/blog">Blog</router-link>
+                                        <ul class="rd-menu rd-navbar-dropdown">
+                                            <li class="rd-dropdown-item"><router-link class="rd-dropdown-link" to="/blog">Technology News</router-link></li>
+                                            <li class="rd-dropdown-item"><router-link class="rd-dropdown-link" to="/blog">SEO Trends</router-link></li>
+                                            <li class="rd-dropdown-item"><router-link class="rd-dropdown-link" to="/blog">Others</router-link></li>
+                                        </ul>
+                                    </li>
+                                    {{-- <li class="rd-nav-item"><router-link class="rd-nav-link" to="/blog">Blog</router-link></li> --}}
                                     <li class="rd-nav-item"><router-link class="rd-nav-link" to="/contact">Contacts</router-link></li>
                                 </ul>
                             </div>
