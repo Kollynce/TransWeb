@@ -2904,6 +2904,77 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/blogpost.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/blogpost.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  mounted: function mounted() {
+    console.log('Component mounted.');
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/careers.vue?vue&type=script&lang=js&":
 /*!******************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/careers.vue?vue&type=script&lang=js& ***!
@@ -40463,7 +40534,7 @@ module.exports = function (css) {
 /***/ (function(module, exports, __webpack_require__) {
 
 /*!
-* sweetalert2 v8.17.1
+* sweetalert2 v8.16.3
 * Released under the MIT License.
 */
 (function (global, factory) {
@@ -41681,10 +41752,6 @@ var render = function render(instance, params) {
   renderContent(instance, params);
   renderActions(instance, params);
   renderFooter(instance, params);
-
-  if (typeof params.onRender === 'function') {
-    params.onRender(getPopup());
-  }
 };
 
 /*
@@ -41996,10 +42063,9 @@ var defaultParams = {
   currentProgressStep: null,
   progressStepsDistance: null,
   onBeforeOpen: null,
-  onOpen: null,
-  onRender: null,
-  onClose: null,
   onAfterClose: null,
+  onOpen: null,
+  onClose: null,
   scrollbarPadding: true
 };
 var updatableParams = ['title', 'titleText', 'text', 'html', 'type', 'customClass', 'showConfirmButton', 'showCancelButton', 'confirmButtonText', 'confirmButtonAriaLabel', 'confirmButtonColor', 'confirmButtonClass', 'cancelButtonText', 'cancelButtonAriaLabel', 'cancelButtonColor', 'cancelButtonClass', 'buttonsStyling', 'reverseButtons', 'imageUrl', 'imageWidth', 'imageHeigth', 'imageAlt', 'imageClass', 'progressSteps', 'currentProgressStep'];
@@ -42432,12 +42498,12 @@ function disableButtons() {
 } // @deprecated
 
 function enableConfirmButton() {
-  warnAboutDepreation('Swal.enableConfirmButton()', "Swal.getConfirmButton().removeAttribute('disabled')");
+  warnAboutDepreation('Swal.disableConfirmButton()', "Swal.getConfirmButton().removeAttribute('disabled')");
   setButtonsDisabled(this, ['confirmButton'], false);
 } // @deprecated
 
 function disableConfirmButton() {
-  warnAboutDepreation('Swal.disableConfirmButton()', "Swal.getConfirmButton().setAttribute('disabled', '')");
+  warnAboutDepreation('Swal.enableConfirmButton()', "Swal.getConfirmButton().setAttribute('disabled', '')");
   setButtonsDisabled(this, ['confirmButton'], true);
 }
 function enableInput() {
@@ -43354,7 +43420,7 @@ Object.keys(instanceMethods).forEach(function (key) {
   };
 });
 SweetAlert.DismissReason = DismissReason;
-SweetAlert.version = '8.17.1';
+SweetAlert.version = '8.16.3';
 
 var Swal = SweetAlert;
 Swal["default"] = Swal;
@@ -47676,7 +47742,20 @@ var render = function() {
               attrs: { "data-wow-delay": ".2s" }
             },
             [
-              _vm._m(0),
+              _c(
+                "router-link",
+                { staticClass: "overlay-img", attrs: { to: "blogpost" } },
+                [
+                  _c("img", {
+                    attrs: {
+                      src: "assets/images/news-image-01-370x260.jpg",
+                      alt: "img",
+                      width: "370",
+                      height: "260"
+                    }
+                  })
+                ]
+              ),
               _vm._v(" "),
               _c(
                 "div",
@@ -47687,13 +47766,22 @@ var render = function() {
                 [_vm._v("March 2, 2019")]
               ),
               _vm._v(" "),
-              _vm._m(1),
               _c(
-                "a",
+                "h5",
+                { staticClass: "font-weight-sbold ls-1" },
+                [
+                  _c("router-link", { attrs: { to: "blogpost" } }, [
+                    _vm._v("Achieving Success as a Business Owner")
+                  ])
+                ],
+                1
+              ),
+              _c(
+                "router-link",
                 {
                   staticClass:
                     "button button-icon button-icon-right text-primary button-lg",
-                  attrs: { href: "blog-post.html" }
+                  attrs: { to: "blogpost" }
                 },
                 [
                   _c("span", [_vm._v("Learn More")]),
@@ -47722,7 +47810,8 @@ var render = function() {
                   ])
                 ]
               )
-            ]
+            ],
+            1
           ),
           _vm._v(" "),
           _c(
@@ -47732,13 +47821,26 @@ var render = function() {
                 "col-sm-6 col-lg-4 text-center text-sm-left wow fadeInRight",
               staticStyle: {
                 visibility: "visible",
-                "animation-delay": "0.3s",
+                "animation-delay": "0.2s",
                 "animation-name": "fadeInRight"
               },
-              attrs: { "data-wow-delay": ".3s" }
+              attrs: { "data-wow-delay": ".2s" }
             },
             [
-              _vm._m(2),
+              _c(
+                "router-link",
+                { staticClass: "overlay-img", attrs: { to: "blogpost" } },
+                [
+                  _c("img", {
+                    attrs: {
+                      src: "assets/images/news-image-01-370x260.jpg",
+                      alt: "img",
+                      width: "370",
+                      height: "260"
+                    }
+                  })
+                ]
+              ),
               _vm._v(" "),
               _c(
                 "div",
@@ -47749,13 +47851,22 @@ var render = function() {
                 [_vm._v("March 2, 2019")]
               ),
               _vm._v(" "),
-              _vm._m(3),
               _c(
-                "a",
+                "h5",
+                { staticClass: "font-weight-sbold ls-1" },
+                [
+                  _c("router-link", { attrs: { to: "blogpost" } }, [
+                    _vm._v("Achieving Success as a Business Owner")
+                  ])
+                ],
+                1
+              ),
+              _c(
+                "router-link",
                 {
                   staticClass:
                     "button button-icon button-icon-right text-primary button-lg",
-                  attrs: { href: "blog-post.html" }
+                  attrs: { to: "blogpost" }
                 },
                 [
                   _c("span", [_vm._v("Learn More")]),
@@ -47784,7 +47895,8 @@ var render = function() {
                   ])
                 ]
               )
-            ]
+            ],
+            1
           ),
           _vm._v(" "),
           _c(
@@ -47794,13 +47906,26 @@ var render = function() {
                 "col-sm-6 col-lg-4 text-center text-sm-left wow fadeInRight",
               staticStyle: {
                 visibility: "visible",
-                "animation-delay": "0.4s",
+                "animation-delay": "0.2s",
                 "animation-name": "fadeInRight"
               },
-              attrs: { "data-wow-delay": ".4s" }
+              attrs: { "data-wow-delay": ".2s" }
             },
             [
-              _vm._m(4),
+              _c(
+                "router-link",
+                { staticClass: "overlay-img", attrs: { to: "blogpost" } },
+                [
+                  _c("img", {
+                    attrs: {
+                      src: "assets/images/news-image-01-370x260.jpg",
+                      alt: "img",
+                      width: "370",
+                      height: "260"
+                    }
+                  })
+                ]
+              ),
               _vm._v(" "),
               _c(
                 "div",
@@ -47811,13 +47936,22 @@ var render = function() {
                 [_vm._v("March 2, 2019")]
               ),
               _vm._v(" "),
-              _vm._m(5),
               _c(
-                "a",
+                "h5",
+                { staticClass: "font-weight-sbold ls-1" },
+                [
+                  _c("router-link", { attrs: { to: "blogpost" } }, [
+                    _vm._v("Achieving Success as a Business Owner")
+                  ])
+                ],
+                1
+              ),
+              _c(
+                "router-link",
                 {
                   staticClass:
                     "button button-icon button-icon-right text-primary button-lg",
-                  attrs: { href: "blog-post.html" }
+                  attrs: { to: "blogpost" }
                 },
                 [
                   _c("span", [_vm._v("Learn More")]),
@@ -47846,98 +47980,180 @@ var render = function() {
                   ])
                 ]
               )
-            ]
+            ],
+            1
           )
         ])
       ])
     ])
   ])
 }
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/blogpost.vue?vue&type=template&id=d93f10e6&":
+/*!***********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/blogpost.vue?vue&type=template&id=d93f10e6& ***!
+  \***********************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c(
-      "a",
-      { staticClass: "overlay-img", attrs: { href: "blog-post.html" } },
-      [
-        _c("img", {
-          attrs: {
-            src: "assets/images/news-image-01-370x260.jpg",
-            alt: "img",
-            width: "370",
-            height: "260"
-          }
-        })
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("h5", { staticClass: "font-weight-sbold ls-1" }, [
-      _c("a", { attrs: { href: "blog-post.html" } }, [
-        _vm._v("Achieving Success as a Business Owner")
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "a",
-      { staticClass: "overlay-img", attrs: { href: "blog-post.html" } },
-      [
-        _c("img", {
-          attrs: {
-            src: "assets/images/news-image-02-370x260.jpg",
-            alt: "img",
-            width: "370",
-            height: "260"
-          }
-        })
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("h5", { staticClass: "font-weight-sbold ls-1" }, [
-      _c("a", { attrs: { href: "blog-post.html" } }, [
-        _vm._v("Top 12 Ideas for Your Business")
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "a",
-      { staticClass: "overlay-img", attrs: { href: "blog-post.html" } },
-      [
-        _c("img", {
-          attrs: {
-            src: "assets/images/news-image-03-370x260.jpg",
-            alt: "img",
-            width: "370",
-            height: "260"
-          }
-        })
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("h5", { staticClass: "font-weight-sbold ls-1" }, [
-      _c("a", { attrs: { href: "blog-post.html" } }, [
-        _vm._v("Why Business Planning is Important")
+    return _c("div", [
+      _c("section", { staticClass: "breadcrumbs-custom" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("ul", { staticClass: "breadcrumbs-custom-path" }, [
+            _c("li", [_c("a", { attrs: { href: "home" } }, [_vm._v("Home")])]),
+            _vm._v(" "),
+            _c("li", [
+              _c("a", { attrs: { href: "services" } }, [_vm._v("Blog")])
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "active" }, [_vm._v("Post")])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("section", { staticClass: "section section-sm bg-default" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row row-50" }, [
+            _c("div", { staticClass: "col-lg-9 col-xl-8" }, [
+              _c("article", { staticClass: "post-single" }, [
+                _c("h3", { staticClass: "post-single-title" }, [
+                  _vm._v("Achieving Success as a Small Business Owner")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "post-single-meta" }, [
+                  _c("div", { staticClass: "badge" }, [_vm._v("News")]),
+                  _vm._v(" "),
+                  _c(
+                    "time",
+                    {
+                      staticClass: "post-single-time",
+                      attrs: { datetime: "2019" }
+                    },
+                    [_vm._v("July 11, 2019 at 10:41 am")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v(
+                    "Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ultricies."
+                  )
+                ]),
+                _c("img", {
+                  attrs: {
+                    src: "assets/images/blog-post-1-770x500.jpg",
+                    alt: "img",
+                    width: "770",
+                    height: "500"
+                  }
+                }),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v(
+                    "Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat."
+                  )
+                ]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v(
+                    "Sed lectus. Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque."
+                  )
+                ]),
+                _c("img", {
+                  attrs: {
+                    src: "assets/images/blog-post-2-770x500.jpg",
+                    alt: "img",
+                    width: "770",
+                    height: "500"
+                  }
+                }),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v(
+                    "Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Maecenas malesuada. Praesent congue erat at massa. Sed cursus turpis vitae tortor. Donec posuere vulputate arcu. Phasellus accumsan cursus velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit."
+                  )
+                ]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v(
+                    "Erat euismod orci, ac placerat dolor lectus quis orci. Phasellus consectetuer vestibulum elit. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc."
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "post-single-footer group-middle" }, [
+                  _c("h5", [_vm._v("Share this post")]),
+                  _vm._v(" "),
+                  _c("div", [
+                    _c("div", { staticClass: "group group-middle" }, [
+                      _c("a", {
+                        staticClass: "link-social-1 icon mdi mdi-facebook",
+                        attrs: { href: "#" }
+                      }),
+                      _c("a", {
+                        staticClass: "link-social-1 icon mdi mdi-linkedin",
+                        attrs: { href: "#" }
+                      }),
+                      _c("a", {
+                        staticClass: "link-social-1 icon mdi mdi-google",
+                        attrs: { href: "#" }
+                      })
+                    ])
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-lg-3 col-xl-4" }, [
+              _c("article", { staticClass: "box-info" }, [
+                _c("h3", { staticClass: "box-info-title" }, [_vm._v("Author")]),
+                _vm._v(" "),
+                _c("div", { staticClass: "box-info-inner" }, [
+                  _c("img", {
+                    staticClass: "box-info-avatar",
+                    attrs: {
+                      src: "assets/images/owl-carousel-image-3-270x320.jpg",
+                      alt: "img",
+                      width: "180",
+                      height: "180"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "box-info-main" }, [
+                    _c("h5", { staticClass: "box-info-caption" }, [
+                      _vm._v("Jack Smith")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "Lorem ipsum dolor sit amet, civibus perfecto ei nec, pro ignota oporteat ullamcorpe."
+                      )
+                    ])
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ])
       ])
     ])
   }
@@ -52992,7 +53208,7 @@ var render = function() {
               "div",
               { staticClass: "box-lola-wrapper" },
               [
-                _c("router-link", { attrs: { to: "software" } }, [
+                _c("router-link", { attrs: { to: "/software" } }, [
                   _c("div", { staticClass: "box-lola" }, [
                     _c(
                       "div",
@@ -53013,7 +53229,7 @@ var render = function() {
               "div",
               { staticClass: "box-lola-wrapper" },
               [
-                _c("router-link", { attrs: { to: "Web-Design" } }, [
+                _c("router-link", { attrs: { to: "/Web-Design" } }, [
                   _c("div", { staticClass: "box-lola" }, [
                     _c(
                       "div",
@@ -53037,19 +53253,25 @@ var render = function() {
               "div",
               { staticClass: "box-lola-wrapper" },
               [
-                _c("router-link", { attrs: { to: "Mobile-App-Development" } }, [
-                  _c("div", { staticClass: "box-lola" }, [
-                    _c(
-                      "div",
-                      { staticClass: "small-text font-weight-sbold ls-1 lh-4" },
-                      [
-                        _vm._v(
-                          "Mobile App Development\n                                "
-                        )
-                      ]
-                    )
-                  ])
-                ])
+                _c(
+                  "router-link",
+                  { attrs: { to: "/Mobile-App-Development" } },
+                  [
+                    _c("div", { staticClass: "box-lola" }, [
+                      _c(
+                        "div",
+                        {
+                          staticClass: "small-text font-weight-sbold ls-1 lh-4"
+                        },
+                        [
+                          _vm._v(
+                            "Mobile App Development\n                                "
+                          )
+                        ]
+                      )
+                    ])
+                  ]
+                )
               ],
               1
             ),
@@ -53058,7 +53280,7 @@ var render = function() {
               "div",
               { staticClass: "box-lola-wrapper" },
               [
-                _c("router-link", { attrs: { to: "Web-Portals" } }, [
+                _c("router-link", { attrs: { to: "/Web-Portals" } }, [
                   _c("div", { staticClass: "box-lola" }, [
                     _c(
                       "div",
@@ -53075,7 +53297,7 @@ var render = function() {
               "div",
               { staticClass: "box-lola-wrapper" },
               [
-                _c("router-link", { attrs: { to: "Internet-Of-Things" } }, [
+                _c("router-link", { attrs: { to: "/Internet-Of-Things" } }, [
                   _c("div", { staticClass: "box-lola" }, [
                     _c(
                       "div",
@@ -53092,7 +53314,7 @@ var render = function() {
               "div",
               { staticClass: "box-lola-wrapper" },
               [
-                _c("router-link", { attrs: { to: "Web-App-Development" } }, [
+                _c("router-link", { attrs: { to: "/Web-App-Development" } }, [
                   _c("div", { staticClass: "box-lola" }, [
                     _c(
                       "div",
@@ -53111,7 +53333,7 @@ var render = function() {
               [
                 _c(
                   "router-link",
-                  { attrs: { to: "Artificial-Intelligence" } },
+                  { attrs: { to: "/Artificial-Intelligence" } },
                   [
                     _c("div", { staticClass: "box-lola" }, [
                       _c(
@@ -53132,7 +53354,7 @@ var render = function() {
               "div",
               { staticClass: "box-lola-wrapper" },
               [
-                _c("router-link", { attrs: { to: "Big-Data" } }, [
+                _c("router-link", { attrs: { to: "/Big-Data" } }, [
                   _c("div", { staticClass: "box-lola" }, [
                     _c(
                       "div",
@@ -53151,7 +53373,7 @@ var render = function() {
               [
                 _c(
                   "router-link",
-                  { attrs: { to: "Search-Engine-Optimization" } },
+                  { attrs: { to: "/Search-Engine-Optimization" } },
                   [
                     _c("div", { staticClass: "box-lola" }, [
                       _c(
@@ -54109,7 +54331,7 @@ function normalizeComponent (
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /*!
-  * vue-router v3.1.3
+  * vue-router v3.1.1
   * (c) 2019 Evan You
   * @license MIT
   */
@@ -54250,7 +54472,7 @@ var View = {
 
     return h(component, data, children)
   }
-};
+}
 
 function resolveProps (route, config) {
   switch (typeof config) {
@@ -54379,7 +54601,7 @@ function createRoute (
   redirectedFrom,
   router
 ) {
-  var stringifyQuery = router && router.options.stringifyQuery;
+  var stringifyQuery$$1 = router && router.options.stringifyQuery;
 
   var query = location.query || {};
   try {
@@ -54393,11 +54615,11 @@ function createRoute (
     hash: location.hash || '',
     query: query,
     params: location.params || {},
-    fullPath: getFullPath(location, stringifyQuery),
+    fullPath: getFullPath(location, stringifyQuery$$1),
     matched: record ? formatMatch(record) : []
   };
   if (redirectedFrom) {
-    route.redirectedFrom = getFullPath(redirectedFrom, stringifyQuery);
+    route.redirectedFrom = getFullPath(redirectedFrom, stringifyQuery$$1);
   }
   return Object.freeze(route)
 }
@@ -55171,9 +55393,9 @@ var Link = {
     var handler = function (e) {
       if (guardEvent(e)) {
         if (this$1.replace) {
-          router.replace(location, noop);
+          router.replace(location, null, noop);
         } else {
-          router.push(location, noop);
+          router.push(location, null, noop);
         }
       }
     };
@@ -55224,24 +55446,7 @@ var Link = {
         // in case the <a> is a static node
         a.isStatic = false;
         var aData = (a.data = extend({}, a.data));
-        aData.on = aData.on || {};
-        // transform existing events in both objects into arrays so we can push later
-        for (var event in aData.on) {
-          var handler$1 = aData.on[event];
-          if (event in on) {
-            aData.on[event] = Array.isArray(handler$1) ? handler$1 : [handler$1];
-          }
-        }
-        // append new listeners for router-link
-        for (var event$1 in on) {
-          if (event$1 in aData.on) {
-            // on[event] is always a function
-            aData.on[event$1].push(on[event$1]);
-          } else {
-            aData.on[event$1] = handler;
-          }
-        }
-
+        aData.on = on;
         var aAttrs = (a.data.attrs = extend({}, a.data.attrs));
         aAttrs.href = href;
       } else {
@@ -55252,7 +55457,7 @@ var Link = {
 
     return h(this.tag, data, this.$slots.default)
   }
-};
+}
 
 function guardEvent (e) {
   // don't redirect with control keys
@@ -55367,18 +55572,6 @@ function createRouteMap (
       pathList.push(pathList.splice(i, 1)[0]);
       l--;
       i--;
-    }
-  }
-
-  if (true) {
-    // warn if routes do not include leading slashes
-    var found = pathList
-    // check for missing leading slash
-      .filter(function (path) { return path && path.charAt(0) !== '*' && path.charAt(0) !== '/'; });
-
-    if (found.length > 0) {
-      var pathNames = found.map(function (path) { return ("- " + path); }).join('\n');
-      warn(false, ("Non-nested routes must include a leading slash character. Fix the following routes: \n" + pathNames));
     }
   }
 
@@ -55737,28 +55930,6 @@ function resolveRecordPath (path, record) {
 
 /*  */
 
-// use User Timing api (if present) for more accurate key precision
-var Time =
-  inBrowser && window.performance && window.performance.now
-    ? window.performance
-    : Date;
-
-function genStateKey () {
-  return Time.now().toFixed(3)
-}
-
-var _key = genStateKey();
-
-function getStateKey () {
-  return _key
-}
-
-function setStateKey (key) {
-  return (_key = key)
-}
-
-/*  */
-
 var positionStore = Object.create(null);
 
 function setupScroll () {
@@ -55908,22 +56079,39 @@ function scrollToPosition (shouldScroll, position) {
 
 /*  */
 
-var supportsPushState =
-  inBrowser &&
-  (function () {
-    var ua = window.navigator.userAgent;
+var supportsPushState = inBrowser && (function () {
+  var ua = window.navigator.userAgent;
 
-    if (
-      (ua.indexOf('Android 2.') !== -1 || ua.indexOf('Android 4.0') !== -1) &&
-      ua.indexOf('Mobile Safari') !== -1 &&
-      ua.indexOf('Chrome') === -1 &&
-      ua.indexOf('Windows Phone') === -1
-    ) {
-      return false
-    }
+  if (
+    (ua.indexOf('Android 2.') !== -1 || ua.indexOf('Android 4.0') !== -1) &&
+    ua.indexOf('Mobile Safari') !== -1 &&
+    ua.indexOf('Chrome') === -1 &&
+    ua.indexOf('Windows Phone') === -1
+  ) {
+    return false
+  }
 
-    return window.history && 'pushState' in window.history
-  })();
+  return window.history && 'pushState' in window.history
+})();
+
+// use User Timing api (if present) for more accurate key precision
+var Time = inBrowser && window.performance && window.performance.now
+  ? window.performance
+  : Date;
+
+var _key = genKey();
+
+function genKey () {
+  return Time.now().toFixed(3)
+}
+
+function getStateKey () {
+  return _key
+}
+
+function setStateKey (key) {
+  _key = key;
+}
 
 function pushState (url, replace) {
   saveScrollPosition();
@@ -55932,9 +56120,10 @@ function pushState (url, replace) {
   var history = window.history;
   try {
     if (replace) {
-      history.replaceState({ key: getStateKey() }, '', url);
+      history.replaceState({ key: _key }, '', url);
     } else {
-      history.pushState({ key: setStateKey(genStateKey()) }, '', url);
+      _key = genKey();
+      history.pushState({ key: _key }, '', url);
     }
   } catch (e) {
     window.location[replace ? 'replace' : 'assign'](url);
@@ -56074,20 +56263,9 @@ function once (fn) {
 }
 
 var NavigationDuplicated = /*@__PURE__*/(function (Error) {
-  function NavigationDuplicated (normalizedLocation) {
-    Error.call(this);
+  function NavigationDuplicated () {
+    Error.call(this, 'Navigating to current location is not allowed');
     this.name = this._name = 'NavigationDuplicated';
-    // passing the message to super() doesn't seem to work in the transpiled version
-    this.message = "Navigating to current location (\"" + (normalizedLocation.fullPath) + "\") is not allowed";
-    // add a stack property so services like Sentry can correctly display it
-    Object.defineProperty(this, 'stack', {
-      value: new Error().stack,
-      writable: true,
-      configurable: true
-    });
-    // we could also have used
-    // Error.captureStackTrace(this, this.constructor)
-    // but it only exists on node and chrome
   }
 
   if ( Error ) NavigationDuplicated.__proto__ = Error;
@@ -56427,11 +56605,11 @@ function poll (
 
 /*  */
 
-var HTML5History = /*@__PURE__*/(function (History) {
+var HTML5History = /*@__PURE__*/(function (History$$1) {
   function HTML5History (router, base) {
     var this$1 = this;
 
-    History.call(this, router, base);
+    History$$1.call(this, router, base);
 
     var expectScroll = router.options.scrollBehavior;
     var supportsScroll = supportsPushState && expectScroll;
@@ -56459,8 +56637,8 @@ var HTML5History = /*@__PURE__*/(function (History) {
     });
   }
 
-  if ( History ) HTML5History.__proto__ = History;
-  HTML5History.prototype = Object.create( History && History.prototype );
+  if ( History$$1 ) HTML5History.__proto__ = History$$1;
+  HTML5History.prototype = Object.create( History$$1 && History$$1.prototype );
   HTML5History.prototype.constructor = HTML5History;
 
   HTML5History.prototype.go = function go (n) {
@@ -56515,9 +56693,9 @@ function getLocation (base) {
 
 /*  */
 
-var HashHistory = /*@__PURE__*/(function (History) {
+var HashHistory = /*@__PURE__*/(function (History$$1) {
   function HashHistory (router, base, fallback) {
-    History.call(this, router, base);
+    History$$1.call(this, router, base);
     // check history fallback deeplinking
     if (fallback && checkFallback(this.base)) {
       return
@@ -56525,8 +56703,8 @@ var HashHistory = /*@__PURE__*/(function (History) {
     ensureSlash();
   }
 
-  if ( History ) HashHistory.__proto__ = History;
-  HashHistory.prototype = Object.create( History && History.prototype );
+  if ( History$$1 ) HashHistory.__proto__ = History$$1;
+  HashHistory.prototype = Object.create( History$$1 && History$$1.prototype );
   HashHistory.prototype.constructor = HashHistory;
 
   // this is delayed until the app mounts
@@ -56657,9 +56835,14 @@ function getHash () {
 
 function getUrl (path) {
   var href = window.location.href;
-  var i = href.indexOf('#');
-  var base = i >= 0 ? href.slice(0, i) : href;
-  return (base + "#" + path)
+  var hashPos = href.indexOf('#');
+  var base = hashPos > -1 ? href.slice(0, hashPos) : href;
+
+  var searchPos = base.indexOf('?');
+  var query = searchPos > -1 ? base.slice(searchPos) : '';
+  base = query ? base.slice(0, searchPos) : base;
+
+  return (base + "#" + (path + query))
 }
 
 function pushHash (path) {
@@ -56680,15 +56863,15 @@ function replaceHash (path) {
 
 /*  */
 
-var AbstractHistory = /*@__PURE__*/(function (History) {
+var AbstractHistory = /*@__PURE__*/(function (History$$1) {
   function AbstractHistory (router, base) {
-    History.call(this, router, base);
+    History$$1.call(this, router, base);
     this.stack = [];
     this.index = -1;
   }
 
-  if ( History ) AbstractHistory.__proto__ = History;
-  AbstractHistory.prototype = Object.create( History && History.prototype );
+  if ( History$$1 ) AbstractHistory.__proto__ = History$$1;
+  AbstractHistory.prototype = Object.create( History$$1 && History$$1.prototype );
   AbstractHistory.prototype.constructor = AbstractHistory;
 
   AbstractHistory.prototype.push = function push (location, onComplete, onAbort) {
@@ -56983,7 +57166,7 @@ function createHref (base, fullPath, mode) {
 }
 
 VueRouter.install = install;
-VueRouter.version = '3.1.3';
+VueRouter.version = '3.1.1';
 
 if (inBrowser && window.Vue) {
   window.Vue.use(VueRouter);
@@ -69266,6 +69449,19 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_3__["default"]({
       }]
     }
   }, {
+    path: '/blogpost',
+    component: __webpack_require__(/*! ./components/blogpost.vue */ "./resources/js/components/blogpost.vue")["default"],
+    meta: {
+      title: 'Blog Post | Transonline Web',
+      metaTags: [{
+        name: 'description',
+        content: 'News page.'
+      }, {
+        property: 'og:description',
+        content: 'News page.'
+      }]
+    }
+  }, {
     path: '/Web-Design',
     component: __webpack_require__(/*! ./components/WebDesign.vue */ "./resources/js/components/WebDesign.vue")["default"],
     meta: {
@@ -70152,6 +70348,75 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_blog_vue_vue_type_template_id_7856a16d___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_blog_vue_vue_type_template_id_7856a16d___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/blogpost.vue":
+/*!**********************************************!*\
+  !*** ./resources/js/components/blogpost.vue ***!
+  \**********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _blogpost_vue_vue_type_template_id_d93f10e6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./blogpost.vue?vue&type=template&id=d93f10e6& */ "./resources/js/components/blogpost.vue?vue&type=template&id=d93f10e6&");
+/* harmony import */ var _blogpost_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./blogpost.vue?vue&type=script&lang=js& */ "./resources/js/components/blogpost.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _blogpost_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _blogpost_vue_vue_type_template_id_d93f10e6___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _blogpost_vue_vue_type_template_id_d93f10e6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/blogpost.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/blogpost.vue?vue&type=script&lang=js&":
+/*!***********************************************************************!*\
+  !*** ./resources/js/components/blogpost.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_blogpost_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./blogpost.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/blogpost.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_blogpost_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/blogpost.vue?vue&type=template&id=d93f10e6&":
+/*!*****************************************************************************!*\
+  !*** ./resources/js/components/blogpost.vue?vue&type=template&id=d93f10e6& ***!
+  \*****************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_blogpost_vue_vue_type_template_id_d93f10e6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./blogpost.vue?vue&type=template&id=d93f10e6& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/blogpost.vue?vue&type=template&id=d93f10e6&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_blogpost_vue_vue_type_template_id_d93f10e6___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_blogpost_vue_vue_type_template_id_d93f10e6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
@@ -71159,8 +71424,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/engnr/Desktop/TransWeb/TransWebsite/TransWeb/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /home/engnr/Desktop/TransWeb/TransWebsite/TransWeb/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /home/kryme/Documents/TransWeb/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /home/kryme/Documents/TransWeb/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
