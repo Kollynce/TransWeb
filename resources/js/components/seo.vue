@@ -15,7 +15,7 @@
                     <div class="col-lg-8"><img src="/images/blur.jpg" alt="img" width="770" height="500">
                         <h2 class="font-weight-sbold wow fadeIn offset-top-40" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">Search Engine Optimization</h2>
                         <h4 class="font-weight-light text-gray-650 lh-3">Search engine optimization is an essential part of website & web development and web marketing. An SEO friendly website will automatically rank higher in search results obtained from popular search engines such as Google, Yahoo and Bing. This, in turn, will have a great influence on the traffic of that website. It is vital to make your website SEO friendly in order to enhance your internet visibility, brand image and traffic.</h4>
-                        <h4 class="font-weight-light text-gray-650 lh-3"> At Transonline Web we can develop high-ranking websites from scratch and can also turn an already existing website into an SEO friendly website.
+                        <h4 class="font-weight-light text-gray-650 lh-3"> At TW Technologies we can develop high-ranking websites from scratch and can also turn an already existing website into an SEO friendly website.
                         Search Engine Optimization (SEO) is a dynamic field and our team of experts has designed a strategic process to give your business a powerful push and improve your rankings.</h4>
                         <h4>We make your SEO friendly by doing:-</h4>
                         <ul class="list-custom-3 heading-4 font-weight-light text-gray-650 lh-3">

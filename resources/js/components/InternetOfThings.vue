@@ -15,7 +15,7 @@
                     <div class="col-lg-8"><img src="/images/blur.jpg" alt="img" width="770" height="500">
                         <h2 class="font-weight-sbold wow fadeIn offset-top-40" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">Internet Of Things</h2>
                         <h4 class="font-weight-light text-gray-650 lh-3"> From smart buildings to smart cities, IoT is transforming industries at a rapid pace. Organizations seek to enter new markets, create disruptive business models, develop new products or drive differentiated customer experiences with IoT. IoT is making the world smarter and better than than ever.</h4>
-                        <h4 class="font-weight-light text-gray-650 lh-3"> Transonline Web Internet of Things service enables organizations to transform business needs into competitive space by delivering innovative IoT powered solutions. From integrating the right sensors and deriving inspired insights to choosing the best-fit platform, we provide comprehensive IoT services to our clients. </h4>
+                        <h4 class="font-weight-light text-gray-650 lh-3"> TW Technologies Internet of Things service enables organizations to transform business needs into competitive space by delivering innovative IoT powered solutions. From integrating the right sensors and deriving inspired insights to choosing the best-fit platform, we provide comprehensive IoT services to our clients. </h4>
                         <!-- <ul class="list-custom-3 heading-4 font-weight-light text-gray-650 lh-3">
                             <li>› Brute fuisset eos definiebas</li>
                             <li>› Euismod appetere</li>

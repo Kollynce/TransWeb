@@ -15,7 +15,7 @@
                 <div class="row row-40">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay=".02s" style="visibility: visible; animation-delay: 0.02s; animation-name: fadeInUp;">
                     <h2 class="font-weight-sbold text-center text-lg-left">Challenges are our passion</h2>
-                    <h4 class="font-weight-light text-gray-650 text-center text-lg-left">Transonline Web is a global software development company, we specialize in development of innovative and creative products and services. We offer customized software development, web design and development, Search engine optimization services, e-commerce solutions and payment integrations.<br class="d-none d-lg-block"> Our philosophy is to assure the highest quality product, timely delivery of solutions, total client satisfaction and the best price in the industry.</h4>
+                    <h4 class="font-weight-light text-gray-650 text-center text-lg-left">TW Technologies is a global software development company, we specialize in development of innovative and creative products and services. We offer customized software development, web design and development, Search engine optimization services, e-commerce solutions and payment integrations.<br class="d-none d-lg-block"> Our philosophy is to assure the highest quality product, timely delivery of solutions, total client satisfaction and the best price in the industry.</h4>
                     <ul class="list-custom-2 text-center text-lg-left offset-top-40-lg">
                         <li><span>
                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">

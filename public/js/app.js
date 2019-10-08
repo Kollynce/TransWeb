@@ -40550,7 +40550,7 @@ module.exports = function (css) {
 /***/ (function(module, exports, __webpack_require__) {
 
 /*!
-* sweetalert2 v8.16.3
+* sweetalert2 v8.17.1
 * Released under the MIT License.
 */
 (function (global, factory) {
@@ -41768,6 +41768,10 @@ var render = function render(instance, params) {
   renderContent(instance, params);
   renderActions(instance, params);
   renderFooter(instance, params);
+
+  if (typeof params.onRender === 'function') {
+    params.onRender(getPopup());
+  }
 };
 
 /*
@@ -42079,9 +42083,10 @@ var defaultParams = {
   currentProgressStep: null,
   progressStepsDistance: null,
   onBeforeOpen: null,
-  onAfterClose: null,
   onOpen: null,
+  onRender: null,
   onClose: null,
+  onAfterClose: null,
   scrollbarPadding: true
 };
 var updatableParams = ['title', 'titleText', 'text', 'html', 'type', 'customClass', 'showConfirmButton', 'showCancelButton', 'confirmButtonText', 'confirmButtonAriaLabel', 'confirmButtonColor', 'confirmButtonClass', 'cancelButtonText', 'cancelButtonAriaLabel', 'cancelButtonColor', 'cancelButtonClass', 'buttonsStyling', 'reverseButtons', 'imageUrl', 'imageWidth', 'imageHeigth', 'imageAlt', 'imageClass', 'progressSteps', 'currentProgressStep'];
@@ -42514,12 +42519,12 @@ function disableButtons() {
 } // @deprecated
 
 function enableConfirmButton() {
-  warnAboutDepreation('Swal.disableConfirmButton()', "Swal.getConfirmButton().removeAttribute('disabled')");
+  warnAboutDepreation('Swal.enableConfirmButton()', "Swal.getConfirmButton().removeAttribute('disabled')");
   setButtonsDisabled(this, ['confirmButton'], false);
 } // @deprecated
 
 function disableConfirmButton() {
-  warnAboutDepreation('Swal.enableConfirmButton()', "Swal.getConfirmButton().setAttribute('disabled', '')");
+  warnAboutDepreation('Swal.disableConfirmButton()', "Swal.getConfirmButton().setAttribute('disabled', '')");
   setButtonsDisabled(this, ['confirmButton'], true);
 }
 function enableInput() {
@@ -43436,7 +43441,7 @@ Object.keys(instanceMethods).forEach(function (key) {
   };
 });
 SweetAlert.DismissReason = DismissReason;
-SweetAlert.version = '8.16.3';
+SweetAlert.version = '8.17.1';
 
 var Swal = SweetAlert;
 Swal["default"] = Swal;
@@ -45110,7 +45115,7 @@ var staticRenderFns = [
       ]),
       _vm._v(" "),
       _c("h3", [
-        _vm._v("At Transonline Web we offer the following services:-")
+        _vm._v("At TW Technologies we offer the following services:-")
       ]),
       _vm._v(" "),
       _c("h4", { staticClass: "pl-3" }, [_vm._v(" > AI Consultancy service")]),
@@ -45865,7 +45870,7 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("h4", { staticClass: "font-weight-light text-gray-650 lh-3" }, [
         _vm._v(
-          " Transonline Web Internet of Things service enables organizations to transform business needs into competitive space by delivering innovative IoT powered solutions. From integrating the right sensors and deriving inspired insights to choosing the best-fit platform, we provide comprehensive IoT services to our clients. "
+          " TW Technologies Internet of Things service enables organizations to transform business needs into competitive space by delivering innovative IoT powered solutions. From integrating the right sensors and deriving inspired insights to choosing the best-fit platform, we provide comprehensive IoT services to our clients. "
         )
       ])
     ])
@@ -47103,7 +47108,7 @@ var staticRenderFns = [
       },
       [
         _vm._v(
-          "Transonline Web is a global software development company, we specialize in development of innovative and creative products and services. We offer customized software development, web design and development, Search engine optimization services, e-commerce solutions and payment integrations."
+          "TW Technologies is a global software development company, we specialize in development of innovative and creative products and services. We offer customized software development, web design and development, Search engine optimization services, e-commerce solutions and payment integrations."
         ),
         _c("br", { staticClass: "d-none d-lg-block" }),
         _vm._v(
@@ -49298,7 +49303,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("h4", { staticClass: "font-weight-light" }, [
       _vm._v(
-        "Transonline Web provides brands with innovative ICT solutions that makes business easier, less risky, and more effective."
+        "TW Technologies provides brands with innovative ICT solutions that makes business easier, less risky, and more effective."
       ),
       _c("br", { staticClass: "d-none d-lg-block" }),
       _vm._v(" marketing and analytical services.")
@@ -50116,7 +50121,7 @@ var render = function() {
                           _vm._v(" "),
                           _c("p", { staticClass: "box-icon-classic-text" }, [
                             _vm._v(
-                              "Numbers of smart phone users have greatly increased in the recent past and thus the need of a mobile app for business growth. Transonline Web delivers custom mobile application development solutions that are secure, scaleable and runs on any platform."
+                              "Numbers of smart phone users have greatly increased in the recent past and thus the need of a mobile app for business growth. TW Technologies delivers custom mobile application development solutions that are secure, scaleable and runs on any platform."
                             )
                           ]),
                           _c(
@@ -50476,7 +50481,7 @@ var render = function() {
                       { staticClass: "font-weight-light text-gray-650" },
                       [
                         _vm._v(
-                          "Transonline Web is fully result-oriented to offer you the best outcome for your business"
+                          "TW Technologies is fully result-oriented to offer you the best outcome for your business"
                         )
                       ]
                     )
@@ -51132,7 +51137,7 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("h4", { staticClass: "font-weight-light text-gray-650 lh-3" }, [
         _vm._v(
-          " A mobile application, commonly referred as mobile app is basically a software application that has been specifically developed to run on mobile devices, such as smart phones and tablets.\n                    Transonline Web has extensive skills, knowledge and expertise in creating the best feature rich, performance driven and digitally trans-formative mobile applications."
+          " A mobile application, commonly referred as mobile app is basically a software application that has been specifically developed to run on mobile devices, such as smart phones and tablets.\n                    TW Technologies has extensive skills, knowledge and expertise in creating the best feature rich, performance driven and digitally trans-formative mobile applications."
         )
       ]),
       _vm._v(" "),
@@ -52330,7 +52335,7 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("h4", { staticClass: "font-weight-light text-gray-650 lh-3" }, [
         _vm._v(
-          " At Transonline Web we can develop high-ranking websites from scratch and can also turn an already existing website into an SEO friendly website.\n                    Search Engine Optimization (SEO) is a dynamic field and our team of experts has designed a strategic process to give your business a powerful push and improve your rankings."
+          " At TW Technologies we can develop high-ranking websites from scratch and can also turn an already existing website into an SEO friendly website.\n                    Search Engine Optimization (SEO) is a dynamic field and our team of experts has designed a strategic process to give your business a powerful push and improve your rankings."
         )
       ]),
       _vm._v(" "),
@@ -52633,7 +52638,7 @@ var render = function() {
                   _vm._v(" "),
                   _c("p", { staticClass: "box-icon-classic-text" }, [
                     _vm._v(
-                      "Numbers of smart phone users have greatly increased in the recent past and thus the need of a mobile app for business growth. Transonline Web delivers custom mobile application development solutions that are secure, scaleable and runs on any platform"
+                      "Numbers of smart phone users have greatly increased in the recent past and thus the need of a mobile app for business growth. TW Technologies delivers custom mobile application development solutions that are secure, scaleable and runs on any platform"
                     )
                   ]),
                   _c(
@@ -52963,7 +52968,7 @@ var render = function() {
                   _vm._v(" "),
                   _c("p", { staticClass: "box-icon-classic-text" }, [
                     _vm._v(
-                      "Use of AI solutions accelerates your company’s digital transformation. When applied properly an AI system can reduce operational cost, improve efficiency and much more. Transonline Web builds custom solutions that provide operational and financial benefits. We use custom machine learning models and other AI-based software solutions to automate the operations across all departments: sales, finance, marketing, human resources, customer service, production, or any other."
+                      "Use of AI solutions accelerates your company’s digital transformation. When applied properly an AI system can reduce operational cost, improve efficiency and much more. TW Technologies builds custom solutions that provide operational and financial benefits. We use custom machine learning models and other AI-based software solutions to automate the operations across all departments: sales, finance, marketing, human resources, customer service, production, or any other."
                     )
                   ]),
                   _c(
@@ -53046,7 +53051,7 @@ var render = function() {
                   _vm._v(" "),
                   _c("p", { staticClass: "box-icon-classic-text" }, [
                     _vm._v(
-                      "At Transonline Web we provide means to analyze data sets and draw conclusions about them which help organizations make informed business decisions. big data analytics offers various business benefits, including: More effective marketing, Better customer service, Improved operational efficiency & Competitive advantages over rivals.\n                            We offer a comprehensive data analytics services to convert our customers’ historical and real-time, traditional and big data into actionable insights."
+                      "At TW Technologies we provide means to analyze data sets and draw conclusions about them which help organizations make informed business decisions. big data analytics offers various business benefits, including: More effective marketing, Better customer service, Improved operational efficiency & Competitive advantages over rivals.\n                            We offer a comprehensive data analytics services to convert our customers’ historical and real-time, traditional and big data into actionable insights."
                     )
                   ]),
                   _c(
@@ -53131,7 +53136,7 @@ var render = function() {
                   _vm._v(" "),
                   _c("p", { staticClass: "box-icon-classic-text" }, [
                     _vm._v(
-                      "You want to get higher ranking, quality traffic and measurable results?\n                            Search engine optimization is crucial to the success of the company.\n                            For most websites, traffic that comes from search engines (i.e. ‘natural’ traffic) accounts for a large portion of their total traffic. At Transonline Web we understand how search engines work which is the first step of the process of improving a site’s search rankings. We always strive to remain updated with all SEO strategies so that your website is always ranked well with search engines. "
+                      "You want to get higher ranking, quality traffic and measurable results?\n                            Search engine optimization is crucial to the success of the company.\n                            For most websites, traffic that comes from search engines (i.e. ‘natural’ traffic) accounts for a large portion of their total traffic. At TW Technologies we understand how search engines work which is the first step of the process of improving a site’s search rankings. We always strive to remain updated with all SEO strategies so that your website is always ranked well with search engines. "
                     )
                   ]),
                   _c(
@@ -53220,7 +53225,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("p", { staticClass: "box-icon-classic-text" }, [
       _vm._v(
-        "Transonline Web offers strong technical expertise, ingenuity and innovative approaches to solving your business problems. Our deep understanding of all aspects of the development process enable us to work on IoT projects of any complexity. "
+        "TW Technologies offers strong technical expertise, ingenuity and innovative approaches to solving your business problems. Our deep understanding of all aspects of the development process enable us to work on IoT projects of any complexity. "
       ),
       _c("br"),
       _vm._v(
@@ -53670,13 +53675,13 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("h4", { staticClass: "font-weight-light text-gray-650 lh-3" }, [
         _vm._v(
-          " Over the years in designing and developing software products, we’ve helped businesses upgrade to the next level. We have successfully built, and enhanced applications to innovatively solve business challenges. These solutions were often accompanied by the industry’s new tools, practices, and emerging technologies. At Transonline Web we help our clients exceed the expectations of executives and investors, ensuring the best outcome for current and future developments."
+          " Over the years in designing and developing software products, we’ve helped businesses upgrade to the next level. We have successfully built, and enhanced applications to innovatively solve business challenges. These solutions were often accompanied by the industry’s new tools, practices, and emerging technologies. At TW Technologies we help our clients exceed the expectations of executives and investors, ensuring the best outcome for current and future developments."
         )
       ]),
       _vm._v(" "),
       _c("h4", { staticClass: "font-weight-light text-gray-650 lh-3" }, [
         _vm._v(
-          " Transonline Web prides itself as one of the best software development company in Kenya and Africa at large. Your business needs a reliable enterprise software solution and you can leverage on  expertise in enterprise software development, API integration and  legacy systems to support your operations."
+          " TW Technologies prides itself as one of the best software development company in Kenya and Africa at large. Your business needs a reliable enterprise software solution and you can leverage on  expertise in enterprise software development, API integration and  legacy systems to support your operations."
         )
       ]),
       _vm._v(" "),
@@ -54521,7 +54526,7 @@ function normalizeComponent (
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /*!
-  * vue-router v3.1.1
+  * vue-router v3.1.3
   * (c) 2019 Evan You
   * @license MIT
   */
@@ -54662,7 +54667,7 @@ var View = {
 
     return h(component, data, children)
   }
-}
+};
 
 function resolveProps (route, config) {
   switch (typeof config) {
@@ -54791,7 +54796,7 @@ function createRoute (
   redirectedFrom,
   router
 ) {
-  var stringifyQuery$$1 = router && router.options.stringifyQuery;
+  var stringifyQuery = router && router.options.stringifyQuery;
 
   var query = location.query || {};
   try {
@@ -54805,11 +54810,11 @@ function createRoute (
     hash: location.hash || '',
     query: query,
     params: location.params || {},
-    fullPath: getFullPath(location, stringifyQuery$$1),
+    fullPath: getFullPath(location, stringifyQuery),
     matched: record ? formatMatch(record) : []
   };
   if (redirectedFrom) {
-    route.redirectedFrom = getFullPath(redirectedFrom, stringifyQuery$$1);
+    route.redirectedFrom = getFullPath(redirectedFrom, stringifyQuery);
   }
   return Object.freeze(route)
 }
@@ -55583,9 +55588,9 @@ var Link = {
     var handler = function (e) {
       if (guardEvent(e)) {
         if (this$1.replace) {
-          router.replace(location, null, noop);
+          router.replace(location, noop);
         } else {
-          router.push(location, null, noop);
+          router.push(location, noop);
         }
       }
     };
@@ -55636,7 +55641,24 @@ var Link = {
         // in case the <a> is a static node
         a.isStatic = false;
         var aData = (a.data = extend({}, a.data));
-        aData.on = on;
+        aData.on = aData.on || {};
+        // transform existing events in both objects into arrays so we can push later
+        for (var event in aData.on) {
+          var handler$1 = aData.on[event];
+          if (event in on) {
+            aData.on[event] = Array.isArray(handler$1) ? handler$1 : [handler$1];
+          }
+        }
+        // append new listeners for router-link
+        for (var event$1 in on) {
+          if (event$1 in aData.on) {
+            // on[event] is always a function
+            aData.on[event$1].push(on[event$1]);
+          } else {
+            aData.on[event$1] = handler;
+          }
+        }
+
         var aAttrs = (a.data.attrs = extend({}, a.data.attrs));
         aAttrs.href = href;
       } else {
@@ -55647,7 +55669,7 @@ var Link = {
 
     return h(this.tag, data, this.$slots.default)
   }
-}
+};
 
 function guardEvent (e) {
   // don't redirect with control keys
@@ -55762,6 +55784,18 @@ function createRouteMap (
       pathList.push(pathList.splice(i, 1)[0]);
       l--;
       i--;
+    }
+  }
+
+  if (true) {
+    // warn if routes do not include leading slashes
+    var found = pathList
+    // check for missing leading slash
+      .filter(function (path) { return path && path.charAt(0) !== '*' && path.charAt(0) !== '/'; });
+
+    if (found.length > 0) {
+      var pathNames = found.map(function (path) { return ("- " + path); }).join('\n');
+      warn(false, ("Non-nested routes must include a leading slash character. Fix the following routes: \n" + pathNames));
     }
   }
 
@@ -56120,6 +56154,28 @@ function resolveRecordPath (path, record) {
 
 /*  */
 
+// use User Timing api (if present) for more accurate key precision
+var Time =
+  inBrowser && window.performance && window.performance.now
+    ? window.performance
+    : Date;
+
+function genStateKey () {
+  return Time.now().toFixed(3)
+}
+
+var _key = genStateKey();
+
+function getStateKey () {
+  return _key
+}
+
+function setStateKey (key) {
+  return (_key = key)
+}
+
+/*  */
+
 var positionStore = Object.create(null);
 
 function setupScroll () {
@@ -56269,39 +56325,22 @@ function scrollToPosition (shouldScroll, position) {
 
 /*  */
 
-var supportsPushState = inBrowser && (function () {
-  var ua = window.navigator.userAgent;
+var supportsPushState =
+  inBrowser &&
+  (function () {
+    var ua = window.navigator.userAgent;
 
-  if (
-    (ua.indexOf('Android 2.') !== -1 || ua.indexOf('Android 4.0') !== -1) &&
-    ua.indexOf('Mobile Safari') !== -1 &&
-    ua.indexOf('Chrome') === -1 &&
-    ua.indexOf('Windows Phone') === -1
-  ) {
-    return false
-  }
+    if (
+      (ua.indexOf('Android 2.') !== -1 || ua.indexOf('Android 4.0') !== -1) &&
+      ua.indexOf('Mobile Safari') !== -1 &&
+      ua.indexOf('Chrome') === -1 &&
+      ua.indexOf('Windows Phone') === -1
+    ) {
+      return false
+    }
 
-  return window.history && 'pushState' in window.history
-})();
-
-// use User Timing api (if present) for more accurate key precision
-var Time = inBrowser && window.performance && window.performance.now
-  ? window.performance
-  : Date;
-
-var _key = genKey();
-
-function genKey () {
-  return Time.now().toFixed(3)
-}
-
-function getStateKey () {
-  return _key
-}
-
-function setStateKey (key) {
-  _key = key;
-}
+    return window.history && 'pushState' in window.history
+  })();
 
 function pushState (url, replace) {
   saveScrollPosition();
@@ -56310,10 +56349,9 @@ function pushState (url, replace) {
   var history = window.history;
   try {
     if (replace) {
-      history.replaceState({ key: _key }, '', url);
+      history.replaceState({ key: getStateKey() }, '', url);
     } else {
-      _key = genKey();
-      history.pushState({ key: _key }, '', url);
+      history.pushState({ key: setStateKey(genStateKey()) }, '', url);
     }
   } catch (e) {
     window.location[replace ? 'replace' : 'assign'](url);
@@ -56453,9 +56491,20 @@ function once (fn) {
 }
 
 var NavigationDuplicated = /*@__PURE__*/(function (Error) {
-  function NavigationDuplicated () {
-    Error.call(this, 'Navigating to current location is not allowed');
+  function NavigationDuplicated (normalizedLocation) {
+    Error.call(this);
     this.name = this._name = 'NavigationDuplicated';
+    // passing the message to super() doesn't seem to work in the transpiled version
+    this.message = "Navigating to current location (\"" + (normalizedLocation.fullPath) + "\") is not allowed";
+    // add a stack property so services like Sentry can correctly display it
+    Object.defineProperty(this, 'stack', {
+      value: new Error().stack,
+      writable: true,
+      configurable: true
+    });
+    // we could also have used
+    // Error.captureStackTrace(this, this.constructor)
+    // but it only exists on node and chrome
   }
 
   if ( Error ) NavigationDuplicated.__proto__ = Error;
@@ -56795,11 +56844,11 @@ function poll (
 
 /*  */
 
-var HTML5History = /*@__PURE__*/(function (History$$1) {
+var HTML5History = /*@__PURE__*/(function (History) {
   function HTML5History (router, base) {
     var this$1 = this;
 
-    History$$1.call(this, router, base);
+    History.call(this, router, base);
 
     var expectScroll = router.options.scrollBehavior;
     var supportsScroll = supportsPushState && expectScroll;
@@ -56827,8 +56876,8 @@ var HTML5History = /*@__PURE__*/(function (History$$1) {
     });
   }
 
-  if ( History$$1 ) HTML5History.__proto__ = History$$1;
-  HTML5History.prototype = Object.create( History$$1 && History$$1.prototype );
+  if ( History ) HTML5History.__proto__ = History;
+  HTML5History.prototype = Object.create( History && History.prototype );
   HTML5History.prototype.constructor = HTML5History;
 
   HTML5History.prototype.go = function go (n) {
@@ -56883,9 +56932,9 @@ function getLocation (base) {
 
 /*  */
 
-var HashHistory = /*@__PURE__*/(function (History$$1) {
+var HashHistory = /*@__PURE__*/(function (History) {
   function HashHistory (router, base, fallback) {
-    History$$1.call(this, router, base);
+    History.call(this, router, base);
     // check history fallback deeplinking
     if (fallback && checkFallback(this.base)) {
       return
@@ -56893,8 +56942,8 @@ var HashHistory = /*@__PURE__*/(function (History$$1) {
     ensureSlash();
   }
 
-  if ( History$$1 ) HashHistory.__proto__ = History$$1;
-  HashHistory.prototype = Object.create( History$$1 && History$$1.prototype );
+  if ( History ) HashHistory.__proto__ = History;
+  HashHistory.prototype = Object.create( History && History.prototype );
   HashHistory.prototype.constructor = HashHistory;
 
   // this is delayed until the app mounts
@@ -57025,14 +57074,9 @@ function getHash () {
 
 function getUrl (path) {
   var href = window.location.href;
-  var hashPos = href.indexOf('#');
-  var base = hashPos > -1 ? href.slice(0, hashPos) : href;
-
-  var searchPos = base.indexOf('?');
-  var query = searchPos > -1 ? base.slice(searchPos) : '';
-  base = query ? base.slice(0, searchPos) : base;
-
-  return (base + "#" + (path + query))
+  var i = href.indexOf('#');
+  var base = i >= 0 ? href.slice(0, i) : href;
+  return (base + "#" + path)
 }
 
 function pushHash (path) {
@@ -57053,15 +57097,15 @@ function replaceHash (path) {
 
 /*  */
 
-var AbstractHistory = /*@__PURE__*/(function (History$$1) {
+var AbstractHistory = /*@__PURE__*/(function (History) {
   function AbstractHistory (router, base) {
-    History$$1.call(this, router, base);
+    History.call(this, router, base);
     this.stack = [];
     this.index = -1;
   }
 
-  if ( History$$1 ) AbstractHistory.__proto__ = History$$1;
-  AbstractHistory.prototype = Object.create( History$$1 && History$$1.prototype );
+  if ( History ) AbstractHistory.__proto__ = History;
+  AbstractHistory.prototype = Object.create( History && History.prototype );
   AbstractHistory.prototype.constructor = AbstractHistory;
 
   AbstractHistory.prototype.push = function push (location, onComplete, onAbort) {
@@ -57356,7 +57400,7 @@ function createHref (base, fullPath, mode) {
 }
 
 VueRouter.install = install;
-VueRouter.version = '3.1.1';
+VueRouter.version = '3.1.3';
 
 if (inBrowser && window.Vue) {
   window.Vue.use(VueRouter);
@@ -71614,8 +71658,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/kryme/Documents/TransWeb/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /home/kryme/Documents/TransWeb/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /home/engnr/Desktop/TransWeb/TransWebsite/TransWeb/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /home/engnr/Desktop/TransWeb/TransWebsite/TransWeb/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

@@ -10,6 +10,19 @@
 
       gtag('config', 'UA-148605654-1');
     </script>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/5d9c4101db28311764d7cd6f/default';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+<!--End of Tawk.to Script-->
     <meta charset="UTF-8">
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -142,7 +155,7 @@
         <div class="container">
             <div class="row row-40">
                 <div class="col-sm-6 col-lg-3 text-center text-sm-left wow fadeInUp" data-wow-delay=".04s"><a href="#"><img src="assets/images/fulllogosmall.png" alt="img" /></a>
-                    <p class="font-weight-light text-gray-620 lh-1 box-3 offset-top-20"> <span class="font-weight-bold text-third">Transonline Web </span> is a  company specializing in providing software development, web design & development, graphic design, and a wide range of customized software services. We are a command of professionals, who like what we do.</p>
+                    <p class="font-weight-light text-gray-620 lh-1 box-3 offset-top-20"> <span class="font-weight-bold text-third">TW Technologies </span> is a  company specializing in providing software development, web design & development, graphic design, and a wide range of customized software services. We are a command of professionals, who like what we do.</p>
                 </div>
                 <div class="col-sm-6 col-lg-3 block-lg-4 text-center text-sm-left wow fadeInUp" data-wow-delay=".04s">
                     <h6 class="font-weight-regular text-third">Quick links</h6>

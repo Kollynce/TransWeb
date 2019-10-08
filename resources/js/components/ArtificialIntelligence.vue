@@ -15,7 +15,7 @@
                     <div class="col-lg-8"><img src="/images/blur.jpg" alt="img" width="770" height="500">
                         <h2 class="font-weight-sbold wow fadeIn offset-top-40" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">Artificial Intelligence</h2>
                         <h4 class="font-weight-light text-gray-650 lh-3"> As the potential of AI grows every day, so does corporate pressure to use it. But in the rush to implement AI-powered solutions without a larger vision and strategy in place, initiatives often remain siloed with limited potential.</h4>
-                        <h3>At Transonline Web we offer the following services:-</h3>
+                        <h3>At TW Technologies we offer the following services:-</h3>
                         <h4 class="pl-3"> > AI Consultancy service</h4>
                         <h4 class="font-weight-light text-gray-650 lh-3"> We adopt latest technologies, which enables our team to transform your business. Get expert assistance and consulting services and effortlessly meet your business targets.  </h4>
                         <h4 class="pl-3"> > Digital Strategy and Transformation</h4>
