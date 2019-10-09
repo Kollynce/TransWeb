@@ -65342,13 +65342,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-<<<<<<< HEAD
 __webpack_require__(/*! C:\wamp64\www\TransWeb\resources\js\app.js */"./resources/js/app.js");
 module.exports = __webpack_require__(/*! C:\wamp64\www\TransWeb\resources\sass\app.scss */"./resources/sass/app.scss");
-=======
-__webpack_require__(/*! /home/kryme/Documents/TransWeb/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /home/kryme/Documents/TransWeb/resources/sass/app.scss */"./resources/sass/app.scss");
->>>>>>> b003c565d493ee519268b9a23fe9a22fbb383437
 
 
 /***/ })
