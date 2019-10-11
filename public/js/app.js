@@ -3647,6 +3647,71 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "home",
   data: function data() {
@@ -50243,12 +50308,16 @@ var render = function() {
                   { staticClass: "group-btn text-center text-lg-left" },
                   [
                     _c(
-                      "router-link",
+                      "a",
                       {
                         staticClass: "button button-primary button-lg",
-                        attrs: { to: "contact" }
+                        attrs: {
+                          "data-toggle": "modal",
+                          "data-target": "#exampleModal",
+                          href: "#"
+                        }
                       },
-                      [_vm._v("get in touch")]
+                      [_vm._v("Make an Order")]
                     ),
                     _c(
                       "router-link",
@@ -50913,7 +50982,9 @@ var render = function() {
       ])
     ]),
     _vm._v(" "),
-    _vm._m(9)
+    _vm._m(9),
+    _vm._v(" "),
+    _vm._m(10)
   ])
 }
 var staticRenderFns = [
@@ -51141,7 +51212,11 @@ var staticRenderFns = [
                       "a",
                       {
                         staticClass: "button button-primary button-lg",
-                        attrs: { href: "#" }
+                        attrs: {
+                          "data-toggle": "modal",
+                          "data-target": "#exampleModal",
+                          href: "#"
+                        }
                       },
                       [_vm._v("Make an Order Now!")]
                     )
@@ -51250,6 +51325,235 @@ var staticRenderFns = [
           ])
         ])
       ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", [
+      _c(
+        "div",
+        {
+          staticClass: "modal fade",
+          attrs: {
+            id: "exampleModal",
+            tabindex: "-1",
+            role: "dialog",
+            "aria-labelledby": "exampleModalLabel",
+            "aria-hidden": "true"
+          }
+        },
+        [
+          _c(
+            "div",
+            {
+              staticClass: "modal-dialog modal-dialog-centered",
+              attrs: { role: "document" }
+            },
+            [
+              _c("div", { staticClass: "modal-content" }, [
+                _c("div", { staticClass: "modal-header" }, [
+                  _c(
+                    "h5",
+                    {
+                      staticClass: "modal-title",
+                      attrs: { id: "exampleModalLabel" }
+                    },
+                    [_vm._v("Your Order")]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "button",
+                    {
+                      staticClass: "close",
+                      attrs: {
+                        type: "button",
+                        "data-dismiss": "modal",
+                        "aria-label": "Close"
+                      }
+                    },
+                    [
+                      _c("span", { attrs: { "aria-hidden": "true" } }, [
+                        _vm._v("×")
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "modal-body" }, [
+                  _c(
+                    "form",
+                    {
+                      staticClass: "rd-form rd-mailform rd-mailform-custom-3",
+                      attrs: {
+                        "data-form-output": "form-output-global",
+                        "data-form-type": "contact",
+                        novalidate: "novalidate"
+                      }
+                    },
+                    [
+                      _c("div", { staticClass: "row row-30" }, [
+                        _c("div", { staticClass: "col-md-6" }, [
+                          _c("div", { staticClass: "form-wrap" }, [
+                            _c("input", {
+                              staticClass: "form-input",
+                              attrs: {
+                                id: "contact-name",
+                                type: "text",
+                                name: "name",
+                                "data-constraints": "@Required"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c(
+                              "label",
+                              {
+                                staticClass: "form-label rd-input-label",
+                                attrs: { for: "contact-name" }
+                              },
+                              [_vm._v("Your Name")]
+                            )
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-md-6" }, [
+                          _c("div", { staticClass: "form-wrap" }, [
+                            _c("input", {
+                              staticClass: "form-input",
+                              attrs: {
+                                id: "contact-phone",
+                                type: "text",
+                                name: "phone",
+                                "data-constraints": "@Numeric"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c(
+                              "label",
+                              {
+                                staticClass: "form-label rd-input-label",
+                                attrs: { for: "contact-phone" }
+                              },
+                              [_vm._v("Phone")]
+                            )
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-md-6" }, [
+                          _c("div", { staticClass: "form-wrap" }, [
+                            _c("input", {
+                              staticClass: "form-input",
+                              attrs: {
+                                id: "contact-service",
+                                type: "text",
+                                name: "service",
+                                "data-constraints": "@Required"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c(
+                              "label",
+                              {
+                                staticClass: "form-label rd-input-label",
+                                attrs: { for: "contact-service" }
+                              },
+                              [_vm._v("Service")]
+                            )
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-md-6" }, [
+                          _c("div", { staticClass: "form-wrap" }, [
+                            _c("input", {
+                              staticClass: "form-input",
+                              attrs: {
+                                id: "contact-duration",
+                                type: "text",
+                                name: "duration",
+                                "data-constraints": "@Required"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c(
+                              "label",
+                              {
+                                staticClass: "form-label rd-input-label",
+                                attrs: { for: "contact-duration" }
+                              },
+                              [_vm._v("Duration")]
+                            )
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-12" }, [
+                          _c("div", { staticClass: "form-wrap" }, [
+                            _c(
+                              "label",
+                              {
+                                staticClass: "form-label rd-input-label",
+                                attrs: { for: "contact-message" }
+                              },
+                              [
+                                _vm._v(
+                                  "Give a brief description about what you want"
+                                )
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c("textarea", {
+                              staticClass: "form-input",
+                              attrs: {
+                                id: "contact-message",
+                                name: "message",
+                                "data-constraints": "@Required"
+                              }
+                            })
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-md-6" }, [
+                          _c("div", { staticClass: "form-wrap" }, [
+                            _c("input", {
+                              staticClass: "form-input",
+                              attrs: {
+                                id: "contact-email",
+                                type: "email",
+                                name: "email",
+                                "data-constraints": "@Email @Required"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c(
+                              "label",
+                              {
+                                staticClass: "form-label rd-input-label",
+                                attrs: { for: "contact-email" }
+                              },
+                              [_vm._v("E-mail")]
+                            )
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-md-6" }, [
+                          _c(
+                            "button",
+                            {
+                              staticClass: "button button-block button-primary",
+                              attrs: { type: "submit" }
+                            },
+                            [_vm._v("Send Message")]
+                          )
+                        ])
+                      ])
+                    ]
+                  )
+                ])
+              ])
+            ]
+          )
+        ]
+      )
     ])
   }
 ]
