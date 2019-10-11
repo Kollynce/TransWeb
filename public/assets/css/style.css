@@ -574,16 +574,16 @@ html [class*=section-].section-bottom-0 {
 	width: 100%
 }
 .main-section {
-	padding-top: 40px
+	/*padding-top: 40px*/
 }
 @media (min-width: 576px) {
 	.main-section {
-		padding-top: 80px
+		/*padding-top: 80px*/
 	}
 }
 @media (min-width: 992px) {
 	.main-section {
-		padding-top: 100px
+		/*padding-top: 100px*/
 	}
 }
 @media (min-width: 992px) {
@@ -8881,6 +8881,11 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 }
 
 #svg-size{
+	text-align: center;
+	display: block;
+}
+
+#svg-size img {
 	height: 42px;
 	width: 46px;
 }

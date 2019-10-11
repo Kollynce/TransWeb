@@ -33,7 +33,7 @@
     <meta name="keywords" content="Web Application Development, Software Development, Website Design and Development">
     <meta name="description" content="Your leading parner in software and web applications development in Kenya and Africa at large.">
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/logo.png') }}"/>
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/font-awesome.css') }}">
