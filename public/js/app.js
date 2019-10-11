@@ -3333,6 +3333,72 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -3378,6 +3444,58 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -49657,7 +49775,9 @@ var render = function() {
           ])
         ])
       ]
-    )
+    ),
+    _vm._v(" "),
+    _vm._m(1)
   ])
 }
 var staticRenderFns = [
@@ -49771,6 +49891,375 @@ var staticRenderFns = [
         ])
       ]
     )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "section",
+      { staticClass: "section section-lg bg-gray-100 divider-top-1" },
+      [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row row-40" }, [
+            _c("div", { staticClass: "col-lg-6 text-center text-lg-left" }, [
+              _c("div", { staticClass: "box-video" }, [
+                _c("img", {
+                  staticClass: "box-video-image",
+                  attrs: {
+                    src: __webpack_require__(/*! ../../../public/assets/images/FAQ.jpg */ "./public/assets/images/FAQ.jpg"),
+                    alt: "img"
+                  }
+                }),
+                _c("a", {
+                  staticClass: "box-video-play",
+                  attrs: {
+                    href: "https://youtu.be/7dTve2Hsl_0",
+                    "data-lightgallery": "item"
+                  }
+                })
+              ])
+            ]),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "col-lg-6 block-lg-3 text-center text-lg-left" },
+              [
+                _c(
+                  "h2",
+                  {
+                    staticClass: "font-weight-sbold wow fadeIn",
+                    staticStyle: {
+                      visibility: "visible",
+                      "animation-delay": "0.2s",
+                      "animation-name": "fadeIn"
+                    },
+                    attrs: { "data-wow-delay": ".2s" }
+                  },
+                  [_vm._v("Frequently asked Questions")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "h6",
+                  {
+                    staticClass: "font-weight-light wow fadeIn",
+                    staticStyle: {
+                      visibility: "visible",
+                      "animation-delay": "0.3s",
+                      "animation-name": "fadeIn"
+                    },
+                    attrs: { "data-wow-delay": ".3s" }
+                  },
+                  [_vm._v("Find answers to all your questions.")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "card-group-custom card-group-custom-2 card-group-corporate",
+                    attrs: {
+                      id: "accordion1",
+                      role: "tablist",
+                      "aria-multiselectable": "false"
+                    }
+                  },
+                  [
+                    _c(
+                      "article",
+                      {
+                        staticClass:
+                          "card card-custom card-corporate card-corporate-2"
+                      },
+                      [
+                        _c(
+                          "div",
+                          {
+                            staticClass: "card-header",
+                            attrs: { role: "tab" }
+                          },
+                          [
+                            _c("div", { staticClass: "card-title" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "collapsed",
+                                  attrs: {
+                                    id: "accordion1-card-head-ryynysgu",
+                                    "data-toggle": "collapse",
+                                    "data-parent": "#accordion1",
+                                    href: "#accordion1-card-body-lwsjgqhv",
+                                    "aria-controls":
+                                      "accordion1-card-body-lwsjgqhv",
+                                    "aria-expanded": "false",
+                                    role: "button"
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "What are the advantages of purchasing a website template?\n                                        "
+                                  ),
+                                  _c("div", { staticClass: "card-arrow" })
+                                ]
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass: "collapse",
+                            attrs: {
+                              id: "accordion1-card-body-lwsjgqhv",
+                              "aria-labelledby":
+                                "accordion1-card-head-ryynysgu",
+                              "data-parent": "#accordion1",
+                              role: "tabpanel"
+                            }
+                          },
+                          [
+                            _c("div", { staticClass: "card-body" }, [
+                              _c(
+                                "p",
+                                {
+                                  staticClass: "font-weight-light text-gray-770"
+                                },
+                                [
+                                  _vm._v(
+                                    "The major advantage is price: You get a high quality design for just $20-$70. You don’t have to hire a web designer or web design studio. Second advantage is time frame: It usually takes 5-15 days for a good designer to produce a web page of such quality."
+                                  )
+                                ]
+                              )
+                            ])
+                          ]
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "article",
+                      {
+                        staticClass:
+                          "card card-custom card-corporate card-corporate-2"
+                      },
+                      [
+                        _c(
+                          "div",
+                          {
+                            staticClass: "card-header",
+                            attrs: { role: "tab" }
+                          },
+                          [
+                            _c("div", { staticClass: "card-title" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "collapsed",
+                                  attrs: {
+                                    id: "accordion1-card-head-onljnady",
+                                    "data-toggle": "collapse",
+                                    "data-parent": "#accordion1",
+                                    href: "#accordion1-card-body-ouimrpjb",
+                                    "aria-controls":
+                                      "accordion1-card-body-ouimrpjb",
+                                    "aria-expanded": "false",
+                                    role: "button"
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "In what formats are your templates available?\n                                        "
+                                  ),
+                                  _c("div", { staticClass: "card-arrow" })
+                                ]
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass: "collapse",
+                            attrs: {
+                              id: "accordion1-card-body-ouimrpjb",
+                              "aria-labelledby":
+                                "accordion1-card-head-onljnady",
+                              "data-parent": "#accordion1",
+                              role: "tabpanel"
+                            }
+                          },
+                          [
+                            _c("div", { staticClass: "card-body" }, [
+                              _c(
+                                "p",
+                                {
+                                  staticClass: "font-weight-light text-gray-770"
+                                },
+                                [
+                                  _vm._v(
+                                    "Website templates are available in Photoshop and HTML formats. Fonts are included with the Photoshop file. In most templates, HTML is compatible with Adobe® Dreamweaver® and Microsoft® FrontPage®."
+                                  )
+                                ]
+                              )
+                            ])
+                          ]
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "article",
+                      {
+                        staticClass:
+                          "card card-custom card-corporate card-corporate-2"
+                      },
+                      [
+                        _c(
+                          "div",
+                          {
+                            staticClass: "card-header",
+                            attrs: { role: "tab" }
+                          },
+                          [
+                            _c("div", { staticClass: "card-title" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "collapsed",
+                                  attrs: {
+                                    id: "accordion1-card-head-pqqkpaqc",
+                                    "data-toggle": "collapse",
+                                    "data-parent": "#accordion1",
+                                    href: "#accordion1-card-body-bevbmxjj",
+                                    "aria-controls":
+                                      "accordion1-card-body-bevbmxjj",
+                                    "aria-expanded": "false",
+                                    role: "button"
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "How can I pay for my order?\n                                        "
+                                  ),
+                                  _c("div", { staticClass: "card-arrow" })
+                                ]
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass: "collapse",
+                            attrs: {
+                              id: "accordion1-card-body-bevbmxjj",
+                              "aria-labelledby":
+                                "accordion1-card-head-pqqkpaqc",
+                              "data-parent": "#accordion1",
+                              role: "tabpanel"
+                            }
+                          },
+                          [
+                            _c("div", { staticClass: "card-body" }, [
+                              _c(
+                                "p",
+                                {
+                                  staticClass: "font-weight-light text-gray-770"
+                                },
+                                [
+                                  _vm._v(
+                                    "We accept Visa, MasterCard, and American Express credit and debit cards for your convenience."
+                                  )
+                                ]
+                              )
+                            ])
+                          ]
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "article",
+                      {
+                        staticClass:
+                          "card card-custom card-corporate card-corporate-2"
+                      },
+                      [
+                        _c(
+                          "div",
+                          {
+                            staticClass: "card-header",
+                            attrs: { role: "tab" }
+                          },
+                          [
+                            _c("div", { staticClass: "card-title" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "collapsed",
+                                  attrs: {
+                                    id: "accordion1-card-head-sweygofl",
+                                    "data-toggle": "collapse",
+                                    "data-parent": "#accordion1",
+                                    href: "#accordion1-card-body-bekdlkyi",
+                                    "aria-controls":
+                                      "accordion1-card-body-bekdlkyi",
+                                    "aria-expanded": "false",
+                                    role: "button"
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "Can I return an item?\n                                        "
+                                  ),
+                                  _c("div", { staticClass: "card-arrow" })
+                                ]
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass: "collapse",
+                            attrs: {
+                              id: "accordion1-card-body-bekdlkyi",
+                              "aria-labelledby":
+                                "accordion1-card-head-sweygofl",
+                              "data-parent": "#accordion1",
+                              role: "tabpanel"
+                            }
+                          },
+                          [
+                            _c("div", { staticClass: "card-body" }, [
+                              _c(
+                                "p",
+                                {
+                                  staticClass: "font-weight-light text-gray-770"
+                                },
+                                [
+                                  _vm._v(
+                                    "Please contact our administrators for more information on returning products purchased on our website."
+                                  )
+                                ]
+                              )
+                            ])
+                          ]
+                        )
+                      ]
+                    )
+                  ]
+                )
+              ]
+            )
+          ])
+        ])
+      ]
+    )
   }
 ]
 render._withStripped = true
@@ -49824,12 +50313,16 @@ var render = function() {
                   { staticClass: "group-btn text-center text-lg-left" },
                   [
                     _c(
-                      "router-link",
+                      "a",
                       {
                         staticClass: "button button-primary button-lg",
-                        attrs: { to: "contact" }
+                        attrs: {
+                          "data-toggle": "modal",
+                          "data-target": "#exampleModal",
+                          href: "#"
+                        }
                       },
-                      [_vm._v("get in touch")]
+                      [_vm._v("Make an Order")]
                     ),
                     _c(
                       "router-link",
@@ -50500,7 +50993,9 @@ var render = function() {
       ])
     ]),
     _vm._v(" "),
-    _vm._m(9)
+    _vm._m(9),
+    _vm._v(" "),
+    _vm._m(10)
   ])
 }
 var staticRenderFns = [
@@ -50727,7 +51222,11 @@ var staticRenderFns = [
                       "a",
                       {
                         staticClass: "button button-primary button-lg",
-                        attrs: { href: "#" }
+                        attrs: {
+                          "data-toggle": "modal",
+                          "data-target": "#exampleModal",
+                          href: "#"
+                        }
                       },
                       [_vm._v("Make an Order Now!")]
                     )
@@ -50836,6 +51335,235 @@ var staticRenderFns = [
           ])
         ])
       ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", [
+      _c(
+        "div",
+        {
+          staticClass: "modal fade",
+          attrs: {
+            id: "exampleModal",
+            tabindex: "-1",
+            role: "dialog",
+            "aria-labelledby": "exampleModalLabel",
+            "aria-hidden": "true"
+          }
+        },
+        [
+          _c(
+            "div",
+            {
+              staticClass: "modal-dialog modal-dialog-centered",
+              attrs: { role: "document" }
+            },
+            [
+              _c("div", { staticClass: "modal-content" }, [
+                _c("div", { staticClass: "modal-header" }, [
+                  _c(
+                    "h5",
+                    {
+                      staticClass: "modal-title",
+                      attrs: { id: "exampleModalLabel" }
+                    },
+                    [_vm._v("Your Order")]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "button",
+                    {
+                      staticClass: "close",
+                      attrs: {
+                        type: "button",
+                        "data-dismiss": "modal",
+                        "aria-label": "Close"
+                      }
+                    },
+                    [
+                      _c("span", { attrs: { "aria-hidden": "true" } }, [
+                        _vm._v("×")
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "modal-body" }, [
+                  _c(
+                    "form",
+                    {
+                      staticClass: "rd-form rd-mailform rd-mailform-custom-3",
+                      attrs: {
+                        "data-form-output": "form-output-global",
+                        "data-form-type": "contact",
+                        novalidate: "novalidate"
+                      }
+                    },
+                    [
+                      _c("div", { staticClass: "row row-30" }, [
+                        _c("div", { staticClass: "col-md-6" }, [
+                          _c("div", { staticClass: "form-wrap" }, [
+                            _c("input", {
+                              staticClass: "form-input",
+                              attrs: {
+                                id: "contact-name",
+                                type: "text",
+                                name: "name",
+                                "data-constraints": "@Required"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c(
+                              "label",
+                              {
+                                staticClass: "form-label rd-input-label",
+                                attrs: { for: "contact-name" }
+                              },
+                              [_vm._v("Your Name")]
+                            )
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-md-6" }, [
+                          _c("div", { staticClass: "form-wrap" }, [
+                            _c("input", {
+                              staticClass: "form-input",
+                              attrs: {
+                                id: "contact-phone",
+                                type: "text",
+                                name: "phone",
+                                "data-constraints": "@Numeric"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c(
+                              "label",
+                              {
+                                staticClass: "form-label rd-input-label",
+                                attrs: { for: "contact-phone" }
+                              },
+                              [_vm._v("Phone")]
+                            )
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-md-6" }, [
+                          _c("div", { staticClass: "form-wrap" }, [
+                            _c("input", {
+                              staticClass: "form-input",
+                              attrs: {
+                                id: "contact-service",
+                                type: "text",
+                                name: "service",
+                                "data-constraints": "@Required"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c(
+                              "label",
+                              {
+                                staticClass: "form-label rd-input-label",
+                                attrs: { for: "contact-service" }
+                              },
+                              [_vm._v("Service")]
+                            )
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-md-6" }, [
+                          _c("div", { staticClass: "form-wrap" }, [
+                            _c("input", {
+                              staticClass: "form-input",
+                              attrs: {
+                                id: "contact-duration",
+                                type: "text",
+                                name: "duration",
+                                "data-constraints": "@Required"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c(
+                              "label",
+                              {
+                                staticClass: "form-label rd-input-label",
+                                attrs: { for: "contact-duration" }
+                              },
+                              [_vm._v("Duration")]
+                            )
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-12" }, [
+                          _c("div", { staticClass: "form-wrap" }, [
+                            _c(
+                              "label",
+                              {
+                                staticClass: "form-label rd-input-label",
+                                attrs: { for: "contact-message" }
+                              },
+                              [
+                                _vm._v(
+                                  "Give a brief description about what you want"
+                                )
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c("textarea", {
+                              staticClass: "form-input",
+                              attrs: {
+                                id: "contact-message",
+                                name: "message",
+                                "data-constraints": "@Required"
+                              }
+                            })
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-md-6" }, [
+                          _c("div", { staticClass: "form-wrap" }, [
+                            _c("input", {
+                              staticClass: "form-input",
+                              attrs: {
+                                id: "contact-email",
+                                type: "email",
+                                name: "email",
+                                "data-constraints": "@Email @Required"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c(
+                              "label",
+                              {
+                                staticClass: "form-label rd-input-label",
+                                attrs: { for: "contact-email" }
+                              },
+                              [_vm._v("E-mail")]
+                            )
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "col-md-6" }, [
+                          _c(
+                            "button",
+                            {
+                              staticClass: "button button-block button-primary",
+                              attrs: { type: "submit" }
+                            },
+                            [_vm._v("Submit Order")]
+                          )
+                        ])
+                      ])
+                    ]
+                  )
+                ])
+              ])
+            ]
+          )
+        ]
+      )
     ])
   }
 ]
@@ -69441,6 +70169,17 @@ module.exports = function(module) {
 	return module;
 };
 
+
+/***/ }),
+
+/***/ "./public/assets/images/FAQ.jpg":
+/*!**************************************!*\
+  !*** ./public/assets/images/FAQ.jpg ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/FAQ.jpg?53dc20814e7c7cf759d00dd13438c4e5";
 
 /***/ }),
 

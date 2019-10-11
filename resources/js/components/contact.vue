@@ -66,6 +66,72 @@
                 </div>
             </div>
         </section>
+
+        <section class="section section-lg bg-gray-100 divider-top-1">
+                <div class="container">
+                    <div class="row row-40">
+                        <div class="col-lg-6 text-center text-lg-left">
+                            <div class="box-video"><img class="box-video-image" src="../../../public/assets/images/FAQ.jpg" alt="img"><a class="box-video-play" href="https://youtu.be/7dTve2Hsl_0" data-lightgallery="item"></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 block-lg-3 text-center text-lg-left">
+                            <h2 class="font-weight-sbold wow fadeIn" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">Frequently asked Questions</h2>
+                            <h6 class="font-weight-light wow fadeIn" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">Find answers to all your questions.</h6>
+                            <!--Bootstrap collapse-->
+                            <div class="card-group-custom card-group-custom-2 card-group-corporate" id="accordion1" role="tablist" aria-multiselectable="false">
+                                <!--Bootstrap card-->
+                                <article class="card card-custom card-corporate card-corporate-2">
+                                    <div class="card-header" role="tab">
+                                        <div class="card-title"><a id="accordion1-card-head-ryynysgu" data-toggle="collapse" data-parent="#accordion1" href="#accordion1-card-body-lwsjgqhv" aria-controls="accordion1-card-body-lwsjgqhv" aria-expanded="false" role="button" class="collapsed">What are the advantages of purchasing a website template?
+                                            <div class="card-arrow"></div></a></div>
+                                    </div>
+                                    <div class="collapse" id="accordion1-card-body-lwsjgqhv" aria-labelledby="accordion1-card-head-ryynysgu" data-parent="#accordion1" role="tabpanel" style="">
+                                        <div class="card-body">
+                                            <p class="font-weight-light text-gray-770">The major advantage is price: You get a high quality design for just $20-$70. You don’t have to hire a web designer or web design studio. Second advantage is time frame: It usually takes 5-15 days for a good designer to produce a web page of such quality.</p>
+                                        </div>
+                                    </div>
+                                </article>
+                                <!--Bootstrap card-->
+                                <article class="card card-custom card-corporate card-corporate-2">
+                                    <div class="card-header" role="tab">
+                                        <div class="card-title"><a class="collapsed" id="accordion1-card-head-onljnady" data-toggle="collapse" data-parent="#accordion1" href="#accordion1-card-body-ouimrpjb" aria-controls="accordion1-card-body-ouimrpjb" aria-expanded="false" role="button">In what formats are your templates available?
+                                            <div class="card-arrow"></div></a></div>
+                                    </div>
+                                    <div class="collapse" id="accordion1-card-body-ouimrpjb" aria-labelledby="accordion1-card-head-onljnady" data-parent="#accordion1" role="tabpanel">
+                                        <div class="card-body">
+                                            <p class="font-weight-light text-gray-770">Website templates are available in Photoshop and HTML formats. Fonts are included with the Photoshop file. In most templates, HTML is compatible with Adobe® Dreamweaver® and Microsoft® FrontPage®.</p>
+                                        </div>
+                                    </div>
+                                </article>
+                                <!--Bootstrap card-->
+                                <article class="card card-custom card-corporate card-corporate-2">
+                                    <div class="card-header" role="tab">
+                                        <div class="card-title"><a class="collapsed" id="accordion1-card-head-pqqkpaqc" data-toggle="collapse" data-parent="#accordion1" href="#accordion1-card-body-bevbmxjj" aria-controls="accordion1-card-body-bevbmxjj" aria-expanded="false" role="button">How can I pay for my order?
+                                            <div class="card-arrow"></div></a></div>
+                                    </div>
+                                    <div class="collapse" id="accordion1-card-body-bevbmxjj" aria-labelledby="accordion1-card-head-pqqkpaqc" data-parent="#accordion1" role="tabpanel">
+                                        <div class="card-body">
+                                            <p class="font-weight-light text-gray-770">We accept Visa, MasterCard, and American Express credit and debit cards for your convenience.</p>
+                                        </div>
+                                    </div>
+                                </article>
+                                <!--Bootstrap card-->
+                                <article class="card card-custom card-corporate card-corporate-2">
+                                    <div class="card-header" role="tab">
+                                        <div class="card-title"><a class="collapsed" id="accordion1-card-head-sweygofl" data-toggle="collapse" data-parent="#accordion1" href="#accordion1-card-body-bekdlkyi" aria-controls="accordion1-card-body-bekdlkyi" aria-expanded="false" role="button">Can I return an item?
+                                            <div class="card-arrow"></div></a></div>
+                                    </div>
+                                    <div class="collapse" id="accordion1-card-body-bekdlkyi" aria-labelledby="accordion1-card-head-sweygofl" data-parent="#accordion1" role="tabpanel">
+                                        <div class="card-body">
+                                            <p class="font-weight-light text-gray-770">Please contact our administrators for more information on returning products purchased on our website.</p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
     </div>
 </template>
 
