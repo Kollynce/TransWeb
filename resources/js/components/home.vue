@@ -249,7 +249,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <button class="button button-block button-primary" type="submit">Send Message</button>
+                                <button class="button button-block button-primary" type="submit">Submit Order</button>
                             </div>
                         </div>
                     </form>

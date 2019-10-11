@@ -51542,7 +51542,7 @@ var staticRenderFns = [
                               staticClass: "button button-block button-primary",
                               attrs: { type: "submit" }
                             },
-                            [_vm._v("Send Message")]
+                            [_vm._v("Submit Order")]
                           )
                         ])
                       ])
