@@ -3333,6 +3333,72 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -3378,19 +3444,6 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -40550,7 +40603,7 @@ module.exports = function (css) {
 /***/ (function(module, exports, __webpack_require__) {
 
 /*!
-* sweetalert2 v8.17.1
+* sweetalert2 v8.16.3
 * Released under the MIT License.
 */
 (function (global, factory) {
@@ -41768,10 +41821,6 @@ var render = function render(instance, params) {
   renderContent(instance, params);
   renderActions(instance, params);
   renderFooter(instance, params);
-
-  if (typeof params.onRender === 'function') {
-    params.onRender(getPopup());
-  }
 };
 
 /*
@@ -42083,10 +42132,9 @@ var defaultParams = {
   currentProgressStep: null,
   progressStepsDistance: null,
   onBeforeOpen: null,
-  onOpen: null,
-  onRender: null,
-  onClose: null,
   onAfterClose: null,
+  onOpen: null,
+  onClose: null,
   scrollbarPadding: true
 };
 var updatableParams = ['title', 'titleText', 'text', 'html', 'type', 'customClass', 'showConfirmButton', 'showCancelButton', 'confirmButtonText', 'confirmButtonAriaLabel', 'confirmButtonColor', 'confirmButtonClass', 'cancelButtonText', 'cancelButtonAriaLabel', 'cancelButtonColor', 'cancelButtonClass', 'buttonsStyling', 'reverseButtons', 'imageUrl', 'imageWidth', 'imageHeigth', 'imageAlt', 'imageClass', 'progressSteps', 'currentProgressStep'];
@@ -42519,12 +42567,12 @@ function disableButtons() {
 } // @deprecated
 
 function enableConfirmButton() {
-  warnAboutDepreation('Swal.enableConfirmButton()', "Swal.getConfirmButton().removeAttribute('disabled')");
+  warnAboutDepreation('Swal.disableConfirmButton()', "Swal.getConfirmButton().removeAttribute('disabled')");
   setButtonsDisabled(this, ['confirmButton'], false);
 } // @deprecated
 
 function disableConfirmButton() {
-  warnAboutDepreation('Swal.disableConfirmButton()', "Swal.getConfirmButton().setAttribute('disabled', '')");
+  warnAboutDepreation('Swal.enableConfirmButton()', "Swal.getConfirmButton().setAttribute('disabled', '')");
   setButtonsDisabled(this, ['confirmButton'], true);
 }
 function enableInput() {
@@ -43441,7 +43489,7 @@ Object.keys(instanceMethods).forEach(function (key) {
   };
 });
 SweetAlert.DismissReason = DismissReason;
-SweetAlert.version = '8.17.1';
+SweetAlert.version = '8.16.3';
 
 var Swal = SweetAlert;
 Swal["default"] = Swal;
@@ -49657,7 +49705,9 @@ var render = function() {
           ])
         ])
       ]
-    )
+    ),
+    _vm._v(" "),
+    _vm._m(1)
   ])
 }
 var staticRenderFns = [
@@ -49771,6 +49821,375 @@ var staticRenderFns = [
         ])
       ]
     )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "section",
+      { staticClass: "section section-lg bg-gray-100 divider-top-1" },
+      [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row row-40" }, [
+            _c("div", { staticClass: "col-lg-6 text-center text-lg-left" }, [
+              _c("div", { staticClass: "box-video" }, [
+                _c("img", {
+                  staticClass: "box-video-image",
+                  attrs: {
+                    src: __webpack_require__(/*! ../../../public/assets/images/FAQ.jpg */ "./public/assets/images/FAQ.jpg"),
+                    alt: "img"
+                  }
+                }),
+                _c("a", {
+                  staticClass: "box-video-play",
+                  attrs: {
+                    href: "https://youtu.be/7dTve2Hsl_0",
+                    "data-lightgallery": "item"
+                  }
+                })
+              ])
+            ]),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "col-lg-6 block-lg-3 text-center text-lg-left" },
+              [
+                _c(
+                  "h2",
+                  {
+                    staticClass: "font-weight-sbold wow fadeIn",
+                    staticStyle: {
+                      visibility: "visible",
+                      "animation-delay": "0.2s",
+                      "animation-name": "fadeIn"
+                    },
+                    attrs: { "data-wow-delay": ".2s" }
+                  },
+                  [_vm._v("Frequently asked Questions")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "h6",
+                  {
+                    staticClass: "font-weight-light wow fadeIn",
+                    staticStyle: {
+                      visibility: "visible",
+                      "animation-delay": "0.3s",
+                      "animation-name": "fadeIn"
+                    },
+                    attrs: { "data-wow-delay": ".3s" }
+                  },
+                  [_vm._v("Find answers to all your questions.")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "card-group-custom card-group-custom-2 card-group-corporate",
+                    attrs: {
+                      id: "accordion1",
+                      role: "tablist",
+                      "aria-multiselectable": "false"
+                    }
+                  },
+                  [
+                    _c(
+                      "article",
+                      {
+                        staticClass:
+                          "card card-custom card-corporate card-corporate-2"
+                      },
+                      [
+                        _c(
+                          "div",
+                          {
+                            staticClass: "card-header",
+                            attrs: { role: "tab" }
+                          },
+                          [
+                            _c("div", { staticClass: "card-title" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "collapsed",
+                                  attrs: {
+                                    id: "accordion1-card-head-ryynysgu",
+                                    "data-toggle": "collapse",
+                                    "data-parent": "#accordion1",
+                                    href: "#accordion1-card-body-lwsjgqhv",
+                                    "aria-controls":
+                                      "accordion1-card-body-lwsjgqhv",
+                                    "aria-expanded": "false",
+                                    role: "button"
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "What are the advantages of purchasing a website template?\n                                        "
+                                  ),
+                                  _c("div", { staticClass: "card-arrow" })
+                                ]
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass: "collapse",
+                            attrs: {
+                              id: "accordion1-card-body-lwsjgqhv",
+                              "aria-labelledby":
+                                "accordion1-card-head-ryynysgu",
+                              "data-parent": "#accordion1",
+                              role: "tabpanel"
+                            }
+                          },
+                          [
+                            _c("div", { staticClass: "card-body" }, [
+                              _c(
+                                "p",
+                                {
+                                  staticClass: "font-weight-light text-gray-770"
+                                },
+                                [
+                                  _vm._v(
+                                    "The major advantage is price: You get a high quality design for just $20-$70. You don’t have to hire a web designer or web design studio. Second advantage is time frame: It usually takes 5-15 days for a good designer to produce a web page of such quality."
+                                  )
+                                ]
+                              )
+                            ])
+                          ]
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "article",
+                      {
+                        staticClass:
+                          "card card-custom card-corporate card-corporate-2"
+                      },
+                      [
+                        _c(
+                          "div",
+                          {
+                            staticClass: "card-header",
+                            attrs: { role: "tab" }
+                          },
+                          [
+                            _c("div", { staticClass: "card-title" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "collapsed",
+                                  attrs: {
+                                    id: "accordion1-card-head-onljnady",
+                                    "data-toggle": "collapse",
+                                    "data-parent": "#accordion1",
+                                    href: "#accordion1-card-body-ouimrpjb",
+                                    "aria-controls":
+                                      "accordion1-card-body-ouimrpjb",
+                                    "aria-expanded": "false",
+                                    role: "button"
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "In what formats are your templates available?\n                                        "
+                                  ),
+                                  _c("div", { staticClass: "card-arrow" })
+                                ]
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass: "collapse",
+                            attrs: {
+                              id: "accordion1-card-body-ouimrpjb",
+                              "aria-labelledby":
+                                "accordion1-card-head-onljnady",
+                              "data-parent": "#accordion1",
+                              role: "tabpanel"
+                            }
+                          },
+                          [
+                            _c("div", { staticClass: "card-body" }, [
+                              _c(
+                                "p",
+                                {
+                                  staticClass: "font-weight-light text-gray-770"
+                                },
+                                [
+                                  _vm._v(
+                                    "Website templates are available in Photoshop and HTML formats. Fonts are included with the Photoshop file. In most templates, HTML is compatible with Adobe® Dreamweaver® and Microsoft® FrontPage®."
+                                  )
+                                ]
+                              )
+                            ])
+                          ]
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "article",
+                      {
+                        staticClass:
+                          "card card-custom card-corporate card-corporate-2"
+                      },
+                      [
+                        _c(
+                          "div",
+                          {
+                            staticClass: "card-header",
+                            attrs: { role: "tab" }
+                          },
+                          [
+                            _c("div", { staticClass: "card-title" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "collapsed",
+                                  attrs: {
+                                    id: "accordion1-card-head-pqqkpaqc",
+                                    "data-toggle": "collapse",
+                                    "data-parent": "#accordion1",
+                                    href: "#accordion1-card-body-bevbmxjj",
+                                    "aria-controls":
+                                      "accordion1-card-body-bevbmxjj",
+                                    "aria-expanded": "false",
+                                    role: "button"
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "How can I pay for my order?\n                                        "
+                                  ),
+                                  _c("div", { staticClass: "card-arrow" })
+                                ]
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass: "collapse",
+                            attrs: {
+                              id: "accordion1-card-body-bevbmxjj",
+                              "aria-labelledby":
+                                "accordion1-card-head-pqqkpaqc",
+                              "data-parent": "#accordion1",
+                              role: "tabpanel"
+                            }
+                          },
+                          [
+                            _c("div", { staticClass: "card-body" }, [
+                              _c(
+                                "p",
+                                {
+                                  staticClass: "font-weight-light text-gray-770"
+                                },
+                                [
+                                  _vm._v(
+                                    "We accept Visa, MasterCard, and American Express credit and debit cards for your convenience."
+                                  )
+                                ]
+                              )
+                            ])
+                          ]
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "article",
+                      {
+                        staticClass:
+                          "card card-custom card-corporate card-corporate-2"
+                      },
+                      [
+                        _c(
+                          "div",
+                          {
+                            staticClass: "card-header",
+                            attrs: { role: "tab" }
+                          },
+                          [
+                            _c("div", { staticClass: "card-title" }, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "collapsed",
+                                  attrs: {
+                                    id: "accordion1-card-head-sweygofl",
+                                    "data-toggle": "collapse",
+                                    "data-parent": "#accordion1",
+                                    href: "#accordion1-card-body-bekdlkyi",
+                                    "aria-controls":
+                                      "accordion1-card-body-bekdlkyi",
+                                    "aria-expanded": "false",
+                                    role: "button"
+                                  }
+                                },
+                                [
+                                  _vm._v(
+                                    "Can I return an item?\n                                        "
+                                  ),
+                                  _c("div", { staticClass: "card-arrow" })
+                                ]
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass: "collapse",
+                            attrs: {
+                              id: "accordion1-card-body-bekdlkyi",
+                              "aria-labelledby":
+                                "accordion1-card-head-sweygofl",
+                              "data-parent": "#accordion1",
+                              role: "tabpanel"
+                            }
+                          },
+                          [
+                            _c("div", { staticClass: "card-body" }, [
+                              _c(
+                                "p",
+                                {
+                                  staticClass: "font-weight-light text-gray-770"
+                                },
+                                [
+                                  _vm._v(
+                                    "Please contact our administrators for more information on returning products purchased on our website."
+                                  )
+                                ]
+                              )
+                            ])
+                          ]
+                        )
+                      ]
+                    )
+                  ]
+                )
+              ]
+            )
+          ])
+        ])
+      ]
+    )
   }
 ]
 render._withStripped = true
@@ -49809,7 +50228,7 @@ var render = function() {
             _c(
               "div",
               {
-                staticClass: "col-lg-6 offset-top-150 wow fadeIn",
+                staticClass: "col-lg-6 wow fadeIn",
                 attrs: { "data-wow-delay": ".3s" }
               },
               [
@@ -50189,7 +50608,7 @@ var render = function() {
               _vm._v(" "),
               _c(
                 "div",
-                { staticClass: "row row-40 offset-top-0 offset-top-48-2" },
+                { staticClass: "row row-40 offset-top-0 offset-top-30-2" },
                 [
                   _c("div", { staticClass: "col-6" }, [
                     _c(
@@ -50503,14 +50922,13 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c(
-      "h1",
+      "h2",
       {
         staticClass:
           "font-weight-sbold text-capitalize text-center text-lg-left"
       },
       [
         _vm._v("Your journey to digital transformation starts "),
-        _c("br", { staticClass: "d-none d-lg-block" }),
         _c("span", { staticClass: "text-capitalize text-primary" }, [
           _vm._v("here")
         ])
@@ -50522,7 +50940,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c(
-      "h5",
+      "h6",
       { staticClass: "font-weight-light text-center text-lg-left" },
       [
         _vm._v(
@@ -54526,7 +54944,7 @@ function normalizeComponent (
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /*!
-  * vue-router v3.1.3
+  * vue-router v3.1.1
   * (c) 2019 Evan You
   * @license MIT
   */
@@ -54667,7 +55085,7 @@ var View = {
 
     return h(component, data, children)
   }
-};
+}
 
 function resolveProps (route, config) {
   switch (typeof config) {
@@ -54796,7 +55214,7 @@ function createRoute (
   redirectedFrom,
   router
 ) {
-  var stringifyQuery = router && router.options.stringifyQuery;
+  var stringifyQuery$$1 = router && router.options.stringifyQuery;
 
   var query = location.query || {};
   try {
@@ -54810,11 +55228,11 @@ function createRoute (
     hash: location.hash || '',
     query: query,
     params: location.params || {},
-    fullPath: getFullPath(location, stringifyQuery),
+    fullPath: getFullPath(location, stringifyQuery$$1),
     matched: record ? formatMatch(record) : []
   };
   if (redirectedFrom) {
-    route.redirectedFrom = getFullPath(redirectedFrom, stringifyQuery);
+    route.redirectedFrom = getFullPath(redirectedFrom, stringifyQuery$$1);
   }
   return Object.freeze(route)
 }
@@ -55588,9 +56006,9 @@ var Link = {
     var handler = function (e) {
       if (guardEvent(e)) {
         if (this$1.replace) {
-          router.replace(location, noop);
+          router.replace(location, null, noop);
         } else {
-          router.push(location, noop);
+          router.push(location, null, noop);
         }
       }
     };
@@ -55641,24 +56059,7 @@ var Link = {
         // in case the <a> is a static node
         a.isStatic = false;
         var aData = (a.data = extend({}, a.data));
-        aData.on = aData.on || {};
-        // transform existing events in both objects into arrays so we can push later
-        for (var event in aData.on) {
-          var handler$1 = aData.on[event];
-          if (event in on) {
-            aData.on[event] = Array.isArray(handler$1) ? handler$1 : [handler$1];
-          }
-        }
-        // append new listeners for router-link
-        for (var event$1 in on) {
-          if (event$1 in aData.on) {
-            // on[event] is always a function
-            aData.on[event$1].push(on[event$1]);
-          } else {
-            aData.on[event$1] = handler;
-          }
-        }
-
+        aData.on = on;
         var aAttrs = (a.data.attrs = extend({}, a.data.attrs));
         aAttrs.href = href;
       } else {
@@ -55669,7 +56070,7 @@ var Link = {
 
     return h(this.tag, data, this.$slots.default)
   }
-};
+}
 
 function guardEvent (e) {
   // don't redirect with control keys
@@ -55784,18 +56185,6 @@ function createRouteMap (
       pathList.push(pathList.splice(i, 1)[0]);
       l--;
       i--;
-    }
-  }
-
-  if (true) {
-    // warn if routes do not include leading slashes
-    var found = pathList
-    // check for missing leading slash
-      .filter(function (path) { return path && path.charAt(0) !== '*' && path.charAt(0) !== '/'; });
-
-    if (found.length > 0) {
-      var pathNames = found.map(function (path) { return ("- " + path); }).join('\n');
-      warn(false, ("Non-nested routes must include a leading slash character. Fix the following routes: \n" + pathNames));
     }
   }
 
@@ -56154,28 +56543,6 @@ function resolveRecordPath (path, record) {
 
 /*  */
 
-// use User Timing api (if present) for more accurate key precision
-var Time =
-  inBrowser && window.performance && window.performance.now
-    ? window.performance
-    : Date;
-
-function genStateKey () {
-  return Time.now().toFixed(3)
-}
-
-var _key = genStateKey();
-
-function getStateKey () {
-  return _key
-}
-
-function setStateKey (key) {
-  return (_key = key)
-}
-
-/*  */
-
 var positionStore = Object.create(null);
 
 function setupScroll () {
@@ -56325,22 +56692,39 @@ function scrollToPosition (shouldScroll, position) {
 
 /*  */
 
-var supportsPushState =
-  inBrowser &&
-  (function () {
-    var ua = window.navigator.userAgent;
+var supportsPushState = inBrowser && (function () {
+  var ua = window.navigator.userAgent;
 
-    if (
-      (ua.indexOf('Android 2.') !== -1 || ua.indexOf('Android 4.0') !== -1) &&
-      ua.indexOf('Mobile Safari') !== -1 &&
-      ua.indexOf('Chrome') === -1 &&
-      ua.indexOf('Windows Phone') === -1
-    ) {
-      return false
-    }
+  if (
+    (ua.indexOf('Android 2.') !== -1 || ua.indexOf('Android 4.0') !== -1) &&
+    ua.indexOf('Mobile Safari') !== -1 &&
+    ua.indexOf('Chrome') === -1 &&
+    ua.indexOf('Windows Phone') === -1
+  ) {
+    return false
+  }
 
-    return window.history && 'pushState' in window.history
-  })();
+  return window.history && 'pushState' in window.history
+})();
+
+// use User Timing api (if present) for more accurate key precision
+var Time = inBrowser && window.performance && window.performance.now
+  ? window.performance
+  : Date;
+
+var _key = genKey();
+
+function genKey () {
+  return Time.now().toFixed(3)
+}
+
+function getStateKey () {
+  return _key
+}
+
+function setStateKey (key) {
+  _key = key;
+}
 
 function pushState (url, replace) {
   saveScrollPosition();
@@ -56349,9 +56733,10 @@ function pushState (url, replace) {
   var history = window.history;
   try {
     if (replace) {
-      history.replaceState({ key: getStateKey() }, '', url);
+      history.replaceState({ key: _key }, '', url);
     } else {
-      history.pushState({ key: setStateKey(genStateKey()) }, '', url);
+      _key = genKey();
+      history.pushState({ key: _key }, '', url);
     }
   } catch (e) {
     window.location[replace ? 'replace' : 'assign'](url);
@@ -56491,20 +56876,9 @@ function once (fn) {
 }
 
 var NavigationDuplicated = /*@__PURE__*/(function (Error) {
-  function NavigationDuplicated (normalizedLocation) {
-    Error.call(this);
+  function NavigationDuplicated () {
+    Error.call(this, 'Navigating to current location is not allowed');
     this.name = this._name = 'NavigationDuplicated';
-    // passing the message to super() doesn't seem to work in the transpiled version
-    this.message = "Navigating to current location (\"" + (normalizedLocation.fullPath) + "\") is not allowed";
-    // add a stack property so services like Sentry can correctly display it
-    Object.defineProperty(this, 'stack', {
-      value: new Error().stack,
-      writable: true,
-      configurable: true
-    });
-    // we could also have used
-    // Error.captureStackTrace(this, this.constructor)
-    // but it only exists on node and chrome
   }
 
   if ( Error ) NavigationDuplicated.__proto__ = Error;
@@ -56844,11 +57218,11 @@ function poll (
 
 /*  */
 
-var HTML5History = /*@__PURE__*/(function (History) {
+var HTML5History = /*@__PURE__*/(function (History$$1) {
   function HTML5History (router, base) {
     var this$1 = this;
 
-    History.call(this, router, base);
+    History$$1.call(this, router, base);
 
     var expectScroll = router.options.scrollBehavior;
     var supportsScroll = supportsPushState && expectScroll;
@@ -56876,8 +57250,8 @@ var HTML5History = /*@__PURE__*/(function (History) {
     });
   }
 
-  if ( History ) HTML5History.__proto__ = History;
-  HTML5History.prototype = Object.create( History && History.prototype );
+  if ( History$$1 ) HTML5History.__proto__ = History$$1;
+  HTML5History.prototype = Object.create( History$$1 && History$$1.prototype );
   HTML5History.prototype.constructor = HTML5History;
 
   HTML5History.prototype.go = function go (n) {
@@ -56932,9 +57306,9 @@ function getLocation (base) {
 
 /*  */
 
-var HashHistory = /*@__PURE__*/(function (History) {
+var HashHistory = /*@__PURE__*/(function (History$$1) {
   function HashHistory (router, base, fallback) {
-    History.call(this, router, base);
+    History$$1.call(this, router, base);
     // check history fallback deeplinking
     if (fallback && checkFallback(this.base)) {
       return
@@ -56942,8 +57316,8 @@ var HashHistory = /*@__PURE__*/(function (History) {
     ensureSlash();
   }
 
-  if ( History ) HashHistory.__proto__ = History;
-  HashHistory.prototype = Object.create( History && History.prototype );
+  if ( History$$1 ) HashHistory.__proto__ = History$$1;
+  HashHistory.prototype = Object.create( History$$1 && History$$1.prototype );
   HashHistory.prototype.constructor = HashHistory;
 
   // this is delayed until the app mounts
@@ -57074,9 +57448,14 @@ function getHash () {
 
 function getUrl (path) {
   var href = window.location.href;
-  var i = href.indexOf('#');
-  var base = i >= 0 ? href.slice(0, i) : href;
-  return (base + "#" + path)
+  var hashPos = href.indexOf('#');
+  var base = hashPos > -1 ? href.slice(0, hashPos) : href;
+
+  var searchPos = base.indexOf('?');
+  var query = searchPos > -1 ? base.slice(searchPos) : '';
+  base = query ? base.slice(0, searchPos) : base;
+
+  return (base + "#" + (path + query))
 }
 
 function pushHash (path) {
@@ -57097,15 +57476,15 @@ function replaceHash (path) {
 
 /*  */
 
-var AbstractHistory = /*@__PURE__*/(function (History) {
+var AbstractHistory = /*@__PURE__*/(function (History$$1) {
   function AbstractHistory (router, base) {
-    History.call(this, router, base);
+    History$$1.call(this, router, base);
     this.stack = [];
     this.index = -1;
   }
 
-  if ( History ) AbstractHistory.__proto__ = History;
-  AbstractHistory.prototype = Object.create( History && History.prototype );
+  if ( History$$1 ) AbstractHistory.__proto__ = History$$1;
+  AbstractHistory.prototype = Object.create( History$$1 && History$$1.prototype );
   AbstractHistory.prototype.constructor = AbstractHistory;
 
   AbstractHistory.prototype.push = function push (location, onComplete, onAbort) {
@@ -57400,7 +57779,7 @@ function createHref (base, fullPath, mode) {
 }
 
 VueRouter.install = install;
-VueRouter.version = '3.1.3';
+VueRouter.version = '3.1.1';
 
 if (inBrowser && window.Vue) {
   window.Vue.use(VueRouter);
@@ -69440,6 +69819,17 @@ module.exports = function(module) {
 
 /***/ }),
 
+/***/ "./public/assets/images/FAQ.jpg":
+/*!**************************************!*\
+  !*** ./public/assets/images/FAQ.jpg ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/FAQ.jpg?53dc20814e7c7cf759d00dd13438c4e5";
+
+/***/ }),
+
 /***/ "./public/assets/images/expe.jpg":
 /*!***************************************!*\
   !*** ./public/assets/images/expe.jpg ***!
@@ -71658,8 +72048,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/engnr/Desktop/TransWeb/TransWebsite/TransWeb/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /home/engnr/Desktop/TransWeb/TransWebsite/TransWeb/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /home/kryme/Documents/TransWeb/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /home/kryme/Documents/TransWeb/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
