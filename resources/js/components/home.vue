@@ -31,7 +31,7 @@
                         <div class="block-lg">
                             <h2 class="font-weight-sbold text-center text-lg-left">Our company has many years of experience!</h2>
                             <h4 class="font-weight-light text-gray-650 text-center text-lg-left"> We have pioneered custom solutions that have become central components in our client’s business success. <br class="d-none d-lg-block"> During our work we developed our approach to providing products and services, and the strategy of working with our clients. <br class="d-none d-lg-block"> Our focus is to help you grow your business now, and in the future, we take a personal approach with all of our clients.</h4>
-                           
+
                         </div>
                     </div>
                 </div>
@@ -109,7 +109,7 @@
                     <div class="row">
                         <div class="col-lg-12 offset-top-70 text-center text-lg-center">
                             <h2 class="font-weight-sbold wow fadeIn" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">Do You Need Our Services<br class="d-none d-lg-block"> Go For It!</h2>
-                            
+
                             <div class="group-btn text-center text-lg-center wow fadeIn" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;"><a class="button button-primary button-lg" data-toggle="modal" data-target="#exampleModal" href="#">Make an Order Now!</a></div>
                         </div>
                     </div>
@@ -187,10 +187,12 @@
                         <form class="rd-form mailchimp-mailform rd-form-inline rd-form-inline-2" data-form-output="form-output-global" >
                             <div class="form-wrap">
                                 <label class="form-label" for="mailchimp-email">Your e-mail</label>
-                                <input class="form-input" id="mailchimp-email" type="email" name="email" data-constraints="@Email @Required">
+                                <input  v-model="form.email" id="mailchimp-email" type="email" name="email" data-constraints="@Email @Required"
+                                       class="form-control" :class="{ 'is-invalid': form.errors.has('email') }">
+                                <has-error :form="form" field="email"></has-error>
                             </div>
                             <div class="form-button">
-                                <button class="button button-primary" type="submit">Subscribe</button>
+                                <button class="button button-primary" @click="send()" type="button">Subscribe</button>
                             </div>
                         </form>
                     </div>
@@ -271,9 +273,40 @@
         name: "home",
         data(){
             return{
-
+                form : new Form({
+                   email :'' ,
+                })
             }
-        }
+        },
+        methods : {
+            send(){
+                if (!this.form.email) {
+                    this.form.errors.set({
+                        email: 'This field is required'
+                    })
+                    return false;
+                } else {
+                    this.form.post('api/newsletter')
+                        .then(() => {
+                            Swal.fire(
+                                'SUCCESS!',
+                                'thank you for subscribing',
+                                'success',
+                            )
+                            Fire.$emit('entry');
+                        })
+                        .catch(error => {
+                            this.errors = error.response.data.errors;
+                            Swal.fire({
+                                    type: 'error',
+                                    title: 'Error!',
+                                    text: error.response.data.msg,
+                                }
+                            )
+                        })
+                }
+            }
+        },
     }
 </script>
 
