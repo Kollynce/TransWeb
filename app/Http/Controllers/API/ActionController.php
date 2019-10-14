@@ -37,7 +37,7 @@ class ActionController extends Controller
         ]);
 
         $order = $request->all();
-        Mail::to('collinsodeny@gmail.com')->send(new OrderMail($contact));
+        Mail::to('collinsodeny@gmail.com')->send(new OrderMail($order));
     }
 
     /**

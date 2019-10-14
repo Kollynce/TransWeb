@@ -283,28 +283,27 @@
         },
         methods : {
             order(){
-                this.form.post('api/action')
-                //this.form.post('api/contact')
-                // .then(()=>{
-                //     $('#exampleModalLabel').modal('hide');
-                //     Swal.fire({
-                //       position: 'center',
-                //       type: 'success',
-                //       title: 'Order sent successfully',
-                //       showConfirmButton: false,
-                //       timer: 1500
-                //     })
-                //     this.form.reset();
-                // })
-                // .catch(()=>{
-                //    this.errors = error.response.data.errors;
-                //         Swal.fire({
-                //                 type: 'error',
-                //                 title: 'Error!',
-                //                 text: error.response.data.msg,
-                //             }
-                //         ) 
-                // });
+                this.form.post('api/order')
+                .then(()=>{
+                    $('#exampleModalLabel').modal('hide');
+                    Swal.fire({
+                      position: 'center',
+                      type: 'success',
+                      title: 'Order sent successfully',
+                      showConfirmButton: false,
+                      timer: 1500
+                    })
+                    this.form.reset();
+                })
+                .catch(()=>{
+                   this.errors = error.response.data.errors;
+                        Swal.fire({
+                                type: 'error',
+                                title: 'Error!',
+                                text: error.response.data.msg,
+                            }
+                        ) 
+                });
             },
             send(){
                 if (!this.form.email) {

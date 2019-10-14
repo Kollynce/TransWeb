@@ -3728,30 +3728,30 @@ __webpack_require__.r(__webpack_exports__);
   },
   methods: {
     order: function order() {
-      this.form.post('api/action'); //this.form.post('api/contact')
-      // .then(()=>{
-      //     $('#exampleModalLabel').modal('hide');
-      //     Swal.fire({
-      //       position: 'center',
-      //       type: 'success',
-      //       title: 'Order sent successfully',
-      //       showConfirmButton: false,
-      //       timer: 1500
-      //     })
-      //     this.form.reset();
-      // })
-      // .catch(()=>{
-      //    this.errors = error.response.data.errors;
-      //         Swal.fire({
-      //                 type: 'error',
-      //                 title: 'Error!',
-      //                 text: error.response.data.msg,
-      //             }
-      //         ) 
-      // });
+      var _this = this;
+
+      this.form.post('api/order').then(function () {
+        $('#exampleModalLabel').modal('hide');
+        Swal.fire({
+          position: 'center',
+          type: 'success',
+          title: 'Order sent successfully',
+          showConfirmButton: false,
+          timer: 1500
+        });
+
+        _this.form.reset();
+      })["catch"](function () {
+        _this.errors = error.response.data.errors;
+        Swal.fire({
+          type: 'error',
+          title: 'Error!',
+          text: error.response.data.msg
+        });
+      });
     },
     send: function send() {
-      var _this = this;
+      var _this2 = this;
 
       if (!this.form.email) {
         this.form.errors.set({
@@ -3763,7 +3763,7 @@ __webpack_require__.r(__webpack_exports__);
           Swal.fire('SUCCESS!', 'thank you for subscribing', 'success');
           Fire.$emit('entry');
         })["catch"](function (error) {
-          _this.errors = error.response.data.errors;
+          _this2.errors = error.response.data.errors;
           Swal.fire({
             type: 'error',
             title: 'Error!',
