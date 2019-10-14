@@ -17,4 +17,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 Route::apiResources(['contact'=>'API\ContactController']);
+Route::apiResources(['order'=>'API\ActionController']);
 Route::post('newsletter','API\NewsletterConroller@store');
