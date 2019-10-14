@@ -5,7 +5,7 @@
                 <ul class="breadcrumbs-custom-path">
                     <li><a href="home">Home</a></li>
                     <li><a href="services">Services</a></li>
-                    <li class="active">Software Development</li>
+                    <li class="active">Internet Of Things</li>
                 </ul>
             </div>
         </section>
@@ -13,20 +13,20 @@
             <div class="container">
                 <div class="row row-50">
                     <div class="col-lg-8"><img src="/images/blur.jpg" alt="img" width="770" height="500">
-                        <h2 class="font-weight-sbold wow fadeIn offset-top-40" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">Software Development</h2>
-                        <h4 class="font-weight-light text-gray-650 lh-3"> Over the years in designing and developing software products, we’ve helped businesses upgrade to the next level. We have successfully built, and enhanced applications to innovatively solve business challenges. These solutions were often accompanied by the industry’s new tools, practices, and emerging technologies. At TW Technologies we help our clients exceed the expectations of executives and investors, ensuring the best outcome for current and future developments.</h4>
-                        <h4 class="font-weight-light text-gray-650 lh-3"> TW Technologies prides itself as one of the best software development company in Kenya and Africa at large. Your business needs a reliable enterprise software solution and you can leverage on  expertise in enterprise software development, API integration and  legacy systems to support your operations.</h4>
-                        <h4 class="font-weight-light text-gray-650 lh-3">Our software developers have the knowledge, niche skills, and experience to build you a solid software solution.</h4>
-                        <ul class="list-custom-3 heading-4 font-weight-light text-gray-650 lh-3">
-                            <li>› Software consulting</li>
-                            <li>› Custom software development</li>
-                            <li>› Software development outsourcing</li>
-                        </ul>
+                        <h2 class="font-weight-sbold wow fadeIn offset-top-40" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">Internet Of Things</h2>
+                        <h4 class="font-weight-light text-gray-650 lh-3"> From smart buildings to smart cities, IoT is transforming industries at a rapid pace. Organizations seek to enter new markets, create disruptive business models, develop new products or drive differentiated customer experiences with IoT. IoT is making the world smarter and better than than ever.</h4>
+                        <h4 class="font-weight-light text-gray-650 lh-3"> TW Technologies Internet of Things service enables organizations to transform business needs into competitive space by delivering innovative IoT powered solutions. From integrating the right sensors and deriving inspired insights to choosing the best-fit platform, we provide comprehensive IoT services to our clients. </h4>
+                        <!-- <ul class="list-custom-3 heading-4 font-weight-light text-gray-650 lh-3">
+                            <li>› Brute fuisset eos definiebas</li>
+                            <li>› Euismod appetere</li>
+                            <li>› Melius corpora consulatu</li>
+                            <li>› Torquatos deseruisse</li>
+                        </ul> -->
                         
                     </div>
                     <div class="col-lg-4">
                         <div class="box-lola-wrapper">
-                            <router-link to="/software">
+                            <router-link to="software">
                                 <div class="box-lola">
                                     <div class="small-text font-weight-sbold ls-1 lh-4"> Software Development
                                     </div>
@@ -34,7 +34,7 @@
                             </router-link>
                         </div>
                         <div class="box-lola-wrapper">
-                            <router-link to="/Web-Design">
+                            <router-link to="Web-Design">
                                 <div class="box-lola">
                                     <div class="small-text font-weight-sbold ls-1 lh-4 box-lola-wrapper">Web Design & Development 
                                     </div>
@@ -42,7 +42,7 @@
                             </router-link>
                         </div>
                         <div class="box-lola-wrapper">
-                            <router-link to="/Mobile-App-Development">
+                            <router-link to="Mobile-App-Development">
                                 <div class="box-lola">
                                     <div class="small-text font-weight-sbold ls-1 lh-4">Mobile App Development
                                     </div>
@@ -50,7 +50,7 @@
                             </router-link>
                         </div>
                         <div class="box-lola-wrapper">
-                            <router-link to="/Web-Portals">
+                            <router-link to="Web-Portals">
                                 <div class="box-lola">
                                     <div class="small-text font-weight-sbold ls-1 lh-4"> Web Portals
                                     </div>
@@ -58,35 +58,35 @@
                             </router-link>
                         </div>
                         <div class="box-lola-wrapper">
-                            <router-link to="/Internet-Of-Things">
+                            <router-link to="Internet-Of-Things">
                                 <div class="box-lola">
                                     <div class="small-text font-weight-sbold ls-1 lh-4"> Internet of Things</div>
                                 </div>
                             </router-link>
                         </div>
                         <div class="box-lola-wrapper">
-                            <router-link to="/Web-App-Development">
+                            <router-link to="Web-App-Development">
                                 <div class="box-lola">
                                     <div class="small-text font-weight-sbold ls-1 lh-4"> Web Apps Development</div>
                                 </div>
                             </router-link>
                         </div>
                         <div class="box-lola-wrapper">
-                            <router-link to="/Artificial-Intelligence">
+                            <router-link to="Artificial-Intelligence">
                                 <div class="box-lola">
                                     <div class="small-text font-weight-sbold ls-1 lh-4"> Artificial Inteligence</div>
                                 </div>
                             </router-link>
                         </div>
                         <div class="box-lola-wrapper">
-                            <router-link to="/Big-Data">
+                            <router-link to="Big-Data">
                                 <div class="box-lola">
                                     <div class="small-text font-weight-sbold ls-1 lh-4"> Big Data</div>
                                 </div>
                             </router-link>
                         </div>
                         <div class="box-lola-wrapper">
-                            <router-link to="/Search-Engine-Optimization">
+                            <router-link to="Search-Engine-Optimization">
                                 <div class="box-lola">
                                     <div class="small-text font-weight-sbold ls-1 lh-4"> Search Engine Optimization</div>
                                 </div>

@@ -3,16 +3,17 @@
         <section class="section main-section bg-image" style="background-image: url(assets/images/main-section-bg-1440x800.jpg)">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 offset-top-150 wow fadeIn" data-wow-delay=".3s">
-                        <h1 class="font-weight-sbold text-capitalize text-center text-lg-left">Your journey to digital transformation starts <br class="d-none d-lg-block"><span class="text-capitalize text-primary">here</span></h1>
+                    <div class="col-lg-6 offset-top-50 wow fadeIn" data-wow-delay=".3s">
+                        <h1 class="font-weight-sbold text-capitalize text-center text-lg-left">Your journey to digital transformation starts <br class="d-none d-lg-block"><span class="text-capitalize">here</span></h1>
+                        <h5 class="font-weight-light text-center text-lg-left">We provide advanced software engineering products. Our services encompass software development, website design, website development, graphic design, app development, Search Engine Optimization (SEO), and a wide range of customized software services.<br class="d-none d-lg-block"></h5>
                         <h6 class="font-weight-light text-center text-lg-left">Our professional team members try to do their best to provide you with<br class="d-none d-lg-block"> <span class="text-primary font-weight-bold">high-quality</span> consultations concerning any question about our services.</h6>
-                        <div class="group-btn text-center text-lg-left"><router-link class="button button-primary button-lg" to="contact">get in touch</router-link><router-link class="button button-icon button-icon-right button-lg" to="contact"><span>Request a call</span><span class="round">
-                <svg width="12" height="12" viewBox="0 0 12 12" fill="">
-                  <path d="M11.9943 9.47032C12.0197 9.66526 11.9603 9.83475 11.8164 9.9788L10.1269 11.6567C10.0506 11.7414 9.95114 11.8135 9.82834 11.8728C9.70554 11.9321 9.58488 11.9703 9.46635 11.9872C9.45788 11.9872 9.43242 11.9894 9.39005 11.9936C9.34777 11.9978 9.29272 12 9.22497 12C9.06401 12 8.80357 11.9725 8.44363 11.9174C8.0837 11.8622 7.64333 11.7266 7.12253 11.5106C6.6016 11.2945 6.0109 10.9703 5.35034 10.5381C4.68977 10.106 3.98682 9.51272 3.24155 8.75846C2.64871 8.17371 2.15751 7.61439 1.76793 7.08052C1.37836 6.5466 1.065 6.05296 0.82787 5.59957C0.590716 5.14618 0.412866 4.73516 0.294299 4.36652C0.175733 3.99787 0.0952767 3.68008 0.0529315 3.41313C0.0105863 3.14618 -0.00635178 2.93644 0.00211726 2.78389C0.0105863 2.63135 0.0148208 2.54661 0.0148208 2.52966C0.0317589 2.41101 0.0698696 2.29025 0.129153 2.16737C0.188436 2.04449 0.260423 1.94491 0.345113 1.86864L2.03469 0.177966C2.15325 0.0593219 2.28876 0 2.4412 0C2.5513 0 2.64869 0.0317796 2.73338 0.0953388C2.81807 0.158898 2.89006 0.237288 2.94934 0.330508L4.30862 2.91101C4.38485 3.0466 4.40602 3.19491 4.37214 3.35593C4.33827 3.51694 4.26628 3.65254 4.15618 3.76271L3.53371 4.38559C3.51677 4.40253 3.50195 4.43008 3.48924 4.46821C3.47654 4.50635 3.47019 4.53813 3.47019 4.56355C3.50407 4.74152 3.58029 4.94491 3.69885 5.17372C3.80048 5.37711 3.95716 5.62499 4.16889 5.91736C4.38061 6.20974 4.68126 6.54658 5.07084 6.92793C5.45194 7.3178 5.79071 7.62073 6.08712 7.83687C6.38348 8.05289 6.63128 8.21185 6.8303 8.31355C7.02933 8.41524 7.18177 8.47668 7.28761 8.4978L7.44636 8.5296C7.4633 8.5296 7.49089 8.52323 7.52896 8.51054C7.56707 8.4978 7.59459 8.483 7.61155 8.46603L8.33563 7.72874C8.48816 7.59317 8.66593 7.52537 8.8692 7.52537C9.01322 7.52537 9.12749 7.55077 9.21218 7.60164H9.22486L11.6766 9.05079C11.8545 9.16104 11.9604 9.30083 11.9943 9.47032Z"></path>
-                </svg></span></router-link></div>
+                        <div class="group-btn text-center text-lg-left"><a class="button button-primary button-lg" data-toggle="modal" data-target="#exampleModal" href="#" >Make an Order</a><router-link class="button button-icon button-icon-right button-lg" to="contact"><span>Request a call</span><span class="round">
+                        <svg width="12" height="12" viewBox="0 0 12 12" fill="">
+                          <path d="M11.9943 9.47032C12.0197 9.66526 11.9603 9.83475 11.8164 9.9788L10.1269 11.6567C10.0506 11.7414 9.95114 11.8135 9.82834 11.8728C9.70554 11.9321 9.58488 11.9703 9.46635 11.9872C9.45788 11.9872 9.43242 11.9894 9.39005 11.9936C9.34777 11.9978 9.29272 12 9.22497 12C9.06401 12 8.80357 11.9725 8.44363 11.9174C8.0837 11.8622 7.64333 11.7266 7.12253 11.5106C6.6016 11.2945 6.0109 10.9703 5.35034 10.5381C4.68977 10.106 3.98682 9.51272 3.24155 8.75846C2.64871 8.17371 2.15751 7.61439 1.76793 7.08052C1.37836 6.5466 1.065 6.05296 0.82787 5.59957C0.590716 5.14618 0.412866 4.73516 0.294299 4.36652C0.175733 3.99787 0.0952767 3.68008 0.0529315 3.41313C0.0105863 3.14618 -0.00635178 2.93644 0.00211726 2.78389C0.0105863 2.63135 0.0148208 2.54661 0.0148208 2.52966C0.0317589 2.41101 0.0698696 2.29025 0.129153 2.16737C0.188436 2.04449 0.260423 1.94491 0.345113 1.86864L2.03469 0.177966C2.15325 0.0593219 2.28876 0 2.4412 0C2.5513 0 2.64869 0.0317796 2.73338 0.0953388C2.81807 0.158898 2.89006 0.237288 2.94934 0.330508L4.30862 2.91101C4.38485 3.0466 4.40602 3.19491 4.37214 3.35593C4.33827 3.51694 4.26628 3.65254 4.15618 3.76271L3.53371 4.38559C3.51677 4.40253 3.50195 4.43008 3.48924 4.46821C3.47654 4.50635 3.47019 4.53813 3.47019 4.56355C3.50407 4.74152 3.58029 4.94491 3.69885 5.17372C3.80048 5.37711 3.95716 5.62499 4.16889 5.91736C4.38061 6.20974 4.68126 6.54658 5.07084 6.92793C5.45194 7.3178 5.79071 7.62073 6.08712 7.83687C6.38348 8.05289 6.63128 8.21185 6.8303 8.31355C7.02933 8.41524 7.18177 8.47668 7.28761 8.4978L7.44636 8.5296C7.4633 8.5296 7.49089 8.52323 7.52896 8.51054C7.56707 8.4978 7.59459 8.483 7.61155 8.46603L8.33563 7.72874C8.48816 7.59317 8.66593 7.52537 8.8692 7.52537C9.01322 7.52537 9.12749 7.55077 9.21218 7.60164H9.22486L11.6766 9.05079C11.8545 9.16104 11.9604 9.30083 11.9943 9.47032Z"></path>
+                        </svg></span></router-link></div>
                     </div>
                     <div class="col-lg-6 wow fadeInRight" data-wow-delay=".5s">
-                        <div class="main-section-img text-center"><img src="../../../public/assets/images/main-section-img-1-519x912.png" alt="img">
+                        <div class="main-section-img text-center"><img src="../../../public/assets/images/twtechnologies.png" alt="img">
                         </div>
                     </div>
                 </div>
@@ -29,21 +30,8 @@
                     <div class="col-lg-6 wow fadeIn" data-wow-delay=".5s">
                         <div class="block-lg">
                             <h2 class="font-weight-sbold text-center text-lg-left">Our company has many years of experience!</h2>
-                            <h4 class="font-weight-light text-gray-650 text-center text-lg-left"> During our work we developed our approach to providing products and services, and the strategy of working with our clients.</h4>
-                            <ul class="list-custom-2 text-center text-lg-left offset-top-40-lg">
-                                <li><span>
-                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                        <path d="M8 0C3.56364 0 0 3.56364 0 8C0 12.4364 3.56364 16 8 16C12.4364 16 16 12.4364 16 8C16 3.56364 12.4364 0 8 0ZM12.6182 5.49091L6.8 11.5273C6.72727 11.6 6.65455 11.6364 6.54545 11.6364C6.43636 11.6364 6.32727 11.6 6.29091 11.5273L3.45455 8.47273L3.38182 8.4C3.30909 8.32727 3.27273 8.21818 3.27273 8.14545C3.27273 8.07273 3.30909 7.96364 3.38182 7.89091L3.89091 7.38182C4.03636 7.23636 4.25455 7.23636 4.4 7.38182L4.43636 7.41818L6.43636 9.56364C6.50909 9.63636 6.61818 9.63636 6.69091 9.56364L11.5636 4.50909H11.6C11.7455 4.36364 11.9636 4.36364 12.1091 4.50909L12.6182 5.01818C12.7636 5.12727 12.7636 5.34545 12.6182 5.49091Z" fill="#3B6D93"></path>
-                      </svg></span><span class="text-third">Web Development</span></li>
-                                <li><span>
-                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                        <path d="M8 0C3.56364 0 0 3.56364 0 8C0 12.4364 3.56364 16 8 16C12.4364 16 16 12.4364 16 8C16 3.56364 12.4364 0 8 0ZM12.6182 5.49091L6.8 11.5273C6.72727 11.6 6.65455 11.6364 6.54545 11.6364C6.43636 11.6364 6.32727 11.6 6.29091 11.5273L3.45455 8.47273L3.38182 8.4C3.30909 8.32727 3.27273 8.21818 3.27273 8.14545C3.27273 8.07273 3.30909 7.96364 3.38182 7.89091L3.89091 7.38182C4.03636 7.23636 4.25455 7.23636 4.4 7.38182L4.43636 7.41818L6.43636 9.56364C6.50909 9.63636 6.61818 9.63636 6.69091 9.56364L11.5636 4.50909H11.6C11.7455 4.36364 11.9636 4.36364 12.1091 4.50909L12.6182 5.01818C12.7636 5.12727 12.7636 5.34545 12.6182 5.49091Z" fill="#3B6D93"></path>
-                      </svg></span><span class="text-third">Wed Design</span></li>
-                                <li><span>
-                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                        <path d="M8 0C3.56364 0 0 3.56364 0 8C0 12.4364 3.56364 16 8 16C12.4364 16 16 12.4364 16 8C16 3.56364 12.4364 0 8 0ZM12.6182 5.49091L6.8 11.5273C6.72727 11.6 6.65455 11.6364 6.54545 11.6364C6.43636 11.6364 6.32727 11.6 6.29091 11.5273L3.45455 8.47273L3.38182 8.4C3.30909 8.32727 3.27273 8.21818 3.27273 8.14545C3.27273 8.07273 3.30909 7.96364 3.38182 7.89091L3.89091 7.38182C4.03636 7.23636 4.25455 7.23636 4.4 7.38182L4.43636 7.41818L6.43636 9.56364C6.50909 9.63636 6.61818 9.63636 6.69091 9.56364L11.5636 4.50909H11.6C11.7455 4.36364 11.9636 4.36364 12.1091 4.50909L12.6182 5.01818C12.7636 5.12727 12.7636 5.34545 12.6182 5.49091Z" fill="#3B6D93"></path>
-                      </svg></span><span class="text-third">Management Systems</span></li>
-                            </ul>
+                            <h4 class="font-weight-light text-gray-650 text-center text-lg-left"> We have pioneered custom solutions that have become central components in our client’s business success. <br class="d-none d-lg-block"> During our work we developed our approach to providing products and services, and the strategy of working with our clients. <br class="d-none d-lg-block"> Our focus is to help you grow your business now, and in the future, we take a personal approach with all of our clients.</h4>
+
                         </div>
                     </div>
                 </div>
@@ -61,14 +49,14 @@
                                 <article class="box-icon-classic">
                                     <div class="unit-left">
                                         <router-link class="box-icon-classic-svg" to="software">
-                                            <div id="svg-size" >
-                                                <img src="assets/images/software.svg" alt="">
+                                            <div id="svg-size">
+                                                <img src="assets/images/software.svg" alt="" class="img-responsive">
                                             </div>
                                         </router-link>
                                     </div>
                                     <div class="unit-body">
                                         <h5 class="box-icon-classic-title"><router-link to="software">Software Development</router-link></h5>
-                                        <p class="box-icon-classic-text">Search engine optimization (SEO) is the process of helping your customers connect with your business online.</p><router-link class="button button-icon button-icon-right text-primary button-lg" to="software"><span>Learn More</span><span class="arrow">
+                                        <p class="box-icon-classic-text">As a software development company we develop unique applications, addressing the specific business needs of our clients. We have developed a reputation for providing high quality, cost-effective custom applications for several ranges of businesses.</p><router-link class="button button-icon button-icon-right text-primary button-lg" to="software"><span>Learn More</span><span class="arrow">
                       <svg width="11" height="7" viewBox="0 0 11 7" fill="none"  >
                         <path d="M7.29111 0.146484C7.48168 -0.048828 7.79084 -0.048828 7.98142 0.146484L10.8571 3.09173C10.9196 3.15582 10.9617 3.23296 10.9832 3.31457C11.0026 3.38842 11.0052 3.466 10.991 3.54082C10.9736 3.63671 10.9295 3.72845 10.8571 3.8026L7.98142 6.85356C7.79084 7.04881 7.48168 7.04881 7.29111 6.85356C7.10042 6.65825 7.10042 6.34172 7.29111 6.14641L9.42663 3.85357H0.488175C0.218583 3.85357 1.7879e-06 3.62969 1.7879e-06 3.35357C1.7879e-06 3.07745 0.218583 2.85357 0.488175 2.85357H9.24368L7.29111 0.853575C7.10042 0.658324 7.10042 0.341735 7.29111 0.146484Z" fill="#3B6D93"></path>
                       </svg></span></router-link>
@@ -79,13 +67,13 @@
                                 <article class="box-icon-classic">
                                     <div class="unit-left"><router-link class="box-icon-classic-svg" to="software">
                                         <div id="svg-size" >
-                                            <img src="assets/images/computer.svg" alt="">
+                                            <img src="assets/images/computer.svg" alt="" class="img-responsive">
                                         </div>
                                     </router-link>
                                     </div>
                                     <div class="unit-body">
-                                        <h5 class="box-icon-classic-title"><router-link to="software">Web Development</router-link></h5>
-                                        <p class="box-icon-classic-text">Our Email Marketing solutions will help you engage subscribers, nurture leads, and send beautiful, responsive emails.</p><router-link class="button button-icon button-icon-right text-primary button-lg" to="software"><span>Learn More</span><span class="arrow">
+                                        <h5 class="box-icon-classic-title"><router-link to="software">Web Design & Development</router-link></h5>
+                                        <p class="box-icon-classic-text">We offer customer oriented web design and development services following the latest trends and technologies in the industry. We have achieved a reputation in serving diverse industries by working on intricate and elaborate website portals which are dynamic and operative.</p><router-link class="button button-icon button-icon-right text-primary button-lg" to="Web-Design"><span>Learn More</span><span class="arrow">
                       <svg width="11" height="7" viewBox="0 0 11 7" fill="none"  >
                         <path d="M7.29111 0.146484C7.48168 -0.048828 7.79084 -0.048828 7.98142 0.146484L10.8571 3.09173C10.9196 3.15582 10.9617 3.23296 10.9832 3.31457C11.0026 3.38842 11.0052 3.466 10.991 3.54082C10.9736 3.63671 10.9295 3.72845 10.8571 3.8026L7.98142 6.85356C7.79084 7.04881 7.48168 7.04881 7.29111 6.85356C7.10042 6.65825 7.10042 6.34172 7.29111 6.14641L9.42663 3.85357H0.488175C0.218583 3.85357 1.7879e-06 3.62969 1.7879e-06 3.35357C1.7879e-06 3.07745 0.218583 2.85357 0.488175 2.85357H9.24368L7.29111 0.853575C7.10042 0.658324 7.10042 0.341735 7.29111 0.146484Z" fill="#3B6D93"></path>
                       </svg></span></router-link>
@@ -101,8 +89,8 @@
                                     </router-link>
                                     </div>
                                     <div class="unit-body">
-                                        <h5 class="box-icon-classic-title"><router-link to="software">Wed Design</router-link></h5>
-                                        <p class="box-icon-classic-text">Take advantage of online advertising to improve your internet marketing efforts with our AdWords campaigns.</p><router-link class="button button-icon button-icon-right text-primary button-lg" to="software"><span>Learn More</span><span class="arrow">
+                                        <h5 class="box-icon-classic-title"><router-link to="software">Mobile Apps Development</router-link></h5>
+                                        <p class="box-icon-classic-text">Numbers of smart phone users have greatly increased in the recent past and thus the need of a mobile app for business growth. TW Technologies delivers custom mobile application development solutions that are secure, scaleable and runs on any platform.</p><router-link class="button button-icon button-icon-right text-primary button-lg" to="Mobile-App-Development"><span>Learn More</span><span class="arrow">
                       <svg width="11" height="7" viewBox="0 0 11 7" fill="none"  >
                         <path d="M7.29111 0.146484C7.48168 -0.048828 7.79084 -0.048828 7.98142 0.146484L10.8571 3.09173C10.9196 3.15582 10.9617 3.23296 10.9832 3.31457C11.0026 3.38842 11.0052 3.466 10.991 3.54082C10.9736 3.63671 10.9295 3.72845 10.8571 3.8026L7.98142 6.85356C7.79084 7.04881 7.48168 7.04881 7.29111 6.85356C7.10042 6.65825 7.10042 6.34172 7.29111 6.14641L9.42663 3.85357H0.488175C0.218583 3.85357 1.7879e-06 3.62969 1.7879e-06 3.35357C1.7879e-06 3.07745 0.218583 2.85357 0.488175 2.85357H9.24368L7.29111 0.853575C7.10042 0.658324 7.10042 0.341735 7.29111 0.146484Z" fill="#3B6D93"></path>
                       </svg></span></router-link>
@@ -114,24 +102,40 @@
                 </div>
             </div>
         </section>
+
+        <!-- call to action -->
+        <section class="section overflow-hidden bg-image" style="background-image: url(assets/images/bg-image-1-1920x476.jpg)">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 offset-top-70 text-center text-lg-center">
+                            <h2 class="font-weight-sbold wow fadeIn" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">Do You Need Our Services<br class="d-none d-lg-block"> Go For It!</h2>
+
+                            <div class="group-btn text-center text-lg-center wow fadeIn" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;"><a class="button button-primary button-lg" data-toggle="modal" data-target="#exampleModal" href="#">Make an Order Now!</a></div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+         <!-- call to action -->
+
+
         <!--The advantages of our company-->
         <section class="section section-lg bg-gray-100">
             <div class="container">
-                <div class="row row-40">
+                <div class="row row-20">
                     <div class="col-lg-6 text-center wow fadeInLeft" data-wow-delay=".2s"><img src="assets/images/collaboration.jpg" alt="img" width="570" height="462"/>
                     </div>
                     <div class="col-lg-6 text-center text-lg-left wow fadeInRight block-lg-2" data-wow-delay=".2s">
                         <h2 class="font-weight-sbold">The advantages of our<br class="d-none d-lg-block"> company</h2>
-                        <div class="row row-40 offset-top-0 offset-top-48-2">
-                            <div class="col-6">
+                        <div class="row row-20 offset-top-20">
+                            <div class="col-6 text-center">
                                 <svg width="34" height="34" viewBox="0 0 34 34" fill="none"  >
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M23.7897 10.2098C22.5721 8.9922 20.5914 8.9922 19.3739 10.2098C18.1563 11.4274 18.1563 13.4082 19.3739 14.6258C19.9825 15.2347 20.7823 15.5389 21.5816 15.5389C22.3814 15.5389 23.1807 15.2344 23.7897 14.6258C25.0072 13.4082 25.0072 11.4274 23.7897 10.2098ZM23.1334 13.9694C22.2779 14.825 20.8857 14.825 20.0302 13.9694C19.1746 13.1139 19.1746 11.7217 20.0302 10.8661C20.4578 10.4384 21.0199 10.2244 21.5817 10.2244C22.1435 10.2244 22.7055 10.4384 23.1335 10.8661C23.989 11.7217 23.989 13.1139 23.1334 13.9694Z" fill="#4173F2"></path>
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M33.9713 0.545707L33.9721 0.555792C33.9981 0.886645 34.3548 6.09043 31.5411 12.1975C31.5093 12.2664 31.4646 12.3272 31.4103 12.3771C29.5668 16.2976 26.4228 20.5381 21.0748 23.9934L21.3708 28.4323C21.3872 28.6787 21.2421 28.9077 21.0121 28.9977L12.2294 32.4343C12.1615 32.4593 12.0918 32.4723 12.0227 32.4723C11.8493 32.4723 11.681 32.3924 11.5716 32.2485C11.4181 32.0468 11.4175 31.768 11.5694 31.5651L13.7084 28.7133L13.41 27.221L11.0656 24.8765L10.0139 25.513C10.414 26.2794 10.5179 27.1781 10.2956 28.0531C10.0072 29.1881 9.23316 30.1163 8.17133 30.5985L0.801252 33.949C0.725881 33.983 0.645995 34 0.56664 34C0.419287 34 0.274258 33.9427 0.166017 33.834C-0.00112593 33.6674 -0.0470117 33.4141 0.0510026 33.1988L3.40083 25.8285C3.8836 24.7661 4.81174 23.992 5.94668 23.7036C6.79496 23.4888 7.6643 23.5795 8.41403 23.9488L9.03057 22.8409L6.77966 20.5899L5.28661 20.2915L2.43423 22.4305C2.33336 22.5064 2.21376 22.5438 2.09423 22.5438C1.97357 22.5438 1.85232 22.5052 1.75145 22.4282C1.54971 22.2746 1.47434 22.0066 1.56671 21.7709L5.00326 12.988C5.09337 12.7579 5.32174 12.6049 5.56877 12.6293L10.0059 12.9252C13.4614 7.57636 17.7025 4.43218 21.6233 2.58874C21.6732 2.53467 21.7338 2.49015 21.8025 2.4587C27.6809 -0.249268 32.7218 -0.020117 33.3865 0.0235763C33.4252 0.0257164 33.4477 0.0273377 33.4534 0.0277916C33.7294 0.0510245 33.9481 0.269783 33.9713 0.545707ZM32.8607 1.14123C31.5105 1.12222 27.5887 1.26826 23.056 3.18747L30.8424 10.9741C31.687 8.97407 32.1837 7.08789 32.4732 5.48811C32.8379 3.46653 32.8727 1.89955 32.8607 1.14123ZM30.3437 12.079L21.951 3.68603C17.421 5.85867 12.4549 9.86187 8.90313 17.2133C8.48089 18.0886 8.08578 18.995 7.71987 19.9283L9.6031 21.8122L12.0495 17.4163L12.1166 17.2944C12.1665 17.204 12.2389 17.1306 12.3247 17.0798C12.3576 17.0603 12.3926 17.0441 12.429 17.0316C12.4876 17.0113 12.5501 17.0003 12.6141 17.0003H16.432C16.7059 17.0003 16.9345 17.195 16.9872 17.4534C16.9947 17.49 16.9986 17.528 16.9987 17.5668V20.9673C16.9987 20.9911 16.9972 21.0147 16.9943 21.038C16.9733 21.2048 16.8788 21.3552 16.7347 21.4467L12.1393 24.348L14.0713 26.28C14.7113 26.0291 15.3386 25.7646 15.9518 25.4869C16.1313 25.4055 16.3087 25.3234 16.4843 25.2405C24.2618 21.5683 28.2753 16.3702 30.3437 12.079ZM7.32871 25.8994L7.32692 25.9022C7.30831 25.9357 7.29342 25.9705 7.28215 26.006C7.21862 26.2049 7.26936 26.427 7.42161 26.5788C7.60177 26.7596 7.88001 26.797 8.10101 26.6717L9.05579 26.1317C9.28807 26.6315 9.3408 27.2088 9.19743 27.7744C8.99456 28.5739 8.4495 29.2272 7.70271 29.5672L1.70782 32.2922L4.4327 26.2966C4.7721 25.5498 5.426 25.0047 6.22552 24.8019C6.43576 24.7486 6.64706 24.7225 6.85557 24.7225C7.20612 24.7225 7.54882 24.7968 7.86154 24.9416L7.32871 25.8994ZM9.32832 14.0152C8.96046 14.6379 8.6073 15.2804 8.26961 15.9413C7.81293 16.8336 7.37687 17.7757 6.96483 18.7703C6.88241 18.9693 6.80095 19.1704 6.72048 19.3735L6.70257 19.4187L5.25998 19.1303C5.10247 19.0992 4.93812 19.1366 4.80896 19.2329L3.34764 20.3287L5.90704 13.7875L9.32832 14.0152ZM9.35554 24.5876L10.1432 23.1721C10.1849 23.1326 10.2207 23.0865 10.2492 23.035L12.9485 18.1336H15.8655L15.8655 20.6478L9.35554 24.5876ZM14.8687 28.7394L14.5803 27.2973C15.8392 26.8004 17.0166 26.2656 18.118 25.6994C18.7576 25.371 19.3799 25.0282 19.9836 24.6715L20.212 28.0923L13.6709 30.6518L14.7667 29.1905C14.8631 29.0618 14.9005 28.8975 14.8687 28.7394Z" fill="#4173F2"></path>
                                 </svg>
                                 <h5 class="font-weight-sbold ls-1 offset-top-10"> We work fast</h5>
-                                <h6 class="font-weight-light text-gray-650">We provide what our customers need quickly and efficiently.</h6>
+                                <h6 class="font-weight-light text-gray-650 text-left">We provide what our customers need quickly and efficiently.</h6>
                             </div>
-                            <div class="col-6">
+                            <div class="col-6 text-center">
                                 <svg width="34" height="34" viewBox="0 0 34 34" fill="none"  >
                                     <path d="M26.4983 7.26624C26.4025 5.87602 25.2818 4.75535 23.8915 4.65953C23.1034 4.60541 22.3513 4.87123 21.7756 5.40866C21.2078 5.93864 20.8822 6.68784 20.8822 7.4642C20.8822 7.83096 21.1796 8.12826 21.5463 8.12826C21.913 8.12826 22.2104 7.83096 22.2104 7.4642C22.2104 7.04856 22.3778 6.66334 22.6819 6.37958C22.9856 6.09609 23.3826 5.95578 23.8003 5.9846C24.5326 6.03507 25.1229 6.62535 25.1733 7.35761C25.2243 8.09718 24.7391 8.75075 24.0197 8.91172C23.4368 9.04214 23.0297 9.54869 23.0297 10.1435V11.7389C23.0297 12.1057 23.3271 12.403 23.6937 12.403C24.0605 12.403 24.3578 12.1057 24.3577 11.7389V10.1965C25.6958 9.87328 26.5936 8.64888 26.4983 7.26624Z" fill="#4173F2"></path>
                                     <path d="M23.6937 13.7016C23.8684 13.7016 24.0397 13.7727 24.1632 13.8962C24.2867 14.0197 24.3578 14.191 24.3578 14.3657C24.3578 14.541 24.2868 14.7116 24.1632 14.8358C24.0397 14.9593 23.8684 15.0297 23.6937 15.0297C23.5191 15.0297 23.3478 14.9593 23.2243 14.8358C23.1008 14.7123 23.0297 14.541 23.0297 14.3657C23.0297 14.191 23.1007 14.0197 23.2243 13.8962C23.3478 13.7727 23.5191 13.7016 23.6937 13.7016Z" fill="#4173F2"></path>
@@ -142,9 +146,9 @@
                                     <path d="M4.25 16.8672H11C11.3667 16.8672 11.6641 17.1645 11.6641 17.5312C11.6641 17.898 11.3668 18.1953 11 18.1953H4.25C3.8833 18.1953 3.58594 17.898 3.58594 17.5312C3.58594 17.1645 3.8833 16.8672 4.25 16.8672Z" fill="#4173F2"></path>
                                 </svg>
                                 <h5 class="font-weight-sbold ls-1 offset-top-10">Professional support</h5>
-                                <h6 class="font-weight-light text-gray-650">Our support team is always ready to help you and your business.</h6>
+                                <h6 class="font-weight-light text-gray-650 text-left">Our support team is always ready to help you and your business.</h6>
                             </div>
-                            <div class="col-6">
+                            <div class="col-6 text-center">
                                 <svg width="32" height="34" viewBox="0 0 32 34" fill="none"  >
                                     <path d="M15.36 0.62998C15.36 0.282076 15.6466 0 16 0C16.3534 0 16.64 0.282076 16.64 0.62998V5.20364C16.64 5.55154 16.3534 5.83362 16 5.83362C15.9941 5.83362 15.9882 5.83348 15.9824 5.83335L15.9805 5.83329C15.6272 5.82291 15.3494 5.53249 15.36 5.18474V0.62998Z" fill="#4173F2"></path>
                                     <path d="M27.2582 4.40986C27.0186 4.20787 26.6652 4.20787 26.4256 4.40986L23.1552 7.62904C22.9042 7.87403 22.9026 8.27296 23.1514 8.52001C23.2725 8.64017 23.4376 8.70734 23.6096 8.70632L23.6032 8.70002C23.7733 8.70096 23.9368 8.63521 24.0576 8.51732L27.328 5.29813C27.5579 5.03386 27.5266 4.63618 27.2582 4.40986Z" fill="#4173F2"></path>
@@ -157,15 +161,15 @@
                                     <path d="M8.8448 7.62904L5.5744 4.40986C5.30592 4.18354 4.90192 4.21433 4.672 4.47861C4.4668 4.71445 4.4668 5.06227 4.672 5.29813L7.9424 8.51732C8.21088 8.74364 8.61488 8.71286 8.8448 8.44859C9.05 8.21273 9.05 7.8649 8.8448 7.62904Z" fill="#4173F2"></path>
                                 </svg>
                                 <h5 class="font-weight-sbold ls-1 offset-top-10">Creative ideas</h5>
-                                <h6 class="font-weight-light text-gray-650">All our ideas and business solutions are entirely built on creativity.</h6>
+                                <h6 class="font-weight-light text-gray-650 text-left">All our ideas and business solutions are entirely built on creativity.</h6>
                             </div>
-                            <div class="col-6">
+                            <div class="col-6 text-center">
                                 <svg width="34" height="34" viewBox="0 0 34 34" fill="none"  >
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M14.7333 4.88071C15.2436 4.71978 15.7911 4.71978 16.3014 4.88071C17.6743 5.31371 18.4363 6.7777 18.0033 8.1506C17.5704 9.52356 16.1063 10.2856 14.7333 9.85258V14.1666C14.7333 14.4796 14.4796 14.7333 14.1667 14.7333H9.85263C10.0136 15.2436 10.0136 15.791 9.85263 16.3013C9.4197 17.6743 7.95565 18.4363 6.58268 18.0033C5.20972 17.5704 4.4477 16.1063 4.8807 14.7334H0.566667C0.253725 14.7334 0 14.4796 0 14.1667V0.566668C0 0.253726 0.253725 0 0.566667 0H14.1667C14.4796 0 14.7333 0.253726 14.7333 0.566668V4.88071ZM15.058 8.76692C15.3558 8.86438 15.6769 8.86438 15.9747 8.76692C16.748 8.51383 17.1697 7.68168 16.9166 6.90839C16.6635 6.13503 15.8314 5.71336 15.058 5.96645L14.3457 6.20388C14.2881 6.22307 14.2278 6.23285 14.1671 6.23292C13.8541 6.23313 13.6002 5.97962 13.6 5.66668V1.13334H1.13333V13.6H5.66667C5.72737 13.6 5.78772 13.6098 5.84531 13.629C6.14224 13.7279 6.30275 14.0488 6.20387 14.3457L5.96643 15.058C5.86897 15.3558 5.86897 15.6769 5.96643 15.9746C6.21952 16.748 7.0516 17.1697 7.82496 16.9166C8.59832 16.6635 9.02006 15.8314 8.7669 15.0581L8.52947 14.3458C8.51027 14.2882 8.5005 14.2278 8.50042 14.1671C8.50021 13.8542 8.75373 13.6002 9.06667 13.6H13.6V9.06668C13.6001 9.00598 13.6098 8.94563 13.629 8.88804C13.7279 8.59111 14.0488 8.4306 14.3457 8.52948L15.058 8.76692Z" fill="#4173F2"></path>
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M19.8333 5.66668H33.4333C33.7463 5.66668 34 5.9204 34 6.23335V33.4333C34 33.7463 33.7463 34 33.4333 34H6.23333C5.92039 34 5.66667 33.7463 5.66667 33.4333V19.8333C5.66667 19.5204 5.92039 19.2666 6.23333 19.2666H11.3333C11.394 19.2667 11.4543 19.2765 11.5119 19.2957C11.8088 19.3946 11.9693 19.7154 11.8705 20.0124L11.633 20.7247C11.5356 21.0225 11.5356 21.3435 11.633 21.6413C11.8861 22.4147 12.7182 22.8364 13.4916 22.5833C14.2649 22.3302 14.6867 21.4981 14.4335 20.7247L14.1961 20.0124C14.1769 19.9549 14.1671 19.8945 14.167 19.8338C14.1668 19.5209 14.4203 19.2669 14.7333 19.2667H19.2666V14.7334C19.2667 14.6727 19.2764 14.6123 19.2956 14.5547C19.3945 14.2578 19.7154 14.0973 20.0123 14.1962L20.7246 14.4336C21.0224 14.5311 21.3435 14.5311 21.6413 14.4336C22.4146 14.1805 22.8363 13.3484 22.5832 12.5751C22.3301 11.8017 21.4981 11.38 20.7247 11.6331L20.0124 11.8706C19.9548 11.8898 19.8945 11.8995 19.8338 11.8996C19.5208 11.8998 19.2669 11.6463 19.2667 11.3334V6.23335C19.2667 5.9204 19.5204 5.66668 19.8333 5.66668ZM19.2667 28.3334C19.2667 28.2727 19.2765 28.2123 19.2957 28.1547C19.3946 27.8578 19.7155 27.6973 20.0123 27.7961L20.7246 28.0336C21.0224 28.131 21.3435 28.131 21.6413 28.0336C22.4146 27.7805 22.8363 26.9484 22.5832 26.175C22.3301 25.4017 21.4981 24.98 20.7247 25.2331L20.0124 25.4705C19.9548 25.4897 19.8945 25.4995 19.8338 25.4996C19.5208 25.4998 19.2669 25.2463 19.2667 24.9333V20.4H15.5193C15.6802 20.9103 15.6802 21.4577 15.5193 21.968C15.0864 23.341 13.6223 24.103 12.2494 23.67C10.8764 23.2371 10.1144 21.773 10.5474 20.4H6.8V32.8667H19.2667V28.3334ZM20.4 32.8667H32.8666V20.4001H28.3333C28.2726 20.4 28.2122 20.3903 28.1546 20.3711C27.8577 20.2722 27.6972 19.9513 27.7961 19.6544L28.0335 18.9421C28.131 18.6443 28.131 18.3232 28.0335 18.0254C27.7804 17.2521 26.9483 16.8304 26.175 17.0835C25.4016 17.3366 24.9799 18.1686 25.233 18.942L25.4705 19.6543C25.4897 19.7119 25.4994 19.7722 25.4995 19.8329C25.4997 20.1459 25.2462 20.3998 24.9333 20.4H20.3999V24.1474C20.9102 23.9865 21.4577 23.9865 21.968 24.1474C23.3409 24.5803 24.103 26.0444 23.67 27.4174C23.237 28.7903 21.773 29.5524 20.4 29.1194V32.8667ZM29.1193 19.2667H32.8667V6.80001H20.4V10.5475C21.4816 10.1971 22.6654 10.588 23.3256 11.5136C24.1615 12.6856 23.8891 14.3134 22.7171 15.1494C22.0486 15.6368 21.187 15.7745 20.4 15.5194V19.2668H24.1474C23.9864 18.7565 23.9864 18.209 24.1474 17.6987C24.5803 16.3258 26.0444 15.5637 27.4173 15.9967C28.7903 16.4297 29.5523 17.8937 29.1193 19.2667Z" fill="#4173F2"></path>
                                 </svg>
                                 <h5 class="font-weight-sbold ls-1 offset-top-10">Result-oriented</h5>
-                                <h6 class="font-weight-light text-gray-650">Kangor is fully result-oriented to offer you the best outcome for your business</h6>
+                                <h6 class="font-weight-light text-gray-650 text-left">TW Technologies is fully result-oriented to offer you the best outcome for your business</h6>
                             </div>
                         </div>
                     </div>
@@ -183,14 +187,81 @@
                         <form class="rd-form mailchimp-mailform rd-form-inline rd-form-inline-2" data-form-output="form-output-global" >
                             <div class="form-wrap">
                                 <label class="form-label" for="mailchimp-email">Your e-mail</label>
-                                <input class="form-input" id="mailchimp-email" type="email" name="email" data-constraints="@Email @Required">
+                                <input  v-model="form.email" id="mailchimp-email" type="email" name="email" data-constraints="@Email @Required"
+                                       class="form-control" :class="{ 'is-invalid': form.errors.has('email') }">
+                                <has-error :form="form" field="email"></has-error>
                             </div>
                             <div class="form-button">
-                                <button class="button button-primary" type="submit">Subscribe</button>
+                                <button class="button button-primary" @click="send()" type="button">Subscribe</button>
                             </div>
                         </form>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <!-- modal form -->
+        <section>
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Your Order</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <form class="rd-form rd-mailform rd-mailform-custom-3" data-form-output="form-output-global" data-form-type="contact" novalidate="novalidate">
+                        <div class="row row-30">
+                            <div class="col-md-6">
+                                <div class="form-wrap">
+                                    <input class="form-input" id="contact-name" type="text" name="name" data-constraints="@Required">
+                                    <label class="form-label rd-input-label" for="contact-name">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-wrap">
+                                    <input class="form-input" id="contact-phone" type="text" name="phone" data-constraints="@Numeric">
+                                    <label class="form-label rd-input-label" for="contact-phone">Phone</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-wrap">
+                                    <input class="form-input" id="contact-service" type="text" name="service" data-constraints="@Required">
+                                    <label class="form-label rd-input-label" for="contact-service">Service</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-wrap">
+                                    <input class="form-input" id="contact-duration" type="text" name="duration" data-constraints="@Required">
+                                    <label class="form-label rd-input-label" for="contact-duration">Duration</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-wrap">
+                                    <label class="form-label rd-input-label" for="contact-message">Give a brief description about what you want</label>
+                                    <textarea class="form-input" id="contact-message" name="message" data-constraints="@Required"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-wrap">
+                                    <input class="form-input" id="contact-email" type="email" name="email" data-constraints="@Email @Required">
+                                    <label class="form-label rd-input-label" for="contact-email">E-mail</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <button class="button button-block button-primary" type="submit">Submit Order</button>
+                            </div>
+                        </div>
+                    </form>
+                  </div>
+                  <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </div> -->
+                </div>
+              </div>
             </div>
         </section>
 
@@ -202,9 +273,40 @@
         name: "home",
         data(){
             return{
-
+                form : new Form({
+                   email :'' ,
+                })
             }
-        }
+        },
+        methods : {
+            send(){
+                if (!this.form.email) {
+                    this.form.errors.set({
+                        email: 'This field is required'
+                    })
+                    return false;
+                } else {
+                    this.form.post('api/newsletter')
+                        .then(() => {
+                            Swal.fire(
+                                'SUCCESS!',
+                                'thank you for subscribing',
+                                'success',
+                            )
+                            Fire.$emit('entry');
+                        })
+                        .catch(error => {
+                            this.errors = error.response.data.errors;
+                            Swal.fire({
+                                    type: 'error',
+                                    title: 'Error!',
+                                    text: error.response.data.msg,
+                                }
+                            )
+                        })
+                }
+            }
+        },
     }
 </script>
 

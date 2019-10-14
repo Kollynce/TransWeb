@@ -5,7 +5,7 @@
                 <ul class="breadcrumbs-custom-path">
                     <li><a href="home">Home</a></li>
                     <li><a href="services">Services</a></li>
-                    <li class="active">Software Development</li>
+                    <li class="active">Web Portals</li>
                 </ul>
             </div>
         </section>
@@ -13,20 +13,25 @@
             <div class="container">
                 <div class="row row-50">
                     <div class="col-lg-8"><img src="/images/blur.jpg" alt="img" width="770" height="500">
-                        <h2 class="font-weight-sbold wow fadeIn offset-top-40" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">Software Development</h2>
-                        <h4 class="font-weight-light text-gray-650 lh-3"> Over the years in designing and developing software products, we’ve helped businesses upgrade to the next level. We have successfully built, and enhanced applications to innovatively solve business challenges. These solutions were often accompanied by the industry’s new tools, practices, and emerging technologies. At TW Technologies we help our clients exceed the expectations of executives and investors, ensuring the best outcome for current and future developments.</h4>
-                        <h4 class="font-weight-light text-gray-650 lh-3"> TW Technologies prides itself as one of the best software development company in Kenya and Africa at large. Your business needs a reliable enterprise software solution and you can leverage on  expertise in enterprise software development, API integration and  legacy systems to support your operations.</h4>
-                        <h4 class="font-weight-light text-gray-650 lh-3">Our software developers have the knowledge, niche skills, and experience to build you a solid software solution.</h4>
+                        <h2 class="font-weight-sbold wow fadeIn offset-top-40" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">Web Portals</h2>
+                        <h4 class="font-weight-light text-gray-650 lh-3"> A web portal is a specially designed webpage that brings information together from diverse sources in a uniform way.</h4>
+                        <h4 class="pl-3"> > B2B </h4>
+                        <h4 class="font-weight-light text-gray-650 lh-3"> B2B is a business activity based on internet which wraps the entire business dealings from business marketing to final deals.  </h4>
+                        <h4 class="pl-3"> > B2C</h4>
+                        <h4 class="font-weight-light text-gray-650 lh-3"> We design B2C portal for either selling consumer goods or providing services.</h4>
+                        <h4>  Our Web portals services provides:</h4>
                         <ul class="list-custom-3 heading-4 font-weight-light text-gray-650 lh-3">
-                            <li>› Software consulting</li>
-                            <li>› Custom software development</li>
-                            <li>› Software development outsourcing</li>
+                            <li>› Reliable and secure access to portal services and content.</li>
+                            <li>› Scalability to support growing data flows and number of users</li>
+                            <li>› Reporting and statistics visualization</li>
+                            <li>› Quick and finely tuned processes and user-oriented functionality</li>
+                            <li>› Support</li>
                         </ul>
                         
                     </div>
                     <div class="col-lg-4">
                         <div class="box-lola-wrapper">
-                            <router-link to="/software">
+                            <router-link to="software">
                                 <div class="box-lola">
                                     <div class="small-text font-weight-sbold ls-1 lh-4"> Software Development
                                     </div>
@@ -34,7 +39,7 @@
                             </router-link>
                         </div>
                         <div class="box-lola-wrapper">
-                            <router-link to="/Web-Design">
+                            <router-link to="Web-Design">
                                 <div class="box-lola">
                                     <div class="small-text font-weight-sbold ls-1 lh-4 box-lola-wrapper">Web Design & Development 
                                     </div>
@@ -42,7 +47,7 @@
                             </router-link>
                         </div>
                         <div class="box-lola-wrapper">
-                            <router-link to="/Mobile-App-Development">
+                            <router-link to="Mobile-App-Development">
                                 <div class="box-lola">
                                     <div class="small-text font-weight-sbold ls-1 lh-4">Mobile App Development
                                     </div>
@@ -50,7 +55,7 @@
                             </router-link>
                         </div>
                         <div class="box-lola-wrapper">
-                            <router-link to="/Web-Portals">
+                            <router-link to="Web-Portals">
                                 <div class="box-lola">
                                     <div class="small-text font-weight-sbold ls-1 lh-4"> Web Portals
                                     </div>
@@ -58,35 +63,35 @@
                             </router-link>
                         </div>
                         <div class="box-lola-wrapper">
-                            <router-link to="/Internet-Of-Things">
+                            <router-link to="Internet-Of-Things">
                                 <div class="box-lola">
                                     <div class="small-text font-weight-sbold ls-1 lh-4"> Internet of Things</div>
                                 </div>
                             </router-link>
                         </div>
                         <div class="box-lola-wrapper">
-                            <router-link to="/Web-App-Development">
+                            <router-link to="Web-App-Development">
                                 <div class="box-lola">
                                     <div class="small-text font-weight-sbold ls-1 lh-4"> Web Apps Development</div>
                                 </div>
                             </router-link>
                         </div>
                         <div class="box-lola-wrapper">
-                            <router-link to="/Artificial-Intelligence">
+                            <router-link to="Artificial-Intelligence">
                                 <div class="box-lola">
                                     <div class="small-text font-weight-sbold ls-1 lh-4"> Artificial Inteligence</div>
                                 </div>
                             </router-link>
                         </div>
                         <div class="box-lola-wrapper">
-                            <router-link to="/Big-Data">
+                            <router-link to="Big-Data">
                                 <div class="box-lola">
                                     <div class="small-text font-weight-sbold ls-1 lh-4"> Big Data</div>
                                 </div>
                             </router-link>
                         </div>
                         <div class="box-lola-wrapper">
-                            <router-link to="/Search-Engine-Optimization">
+                            <router-link to="Search-Engine-Optimization">
                                 <div class="box-lola">
                                     <div class="small-text font-weight-sbold ls-1 lh-4"> Search Engine Optimization</div>
                                 </div>

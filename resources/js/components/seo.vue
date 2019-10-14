@@ -5,7 +5,7 @@
                 <ul class="breadcrumbs-custom-path">
                     <li><a href="home">Home</a></li>
                     <li><a href="services">Services</a></li>
-                    <li class="active">Software Development</li>
+                    <li class="active">Search Engine Optimization</li>
                 </ul>
             </div>
         </section>
@@ -13,20 +13,23 @@
             <div class="container">
                 <div class="row row-50">
                     <div class="col-lg-8"><img src="/images/blur.jpg" alt="img" width="770" height="500">
-                        <h2 class="font-weight-sbold wow fadeIn offset-top-40" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">Software Development</h2>
-                        <h4 class="font-weight-light text-gray-650 lh-3"> Over the years in designing and developing software products, we’ve helped businesses upgrade to the next level. We have successfully built, and enhanced applications to innovatively solve business challenges. These solutions were often accompanied by the industry’s new tools, practices, and emerging technologies. At TW Technologies we help our clients exceed the expectations of executives and investors, ensuring the best outcome for current and future developments.</h4>
-                        <h4 class="font-weight-light text-gray-650 lh-3"> TW Technologies prides itself as one of the best software development company in Kenya and Africa at large. Your business needs a reliable enterprise software solution and you can leverage on  expertise in enterprise software development, API integration and  legacy systems to support your operations.</h4>
-                        <h4 class="font-weight-light text-gray-650 lh-3">Our software developers have the knowledge, niche skills, and experience to build you a solid software solution.</h4>
+                        <h2 class="font-weight-sbold wow fadeIn offset-top-40" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">Search Engine Optimization</h2>
+                        <h4 class="font-weight-light text-gray-650 lh-3">Search engine optimization is an essential part of website & web development and web marketing. An SEO friendly website will automatically rank higher in search results obtained from popular search engines such as Google, Yahoo and Bing. This, in turn, will have a great influence on the traffic of that website. It is vital to make your website SEO friendly in order to enhance your internet visibility, brand image and traffic.</h4>
+                        <h4 class="font-weight-light text-gray-650 lh-3"> At TW Technologies we can develop high-ranking websites from scratch and can also turn an already existing website into an SEO friendly website.
+                        Search Engine Optimization (SEO) is a dynamic field and our team of experts has designed a strategic process to give your business a powerful push and improve your rankings.</h4>
+                        <h4>We make your SEO friendly by doing:-</h4>
                         <ul class="list-custom-3 heading-4 font-weight-light text-gray-650 lh-3">
-                            <li>› Software consulting</li>
-                            <li>› Custom software development</li>
-                            <li>› Software development outsourcing</li>
+                            <li>› Initial Analysis</li>
+                            <li>› Strategy</li>
+                            <li>› On-Page Optimization</li>
+                            <li>› Off-Page Optimization</li>
+                            <li>› Reporting</li>
                         </ul>
                         
                     </div>
                     <div class="col-lg-4">
                         <div class="box-lola-wrapper">
-                            <router-link to="/software">
+                            <router-link to="software">
                                 <div class="box-lola">
                                     <div class="small-text font-weight-sbold ls-1 lh-4"> Software Development
                                     </div>
@@ -34,7 +37,7 @@
                             </router-link>
                         </div>
                         <div class="box-lola-wrapper">
-                            <router-link to="/Web-Design">
+                            <router-link to="Web-Design">
                                 <div class="box-lola">
                                     <div class="small-text font-weight-sbold ls-1 lh-4 box-lola-wrapper">Web Design & Development 
                                     </div>
@@ -42,7 +45,7 @@
                             </router-link>
                         </div>
                         <div class="box-lola-wrapper">
-                            <router-link to="/Mobile-App-Development">
+                            <router-link to="Mobile-App-Development">
                                 <div class="box-lola">
                                     <div class="small-text font-weight-sbold ls-1 lh-4">Mobile App Development
                                     </div>
@@ -50,7 +53,7 @@
                             </router-link>
                         </div>
                         <div class="box-lola-wrapper">
-                            <router-link to="/Web-Portals">
+                            <router-link to="Web-Portals">
                                 <div class="box-lola">
                                     <div class="small-text font-weight-sbold ls-1 lh-4"> Web Portals
                                     </div>
@@ -58,35 +61,35 @@
                             </router-link>
                         </div>
                         <div class="box-lola-wrapper">
-                            <router-link to="/Internet-Of-Things">
+                            <router-link to="Internet-Of-Things">
                                 <div class="box-lola">
                                     <div class="small-text font-weight-sbold ls-1 lh-4"> Internet of Things</div>
                                 </div>
                             </router-link>
                         </div>
                         <div class="box-lola-wrapper">
-                            <router-link to="/Web-App-Development">
+                            <router-link to="Web-App-Development">
                                 <div class="box-lola">
                                     <div class="small-text font-weight-sbold ls-1 lh-4"> Web Apps Development</div>
                                 </div>
                             </router-link>
                         </div>
                         <div class="box-lola-wrapper">
-                            <router-link to="/Artificial-Intelligence">
+                            <router-link to="Artificial-Intelligence">
                                 <div class="box-lola">
                                     <div class="small-text font-weight-sbold ls-1 lh-4"> Artificial Inteligence</div>
                                 </div>
                             </router-link>
                         </div>
                         <div class="box-lola-wrapper">
-                            <router-link to="/Big-Data">
+                            <router-link to="Big-Data">
                                 <div class="box-lola">
                                     <div class="small-text font-weight-sbold ls-1 lh-4"> Big Data</div>
                                 </div>
                             </router-link>
                         </div>
                         <div class="box-lola-wrapper">
-                            <router-link to="/Search-Engine-Optimization">
+                            <router-link to="Search-Engine-Optimization">
                                 <div class="box-lola">
                                     <div class="small-text font-weight-sbold ls-1 lh-4"> Search Engine Optimization</div>
                                 </div>

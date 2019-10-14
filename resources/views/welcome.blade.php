@@ -1,20 +1,46 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148605654-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-148605654-1');
+    </script>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/5d9c4101db28311764d7cd6f/default';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+<!--End of Tawk.to Script-->
     <meta charset="UTF-8">
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="copyright" content="Transonline Web Technologies">
+    <meta name="keywords" content="Web Application Development, Software Development, Website Design and Development">
+    <meta name="description" content="Your leading parner in software and web applications development in Kenya and Africa at large.">
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/logo.png') }}"/>
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    {{-- <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.css') }}"> --}}
     <link rel="stylesheet" href="{{ asset('assets/css/font-awesome.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/fl-bigmug.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/materialdesignicons.css') }}">
-    <title>Trans Online Web</title>
+    <title>Trans Online Web Technologies | Your digital transformation starts here</title>
 
     <style>
         .btn-to-top {
@@ -25,6 +51,7 @@
           font-size: 22px;
           line-height: 22px;
         }
+       
     </style>
 </head>
 <body>
@@ -47,27 +74,24 @@
                         <ul class="list-inline list-inline-md">
                             <li>
                                 <div class="unit unit-spacing-xs align-items-center">
-                                    <div class="unit-body heading-5"><a class="text-third divider-right-1" href="#">+254729631002</a></div>
+                                    <div class="unit-body heading-5"><a class="text-third divider-right-1" href="#">+254748621900</a></div>
                                 </div>
                             </li>
                             <li>
                                 <div class="unit unit-spacing-xs align-items-center">
-                                    <div class="unit-body small-text"><a class="text-gray-600" href="#"><span class="__cf_email__" data-cfemail="4632232b362a273223062b2928353223346825292b">transonlineweb@gmail.com</span></a></div>
+                                    <div class="unit-body small-text"><a class="text-gray-600" href="#"><span class="__cf_email__" data-cfemail="4632232b362a273223062b2928353223346825292b">info@twtechnologies.africa</span></a></div>
                                 </div>
                             </li>
                         </ul>
                         <ul class="list-inline list-custom">
                             <li>
-                                <div class="align-items-center"><a class="text-gray-300" href="#"><span class="icon mdi mdi-facebook icon-sm"></span></a></div>
+                                <div class="align-items-center"><a class="text-gray-300" href="https://www.facebook.com/TechnologiesTw/"><span class="icon mdi mdi-facebook" style="font-size: 20px;"></span></a></div>
                             </li>
                             <li>
-                                <div class="align-items-center"><a class="text-gray-300" href="#"><span class="icon mdi mdi-instagram icon-xs"></span></a></div>
+                                <div class="align-items-center"><a class="text-gray-300" href="https://www.instagram.com/transonlineweb.ke/"><span class="icon mdi mdi-instagram" style="font-size: 20px;"></span></a></div>
                             </li>
                             <li>
-                                <div class="align-items-center"><a class="text-gray-300" href="#"><span class="icon mdi mdi-youtube-play icon-sm"></span></a></div>
-                            </li>
-                            <li>
-                                <div class="align-items-center"><a class="text-gray-300" href="#"><span class="icon mdi mdi-twitter icon-sm"></span></a></div>
+                                <div class="align-items-center"><a class="text-gray-300" href="https://twitter.com/TwTechnologies"><span class="icon mdi mdi-twitter-box" style="font-size: 20px;"></span></a></div>
                             </li>
                         </ul>
                     </div>
@@ -91,6 +115,7 @@
                                     <li class="rd-nav-item"><router-link class="rd-nav-link" to="/about">About</router-link>
 
                                         <ul class="rd-menu rd-navbar-dropdown">
+                                            <li class="rd-dropdown-item"><router-link class="rd-dropdown-link" to="/about">About Us</router-link></li>
                                             <li class="rd-dropdown-item"><router-link class="rd-dropdown-link" to="/company">Company Profile</router-link></li>
                                             <li class="rd-dropdown-item"><router-link class="rd-dropdown-link" to="/team">Our Team</router-link></li>
                                             <li class="rd-dropdown-item"><router-link class="rd-dropdown-link" to="/careers">Careers</router-link></li>
@@ -99,10 +124,18 @@
                                     </li>
                                     <li class="rd-nav-item"><router-link class="rd-nav-link" to="/services">Services</router-link>
                                         <ul class="rd-menu rd-navbar-dropdown">
+                                            <li class="rd-dropdown-item"><router-link class="rd-dropdown-link" to="/services">Our Services</router-link></li>
                                             <li class="rd-dropdown-item"><router-link class="rd-dropdown-link" to="/portfolio">Portfolio</router-link></li>
                                         </ul>
                                     </li>
-                                    <li class="rd-nav-item"><router-link class="rd-nav-link" to="/blog">Blog</router-link></li>
+                                    <li class="rd-nav-item"><router-link class="rd-nav-link" to="/blog">Blog</router-link>
+                                        <ul class="rd-menu rd-navbar-dropdown">
+                                            <li class="rd-dropdown-item"><router-link class="rd-dropdown-link" to="/blog">Technology News</router-link></li>
+                                            <li class="rd-dropdown-item"><router-link class="rd-dropdown-link" to="/blog">SEO Trends</router-link></li>
+                                            <li class="rd-dropdown-item"><router-link class="rd-dropdown-link" to="/blog">Others</router-link></li>
+                                        </ul>
+                                    </li>
+                                    {{-- <li class="rd-nav-item"><router-link class="rd-nav-link" to="/blog">Blog</router-link></li> --}}
                                     <li class="rd-nav-item"><router-link class="rd-nav-link" to="/contact">Contacts</router-link></li>
                                 </ul>
                             </div>
@@ -123,7 +156,7 @@
         <div class="container">
             <div class="row row-40">
                 <div class="col-sm-6 col-lg-3 text-center text-sm-left wow fadeInUp" data-wow-delay=".04s"><a href="#"><img src="assets/images/fulllogosmall.png" alt="img" /></a>
-                    <p class="font-weight-light text-gray-620 lh-1 box-3 offset-top-30"> <span class="font-weight-bold text-third">Transonline Web</span> is a  company specializing in providing financial, marketing and analytical services. We are a command of professionals, who like what they do.</p>
+                    <p class="font-weight-light text-gray-620 lh-1 box-3 offset-top-20"> <span class="font-weight-bold text-third">TW Technologies </span> is a  company specializing in providing software development, web design & development, graphic design, and a wide range of customized software services. We are a command of professionals, who like what we do.</p>
                 </div>
                 <div class="col-sm-6 col-lg-3 block-lg-4 text-center text-sm-left wow fadeInUp" data-wow-delay=".04s">
                     <h6 class="font-weight-regular text-third">Quick links</h6>
@@ -138,18 +171,17 @@
                 <div class="col-sm-6 col-lg-3 text-center text-sm-left wow fadeInUp" data-wow-delay=".04s">
                     <h6 class="font-weight-regular text-third">Our Services</h6>
                     <ul class="offset-top-25">
-                        <li><a class="font-weight-light text-gray-620 lh-2" href="single-service.html">Search engine optimization</a></li>
-                        <li><a class="font-weight-light text-gray-620 lh-2" href="single-service.html">Email marketing services</a></li>
-                        <li><a class="font-weight-light text-gray-620 lh-2" href="single-service.html">Profitable AdWords campaigns</a></li>
-                        <li><a class="font-weight-light text-gray-620 lh-2" href="single-service.html">Pay per click advertising</a></li>
+                        <li><router-link class="font-weight-light text-gray-620 lh-2" to="/services">Software Development</router-link></li>
+                        <li><router-link class="font-weight-light text-gray-620 lh-2" to="/services">Web Development</router-link></li>
+                        <li><router-link class="font-weight-light text-gray-620 lh-2" to="/services">Web Design</router-link></li>
+                        <li><router-link class="font-weight-light text-gray-620 lh-2" to="/services">Internet Of Things</router-link></li>
+                        <li><router-link class="font-weight-light text-gray-620 lh-2" to="/services">Virtual reality</router-link></li>
                     </ul>
                 </div>
                 <div class="col-sm-6 col-lg-3 text-center text-sm-left wow fadeInUp" data-wow-delay=".04s">
                     <h6 class="font-weight-regular text-third">Latest news</h6>
-                    <div class="small-text-2 font-weight-light text-gray-620 offset-top-30">July 24, 2019</div>
-                    <h6><a class="font-weight-regular text-gray-650" href="blog-post.html">Achieving Success as a Business Owner</a></h6>
-                    <div class="small-text-2 font-weight-light text-gray-620 offset-top-15">July 23, 2019</div>
-                    <h6><a class="font-weight-regular text-gray-650" href="blog-post.html">Top 12 Ideas for Your Business</a></h6>
+                    
+                    <h6><router-link class="font-weight-regular text-gray-650" to="blog">Check Our blog for the latest in the world of tech</router-link></h6>
                 </div>
             </div>
             <div class="footer-classic-bottom">
