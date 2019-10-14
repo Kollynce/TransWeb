@@ -212,42 +212,43 @@
                     </button>
                   </div>
                   <div class="modal-body">
-                    <form class="rd-form rd-mailform rd-mailform-custom-3" data-form-output="form-output-global" data-form-type="contact" novalidate="novalidate">
+                    <form @submit.prevent="order" @keydown="form.onKeydown($event)" class="rd-form rd-mailform rd-mailform-custom-3" data-form-output="form-output-global" data-form-type="contact" novalidate="novalidate">
                         <div class="row row-30">
                             <div class="col-md-6">
                                 <div class="form-wrap">
-                                    <input class="form-input" id="contact-name" type="text" name="name" data-constraints="@Required">
-                                    <label class="form-label rd-input-label" for="contact-name">Your Name</label>
+                                    <input v-model="form.name" class="form-input form-control" :class="{ 'is-invalid': form.errors.has('name') }" placeholder="Your name" type="text" name="name" data-constraints="@name @Required">
+                                    <has-error :form="form" field="name"></has-error>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-wrap">
-                                    <input class="form-input" id="contact-phone" type="text" name="phone" data-constraints="@Numeric">
-                                    <label class="form-label rd-input-label" for="contact-phone">Phone</label>
+                                    <input v-model="form.phone" class="form-input form-control" :class="{ 'is-invalid': form.errors.has('phone') }" placeholder="0743435676" type="text" name="phone">
+                                    <has-error :form="form" field="phone"></has-error>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-wrap">
-                                    <input class="form-input" id="contact-service" type="text" name="service" data-constraints="@Required">
-                                    <label class="form-label rd-input-label" for="contact-service">Service</label>
+                                    <input v-model="form.service" class="form-input form-control" :class="{ 'is-invalid': form.errors.has('service') }" placeholder="Service?" type="text" name="service">
+                                    <has-error :form="form" field="service"></has-error>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-wrap">
-                                    <input class="form-input" id="contact-duration" type="text" name="duration" data-constraints="@Required">
-                                    <label class="form-label rd-input-label" for="contact-duration">Duration</label>
+                                    <input v-model="form.duration" class="form-input form-control" :class="{ 'is-invalid': form.errors.has('duration') }" placeholder="duration" type="text" name="duration">
+                                    <has-error :form="form" field="duration"></has-error>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-wrap">
                                     <label class="form-label rd-input-label" for="contact-message">Give a brief description about what you want</label>
-                                    <textarea class="form-input" id="contact-message" name="message" data-constraints="@Required"></textarea>
+                                    <textarea v-model="form.description" class="form-input form-control" :class="{ 'is-invalid': form.errors.has('description') }" placeholder="Your description" name="description"></textarea>
+                                <has-error :form="form" field="description"></has-error>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-wrap">
-                                    <input class="form-input" id="contact-email" type="email" name="email" data-constraints="@Email @Required">
-                                    <label class="form-label rd-input-label" for="contact-email">E-mail</label>
+                                    <input v-model="form.Email" class="form-input form-control" :class="{ 'is-invalid': form.errors.has('Email') }" placeholder="Your Email" type="Email" name="Email">
+                                <has-error :form="form" field="Email"></has-error>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -256,10 +257,6 @@
                         </div>
                     </form>
                   </div>
-                  <!-- <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                  </div> -->
                 </div>
               </div>
             </div>
@@ -275,10 +272,40 @@
             return{
                 form : new Form({
                    email :'' ,
+                   name: '',
+                   phone: '',
+                   service: '',
+                   duration:'',
+                   description:'',
+                   Email:'',
                 })
             }
         },
         methods : {
+            order(){
+                this.form.post('api/action')
+                //this.form.post('api/contact')
+                // .then(()=>{
+                //     $('#exampleModalLabel').modal('hide');
+                //     Swal.fire({
+                //       position: 'center',
+                //       type: 'success',
+                //       title: 'Order sent successfully',
+                //       showConfirmButton: false,
+                //       timer: 1500
+                //     })
+                //     this.form.reset();
+                // })
+                // .catch(()=>{
+                //    this.errors = error.response.data.errors;
+                //         Swal.fire({
+                //                 type: 'error',
+                //                 title: 'Error!',
+                //                 text: error.response.data.msg,
+                //             }
+                //         ) 
+                // });
+            },
             send(){
                 if (!this.form.email) {
                     this.form.errors.set({
