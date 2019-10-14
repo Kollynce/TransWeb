@@ -29,7 +29,7 @@ class ActionController extends Controller
     {
         $this->validate($request,[
             'name' => 'required|string|max:25',
-            'Email' => 'required|string|email|max:191',
+            'mail' => 'required|string|email|max:191',
             'phone' => 'min:9|max:14',
             'description' => 'required|string',
             'service' => 'required|string',

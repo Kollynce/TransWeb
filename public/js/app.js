@@ -3722,7 +3722,7 @@ __webpack_require__.r(__webpack_exports__);
         service: '',
         duration: '',
         description: '',
-        Email: ''
+        mail: ''
       })
     };
   },
@@ -3731,7 +3731,7 @@ __webpack_require__.r(__webpack_exports__);
       var _this = this;
 
       this.form.post('api/order').then(function () {
-        $('#exampleModalLabel').modal('hide');
+        $('#exampleModal').modal('hide');
         Swal.fire({
           position: 'center',
           type: 'success',
@@ -51429,20 +51429,20 @@ var render = function() {
                                   {
                                     name: "model",
                                     rawName: "v-model",
-                                    value: _vm.form.Email,
-                                    expression: "form.Email"
+                                    value: _vm.form.mail,
+                                    expression: "form.mail"
                                   }
                                 ],
                                 staticClass: "form-input form-control",
                                 class: {
-                                  "is-invalid": _vm.form.errors.has("Email")
+                                  "is-invalid": _vm.form.errors.has("mail")
                                 },
                                 attrs: {
                                   placeholder: "Your Email",
                                   type: "Email",
-                                  name: "Email"
+                                  name: "mail"
                                 },
-                                domProps: { value: _vm.form.Email },
+                                domProps: { value: _vm.form.mail },
                                 on: {
                                   input: function($event) {
                                     if ($event.target.composing) {
@@ -51450,7 +51450,7 @@ var render = function() {
                                     }
                                     _vm.$set(
                                       _vm.form,
-                                      "Email",
+                                      "mail",
                                       $event.target.value
                                     )
                                   }
@@ -51458,7 +51458,7 @@ var render = function() {
                               }),
                               _vm._v(" "),
                               _c("has-error", {
-                                attrs: { form: _vm.form, field: "Email" }
+                                attrs: { form: _vm.form, field: "mail" }
                               })
                             ],
                             1
@@ -51800,7 +51800,7 @@ var staticRenderFns = [
         "button",
         {
           staticClass: "button button-block button-primary",
-          attrs: { type: "submit" }
+          attrs: { "data-dismiss": "modal", type: "submit" }
         },
         [_vm._v("Submit Order")]
       )

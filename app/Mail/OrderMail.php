@@ -17,7 +17,7 @@ class OrderMail extends Mailable
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($order)
     {
         $this->order = $order;
     }
@@ -29,6 +29,6 @@ class OrderMail extends Mailable
      */
     public function build()
     {
-        return $this->view('mail')->with('order', $this->order);
+        return $this->view('order')->with('order', $this->order);
     }
 }

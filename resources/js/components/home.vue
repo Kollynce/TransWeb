@@ -247,12 +247,12 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="form-wrap">
-                                    <input v-model="form.Email" class="form-input form-control" :class="{ 'is-invalid': form.errors.has('Email') }" placeholder="Your Email" type="Email" name="Email">
-                                <has-error :form="form" field="Email"></has-error>
+                                    <input v-model="form.mail" class="form-input form-control" :class="{ 'is-invalid': form.errors.has('mail') }" placeholder="Your Email" type="Email" name="mail">
+                                <has-error :form="form" field="mail"></has-error>
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <button class="button button-block button-primary" type="submit">Submit Order</button>
+                                <button class="button button-block button-primary" data-dismiss="modal" type="submit">Submit Order</button>
                             </div>
                         </div>
                     </form>
@@ -277,7 +277,7 @@
                    service: '',
                    duration:'',
                    description:'',
-                   Email:'',
+                   mail:'',
                 })
             }
         },
@@ -285,7 +285,7 @@
             order(){
                 this.form.post('api/order')
                 .then(()=>{
-                    $('#exampleModalLabel').modal('hide');
+                    $('#exampleModal').modal('hide');
                     Swal.fire({
                       position: 'center',
                       type: 'success',
