@@ -4507,6 +4507,28 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -54152,7 +54174,9 @@ var render = function() {
       ])
     ]),
     _vm._v(" "),
-    _vm._m(3)
+    _vm._m(3),
+    _vm._v(" "),
+    _vm._m(4)
   ])
 }
 var staticRenderFns = [
@@ -54311,6 +54335,27 @@ var staticRenderFns = [
               _c("h6", { staticClass: "font-weight-light text-gray-650" }, [
                 _vm._v("Pimcore, WordPress, SharePoint, Salesforce")
               ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "box-nina mt-5" }, [
+              _c("h5", { staticClass: "font-weight-sbold ls-1" }, [
+                _vm._v("SEO")
+              ]),
+              _vm._v(" "),
+              _c("h6", { staticClass: "font-weight-light text-gray-650" }, [
+                _vm._v(
+                  "On-page SEO, Link building, technical SEO, Offsite SEO."
+                )
+              ]),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "button button-primary",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Subscribe to SEO tips")]
+              )
             ])
           ]),
           _vm._v(" "),
@@ -54338,6 +54383,72 @@ var staticRenderFns = [
         ])
       ])
     ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "section",
+      {
+        staticClass: "section overflow-hidden bg-image",
+        staticStyle: {
+          "background-image": "url(assets/images/bg-image-1-1920x476.jpg)"
+        }
+      },
+      [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c(
+              "div",
+              {
+                staticClass:
+                  "col-lg-12 offset-top-70 text-center text-lg-center"
+              },
+              [
+                _c(
+                  "h2",
+                  {
+                    staticClass: "font-weight-sbold wow fadeIn",
+                    staticStyle: {
+                      visibility: "visible",
+                      "animation-delay": "0.2s",
+                      "animation-name": "fadeIn"
+                    },
+                    attrs: { "data-wow-delay": ".2s" }
+                  },
+                  [_vm._v("Schedule a free Consultation")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "group-btn text-center text-lg-center wow fadeIn",
+                    staticStyle: {
+                      visibility: "visible",
+                      "animation-delay": "0.4s",
+                      "animation-name": "fadeIn"
+                    },
+                    attrs: { "data-wow-delay": ".4s" }
+                  },
+                  [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "button button-primary button-lg",
+                        attrs: { href: "/contact" }
+                      },
+                      [_vm._v("Click Here!")]
+                    )
+                  ]
+                )
+              ]
+            )
+          ])
+        ])
+      ]
+    )
   }
 ]
 render._withStripped = true
@@ -72601,8 +72712,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/kryme/Documents/TransWeb/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /home/kryme/Documents/TransWeb/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\wamp64\www\TransWeb\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\wamp64\www\TransWeb\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
