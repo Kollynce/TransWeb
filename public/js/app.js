@@ -50464,7 +50464,6 @@ var render = function() {
                             [
                               _c("div", { attrs: { id: "svg-size" } }, [
                                 _c("img", {
-                                  staticClass: "img-responsive",
                                   attrs: {
                                     src: "assets/images/software.svg",
                                     alt: ""
@@ -50734,7 +50733,7 @@ var render = function() {
               _vm._m(8),
               _vm._v(" "),
               _c("div", { staticClass: "row row-20 offset-top-20" }, [
-                _c("div", { staticClass: "col-6 text-center" }, [
+                _c("div", { staticClass: "col-6" }, [
                   _c(
                     "svg",
                     {
@@ -50787,7 +50786,7 @@ var render = function() {
                   )
                 ]),
                 _vm._v(" "),
-                _c("div", { staticClass: "col-6 text-center" }, [
+                _c("div", { staticClass: "col-6" }, [
                   _c(
                     "svg",
                     {
@@ -50878,7 +50877,7 @@ var render = function() {
                   )
                 ]),
                 _vm._v(" "),
-                _c("div", { staticClass: "col-6 text-center" }, [
+                _c("div", { staticClass: "col-6" }, [
                   _c(
                     "svg",
                     {
@@ -50985,7 +50984,7 @@ var render = function() {
                   )
                 ]),
                 _vm._v(" "),
-                _c("div", { staticClass: "col-6 text-center" }, [
+                _c("div", { staticClass: "col-6" }, [
                   _c(
                     "svg",
                     {
@@ -51800,7 +51799,7 @@ var staticRenderFns = [
         "button",
         {
           staticClass: "button button-block button-primary",
-          attrs: { "data-dismiss": "modal", type: "submit" }
+          attrs: { type: "submit" }
         },
         [_vm._v("Submit Order")]
       )
