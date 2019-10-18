@@ -4526,6 +4526,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -54434,11 +54437,7 @@ var staticRenderFns = [
                       "a",
                       {
                         staticClass: "button button-primary button-lg",
-                        attrs: {
-                          "data-toggle": "modal",
-                          "data-target": "#exampleModal",
-                          href: "/contact"
-                        }
+                        attrs: { href: "/contact" }
                       },
                       [_vm._v("Click Here!")]
                     )
