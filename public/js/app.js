@@ -4512,6 +4512,20 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -54157,7 +54171,9 @@ var render = function() {
       ])
     ]),
     _vm._v(" "),
-    _vm._m(3)
+    _vm._m(3),
+    _vm._v(" "),
+    _vm._m(4)
   ])
 }
 var staticRenderFns = [
@@ -54364,6 +54380,76 @@ var staticRenderFns = [
         ])
       ])
     ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "section",
+      {
+        staticClass: "section overflow-hidden bg-image",
+        staticStyle: {
+          "background-image": "url(assets/images/bg-image-1-1920x476.jpg)"
+        }
+      },
+      [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c(
+              "div",
+              {
+                staticClass:
+                  "col-lg-12 offset-top-70 text-center text-lg-center"
+              },
+              [
+                _c(
+                  "h2",
+                  {
+                    staticClass: "font-weight-sbold wow fadeIn",
+                    staticStyle: {
+                      visibility: "visible",
+                      "animation-delay": "0.2s",
+                      "animation-name": "fadeIn"
+                    },
+                    attrs: { "data-wow-delay": ".2s" }
+                  },
+                  [_vm._v("Schedule a free Consultation")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "group-btn text-center text-lg-center wow fadeIn",
+                    staticStyle: {
+                      visibility: "visible",
+                      "animation-delay": "0.4s",
+                      "animation-name": "fadeIn"
+                    },
+                    attrs: { "data-wow-delay": ".4s" }
+                  },
+                  [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "button button-primary button-lg",
+                        attrs: {
+                          "data-toggle": "modal",
+                          "data-target": "#exampleModal",
+                          href: "/contact"
+                        }
+                      },
+                      [_vm._v("Click Here!")]
+                    )
+                  ]
+                )
+              ]
+            )
+          ])
+        ])
+      ]
+    )
   }
 ]
 render._withStripped = true
