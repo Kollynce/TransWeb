@@ -211,6 +211,11 @@
                             <h5 class="font-weight-sbold ls-1">CMS</h5>
                             <h6 class="font-weight-light text-gray-650">Pimcore, WordPress, SharePoint, Salesforce</h6>
                         </div>
+                         <div class="box-nina mt-5">
+                            <h5 class="font-weight-sbold ls-1">SEO</h5>
+                            <h6 class="font-weight-light text-gray-650">On-page SEO, Link building, technical SEO, Offsite SEO.</h6>
+                            <button class="button button-primary" type="button">Subscribe to SEO tips</button>
+                        </div>
                     </div>
                     <div class="col-lg-7 text-center text-lg-left">
                       <img src="/images/band.jpg" class="pt-5" alt="img" width="670" height="510">

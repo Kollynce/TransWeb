@@ -4507,6 +4507,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -50464,7 +50469,6 @@ var render = function() {
                             [
                               _c("div", { attrs: { id: "svg-size" } }, [
                                 _c("img", {
-                                  staticClass: "img-responsive",
                                   attrs: {
                                     src: "assets/images/software.svg",
                                     alt: ""
@@ -50734,7 +50738,7 @@ var render = function() {
               _vm._m(8),
               _vm._v(" "),
               _c("div", { staticClass: "row row-20 offset-top-20" }, [
-                _c("div", { staticClass: "col-6 text-center" }, [
+                _c("div", { staticClass: "col-6" }, [
                   _c(
                     "svg",
                     {
@@ -50787,7 +50791,7 @@ var render = function() {
                   )
                 ]),
                 _vm._v(" "),
-                _c("div", { staticClass: "col-6 text-center" }, [
+                _c("div", { staticClass: "col-6" }, [
                   _c(
                     "svg",
                     {
@@ -50878,7 +50882,7 @@ var render = function() {
                   )
                 ]),
                 _vm._v(" "),
-                _c("div", { staticClass: "col-6 text-center" }, [
+                _c("div", { staticClass: "col-6" }, [
                   _c(
                     "svg",
                     {
@@ -50985,7 +50989,7 @@ var render = function() {
                   )
                 ]),
                 _vm._v(" "),
-                _c("div", { staticClass: "col-6 text-center" }, [
+                _c("div", { staticClass: "col-6" }, [
                   _c(
                     "svg",
                     {
@@ -51800,7 +51804,7 @@ var staticRenderFns = [
         "button",
         {
           staticClass: "button button-block button-primary",
-          attrs: { "data-dismiss": "modal", type: "submit" }
+          attrs: { type: "submit" }
         },
         [_vm._v("Submit Order")]
       )
@@ -54312,6 +54316,27 @@ var staticRenderFns = [
               _c("h6", { staticClass: "font-weight-light text-gray-650" }, [
                 _vm._v("Pimcore, WordPress, SharePoint, Salesforce")
               ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "box-nina mt-5" }, [
+              _c("h5", { staticClass: "font-weight-sbold ls-1" }, [
+                _vm._v("SEO")
+              ]),
+              _vm._v(" "),
+              _c("h6", { staticClass: "font-weight-light text-gray-650" }, [
+                _vm._v(
+                  "On-page SEO, Link building, technical SEO, Offsite SEO."
+                )
+              ]),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "button button-primary",
+                  attrs: { type: "button" }
+                },
+                [_vm._v("Subscribe to SEO tips")]
+              )
             ])
           ]),
           _vm._v(" "),
