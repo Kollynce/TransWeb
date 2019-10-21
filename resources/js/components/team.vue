@@ -129,7 +129,7 @@
                                     <li><a class="text-gray-270" href="#"><span class="icon mdi mdi-instagram icon-xs"></span></a></li>
                                 </ul>
                             </div>
-                            <h5 class="font-weight-sbold ls-1 text-center offset-top-15">Jeremiah Adiwuor</h5>
+                            <h5 class="font-weight-sbold ls-1 text-center offset-top-15">Jeremiah Odiwuor</h5>
                             <div class="small-text font-weight-light text-center">Backend Developer</div>
                         </div>
                     </div>

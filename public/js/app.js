@@ -4266,6 +4266,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -4283,10 +4284,6 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-//
-//
-//
-//
 //
 //
 //
@@ -53351,6 +53348,12 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("li", [_vm._v("› Reporting")])
         ]
+      ),
+      _vm._v(" "),
+      _c(
+        "button",
+        { staticClass: "button button-primary", attrs: { type: "button" } },
+        [_vm._v("Subscribe to SEO tips")]
       )
     ])
   },
@@ -54335,27 +54338,6 @@ var staticRenderFns = [
               _c("h6", { staticClass: "font-weight-light text-gray-650" }, [
                 _vm._v("Pimcore, WordPress, SharePoint, Salesforce")
               ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "box-nina mt-5" }, [
-              _c("h5", { staticClass: "font-weight-sbold ls-1" }, [
-                _vm._v("SEO")
-              ]),
-              _vm._v(" "),
-              _c("h6", { staticClass: "font-weight-light text-gray-650" }, [
-                _vm._v(
-                  "On-page SEO, Link building, technical SEO, Offsite SEO."
-                )
-              ]),
-              _vm._v(" "),
-              _c(
-                "button",
-                {
-                  staticClass: "button button-primary",
-                  attrs: { type: "button" }
-                },
-                [_vm._v("Subscribe to SEO tips")]
-              )
             ])
           ]),
           _vm._v(" "),
@@ -55400,7 +55382,7 @@ var staticRenderFns = [
                   staticClass:
                     "font-weight-sbold ls-1 text-center offset-top-15"
                 },
-                [_vm._v("Jeremiah Adiwuor")]
+                [_vm._v("Jeremiah Odiwuor")]
               ),
               _vm._v(" "),
               _c(
