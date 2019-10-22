@@ -4267,6 +4267,126 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -4284,23 +4404,6 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -53041,7 +53144,7 @@ var render = function() {
   return _c("div", [
     _vm._m(0),
     _vm._v(" "),
-    _c("section", { staticClass: "section section-md bg-default" }, [
+    _c("section", { staticClass: "section bg-default" }, [
       _c("div", { staticClass: "container" }, [
         _c("div", { staticClass: "row row-50" }, [
           _vm._m(1),
@@ -53261,11 +53364,447 @@ var render = function() {
                 _vm._v(" "),
                 _vm._m(2)
               ])
-            ])
+            ]),
+            _vm._v(" "),
+            _vm._m(3)
           ])
         ])
       ])
-    ])
+    ]),
+    _vm._v(" "),
+    _c("section", { staticClass: "section section-xl section-xl-2" }, [
+      _c("div", { staticClass: "container" }, [
+        _c(
+          "h2",
+          {
+            staticClass: "font-weight-sbold text-center wow fadeIn",
+            staticStyle: {
+              visibility: "visible",
+              "animation-delay": "0.2s",
+              "animation-name": "fadeIn"
+            },
+            attrs: { "data-wow-delay": ".2s" }
+          },
+          [_vm._v("Our pricing plans")]
+        ),
+        _vm._v(" "),
+        _c(
+          "h6",
+          {
+            staticClass: "font-weight-light text-center text-third wow fadeIn",
+            staticStyle: {
+              visibility: "visible",
+              "animation-delay": "0.3s",
+              "animation-name": "fadeIn"
+            },
+            attrs: { "data-wow-delay": ".3s" }
+          },
+          [_vm._v("We offer a variety of pricing options to our clients.")]
+        ),
+        _vm._v(" "),
+        _c("div", { staticClass: "row row-40 offset-top-0" }, [
+          _c(
+            "div",
+            {
+              staticClass: "col-md-6 col-lg-4 wow fadeInLeft",
+              staticStyle: {
+                visibility: "visible",
+                "animation-delay": "0.2s",
+                "animation-name": "fadeInLeft"
+              },
+              attrs: { "data-wow-delay": ".2s" }
+            },
+            [
+              _vm._m(4),
+              _vm._v(" "),
+              _c("ul", { staticClass: "list-custom-2 text-center " }, [
+                _c("li", [
+                  _c("span", [
+                    _c(
+                      "svg",
+                      {
+                        attrs: {
+                          width: "16",
+                          height: "16",
+                          viewBox: "0 0 16 16",
+                          fill: "none"
+                        }
+                      },
+                      [
+                        _c("path", {
+                          attrs: {
+                            d:
+                              "M8 0C3.56364 0 0 3.56364 0 8C0 12.4364 3.56364 16 8 16C12.4364 16 16 12.4364 16 8C16 3.56364 12.4364 0 8 0ZM12.6182 5.49091L6.8 11.5273C6.72727 11.6 6.65455 11.6364 6.54545 11.6364C6.43636 11.6364 6.32727 11.6 6.29091 11.5273L3.45455 8.47273L3.38182 8.4C3.30909 8.32727 3.27273 8.21818 3.27273 8.14545C3.27273 8.07273 3.30909 7.96364 3.38182 7.89091L3.89091 7.38182C4.03636 7.23636 4.25455 7.23636 4.4 7.38182L4.43636 7.41818L6.43636 9.56364C6.50909 9.63636 6.61818 9.63636 6.69091 9.56364L11.5636 4.50909H11.6C11.7455 4.36364 11.9636 4.36364 12.1091 4.50909L12.6182 5.01818C12.7636 5.12727 12.7636 5.34545 12.6182 5.49091Z",
+                            fill: "#4173F2"
+                          }
+                        })
+                      ]
+                    )
+                  ]),
+                  _c("span", { staticClass: "text-third" }, [
+                    _vm._v(" SEO Services")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("span", [
+                    _c(
+                      "svg",
+                      {
+                        attrs: {
+                          width: "16",
+                          height: "16",
+                          viewBox: "0 0 16 16",
+                          fill: "none"
+                        }
+                      },
+                      [
+                        _c("path", {
+                          attrs: {
+                            d:
+                              "M8 0C3.56364 0 0 3.56364 0 8C0 12.4364 3.56364 16 8 16C12.4364 16 16 12.4364 16 8C16 3.56364 12.4364 0 8 0ZM12.6182 5.49091L6.8 11.5273C6.72727 11.6 6.65455 11.6364 6.54545 11.6364C6.43636 11.6364 6.32727 11.6 6.29091 11.5273L3.45455 8.47273L3.38182 8.4C3.30909 8.32727 3.27273 8.21818 3.27273 8.14545C3.27273 8.07273 3.30909 7.96364 3.38182 7.89091L3.89091 7.38182C4.03636 7.23636 4.25455 7.23636 4.4 7.38182L4.43636 7.41818L6.43636 9.56364C6.50909 9.63636 6.61818 9.63636 6.69091 9.56364L11.5636 4.50909H11.6C11.7455 4.36364 11.9636 4.36364 12.1091 4.50909L12.6182 5.01818C12.7636 5.12727 12.7636 5.34545 12.6182 5.49091Z",
+                            fill: "#4173F2"
+                          }
+                        })
+                      ]
+                    )
+                  ]),
+                  _c("span", { staticClass: "text-third" }, [
+                    _vm._v(" Online Marketing")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("span", [
+                    _c(
+                      "svg",
+                      {
+                        attrs: {
+                          width: "16",
+                          height: "16",
+                          viewBox: "0 0 16 16",
+                          fill: "none"
+                        }
+                      },
+                      [
+                        _c("path", {
+                          attrs: {
+                            d:
+                              "M8 0C3.56364 0 0 3.56364 0 8C0 12.4364 3.56364 16 8 16C12.4364 16 16 12.4364 16 8C16 3.56364 12.4364 0 8 0ZM12.6182 5.49091L6.8 11.5273C6.72727 11.6 6.65455 11.6364 6.54545 11.6364C6.43636 11.6364 6.32727 11.6 6.29091 11.5273L3.45455 8.47273L3.38182 8.4C3.30909 8.32727 3.27273 8.21818 3.27273 8.14545C3.27273 8.07273 3.30909 7.96364 3.38182 7.89091L3.89091 7.38182C4.03636 7.23636 4.25455 7.23636 4.4 7.38182L4.43636 7.41818L6.43636 9.56364C6.50909 9.63636 6.61818 9.63636 6.69091 9.56364L11.5636 4.50909H11.6C11.7455 4.36364 11.9636 4.36364 12.1091 4.50909L12.6182 5.01818C12.7636 5.12727 12.7636 5.34545 12.6182 5.49091Z",
+                            fill: "#4173F2"
+                          }
+                        })
+                      ]
+                    )
+                  ]),
+                  _c("span", { staticClass: "text-third" }, [
+                    _vm._v(" Email Marketing")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("span", [
+                    _c(
+                      "svg",
+                      {
+                        attrs: {
+                          width: "16",
+                          height: "16",
+                          viewBox: "0 0 16 16",
+                          fill: "none"
+                        }
+                      },
+                      [
+                        _c("path", {
+                          attrs: {
+                            d:
+                              "M8 0C3.56364 0 0 3.56364 0 8C0 12.4364 3.56364 16 8 16C12.4364 16 16 12.4364 16 8C16 3.56364 12.4364 0 8 0ZM12.6182 5.49091L6.8 11.5273C6.72727 11.6 6.65455 11.6364 6.54545 11.6364C6.43636 11.6364 6.32727 11.6 6.29091 11.5273L3.45455 8.47273L3.38182 8.4C3.30909 8.32727 3.27273 8.21818 3.27273 8.14545C3.27273 8.07273 3.30909 7.96364 3.38182 7.89091L3.89091 7.38182C4.03636 7.23636 4.25455 7.23636 4.4 7.38182L4.43636 7.41818L6.43636 9.56364C6.50909 9.63636 6.61818 9.63636 6.69091 9.56364L11.5636 4.50909H11.6C11.7455 4.36364 11.9636 4.36364 12.1091 4.50909L12.6182 5.01818C12.7636 5.12727 12.7636 5.34545 12.6182 5.49091Z",
+                            fill: "#4173F2"
+                          }
+                        })
+                      ]
+                    )
+                  ]),
+                  _c("span", { staticClass: "text-third" }, [
+                    _vm._v(" Business Consulting")
+                  ])
+                ])
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass: "col-md-6 col-lg-4 wow fadeInLeft",
+              staticStyle: {
+                visibility: "visible",
+                "animation-delay": "0.3s",
+                "animation-name": "fadeInLeft"
+              },
+              attrs: { "data-wow-delay": ".3s" }
+            },
+            [
+              _vm._m(5),
+              _vm._v(" "),
+              _c(
+                "ul",
+                { staticClass: "list-custom-2 text-center offset-top-15" },
+                [
+                  _c("li", [
+                    _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            width: "16",
+                            height: "16",
+                            viewBox: "0 0 16 16",
+                            fill: "none"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "M8 0C3.56364 0 0 3.56364 0 8C0 12.4364 3.56364 16 8 16C12.4364 16 16 12.4364 16 8C16 3.56364 12.4364 0 8 0ZM12.6182 5.49091L6.8 11.5273C6.72727 11.6 6.65455 11.6364 6.54545 11.6364C6.43636 11.6364 6.32727 11.6 6.29091 11.5273L3.45455 8.47273L3.38182 8.4C3.30909 8.32727 3.27273 8.21818 3.27273 8.14545C3.27273 8.07273 3.30909 7.96364 3.38182 7.89091L3.89091 7.38182C4.03636 7.23636 4.25455 7.23636 4.4 7.38182L4.43636 7.41818L6.43636 9.56364C6.50909 9.63636 6.61818 9.63636 6.69091 9.56364L11.5636 4.50909H11.6C11.7455 4.36364 11.9636 4.36364 12.1091 4.50909L12.6182 5.01818C12.7636 5.12727 12.7636 5.34545 12.6182 5.49091Z",
+                              fill: "#4173F2"
+                            }
+                          })
+                        ]
+                      )
+                    ]),
+                    _c("span", { staticClass: "text-third" }, [
+                      _vm._v(" SMM Solutions")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            width: "16",
+                            height: "16",
+                            viewBox: "0 0 16 16",
+                            fill: "none"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "M8 0C3.56364 0 0 3.56364 0 8C0 12.4364 3.56364 16 8 16C12.4364 16 16 12.4364 16 8C16 3.56364 12.4364 0 8 0ZM12.6182 5.49091L6.8 11.5273C6.72727 11.6 6.65455 11.6364 6.54545 11.6364C6.43636 11.6364 6.32727 11.6 6.29091 11.5273L3.45455 8.47273L3.38182 8.4C3.30909 8.32727 3.27273 8.21818 3.27273 8.14545C3.27273 8.07273 3.30909 7.96364 3.38182 7.89091L3.89091 7.38182C4.03636 7.23636 4.25455 7.23636 4.4 7.38182L4.43636 7.41818L6.43636 9.56364C6.50909 9.63636 6.61818 9.63636 6.69091 9.56364L11.5636 4.50909H11.6C11.7455 4.36364 11.9636 4.36364 12.1091 4.50909L12.6182 5.01818C12.7636 5.12727 12.7636 5.34545 12.6182 5.49091Z",
+                              fill: "#4173F2"
+                            }
+                          })
+                        ]
+                      )
+                    ]),
+                    _c("span", { staticClass: "text-third" }, [
+                      _vm._v(" Context Advertising")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            width: "16",
+                            height: "16",
+                            viewBox: "0 0 16 16",
+                            fill: "none"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "M8 0C3.56364 0 0 3.56364 0 8C0 12.4364 3.56364 16 8 16C12.4364 16 16 12.4364 16 8C16 3.56364 12.4364 0 8 0ZM12.6182 5.49091L6.8 11.5273C6.72727 11.6 6.65455 11.6364 6.54545 11.6364C6.43636 11.6364 6.32727 11.6 6.29091 11.5273L3.45455 8.47273L3.38182 8.4C3.30909 8.32727 3.27273 8.21818 3.27273 8.14545C3.27273 8.07273 3.30909 7.96364 3.38182 7.89091L3.89091 7.38182C4.03636 7.23636 4.25455 7.23636 4.4 7.38182L4.43636 7.41818L6.43636 9.56364C6.50909 9.63636 6.61818 9.63636 6.69091 9.56364L11.5636 4.50909H11.6C11.7455 4.36364 11.9636 4.36364 12.1091 4.50909L12.6182 5.01818C12.7636 5.12727 12.7636 5.34545 12.6182 5.49091Z",
+                              fill: "#4173F2"
+                            }
+                          })
+                        ]
+                      )
+                    ]),
+                    _c("span", { staticClass: "text-third" }, [
+                      _vm._v(" AdWords")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            width: "16",
+                            height: "16",
+                            viewBox: "0 0 16 16",
+                            fill: "none"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "M8 0C3.56364 0 0 3.56364 0 8C0 12.4364 3.56364 16 8 16C12.4364 16 16 12.4364 16 8C16 3.56364 12.4364 0 8 0ZM12.6182 5.49091L6.8 11.5273C6.72727 11.6 6.65455 11.6364 6.54545 11.6364C6.43636 11.6364 6.32727 11.6 6.29091 11.5273L3.45455 8.47273L3.38182 8.4C3.30909 8.32727 3.27273 8.21818 3.27273 8.14545C3.27273 8.07273 3.30909 7.96364 3.38182 7.89091L3.89091 7.38182C4.03636 7.23636 4.25455 7.23636 4.4 7.38182L4.43636 7.41818L6.43636 9.56364C6.50909 9.63636 6.61818 9.63636 6.69091 9.56364L11.5636 4.50909H11.6C11.7455 4.36364 11.9636 4.36364 12.1091 4.50909L12.6182 5.01818C12.7636 5.12727 12.7636 5.34545 12.6182 5.49091Z",
+                              fill: "#4173F2"
+                            }
+                          })
+                        ]
+                      )
+                    ]),
+                    _c("span", { staticClass: "text-third" }, [
+                      _vm._v("Creative Strategy")
+                    ])
+                  ])
+                ]
+              )
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass: "col-md-6 col-lg-4 wow fadeInLeft",
+              staticStyle: {
+                visibility: "visible",
+                "animation-delay": "0.4s",
+                "animation-name": "fadeInLeft"
+              },
+              attrs: { "data-wow-delay": ".4s" }
+            },
+            [
+              _vm._m(6),
+              _vm._v(" "),
+              _c(
+                "ul",
+                { staticClass: "list-custom-2 text-center offset-top-15" },
+                [
+                  _c("li", [
+                    _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            width: "16",
+                            height: "16",
+                            viewBox: "0 0 16 16",
+                            fill: "none"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "M8 0C3.56364 0 0 3.56364 0 8C0 12.4364 3.56364 16 8 16C12.4364 16 16 12.4364 16 8C16 3.56364 12.4364 0 8 0ZM12.6182 5.49091L6.8 11.5273C6.72727 11.6 6.65455 11.6364 6.54545 11.6364C6.43636 11.6364 6.32727 11.6 6.29091 11.5273L3.45455 8.47273L3.38182 8.4C3.30909 8.32727 3.27273 8.21818 3.27273 8.14545C3.27273 8.07273 3.30909 7.96364 3.38182 7.89091L3.89091 7.38182C4.03636 7.23636 4.25455 7.23636 4.4 7.38182L4.43636 7.41818L6.43636 9.56364C6.50909 9.63636 6.61818 9.63636 6.69091 9.56364L11.5636 4.50909H11.6C11.7455 4.36364 11.9636 4.36364 12.1091 4.50909L12.6182 5.01818C12.7636 5.12727 12.7636 5.34545 12.6182 5.49091Z",
+                              fill: "#4173F2"
+                            }
+                          })
+                        ]
+                      )
+                    ]),
+                    _c("span", { staticClass: "text-third" }, [
+                      _vm._v(" Content Optimization")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            width: "16",
+                            height: "16",
+                            viewBox: "0 0 16 16",
+                            fill: "none"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "M8 0C3.56364 0 0 3.56364 0 8C0 12.4364 3.56364 16 8 16C12.4364 16 16 12.4364 16 8C16 3.56364 12.4364 0 8 0ZM12.6182 5.49091L6.8 11.5273C6.72727 11.6 6.65455 11.6364 6.54545 11.6364C6.43636 11.6364 6.32727 11.6 6.29091 11.5273L3.45455 8.47273L3.38182 8.4C3.30909 8.32727 3.27273 8.21818 3.27273 8.14545C3.27273 8.07273 3.30909 7.96364 3.38182 7.89091L3.89091 7.38182C4.03636 7.23636 4.25455 7.23636 4.4 7.38182L4.43636 7.41818L6.43636 9.56364C6.50909 9.63636 6.61818 9.63636 6.69091 9.56364L11.5636 4.50909H11.6C11.7455 4.36364 11.9636 4.36364 12.1091 4.50909L12.6182 5.01818C12.7636 5.12727 12.7636 5.34545 12.6182 5.49091Z",
+                              fill: "#4173F2"
+                            }
+                          })
+                        ]
+                      )
+                    ]),
+                    _c("span", { staticClass: "text-third" }, [
+                      _vm._v(" Branding Strategy")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            width: "16",
+                            height: "16",
+                            viewBox: "0 0 16 16",
+                            fill: "none"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "M8 0C3.56364 0 0 3.56364 0 8C0 12.4364 3.56364 16 8 16C12.4364 16 16 12.4364 16 8C16 3.56364 12.4364 0 8 0ZM12.6182 5.49091L6.8 11.5273C6.72727 11.6 6.65455 11.6364 6.54545 11.6364C6.43636 11.6364 6.32727 11.6 6.29091 11.5273L3.45455 8.47273L3.38182 8.4C3.30909 8.32727 3.27273 8.21818 3.27273 8.14545C3.27273 8.07273 3.30909 7.96364 3.38182 7.89091L3.89091 7.38182C4.03636 7.23636 4.25455 7.23636 4.4 7.38182L4.43636 7.41818L6.43636 9.56364C6.50909 9.63636 6.61818 9.63636 6.69091 9.56364L11.5636 4.50909H11.6C11.7455 4.36364 11.9636 4.36364 12.1091 4.50909L12.6182 5.01818C12.7636 5.12727 12.7636 5.34545 12.6182 5.49091Z",
+                              fill: "#4173F2"
+                            }
+                          })
+                        ]
+                      )
+                    ]),
+                    _c("span", { staticClass: "text-third" }, [
+                      _vm._v(" Marketing Solutions")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("span", [
+                      _c(
+                        "svg",
+                        {
+                          attrs: {
+                            width: "16",
+                            height: "16",
+                            viewBox: "0 0 16 16",
+                            fill: "none"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "M8 0C3.56364 0 0 3.56364 0 8C0 12.4364 3.56364 16 8 16C12.4364 16 16 12.4364 16 8C16 3.56364 12.4364 0 8 0ZM12.6182 5.49091L6.8 11.5273C6.72727 11.6 6.65455 11.6364 6.54545 11.6364C6.43636 11.6364 6.32727 11.6 6.29091 11.5273L3.45455 8.47273L3.38182 8.4C3.30909 8.32727 3.27273 8.21818 3.27273 8.14545C3.27273 8.07273 3.30909 7.96364 3.38182 7.89091L3.89091 7.38182C4.03636 7.23636 4.25455 7.23636 4.4 7.38182L4.43636 7.41818L6.43636 9.56364C6.50909 9.63636 6.61818 9.63636 6.69091 9.56364L11.5636 4.50909H11.6C11.7455 4.36364 11.9636 4.36364 12.1091 4.50909L12.6182 5.01818C12.7636 5.12727 12.7636 5.34545 12.6182 5.49091Z",
+                              fill: "#4173F2"
+                            }
+                          })
+                        ]
+                      )
+                    ]),
+                    _c("span", { staticClass: "text-third" }, [
+                      _vm._v(" 24/7 Support")
+                    ])
+                  ])
+                ]
+              )
+            ]
+          )
+        ])
+      ])
+    ]),
+    _vm._v(" "),
+    _vm._m(7)
   ])
 }
 var staticRenderFns = [
@@ -53348,12 +53887,6 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("li", [_vm._v("› Reporting")])
         ]
-      ),
-      _vm._v(" "),
-      _c(
-        "button",
-        { staticClass: "button button-primary", attrs: { type: "button" } },
-        [_vm._v("Subscribe to SEO tips")]
       )
     ])
   },
@@ -53370,6 +53903,184 @@ var staticRenderFns = [
         _c("a", { attrs: { href: "tel:#" } }, [_vm._v("+254748621900")])
       ])
     ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "box-tina" }, [
+      _c(
+        "div",
+        { staticClass: "small-text text-third font-weight-sbold lh-4" },
+        [_vm._v("Subscribe to our SEO tips")]
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "box-tina-block" }, [
+        _c("div", { staticClass: "box-tina-block-icon" }),
+        _vm._v(" "),
+        _c("div", { staticClass: "box-tina-block-text" }, [
+          _c("h6", { staticClass: "font-weight-light text-gray-680" }, [
+            _vm._v("Phone")
+          ]),
+          _vm._v(" "),
+          _c("h4", [
+            _c("a", { attrs: { href: "tel:#" } }, [_vm._v("+254748621900")])
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "box-price" }, [
+      _c("div", { staticClass: "box-price-top" }, [
+        _c("h5", { staticClass: "font-weight-bold text-white" }, [
+          _vm._v("Basic")
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "box-price-body" }, [
+        _c(
+          "div",
+          { staticClass: "heading-1 big-text font-weight-light text-primary" },
+          [_vm._v("$80.00")]
+        ),
+        _c(
+          "a",
+          {
+            staticClass: "button button-secondary button-lg",
+            attrs: { href: "#" }
+          },
+          [_vm._v("get started")]
+        )
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "box-price price-badge" }, [
+      _c("div", { staticClass: "box-price-top" }, [
+        _c("h5", { staticClass: "font-weight-bold text-white" }, [
+          _vm._v("Standard")
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "box-price-body" }, [
+        _c("div", { staticClass: "old-price heading-6" }, [_vm._v("$199.99")]),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "heading-1 big-text font-weight-light text-primary" },
+          [_vm._v("$149.99")]
+        ),
+        _c(
+          "a",
+          {
+            staticClass: "button button-third button-lg",
+            attrs: { href: "#" }
+          },
+          [_vm._v("get started")]
+        )
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "box-price" }, [
+      _c("div", { staticClass: "box-price-top" }, [
+        _c("h5", { staticClass: "font-weight-bold text-white" }, [
+          _vm._v("Premium")
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "box-price-body" }, [
+        _c(
+          "div",
+          { staticClass: "heading-1 big-text font-weight-light text-primary" },
+          [_vm._v("$250.00")]
+        ),
+        _c(
+          "a",
+          {
+            staticClass: "button button-secondary button-lg",
+            attrs: { href: "#" }
+          },
+          [_vm._v("get started")]
+        )
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "section",
+      {
+        staticClass: "section overflow-hidden bg-image py-3",
+        staticStyle: {
+          "background-image": "url(assets/images/bg-image-1-1920x476.jpg)"
+        }
+      },
+      [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c(
+              "div",
+              {
+                staticClass:
+                  "col-lg-12 offset-top-70 text-center text-lg-center"
+              },
+              [
+                _c(
+                  "h2",
+                  {
+                    staticClass: "font-weight-sbold wow fadeIn",
+                    staticStyle: {
+                      visibility: "visible",
+                      "animation-delay": "0.2s",
+                      "animation-name": "fadeIn"
+                    },
+                    attrs: { "data-wow-delay": ".2s" }
+                  },
+                  [_vm._v("Schedule a free Consultation")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "group-btn text-center text-lg-center wow fadeIn",
+                    staticStyle: {
+                      visibility: "visible",
+                      "animation-delay": "0.4s",
+                      "animation-name": "fadeIn"
+                    },
+                    attrs: { "data-wow-delay": ".4s" }
+                  },
+                  [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "button button-primary button-lg",
+                        attrs: { href: "/contact" }
+                      },
+                      [_vm._v("Click Here!")]
+                    )
+                  ]
+                )
+              ]
+            )
+          ])
+        ])
+      ]
+    )
   }
 ]
 render._withStripped = true
@@ -54177,9 +54888,7 @@ var render = function() {
       ])
     ]),
     _vm._v(" "),
-    _vm._m(3),
-    _vm._v(" "),
-    _vm._m(4)
+    _vm._m(3)
   ])
 }
 var staticRenderFns = [
@@ -54365,72 +55074,6 @@ var staticRenderFns = [
         ])
       ])
     ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "section",
-      {
-        staticClass: "section overflow-hidden bg-image",
-        staticStyle: {
-          "background-image": "url(assets/images/bg-image-1-1920x476.jpg)"
-        }
-      },
-      [
-        _c("div", { staticClass: "container" }, [
-          _c("div", { staticClass: "row" }, [
-            _c(
-              "div",
-              {
-                staticClass:
-                  "col-lg-12 offset-top-70 text-center text-lg-center"
-              },
-              [
-                _c(
-                  "h2",
-                  {
-                    staticClass: "font-weight-sbold wow fadeIn",
-                    staticStyle: {
-                      visibility: "visible",
-                      "animation-delay": "0.2s",
-                      "animation-name": "fadeIn"
-                    },
-                    attrs: { "data-wow-delay": ".2s" }
-                  },
-                  [_vm._v("Schedule a free Consultation")]
-                ),
-                _vm._v(" "),
-                _c(
-                  "div",
-                  {
-                    staticClass:
-                      "group-btn text-center text-lg-center wow fadeIn",
-                    staticStyle: {
-                      visibility: "visible",
-                      "animation-delay": "0.4s",
-                      "animation-name": "fadeIn"
-                    },
-                    attrs: { "data-wow-delay": ".4s" }
-                  },
-                  [
-                    _c(
-                      "a",
-                      {
-                        staticClass: "button button-primary button-lg",
-                        attrs: { href: "/contact" }
-                      },
-                      [_vm._v("Click Here!")]
-                    )
-                  ]
-                )
-              ]
-            )
-          ])
-        ])
-      ]
-    )
   }
 ]
 render._withStripped = true

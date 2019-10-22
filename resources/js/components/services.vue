@@ -220,23 +220,6 @@
                 </div>
             </div>
         </section>
-
-          <!-- call to action -->
-        <section class="section overflow-hidden bg-image" style="background-image: url(assets/images/bg-image-1-1920x476.jpg)">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 offset-top-70 text-center text-lg-center">
-                            <h2 class="font-weight-sbold wow fadeIn" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">Schedule a free Consultation</h2>
-
-                            <div class="group-btn text-center text-lg-center wow fadeIn" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;"><a class="button button-primary button-lg"  href="/contact">Click Here!</a></div>
-                        </div>
-                    </div>
-                </div>
-        </section>
-         <!-- call to action -->
-
-
-
     </div>
 </template>
 

@@ -9,7 +9,7 @@
                 </ul>
             </div>
         </section>
-        <section class="section section-md bg-default">
+        <section class="section bg-default">
             <div class="container">
                 <div class="row row-50">
                     <div class="col-lg-8"><img src="/images/blur.jpg" alt="img" width="770" height="500">
@@ -25,8 +25,7 @@
                             <li>› Off-Page Optimization</li>
                             <li>› Reporting</li>
                         </ul>
-                         <button class="button button-primary" type="button">Subscribe to SEO tips</button>
-                        
+                         
                     </div>
                     <div class="col-lg-4">
                         <div class="box-lola-wrapper">
@@ -110,10 +109,131 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="box-tina">
+                            <div class="small-text text-third font-weight-sbold lh-4">Subscribe to our SEO tips</div>
+                            <div class="box-tina-block">
+                                <div class="box-tina-block-icon">
+                                    
+                                </div>
+                                <div class="box-tina-block-text">
+                                    <h6 class="font-weight-light text-gray-680">Phone</h6>
+                                    <h4><a href="tel:#">+254748621900</a></h4>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
+
+
+        <section class="section section-xl section-xl-2">
+                <div class="container">
+                    <h2 class="font-weight-sbold text-center wow fadeIn" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">Our pricing plans</h2>
+                    <h6 class="font-weight-light text-center text-third wow fadeIn" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">We offer a variety of pricing options to our clients.</h6>
+                    <div class="row row-40 offset-top-0">
+                        <div class="col-md-6 col-lg-4 wow fadeInLeft" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+                            <div class="box-price">
+                                <div class="box-price-top">
+                                    <h5 class="font-weight-bold text-white">Basic</h5>
+                                </div>
+                                <div class="box-price-body">
+                                    <div class="heading-1 big-text font-weight-light text-primary">$80.00</div><a class="button button-secondary button-lg" href="#">get started</a>
+                                </div>
+                            </div>
+                            <ul class="list-custom-2 text-center ">
+                                <li><span>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                              <path d="M8 0C3.56364 0 0 3.56364 0 8C0 12.4364 3.56364 16 8 16C12.4364 16 16 12.4364 16 8C16 3.56364 12.4364 0 8 0ZM12.6182 5.49091L6.8 11.5273C6.72727 11.6 6.65455 11.6364 6.54545 11.6364C6.43636 11.6364 6.32727 11.6 6.29091 11.5273L3.45455 8.47273L3.38182 8.4C3.30909 8.32727 3.27273 8.21818 3.27273 8.14545C3.27273 8.07273 3.30909 7.96364 3.38182 7.89091L3.89091 7.38182C4.03636 7.23636 4.25455 7.23636 4.4 7.38182L4.43636 7.41818L6.43636 9.56364C6.50909 9.63636 6.61818 9.63636 6.69091 9.56364L11.5636 4.50909H11.6C11.7455 4.36364 11.9636 4.36364 12.1091 4.50909L12.6182 5.01818C12.7636 5.12727 12.7636 5.34545 12.6182 5.49091Z" fill="#4173F2"></path>
+                            </svg></span><span class="text-third"> SEO Services</span></li>
+                                <li><span>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                              <path d="M8 0C3.56364 0 0 3.56364 0 8C0 12.4364 3.56364 16 8 16C12.4364 16 16 12.4364 16 8C16 3.56364 12.4364 0 8 0ZM12.6182 5.49091L6.8 11.5273C6.72727 11.6 6.65455 11.6364 6.54545 11.6364C6.43636 11.6364 6.32727 11.6 6.29091 11.5273L3.45455 8.47273L3.38182 8.4C3.30909 8.32727 3.27273 8.21818 3.27273 8.14545C3.27273 8.07273 3.30909 7.96364 3.38182 7.89091L3.89091 7.38182C4.03636 7.23636 4.25455 7.23636 4.4 7.38182L4.43636 7.41818L6.43636 9.56364C6.50909 9.63636 6.61818 9.63636 6.69091 9.56364L11.5636 4.50909H11.6C11.7455 4.36364 11.9636 4.36364 12.1091 4.50909L12.6182 5.01818C12.7636 5.12727 12.7636 5.34545 12.6182 5.49091Z" fill="#4173F2"></path>
+                            </svg></span><span class="text-third"> Online Marketing</span></li>
+                                <li><span>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                              <path d="M8 0C3.56364 0 0 3.56364 0 8C0 12.4364 3.56364 16 8 16C12.4364 16 16 12.4364 16 8C16 3.56364 12.4364 0 8 0ZM12.6182 5.49091L6.8 11.5273C6.72727 11.6 6.65455 11.6364 6.54545 11.6364C6.43636 11.6364 6.32727 11.6 6.29091 11.5273L3.45455 8.47273L3.38182 8.4C3.30909 8.32727 3.27273 8.21818 3.27273 8.14545C3.27273 8.07273 3.30909 7.96364 3.38182 7.89091L3.89091 7.38182C4.03636 7.23636 4.25455 7.23636 4.4 7.38182L4.43636 7.41818L6.43636 9.56364C6.50909 9.63636 6.61818 9.63636 6.69091 9.56364L11.5636 4.50909H11.6C11.7455 4.36364 11.9636 4.36364 12.1091 4.50909L12.6182 5.01818C12.7636 5.12727 12.7636 5.34545 12.6182 5.49091Z" fill="#4173F2"></path>
+                            </svg></span><span class="text-third"> Email Marketing</span></li>
+                                <li><span>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                              <path d="M8 0C3.56364 0 0 3.56364 0 8C0 12.4364 3.56364 16 8 16C12.4364 16 16 12.4364 16 8C16 3.56364 12.4364 0 8 0ZM12.6182 5.49091L6.8 11.5273C6.72727 11.6 6.65455 11.6364 6.54545 11.6364C6.43636 11.6364 6.32727 11.6 6.29091 11.5273L3.45455 8.47273L3.38182 8.4C3.30909 8.32727 3.27273 8.21818 3.27273 8.14545C3.27273 8.07273 3.30909 7.96364 3.38182 7.89091L3.89091 7.38182C4.03636 7.23636 4.25455 7.23636 4.4 7.38182L4.43636 7.41818L6.43636 9.56364C6.50909 9.63636 6.61818 9.63636 6.69091 9.56364L11.5636 4.50909H11.6C11.7455 4.36364 11.9636 4.36364 12.1091 4.50909L12.6182 5.01818C12.7636 5.12727 12.7636 5.34545 12.6182 5.49091Z" fill="#4173F2"></path>
+                            </svg></span><span class="text-third"> Business Consulting</span></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-lg-4 wow fadeInLeft" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
+                            <div class="box-price price-badge">
+                                <div class="box-price-top">
+                                    <h5 class="font-weight-bold text-white">Standard</h5>
+                                </div>
+                                <div class="box-price-body">
+                                    <div class="old-price heading-6">$199.99</div>
+                                    <div class="heading-1 big-text font-weight-light text-primary">$149.99</div><a class="button button-third button-lg" href="#">get started</a>
+                                </div>
+                            </div>
+                            <ul class="list-custom-2 text-center offset-top-15">
+                                <li><span>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                              <path d="M8 0C3.56364 0 0 3.56364 0 8C0 12.4364 3.56364 16 8 16C12.4364 16 16 12.4364 16 8C16 3.56364 12.4364 0 8 0ZM12.6182 5.49091L6.8 11.5273C6.72727 11.6 6.65455 11.6364 6.54545 11.6364C6.43636 11.6364 6.32727 11.6 6.29091 11.5273L3.45455 8.47273L3.38182 8.4C3.30909 8.32727 3.27273 8.21818 3.27273 8.14545C3.27273 8.07273 3.30909 7.96364 3.38182 7.89091L3.89091 7.38182C4.03636 7.23636 4.25455 7.23636 4.4 7.38182L4.43636 7.41818L6.43636 9.56364C6.50909 9.63636 6.61818 9.63636 6.69091 9.56364L11.5636 4.50909H11.6C11.7455 4.36364 11.9636 4.36364 12.1091 4.50909L12.6182 5.01818C12.7636 5.12727 12.7636 5.34545 12.6182 5.49091Z" fill="#4173F2"></path>
+                            </svg></span><span class="text-third"> SMM Solutions</span></li>
+                                <li><span>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                              <path d="M8 0C3.56364 0 0 3.56364 0 8C0 12.4364 3.56364 16 8 16C12.4364 16 16 12.4364 16 8C16 3.56364 12.4364 0 8 0ZM12.6182 5.49091L6.8 11.5273C6.72727 11.6 6.65455 11.6364 6.54545 11.6364C6.43636 11.6364 6.32727 11.6 6.29091 11.5273L3.45455 8.47273L3.38182 8.4C3.30909 8.32727 3.27273 8.21818 3.27273 8.14545C3.27273 8.07273 3.30909 7.96364 3.38182 7.89091L3.89091 7.38182C4.03636 7.23636 4.25455 7.23636 4.4 7.38182L4.43636 7.41818L6.43636 9.56364C6.50909 9.63636 6.61818 9.63636 6.69091 9.56364L11.5636 4.50909H11.6C11.7455 4.36364 11.9636 4.36364 12.1091 4.50909L12.6182 5.01818C12.7636 5.12727 12.7636 5.34545 12.6182 5.49091Z" fill="#4173F2"></path>
+                            </svg></span><span class="text-third"> Context Advertising</span></li>
+                                <li><span>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                              <path d="M8 0C3.56364 0 0 3.56364 0 8C0 12.4364 3.56364 16 8 16C12.4364 16 16 12.4364 16 8C16 3.56364 12.4364 0 8 0ZM12.6182 5.49091L6.8 11.5273C6.72727 11.6 6.65455 11.6364 6.54545 11.6364C6.43636 11.6364 6.32727 11.6 6.29091 11.5273L3.45455 8.47273L3.38182 8.4C3.30909 8.32727 3.27273 8.21818 3.27273 8.14545C3.27273 8.07273 3.30909 7.96364 3.38182 7.89091L3.89091 7.38182C4.03636 7.23636 4.25455 7.23636 4.4 7.38182L4.43636 7.41818L6.43636 9.56364C6.50909 9.63636 6.61818 9.63636 6.69091 9.56364L11.5636 4.50909H11.6C11.7455 4.36364 11.9636 4.36364 12.1091 4.50909L12.6182 5.01818C12.7636 5.12727 12.7636 5.34545 12.6182 5.49091Z" fill="#4173F2"></path>
+                            </svg></span><span class="text-third"> AdWords</span></li>
+                                <li><span>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                              <path d="M8 0C3.56364 0 0 3.56364 0 8C0 12.4364 3.56364 16 8 16C12.4364 16 16 12.4364 16 8C16 3.56364 12.4364 0 8 0ZM12.6182 5.49091L6.8 11.5273C6.72727 11.6 6.65455 11.6364 6.54545 11.6364C6.43636 11.6364 6.32727 11.6 6.29091 11.5273L3.45455 8.47273L3.38182 8.4C3.30909 8.32727 3.27273 8.21818 3.27273 8.14545C3.27273 8.07273 3.30909 7.96364 3.38182 7.89091L3.89091 7.38182C4.03636 7.23636 4.25455 7.23636 4.4 7.38182L4.43636 7.41818L6.43636 9.56364C6.50909 9.63636 6.61818 9.63636 6.69091 9.56364L11.5636 4.50909H11.6C11.7455 4.36364 11.9636 4.36364 12.1091 4.50909L12.6182 5.01818C12.7636 5.12727 12.7636 5.34545 12.6182 5.49091Z" fill="#4173F2"></path>
+                            </svg></span><span class="text-third">Creative Strategy</span></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-lg-4 wow fadeInLeft" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+                            <div class="box-price">
+                                <div class="box-price-top">
+                                    <h5 class="font-weight-bold text-white">Premium</h5>
+                                </div>
+                                <div class="box-price-body">
+                                    <div class="heading-1 big-text font-weight-light text-primary">$250.00</div><a class="button button-secondary button-lg" href="#">get started</a>
+                                </div>
+                            </div>
+                            <ul class="list-custom-2 text-center offset-top-15">
+                                <li><span>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                              <path d="M8 0C3.56364 0 0 3.56364 0 8C0 12.4364 3.56364 16 8 16C12.4364 16 16 12.4364 16 8C16 3.56364 12.4364 0 8 0ZM12.6182 5.49091L6.8 11.5273C6.72727 11.6 6.65455 11.6364 6.54545 11.6364C6.43636 11.6364 6.32727 11.6 6.29091 11.5273L3.45455 8.47273L3.38182 8.4C3.30909 8.32727 3.27273 8.21818 3.27273 8.14545C3.27273 8.07273 3.30909 7.96364 3.38182 7.89091L3.89091 7.38182C4.03636 7.23636 4.25455 7.23636 4.4 7.38182L4.43636 7.41818L6.43636 9.56364C6.50909 9.63636 6.61818 9.63636 6.69091 9.56364L11.5636 4.50909H11.6C11.7455 4.36364 11.9636 4.36364 12.1091 4.50909L12.6182 5.01818C12.7636 5.12727 12.7636 5.34545 12.6182 5.49091Z" fill="#4173F2"></path>
+                            </svg></span><span class="text-third"> Content Optimization</span></li>
+                                <li><span>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                              <path d="M8 0C3.56364 0 0 3.56364 0 8C0 12.4364 3.56364 16 8 16C12.4364 16 16 12.4364 16 8C16 3.56364 12.4364 0 8 0ZM12.6182 5.49091L6.8 11.5273C6.72727 11.6 6.65455 11.6364 6.54545 11.6364C6.43636 11.6364 6.32727 11.6 6.29091 11.5273L3.45455 8.47273L3.38182 8.4C3.30909 8.32727 3.27273 8.21818 3.27273 8.14545C3.27273 8.07273 3.30909 7.96364 3.38182 7.89091L3.89091 7.38182C4.03636 7.23636 4.25455 7.23636 4.4 7.38182L4.43636 7.41818L6.43636 9.56364C6.50909 9.63636 6.61818 9.63636 6.69091 9.56364L11.5636 4.50909H11.6C11.7455 4.36364 11.9636 4.36364 12.1091 4.50909L12.6182 5.01818C12.7636 5.12727 12.7636 5.34545 12.6182 5.49091Z" fill="#4173F2"></path>
+                            </svg></span><span class="text-third"> Branding Strategy</span></li>
+                                <li><span>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                              <path d="M8 0C3.56364 0 0 3.56364 0 8C0 12.4364 3.56364 16 8 16C12.4364 16 16 12.4364 16 8C16 3.56364 12.4364 0 8 0ZM12.6182 5.49091L6.8 11.5273C6.72727 11.6 6.65455 11.6364 6.54545 11.6364C6.43636 11.6364 6.32727 11.6 6.29091 11.5273L3.45455 8.47273L3.38182 8.4C3.30909 8.32727 3.27273 8.21818 3.27273 8.14545C3.27273 8.07273 3.30909 7.96364 3.38182 7.89091L3.89091 7.38182C4.03636 7.23636 4.25455 7.23636 4.4 7.38182L4.43636 7.41818L6.43636 9.56364C6.50909 9.63636 6.61818 9.63636 6.69091 9.56364L11.5636 4.50909H11.6C11.7455 4.36364 11.9636 4.36364 12.1091 4.50909L12.6182 5.01818C12.7636 5.12727 12.7636 5.34545 12.6182 5.49091Z" fill="#4173F2"></path>
+                            </svg></span><span class="text-third"> Marketing Solutions</span></li>
+                                <li><span>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                              <path d="M8 0C3.56364 0 0 3.56364 0 8C0 12.4364 3.56364 16 8 16C12.4364 16 16 12.4364 16 8C16 3.56364 12.4364 0 8 0ZM12.6182 5.49091L6.8 11.5273C6.72727 11.6 6.65455 11.6364 6.54545 11.6364C6.43636 11.6364 6.32727 11.6 6.29091 11.5273L3.45455 8.47273L3.38182 8.4C3.30909 8.32727 3.27273 8.21818 3.27273 8.14545C3.27273 8.07273 3.30909 7.96364 3.38182 7.89091L3.89091 7.38182C4.03636 7.23636 4.25455 7.23636 4.4 7.38182L4.43636 7.41818L6.43636 9.56364C6.50909 9.63636 6.61818 9.63636 6.69091 9.56364L11.5636 4.50909H11.6C11.7455 4.36364 11.9636 4.36364 12.1091 4.50909L12.6182 5.01818C12.7636 5.12727 12.7636 5.34545 12.6182 5.49091Z" fill="#4173F2"></path>
+                            </svg></span><span class="text-third"> 24/7 Support</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+          <!-- call to action -->
+        <section class="section overflow-hidden bg-image py-3" style="background-image: url(assets/images/bg-image-1-1920x476.jpg)">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 offset-top-70 text-center text-lg-center">
+                            <h2 class="font-weight-sbold wow fadeIn" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">Schedule a free Consultation</h2>
+
+                            <div class="group-btn text-center text-lg-center wow fadeIn" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;"><a class="button button-primary button-lg"  href="/contact">Click Here!</a></div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+         <!-- call to action -->
     </div>
 </template>
 
