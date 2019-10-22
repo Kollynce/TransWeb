@@ -25,6 +25,7 @@
                             <li>› Off-Page Optimization</li>
                             <li>› Reporting</li>
                         </ul>
+                         <button class="button button-primary" type="button">Subscribe to SEO tips</button>
                         
                     </div>
                     <div class="col-lg-4">
